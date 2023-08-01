@@ -1,0 +1,166 @@
+[5.297s] Invoking command in '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets': PYTHONPATH=/home/wang/rmf_ws/build/rmf_traffic_editor_assets/prefix_override:/home/wang/rmf_ws/install/rmf_traffic_editor_assets/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_traffic_editor_assets build --build-base /home/wang/rmf_ws/build/rmf_traffic_editor_assets/build install --record /home/wang/rmf_ws/build/rmf_traffic_editor_assets/install.log --single-version-externally-managed
+[14.963s] running egg_info
+[14.964s] creating ../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info
+[14.980s] writing ../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info/PKG-INFO
+[14.980s] writing dependency_links to ../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info/dependency_links.txt
+[14.980s] writing requirements to ../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info/requires.txt
+[14.981s] writing top-level names to ../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info/top_level.txt
+[14.981s] writing manifest file '../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info/SOURCES.txt'
+[14.981s] reading manifest file '../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info/SOURCES.txt'
+[14.981s] writing manifest file '../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info/SOURCES.txt'
+[14.981s] running build
+[14.981s] running install
+[14.981s] running install_data
+[14.981s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/ament_index
+[14.982s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/ament_index/resource_index
+[14.982s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/ament_index/resource_index/packages
+[14.982s] copying resource/rmf_traffic_editor_assets -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/ament_index/resource_index/packages
+[14.982s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/ament_index/resource_index/rmf_traffic_editor_assets
+[14.982s] copying resource/assets -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/ament_index/resource_index/rmf_traffic_editor_assets
+[14.982s] copying package.xml -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/rmf_traffic_editor_assets
+[14.982s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets
+[14.982s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails
+[14.982s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images
+[14.982s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped
+[14.983s] creating /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/KitchenCountertop.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/Gazebo.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/DigitalKiosk.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/TrolleyBed.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/Table.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/MonitorAndKeyboard.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/MopCart1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.983s] copying assets/thumbnails/images/cropped/OpenRobotics/WhiteChipChair.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/CleaningSection.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/SquareShelf.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/Suitcase2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/MiR100.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/FemaleVisitorSit.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/MaleVisitorOnPhone.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/Scrubber.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/MopCart4.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/TrolleyBedPatient.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.984s] copying assets/thumbnails/images/cropped/OpenRobotics/Fridge.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/FoodCourtTable1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/FemaleVisitor.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/EscalatorEnd.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/VendingMachine.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/AirportSign1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/Drawer.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/Scrubs.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/Desk.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.985s] copying assets/thumbnails/images/cropped/OpenRobotics/RecTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.986s] copying assets/thumbnails/images/cropped/OpenRobotics/TeleportIngestor.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.986s] copying assets/thumbnails/images/cropped/OpenRobotics/StorageRackCoverOpen.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.986s] copying assets/thumbnails/images/cropped/OpenRobotics/Toilet.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.986s] copying assets/thumbnails/images/cropped/OpenRobotics/SUV.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.986s] copying assets/thumbnails/images/cropped/OpenRobotics/BedTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.986s] copying assets/thumbnails/images/cropped/OpenRobotics/Suitcase2H.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.987s] copying assets/thumbnails/images/cropped/OpenRobotics/InstrumentCart1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.987s] copying assets/thumbnails/images/cropped/OpenRobotics/XRayMachineSmall.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.987s] copying assets/thumbnails/images/cropped/OpenRobotics/Ambulance.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.987s] copying assets/thumbnails/images/cropped/OpenRobotics/Cafe.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.987s] copying assets/thumbnails/images/cropped/OpenRobotics/Lamp Post.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/AirportBench.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/CArm.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/LampAndStand.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/Construction Cone.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/HeadphonesRack1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/IVStand.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/Coke.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/TruckBox.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.988s] copying assets/thumbnails/images/cropped/OpenRobotics/PotatoChipChair.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.989s] copying assets/thumbnails/images/cropped/OpenRobotics/BloodPressureMonitor.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.989s] copying assets/thumbnails/images/cropped/OpenRobotics/BedsideTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.995s] copying assets/thumbnails/images/cropped/OpenRobotics/ArmoredPillars.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.995s] copying assets/thumbnails/images/cropped/OpenRobotics/TrolleyBox1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.995s] copying assets/thumbnails/images/cropped/OpenRobotics/TrolleyBox2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/OfficeChairGrey.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/MopCart3.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/CGMClassic.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/AirportSign5.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/PhonesDisplay.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/EscalatorStart.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/MaleVisitorSit.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/ParkingTrolleyMin.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/CGMVanguard.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.996s] copying assets/thumbnails/images/cropped/OpenRobotics/AdjTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/ParkingTrolleyMax.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/Sofa.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/SmallCubicle.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/OfficeChairBlue.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/LitterBin.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/XRayMachine.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/Postbox.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/MiRCart.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/AirportSign3.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/HeadphonesRack2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/NurseDesk.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.997s] copying assets/thumbnails/images/cropped/OpenRobotics/Suitcase1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/MalePatientBed.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.998s]   warnings.warn(
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/BigCubicle.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/AirportSign4.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/Suitcase1H.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/Fountain.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/LockerBig.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/DeskChair.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/AirportSign2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/TVStand.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/ElectronicsRecycling.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.998s] copying assets/thumbnails/images/cropped/OpenRobotics/KitchenSink.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/StorageRackCovered.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/MetalCabinet.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/ConfTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/VisitorKidSit.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/PatientFSit.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/RetailKiosk1.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/AnesthesiaMachine.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/TeleportDispenser.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/MainTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/ScrubsTrolley.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/Shower.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[14.999s] copying assets/thumbnails/images/cropped/OpenRobotics/Standing person.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/NurseTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/TrashBin.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/CoffeeTable.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/OfficeChairBlack.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/StorageRack.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/BathroomSink.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/BPCart.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/BMWCart.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/MiniSofa.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/ElderMalePatient.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/MetalCabinetYellow.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.000s] copying assets/thumbnails/images/cropped/OpenRobotics/Bookshelf.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.011s] copying assets/thumbnails/images/cropped/OpenRobotics/FoodCourtBenchShort.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.011s] copying assets/thumbnails/images/cropped/OpenRobotics/WoodenChair.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.011s] copying assets/thumbnails/images/cropped/OpenRobotics/OpScrubs.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/Ambulance2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/Nurse.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/WhiteCabinet.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/TruckDelivery.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/Oak tree.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/FoodCourtBenchLong.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/Cafe table.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/MopCart2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.012s] copying assets/thumbnails/images/cropped/OpenRobotics/InformationCounter.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/RobotPlaceholder.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/ElderLadyPatient.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/Playground.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/Chair.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/FoodCourtBarricade.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/RetailKiosk2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/InstrumentCart2.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/NormalBed.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.013s] copying assets/thumbnails/images/cropped/OpenRobotics/PatientWheelChair.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.014s] copying assets/thumbnails/images/cropped/OpenRobotics/SurgicalTrolleyMed.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.014s] copying assets/thumbnails/images/cropped/OpenRobotics/SurgicalTrolleyGuards.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.014s] copying assets/thumbnails/images/cropped/OpenRobotics/Pine Tree.png -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails/images/cropped/OpenRobotics
+[15.014s] copying assets/thumbnails/model_list.yaml -> /home/wang/rmf_ws/install/rmf_traffic_editor_assets/share/assets/thumbnails
+[15.014s] running install_egg_info
+[15.014s] Copying ../../../../build/rmf_traffic_editor_assets/rmf_traffic_editor_assets.egg-info to /home/wang/rmf_ws/install/rmf_traffic_editor_assets/lib/python3.10/site-packages/rmf_traffic_editor_assets-1.6.1-py3.10.egg-info
+[15.014s] running install_scripts
+[15.077s] writing list of installed files to '/home/wang/rmf_ws/build/rmf_traffic_editor_assets/install.log'
+[15.224s] Invoked command in '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets' returned '0': PYTHONPATH=/home/wang/rmf_ws/build/rmf_traffic_editor_assets/prefix_override:/home/wang/rmf_ws/install/rmf_traffic_editor_assets/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_traffic_editor_assets build --build-base /home/wang/rmf_ws/build/rmf_traffic_editor_assets/build install --record /home/wang/rmf_ws/build/rmf_traffic_editor_assets/install.log --single-version-externally-managed

@@ -1,0 +1,1024 @@
+[0.287s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/wang/rmf_ws']
+[0.287s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/wang/rmf_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f7d85e1d5d0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f7d85fcada0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f7d85fcada0>>, mixin_verb=('list',))
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.325s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wang/rmf_ws'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/build) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/build) ignored
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/install) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/install) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/log) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/log) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/docs) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos' with type 'ros.ament_cmake' and name 'rmf_demos'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_assets' with type 'ros.ament_cmake' and name 'rmf_demos_assets'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges' with type 'ros.ament_python' and name 'rmf_demos_bridges'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources' with type 'ros.ament_cmake' and name 'rmf_demos_dashboard_resources'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_fleet_adapter' with type 'ros.ament_python' and name 'rmf_demos_fleet_adapter'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz' with type 'ros.ament_cmake' and name 'rmf_demos_gz'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_gz_classic' with type 'ros.ament_cmake' and name 'rmf_demos_gz_classic'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps' with type 'ros.ament_cmake' and name 'rmf_demos_maps'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel' with type 'ros.ament_python' and name 'rmf_demos_panel'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks' with type 'ros.ament_python' and name 'rmf_demos_tasks'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/ament_cmake_catch2/ament_cmake_catch2' with type 'ros.ament_cmake' and name 'ament_cmake_catch2'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs' with type 'ros.ament_cmake' and name 'rmf_api_msgs'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/docs) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery' with type 'ros.cmake' and name 'rmf_battery'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'python'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extensions ['python_setup_py']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs' with type 'ros.ament_cmake' and name 'rmf_building_map_msgs'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs' with type 'ros.ament_cmake' and name 'rmf_charger_msgs'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs' with type 'ros.ament_cmake' and name 'rmf_dispenser_msgs'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs' with type 'ros.ament_cmake' and name 'rmf_door_msgs'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs' with type 'ros.ament_cmake' and name 'rmf_fleet_msgs'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs' with type 'ros.ament_cmake' and name 'rmf_ingestor_msgs'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_lift_msgs' with type 'ros.ament_cmake' and name 'rmf_lift_msgs'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs' with type 'ros.ament_cmake' and name 'rmf_obstacle_msgs'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs' with type 'ros.ament_cmake' and name 'rmf_scheduler_msgs'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs' with type 'ros.ament_cmake' and name 'rmf_site_map_msgs'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs' with type 'ros.ament_cmake' and name 'rmf_task_msgs'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_traffic_msgs' with type 'ros.ament_cmake' and name 'rmf_traffic_msgs'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs' with type 'ros.ament_cmake' and name 'rmf_workcell_msgs'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/docs) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter' with type 'ros.ament_cmake' and name 'rmf_fleet_adapter'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python' with type 'ros.ament_cmake' and name 'rmf_fleet_adapter_python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2' with type 'ros.ament_cmake' and name 'rmf_task_ros2'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2' with type 'ros.ament_cmake' and name 'rmf_traffic_ros2'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket' with type 'ros.ament_cmake' and name 'rmf_websocket'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/docs) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common' with type 'ros.ament_cmake' and name 'rmf_building_sim_common'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins' with type 'ros.ament_cmake' and name 'rmf_building_sim_gz_classic_plugins'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_plugins' with type 'ros.ament_cmake' and name 'rmf_building_sim_gz_plugins'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_common' with type 'ros.ament_cmake' and name 'rmf_robot_sim_common'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_classic_plugins' with type 'ros.ament_cmake' and name 'rmf_robot_sim_gz_classic_plugins'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins' with type 'ros.ament_cmake' and name 'rmf_robot_sim_gz_plugins'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'cmake'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'ros'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extensions ['cmake', 'python']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/docs) by extension 'python_setup_py'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task' with type 'ros.cmake' and name 'rmf_task'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence' with type 'ros.cmake' and name 'rmf_task_sequence'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/docs/source) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic' with type 'ros.cmake' and name 'rmf_traffic'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples' with type 'ros.cmake' and name 'rmf_traffic_examples'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/docs) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools' with type 'ros.ament_python' and name 'rmf_building_map_tools'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor' with type 'ros.ament_cmake' and name 'rmf_traffic_editor'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_assets' with type 'ros.ament_python' and name 'rmf_traffic_editor_assets'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor_test_maps' with type 'ros.ament_cmake' and name 'rmf_traffic_editor_test_maps'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/docs) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils' with type 'ros.cmake' and name 'rmf_utils'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/docs/media) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization' with type 'ros.ament_cmake' and name 'rmf_visualization'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems' with type 'ros.ament_python' and name 'rmf_visualization_building_systems'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states' with type 'ros.ament_cmake' and name 'rmf_visualization_fleet_states'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_floorplans' with type 'ros.ament_cmake' and name 'rmf_visualization_floorplans'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_navgraphs' with type 'ros.ament_cmake' and name 'rmf_visualization_navgraphs'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_obstacles' with type 'ros.ament_cmake' and name 'rmf_visualization_obstacles'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins' with type 'ros.ament_cmake' and name 'rmf_visualization_rviz2_plugins'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule' with type 'ros.ament_cmake' and name 'rmf_visualization_schedule'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs' with type 'ros.ament_cmake' and name 'rmf_visualization_msgs'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/menge_vendor) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/thirdparty/menge_vendor' with type 'ros.catkin' and name 'menge_vendor'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor' with type 'ros.ament_cmake' and name 'nlohmann_json_schema_validator_vendor'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wang/rmf_ws/src/thirdparty/pybind11_json_vendor' with type 'ros.ament_cmake' and name 'pybind11_json_vendor'
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.422s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package '/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task' from colcon.pkg: {'hooks': ['share/rmf_task/hook/ament_prefix_path.dsv']}
+[0.422s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package '/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence' from colcon.pkg: {'hooks': ['share/rmf_task_sequence/hook/ament_prefix_path.dsv']}
+[0.422s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package '/home/wang/rmf_ws/src/rmf/rmf_utils/rmf_utils' from colcon.pkg: {'hooks': ['share/rmf_utils/hook/ament_prefix_path.dsv']}
+[0.423s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package '/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic' from colcon.pkg: {'hooks': ['share/rmf_traffic/hook/ament_prefix_path.dsv']}
+[0.423s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package '/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery' from colcon.pkg: {'hooks': ['share/rmf_battery/hook/ament_prefix_path.dsv']}
+[0.423s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package '/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples' from colcon.pkg: {'hooks': ['share/rmf_traffic_examples/hook/ament_prefix_path.dsv']}

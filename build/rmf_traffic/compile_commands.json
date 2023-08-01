@@ -1,0 +1,1214 @@
+[
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/DetectConflict.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/DetectConflict.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/DetectConflict.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/DetectConflict.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Motion.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Motion.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Motion.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Motion.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Profile.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Profile.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Profile.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Profile.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Region.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Region.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Region.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Region.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Route.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Route.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Route.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Route.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Spline.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Spline.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Spline.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Spline.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/StaticMotion.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/StaticMotion.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/StaticMotion.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/StaticMotion.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Time.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Time.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Time.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Time.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Trajectory.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Trajectory.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/Trajectory.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Trajectory.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/CentralizedNegotiation.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/CentralizedNegotiation.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/CentralizedNegotiation.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/CentralizedNegotiation.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Graph.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Graph.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Graph.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Graph.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Interpolate.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Interpolate.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Interpolate.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Interpolate.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/LaneClosure.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/LaneClosure.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/LaneClosure.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/LaneClosure.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Planner.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Planner.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Planner.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Planner.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Rollout.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Rollout.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/Rollout.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Rollout.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/RouteValidator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/RouteValidator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/RouteValidator.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/RouteValidator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/SimpleNegotiator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/SimpleNegotiator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/SimpleNegotiator.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/SimpleNegotiator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/VehicleTraits.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/VehicleTraits.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/VehicleTraits.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/VehicleTraits.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/internal_planning.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/internal_planning.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/internal_planning.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/internal_planning.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDriveHeuristic.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/DifferentialDriveHeuristic.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/DifferentialDriveHeuristic.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDriveHeuristic.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDriveMap.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/DifferentialDriveMap.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/DifferentialDriveMap.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDriveMap.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDrivePlanner.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/DifferentialDrivePlanner.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/DifferentialDrivePlanner.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDrivePlanner.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/EuclideanHeuristic.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/EuclideanHeuristic.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/EuclideanHeuristic.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/EuclideanHeuristic.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/MinimalTravelHeuristic.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/MinimalTravelHeuristic.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/MinimalTravelHeuristic.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/MinimalTravelHeuristic.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/ShortestPathHeuristic.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/ShortestPathHeuristic.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/ShortestPathHeuristic.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/ShortestPathHeuristic.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/Supergraph.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/Supergraph.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/Supergraph.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/Supergraph.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Constraint.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Constraint.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Constraint.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Constraint.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Moderator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Moderator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Moderator.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Moderator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Participant.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Participant.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Participant.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Participant.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Rectifier.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Rectifier.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/Rectifier.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Rectifier.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/conflicts.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/conflicts.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/conflicts.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/conflicts.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/geometry.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/geometry.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/blockade/geometry.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/geometry.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/debug/Plumber.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/debug/Plumber.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/debug/Plumber.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/debug/Plumber.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Box.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Box.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Box.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Box.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Circle.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Circle.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Circle.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Circle.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/ConvexShape.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/ConvexShape.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/ConvexShape.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/ConvexShape.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Shape.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Shape.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Shape.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Shape.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/SimplePolygon.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/SimplePolygon.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/SimplePolygon.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/SimplePolygon.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Space.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Space.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/geometry/Space.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Space.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Change.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Change.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Change.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Change.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Database.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Database.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Database.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Database.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/DependencyTracker.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/DependencyTracker.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/DependencyTracker.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/DependencyTracker.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Inconsistencies.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Inconsistencies.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Inconsistencies.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Inconsistencies.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/InconsistencyTracker.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/InconsistencyTracker.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/InconsistencyTracker.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/InconsistencyTracker.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Mirror.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Mirror.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Mirror.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Mirror.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Negotiation.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Negotiation.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Negotiation.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Negotiation.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Negotiator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Negotiator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Negotiator.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Negotiator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Participant.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Participant.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Participant.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Participant.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/ParticipantDescription.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/ParticipantDescription.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/ParticipantDescription.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/ParticipantDescription.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Patch.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Patch.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Patch.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Patch.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Progress.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Progress.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Progress.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Progress.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Query.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Query.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Query.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Query.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Rectifier.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Rectifier.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Rectifier.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Rectifier.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/StubbornNegotiator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/StubbornNegotiator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/StubbornNegotiator.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/StubbornNegotiator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Viewer.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Viewer.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Viewer.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Viewer.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -Drmf_traffic_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Writer.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Writer.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/schedule/Writer.cpp",
+  "output": "CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Writer.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/main.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/main.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/main.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/main.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/regression/regress_Negotiation_segfault.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/regression/regress_Negotiation_segfault.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/regression/regress_Negotiation_segfault.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/regression/regress_Negotiation_segfault.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_DifferentialDriveHeuristic.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_DifferentialDriveHeuristic.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_DifferentialDriveHeuristic.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_DifferentialDriveHeuristic.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_EuclideanHeuristic.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_EuclideanHeuristic.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_EuclideanHeuristic.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_EuclideanHeuristic.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_ShortestPathHeuristic.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_ShortestPathHeuristic.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_ShortestPathHeuristic.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_ShortestPathHeuristic.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_Supergraph.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_Supergraph.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/planning/test_Supergraph.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_Supergraph.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Graph.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Graph.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Graph.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Graph.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Interpolate.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Interpolate.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Interpolate.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Interpolate.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_LaneClosure.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_LaneClosure.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_LaneClosure.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_LaneClosure.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Negotiation_edgecases.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Negotiation_edgecases.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Negotiation_edgecases.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Negotiation_edgecases.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Negotiator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Negotiator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Negotiator.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Negotiator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Planner.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Planner.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Planner.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Planner.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Rollout.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Rollout.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_Rollout.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Rollout.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_VehicleTraits.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_VehicleTraits.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_VehicleTraits.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_VehicleTraits.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_compute_plan_starts.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_compute_plan_starts.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/agv/test_compute_plan_starts.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_compute_plan_starts.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_Constraint.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_Constraint.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_Constraint.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_Constraint.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_Moderator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_Moderator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_Moderator.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_Moderator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_conflicts.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_conflicts.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_conflicts.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_conflicts.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_geometry.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_geometry.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/test_blockade_geometry.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_geometry.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/utils_blockade_scenarios.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/utils_blockade_scenarios.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/blockade/utils_blockade_scenarios.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/utils_blockade_scenarios.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Database.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Database.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Database.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Database.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Mirror.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Mirror.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Mirror.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Mirror.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Modular.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Modular.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Modular.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Modular.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Negotiation.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Negotiation.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Negotiation.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Negotiation.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Participant.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Participant.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Participant.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Participant.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Query.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Query.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Query.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Query.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Region.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Region.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Region.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Region.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Spacetime.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Spacetime.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/schedule/test_Spacetime.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Spacetime.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/test_Conflict.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Conflict.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Conflict.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/test_Conflict.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/test_Profile.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Profile.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Profile.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/test_Profile.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/test_Shape.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Shape.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Shape.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/test_Shape.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/test_Space.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Space.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Space.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/test_Space.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/test_Spline.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Spline.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Spline.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/test_Spline.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/test_Trajectory.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Trajectory.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_Trajectory.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/test_Trajectory.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic",
+  "command": "/usr/bin/clang++ -DRMF_TRAFFIC__USING_FCL_0_6 -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/include -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/test_rmf_traffic.dir/test/unit/test_make_shapes.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_make_shapes.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/test/unit/test_make_shapes.cpp",
+  "output": "CMakeFiles/test_rmf_traffic.dir/test/unit/test_make_shapes.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_SSaP.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_SSaP.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_SSaP.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_SSaP.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_SaP.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_SaP.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_SaP.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_SaP.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_bruteforce.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_bruteforce.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_bruteforce.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_bruteforce.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_collision_manager.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_collision_manager.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_collision_manager.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_collision_manager.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_continuous_collision_manager.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_continuous_collision_manager.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_continuous_collision_manager.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_continuous_collision_manager.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_dynamic_AABB_tree.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_dynamic_AABB_tree.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_dynamic_AABB_tree.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_dynamic_AABB_tree.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_dynamic_AABB_tree_array.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_dynamic_AABB_tree_array.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_dynamic_AABB_tree_array.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_dynamic_AABB_tree_array.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_interval_tree.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_interval_tree.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_interval_tree.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_interval_tree.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/broadphase_spatialhash.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_spatialhash.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/broadphase_spatialhash.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_spatialhash.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/detail/interval_tree.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/interval_tree.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/interval_tree.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/interval_tree.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/detail/interval_tree_node.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/interval_tree_node.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/interval_tree_node.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/interval_tree_node.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/detail/morton.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/morton.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/morton.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/morton.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/detail/simple_interval.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/simple_interval.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/simple_interval.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/simple_interval.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/broadphase/detail/spatial_hash.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/spatial_hash.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/broadphase/detail/spatial_hash.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/spatial_hash.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/common/detail/profiler.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/common/detail/profiler.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/common/detail/profiler.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/common/detail/profiler.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/common/exception.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/common/exception.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/common/exception.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/common/exception.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/common/time.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/common/time.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/common/time.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/common/time.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/bvh/BVH_utility.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/bvh/BVH_utility.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/bvh/BVH_utility.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/bvh/BVH_utility.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/bvh/BV_node_base.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/bvh/BV_node_base.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/bvh/BV_node_base.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/bvh/BV_node_base.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/bvh/detail/BVH_front.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/bvh/detail/BVH_front.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/bvh/detail/BVH_front.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/bvh/detail/BVH_front.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/collision_geometry.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/collision_geometry.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/collision_geometry.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/collision_geometry.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/octree/octree.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/octree/octree.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/octree/octree.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/octree/octree.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/box.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/box.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/box.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/box.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/capsule.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/capsule.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/capsule.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/capsule.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/cone.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/cone.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/cone.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/cone.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/convex.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/convex.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/convex.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/convex.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/cylinder.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/cylinder.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/cylinder.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/cylinder.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/ellipsoid.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/ellipsoid.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/ellipsoid.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/ellipsoid.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/halfspace.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/halfspace.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/halfspace.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/halfspace.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/plane.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/plane.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/plane.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/plane.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/shape_base.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/shape_base.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/shape_base.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/shape_base.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/sphere.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/sphere.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/sphere.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/sphere.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/triangle_p.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/triangle_p.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/triangle_p.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/triangle_p.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/geometry/shape/utility.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/utility.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/geometry/shape/utility.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/utility.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/bv/AABB.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/AABB.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/AABB.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/AABB.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/bv/OBB.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/OBB.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/OBB.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/OBB.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/bv/OBBRSS.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/OBBRSS.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/OBBRSS.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/OBBRSS.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/bv/RSS.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/RSS.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/RSS.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/RSS.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/bv/kDOP.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/kDOP.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/kDOP.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/kDOP.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/bv/kIOS.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/kIOS.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/kIOS.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/kIOS.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/bv/utility.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/utility.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/bv/utility.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/utility.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/constants.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/constants.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/constants.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/constants.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/detail/polysolver.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/detail/polysolver.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/detail/polysolver.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/detail/polysolver.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/detail/project.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/detail/project.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/detail/project.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/detail/project.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/detail/seed.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/detail/seed.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/detail/seed.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/detail/seed.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/geometry.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/geometry.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/geometry.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/geometry.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/interp_motion.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/interp_motion.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/interp_motion.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/interp_motion.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/motion_base.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/motion_base.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/motion_base.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/motion_base.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/screw_motion.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/screw_motion.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/screw_motion.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/screw_motion.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/spline_motion.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/spline_motion.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/spline_motion.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/spline_motion.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/taylor_model/interval.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/interval.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/interval.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/interval.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/taylor_model/interval_matrix.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/interval_matrix.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/interval_matrix.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/interval_matrix.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/taylor_model/interval_vector.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/interval_vector.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/interval_vector.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/interval_vector.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_matrix.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/taylor_matrix.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/taylor_matrix.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_matrix.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_model.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/taylor_model.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/taylor_model.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_model.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_vector.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/taylor_vector.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/taylor_vector.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_vector.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/taylor_model/time_interval.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/time_interval.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/taylor_model/time_interval.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/time_interval.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/translation_motion.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/translation_motion.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/translation_motion.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/translation_motion.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/motion/triangle_motion_bound_visitor.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/triangle_motion_bound_visitor.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/motion/triangle_motion_bound_visitor.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/triangle_motion_bound_visitor.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/rng.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/rng.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/rng.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/rng.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/sampler/sampler_base.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_base.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_base.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_base.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/sampler/sampler_se2.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se2.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se2.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se2.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/sampler/sampler_se2_disk.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se2_disk.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se2_disk.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se2_disk.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/sampler/sampler_se3_euler.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_euler.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_euler.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_euler.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/sampler/sampler_se3_euler_ball.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_euler_ball.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_euler_ball.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_euler_ball.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/sampler/sampler_se3_quat.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_quat.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_quat.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_quat.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/sampler/sampler_se3_quat_ball.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_quat_ball.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/sampler/sampler_se3_quat_ball.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_quat_ball.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/triangle.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/triangle.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/triangle.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/triangle.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/math/variance3.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/variance3.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/math/variance3.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/math/variance3.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/collision.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/collision_object.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision_object.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision_object.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision_object.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/collision_request.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision_request.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision_request.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision_request.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/collision_result.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision_result.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/collision_result.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision_result.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/contact.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/contact.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/contact.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/contact.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/contact_point.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/contact_point.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/contact_point.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/contact_point.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/continuous_collision.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/continuous_collision_object.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision_object.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision_object.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision_object.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/continuous_collision_request.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision_request.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision_request.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision_request.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/continuous_collision_result.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision_result.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/continuous_collision_result.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision_result.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/cost_source.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/cost_source.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/cost_source.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/cost_source.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/epa.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/epa.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/epa.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/epa.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/gjk.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/gjk.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/gjk.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/gjk.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/gjk_libccd.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/gjk_libccd.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/gjk_libccd.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/gjk_libccd.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/minkowski_diff.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/minkowski_diff.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/convexity_based_algorithm/minkowski_diff.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/minkowski_diff.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/failed_at_this_configuration.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/failed_at_this_configuration.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/failed_at_this_configuration.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/failed_at_this_configuration.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/gjk_solver_indep.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/gjk_solver_indep.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/gjk_solver_indep.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/gjk_solver_indep.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/gjk_solver_libccd.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/gjk_solver_libccd.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/gjk_solver_libccd.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/gjk_solver_libccd.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/box_box.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/box_box.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/box_box.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/box_box.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/capsule_capsule.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/capsule_capsule.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/capsule_capsule.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/capsule_capsule.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/halfspace.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/halfspace.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/halfspace.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/halfspace.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/intersect.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/intersect.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/intersect.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/intersect.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/plane.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/plane.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/plane.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/plane.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_box.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_box.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_box.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_box.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_capsule.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_capsule.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_capsule.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_capsule.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_cylinder.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_cylinder.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_cylinder.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_cylinder.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_sphere.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_sphere.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_sphere.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_sphere.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_triangle.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_triangle.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/sphere_triangle.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_triangle.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/triangle_distance.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/triangle_distance.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/primitive_shape_algorithm/triangle_distance.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/triangle_distance.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/collision_traversal_node_base.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision/collision_traversal_node_base.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision/collision_traversal_node_base.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/collision_traversal_node_base.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/mesh_collision_traversal_node.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision/mesh_collision_traversal_node.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision/mesh_collision_traversal_node.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/mesh_collision_traversal_node.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/mesh_continuous_collision_traversal_node.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision/mesh_continuous_collision_traversal_node.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision/mesh_continuous_collision_traversal_node.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/mesh_continuous_collision_traversal_node.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision_node.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision_node.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/collision_node.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision_node.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/conservative_advancement_stack_data.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/conservative_advancement_stack_data.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/conservative_advancement_stack_data.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/conservative_advancement_stack_data.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/distance_traversal_node_base.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/distance_traversal_node_base.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/distance_traversal_node_base.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/distance_traversal_node_base.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/mesh_conservative_advancement_traversal_node.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/mesh_conservative_advancement_traversal_node.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/mesh_conservative_advancement_traversal_node.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/mesh_conservative_advancement_traversal_node.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/mesh_distance_traversal_node.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/mesh_distance_traversal_node.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/distance/mesh_distance_traversal_node.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/mesh_distance_traversal_node.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/traversal_node_base.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/traversal_node_base.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/traversal_node_base.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/traversal_node_base.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/detail/traversal/traversal_recurse.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/traversal_recurse.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/detail/traversal/traversal_recurse.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/traversal_recurse.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/distance.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/distance.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/distance.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/distance.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/distance_request.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/distance_request.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/distance_request.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/distance_request.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src",
+  "command": "/usr/bin/clang++ -DFCL_STATIC_DEFINE -I/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/../include -I/home/wang/rmf_ws/build/rmf_traffic/thirdparty/fcl/src/../include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++17 -fPIC   -std=c++17 -W -Wall -Wextra -fvisibility=hidden -Wall -Wextra -Wpedantic -mfpmath=sse -msse -msse2 -msse3 -mssse3 -o CMakeFiles/fcl.dir/narrowphase/distance_result.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/distance_result.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/thirdparty/fcl/src/narrowphase/distance_result.cpp",
+  "output": "thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/distance_result.cpp.o"
+}
+]

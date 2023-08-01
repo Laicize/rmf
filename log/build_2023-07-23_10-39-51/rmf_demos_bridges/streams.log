@@ -1,0 +1,43 @@
+[1.265s] Invoking command in '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_map_tools:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_demos_bridges/prefix_override:/home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_demos_bridges build --build-base /home/wang/rmf_ws/build/rmf_demos_bridges/build install --record /home/wang/rmf_ws/build/rmf_demos_bridges/install.log --single-version-externally-managed
+[1.711s] running egg_info
+[1.714s] creating ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info
+[1.715s] writing ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/PKG-INFO
+[1.715s] writing dependency_links to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/dependency_links.txt
+[1.717s] writing entry points to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/entry_points.txt
+[1.720s] writing requirements to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/requires.txt
+[1.720s] writing top-level names to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/top_level.txt
+[1.721s] writing manifest file '../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[1.724s] reading manifest file '../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[1.725s] writing manifest file '../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[1.725s] running build
+[1.726s] running build_py
+[1.726s] creating /home/wang/rmf_ws/build/rmf_demos_bridges/build
+[1.726s] creating /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib
+[1.726s] creating /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.726s] copying rmf_demos_bridges/__init__.py -> /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.727s] copying rmf_demos_bridges/fleet_socketio_bridge.py -> /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.727s] copying rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.727s] running install
+[1.728s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.728s]   warnings.warn(
+[1.729s] running install_lib
+[1.730s] creating /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[1.730s] copying /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/__init__.py -> /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[1.730s] copying /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_socketio_bridge.py -> /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[1.730s] copying /home/wang/rmf_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[1.731s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/__init__.py to __init__.cpython-310.pyc
+[1.732s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/fleet_socketio_bridge.py to fleet_socketio_bridge.cpython-310.pyc
+[1.734s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py to fleet_robotmanager_mqtt_bridge.cpython-310.pyc
+[1.736s] running install_data
+[1.737s] creating /home/wang/rmf_ws/install/rmf_demos_bridges/share/ament_index
+[1.737s] creating /home/wang/rmf_ws/install/rmf_demos_bridges/share/ament_index/resource_index
+[1.738s] creating /home/wang/rmf_ws/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[1.738s] copying resource/rmf_demos_bridges -> /home/wang/rmf_ws/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[1.738s] copying package.xml -> /home/wang/rmf_ws/install/rmf_demos_bridges/share/rmf_demos_bridges
+[1.738s] running install_egg_info
+[1.741s] Copying ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info to /home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges-2.0.3-py3.10.egg-info
+[1.742s] running install_scripts
+[1.775s] Installing fleet_robotmanager_mqtt_bridge script to /home/wang/rmf_ws/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[1.776s] Installing fleet_socketio_bridge script to /home/wang/rmf_ws/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[1.776s] writing list of installed files to '/home/wang/rmf_ws/build/rmf_demos_bridges/install.log'
+[1.839s] Invoked command in '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_bridges' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_map_tools:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_demos_bridges/prefix_override:/home/wang/rmf_ws/install/rmf_demos_bridges/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_demos_bridges build --build-base /home/wang/rmf_ws/build/rmf_demos_bridges/build install --record /home/wang/rmf_ws/build/rmf_demos_bridges/install.log --single-version-externally-managed

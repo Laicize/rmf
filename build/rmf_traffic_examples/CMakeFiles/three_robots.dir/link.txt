@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG -fuse-ld=lld CMakeFiles/three_robots.dir/src/three_robots.cpp.o -o three_robots  -Wl,-rpath,/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib: /home/wang/rmf_ws/install/rmf_traffic/lib/librmf_traffic.so /home/wang/rmf_ws/install/rmf_utils/lib/librmf_utils.so 

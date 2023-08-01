@@ -1,0 +1,9 @@
+{
+  "package_name": "rmf_dispenser_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs:msg/DispenserRequestItem.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs:msg/DispenserRequest.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs:msg/DispenserResult.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_dispenser_msgs:msg/DispenserState.msg"
+  ]
+}

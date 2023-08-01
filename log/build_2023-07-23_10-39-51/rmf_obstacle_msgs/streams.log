@@ -1,0 +1,285 @@
+[0.110s] Invoking command in '/home/wang/rmf_ws/build/rmf_obstacle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_obstacle_msgs
+[2.501s] -- The C compiler identification is Clang 14.0.0
+[2.502s] -- The CXX compiler identification is Clang 14.0.0
+[2.503s] -- Detecting C compiler ABI info
+[2.504s] -- Detecting C compiler ABI info - done
+[2.504s] -- Check for working C compiler: /usr/bin/clang - skipped
+[2.504s] -- Detecting C compile features
+[2.504s] -- Detecting C compile features - done
+[2.504s] -- Detecting CXX compiler ABI info
+[2.504s] -- Detecting CXX compiler ABI info - done
+[2.504s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[2.504s] -- Detecting CXX compile features
+[2.504s] -- Detecting CXX compile features - done
+[2.504s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.505s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.505s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.505s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.505s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.505s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.722s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.726s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.729s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.732s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.012s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[4.014s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.110s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.110s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.110s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.110s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.242s] -- Found PythonExtra: .so  
+[4.574s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.583s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.640s] -- Configuring done (4.5s)
+[4.872s] -- Generating done (0.2s)
+[4.897s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_obstacle_msgs
+[4.973s] Invoked command in '/home/wang/rmf_ws/build/rmf_obstacle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_obstacle_msgs
+[4.976s] Invoking command in '/home/wang/rmf_ws/build/rmf_obstacle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_obstacle_msgs -- -j16 -l16
+[12.560s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.560s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.560s] [  4%] Built target ament_cmake_python_copy_rmf_obstacle_msgs
+[12.561s] running egg_info
+[12.561s] creating rmf_obstacle_msgs.egg-info
+[12.561s] writing rmf_obstacle_msgs.egg-info/PKG-INFO
+[12.561s] writing dependency_links to rmf_obstacle_msgs.egg-info/dependency_links.txt
+[12.561s] writing top-level names to rmf_obstacle_msgs.egg-info/top_level.txt
+[12.561s] writing manifest file 'rmf_obstacle_msgs.egg-info/SOURCES.txt'
+[12.561s] reading manifest file 'rmf_obstacle_msgs.egg-info/SOURCES.txt'
+[12.561s] writing manifest file 'rmf_obstacle_msgs.egg-info/SOURCES.txt'
+[12.561s] [  4%] Built target ament_cmake_python_build_rmf_obstacle_msgs_egg
+[12.562s] [  4%] Built target rmf_obstacle_msgs__cpp
+[12.562s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.562s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.562s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.562s] [ 12%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_obstacle_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[12.562s] [ 14%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_obstacle_msgs/msg/detail/obstacle__functions.c.o[0m
+[12.562s] [ 17%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_obstacle_msgs/msg/detail/obstacles__functions.c.o[0m
+[12.562s] [ 19%] [32m[1mLinking C shared library librmf_obstacle_msgs__rosidl_generator_c.so[0m
+[12.562s] [ 19%] Built target rmf_obstacle_msgs__rosidl_generator_c
+[12.563s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.563s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.563s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.641s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_obstacle_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[12.693s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_obstacle_msgs/msg/obstacle__type_support.cpp.o[0m
+[12.795s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_obstacle_msgs/msg/obstacles__type_support.cpp.o[0m
+[13.025s] [ 34%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_obstacle_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[13.049s] [ 36%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_obstacle_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o[0m
+[13.056s] [ 38%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_obstacle_msgs/msg/detail/dds_fastrtps/obstacles__type_support.cpp.o[0m
+[13.886s] [ 40%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_obstacle_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[13.990s] [ 42%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_obstacle_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[14.016s] [ 44%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_obstacle_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[14.238s] [ 46%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_obstacle_msgs/msg/detail/obstacles__type_support.c.o[0m
+[14.274s] [ 48%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_obstacle_msgs/msg/obstacles__type_support.cpp.o[0m
+[14.437s] [ 51%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_obstacle_msgs/msg/detail/obstacle__type_support.c.o[0m
+[14.491s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_obstacle_msgs/msg/obstacle__type_support.cpp.o[0m
+[14.623s] [ 55%] [32m[1mLinking CXX shared library librmf_obstacle_msgs__rosidl_typesupport_c.so[0m
+[14.651s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_obstacle_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[14.863s] [ 59%] [32m[1mLinking C shared library librmf_obstacle_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.992s] [ 59%] Built target rmf_obstacle_msgs__rosidl_typesupport_c
+[15.144s] [ 59%] Built target rmf_obstacle_msgs__rosidl_typesupport_introspection_c
+[15.864s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_obstacle_msgs/msg/detail/obstacles__type_support.cpp.o[0m
+[15.999s] [ 63%] [32m[1mLinking CXX shared library librmf_obstacle_msgs__rosidl_typesupport_cpp.so[0m
+[16.241s] [ 63%] Built target rmf_obstacle_msgs__rosidl_typesupport_cpp
+[16.685s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_obstacle_msgs/msg/detail/obstacles__type_support_c.cpp.o[0m
+[16.822s] [ 68%] [32m[1mLinking CXX shared library librmf_obstacle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.016s] [ 68%] Built target rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cpp
+[17.631s] [ 70%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_obstacle_msgs/msg/detail/obstacle__type_support_c.cpp.o[0m
+[17.876s] [ 72%] [32mBuilding CXX object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_obstacle_msgs/msg/detail/obstacle__type_support.cpp.o[0m
+[18.808s] [ 74%] [32m[1mLinking CXX shared library librmf_obstacle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[18.851s] [ 76%] [32m[1mLinking CXX shared library librmf_obstacle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.975s] [ 76%] Built target rmf_obstacle_msgs__rosidl_typesupport_introspection_cpp
+[19.003s] [ 76%] Built target rmf_obstacle_msgs__rosidl_typesupport_fastrtps_c
+[19.103s] [ 76%] Built target rmf_obstacle_msgs
+[19.209s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.031s] [ 78%] Built target rmf_obstacle_msgs__py
+[21.068s] [ 80%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_obstacle_msgs/msg/_bounding_box3_d_s.c.o[0m
+[21.299s] [ 82%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_obstacle_msgs/msg/_obstacles_s.c.o[0m
+[21.572s] [ 85%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_obstacle_msgs/msg/_obstacle_s.c.o[0m
+[22.052s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/rmf_obstacle_msgs/librmf_obstacle_msgs__rosidl_generator_py.so[0m
+[22.199s] [ 87%] Built target rmf_obstacle_msgs__rosidl_generator_py
+[22.291s] [ 89%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_obstacle_msgs/_rmf_obstacle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.602s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.737s] [ 91%] Built target rmf_obstacle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[22.792s] [ 93%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_obstacle_msgs/_rmf_obstacle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[23.061s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.239s] [ 95%] Built target rmf_obstacle_msgs__rosidl_typesupport_c__pyext
+[23.328s] [ 97%] [32mBuilding C object CMakeFiles/rmf_obstacle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_obstacle_msgs/_rmf_obstacle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.636s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.792s] [100%] Built target rmf_obstacle_msgs__rosidl_typesupport_introspection_c__pyext
+[23.830s] Invoked command in '/home/wang/rmf_ws/build/rmf_obstacle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_obstacle_msgs -- -j16 -l16
+[24.389s] Invoking command in '/home/wang/rmf_ws/build/rmf_obstacle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_obstacle_msgs
+[24.441s] -- Install configuration: "Release"
+[24.441s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_obstacle_msgs
+[24.441s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs
+[24.442s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg
+[24.442s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/obstacle.h
+[24.442s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail
+[24.442s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__functions.h
+[24.442s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__functions.c
+[24.443s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__struct.h
+[24.443s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__functions.c
+[24.443s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__functions.c
+[24.443s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__type_support.h
+[24.443s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__struct.h
+[24.443s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__struct.h
+[24.444s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__type_support.h
+[24.444s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__functions.h
+[24.444s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__type_support.h
+[24.444s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__functions.h
+[24.444s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/rosidl_generator_c__visibility_control.h
+[24.444s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/obstacles.h
+[24.447s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/bounding_box3_d.h
+[24.447s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/library_path.sh
+[24.447s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/library_path.dsv
+[24.448s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_generator_c.so
+[24.448s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_generator_c.so" to ""
+[24.449s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs
+[24.449s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg
+[24.449s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail
+[24.449s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h
+[24.449s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_c.h
+[24.449s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[24.449s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.450s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_fastrtps_c.so
+[24.450s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[24.450s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs
+[24.450s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg
+[24.450s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail
+[24.450s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__type_support.c
+[24.451s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__type_support.c
+[24.451s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h
+[24.451s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__type_support.c
+[24.451s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_c.h
+[24.451s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[24.451s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.451s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_introspection_c.so
+[24.451s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[24.452s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_c.so
+[24.452s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_c.so" to ""
+[24.452s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs
+[24.452s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg
+[24.452s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail
+[24.452s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__traits.hpp
+[24.452s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__traits.hpp
+[24.452s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__struct.hpp
+[24.453s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__traits.hpp
+[24.453s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__struct.hpp
+[24.453s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__builder.hpp
+[24.453s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__builder.hpp
+[24.453s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__struct.hpp
+[24.454s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__builder.hpp
+[24.454s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/bounding_box3_d.hpp
+[24.454s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/obstacles.hpp
+[24.454s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/obstacle.hpp
+[24.454s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs
+[24.454s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg
+[24.455s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail
+[24.455s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/dds_fastrtps
+[24.455s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[24.455s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_cpp.hpp
+[24.455s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[24.456s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.456s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[24.456s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.456s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs
+[24.456s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg
+[24.456s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail
+[24.456s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp
+[24.457s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_cpp.hpp
+[24.457s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacles__type_support.cpp
+[24.457s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[24.457s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/bounding_box3_d__type_support.cpp
+[24.458s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/include/rmf_obstacle_msgs/rmf_obstacle_msgs/msg/detail/obstacle__type_support.cpp
+[24.459s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_introspection_cpp.so
+[24.459s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[24.459s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_cpp.so
+[24.459s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_typesupport_cpp.so" to ""
+[24.460s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/pythonpath.sh
+[24.460s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/pythonpath.dsv
+[24.460s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs-3.0.3-py3.10.egg-info
+[24.460s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs-3.0.3-py3.10.egg-info/PKG-INFO
+[24.460s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs-3.0.3-py3.10.egg-info/dependency_links.txt
+[24.460s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs-3.0.3-py3.10.egg-info/SOURCES.txt
+[24.461s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs-3.0.3-py3.10.egg-info/top_level.txt
+[24.461s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs
+[24.461s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/_rmf_obstacle_msgs_s.ep.rosidl_typesupport_c.c
+[24.461s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/__init__.py
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/_rmf_obstacle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/_rmf_obstacle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/librmf_obstacle_msgs__rosidl_generator_py.so
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/__init__.py
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_obstacle.py
+[24.468s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_bounding_box3_d.py
+[24.469s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_obstacles.py
+[24.469s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_bounding_box3_d_s.c
+[24.469s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_obstacles_s.c
+[24.469s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_obstacle_s.c
+[24.469s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.469s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.554s] Listing '/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs'...
+[24.554s] Compiling '/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/__init__.py'...
+[24.555s] Listing '/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg'...
+[24.555s] Compiling '/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/__init__.py'...
+[24.555s] Compiling '/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_bounding_box3_d.py'...
+[24.555s] Compiling '/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_obstacle.py'...
+[24.555s] Compiling '/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/msg/_obstacles.py'...
+[24.575s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.576s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.576s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.577s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.577s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.578s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/local/lib/python3.10/dist-packages/rmf_obstacle_msgs/rmf_obstacle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.578s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_generator_py.so
+[24.579s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_obstacle_msgs/lib/librmf_obstacle_msgs__rosidl_generator_py.so" to ""
+[24.579s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/msg/BoundingBox3D.idl
+[24.579s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/msg/Obstacle.idl
+[24.579s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/msg/Obstacles.idl
+[24.579s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/msg/BoundingBox3D.msg
+[24.579s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/msg/Obstacle.msg
+[24.579s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/msg/Obstacles.msg
+[24.580s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_obstacle_msgs
+[24.580s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_obstacle_msgs
+[24.581s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/ament_prefix_path.sh
+[24.581s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/ament_prefix_path.dsv
+[24.581s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/path.sh
+[24.581s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/environment/path.dsv
+[24.581s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/local_setup.bash
+[24.582s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/local_setup.sh
+[24.582s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/local_setup.zsh
+[24.582s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/local_setup.dsv
+[24.582s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/package.dsv
+[24.583s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/ament_index/resource_index/packages/rmf_obstacle_msgs
+[24.583s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_generator_cExport.cmake
+[24.583s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_generator_cExport-release.cmake
+[24.583s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[24.584s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[24.584s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[24.584s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[24.585s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_cExport.cmake
+[24.585s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_cExport-release.cmake
+[24.585s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_generator_cppExport.cmake
+[24.585s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.586s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[24.586s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[24.586s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[24.586s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_cppExport.cmake
+[24.586s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgs__rosidl_typesupport_cppExport-release.cmake
+[24.587s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_generator_pyExport.cmake
+[24.589s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/export_rmf_obstacle_msgs__rosidl_generator_pyExport-release.cmake
+[24.589s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rosidl_cmake-extras.cmake
+[24.591s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.591s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.591s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[24.591s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[24.591s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.591s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.592s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgsConfig.cmake
+[24.592s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/cmake/rmf_obstacle_msgsConfig-version.cmake
+[24.592s] -- Installing: /home/wang/rmf_ws/install/rmf_obstacle_msgs/share/rmf_obstacle_msgs/package.xml
+[24.680s] Invoked command in '/home/wang/rmf_ws/build/rmf_obstacle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_obstacle_msgs

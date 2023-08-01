@@ -1,0 +1,35 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_visualization
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/visualization.launch.xml
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/ament_index/resource_index/package_run_dependencies/rmf_visualization
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/ament_index/resource_index/parent_prefix_path/rmf_visualization
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/environment/ament_prefix_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/environment/path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/environment/path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/local_setup.bash
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/local_setup.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/local_setup.zsh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/local_setup.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/package.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/ament_index/resource_index/packages/rmf_visualization
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/cmake/rmf_visualizationConfig.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/cmake/rmf_visualizationConfig-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization/share/rmf_visualization/package.xml

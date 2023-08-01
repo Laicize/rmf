@@ -1,0 +1,6 @@
+/home/wang/rmf_ws/build/rmf_workcell_msgs/rosidl_adapter/rmf_workcell_msgs:msg/Asset.idl
+/home/wang/rmf_ws/build/rmf_workcell_msgs/rosidl_adapter/rmf_workcell_msgs:msg/Trait.idl
+/home/wang/rmf_ws/build/rmf_workcell_msgs/rosidl_adapter/rmf_workcell_msgs:msg/WorkcellConfiguration.idl
+/home/wang/rmf_ws/build/rmf_workcell_msgs/rosidl_adapter/rmf_workcell_msgs:msg/WorkcellState.idl
+/home/wang/rmf_ws/build/rmf_workcell_msgs/rosidl_adapter/rmf_workcell_msgs:msg/WorkcellRequest.idl
+/home/wang/rmf_ws/build/rmf_workcell_msgs/rosidl_adapter/rmf_workcell_msgs:msg/WorkcellResult.idl

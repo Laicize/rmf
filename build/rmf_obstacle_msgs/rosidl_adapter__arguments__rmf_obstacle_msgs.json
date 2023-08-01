@@ -1,0 +1,8 @@
+{
+  "package_name": "rmf_obstacle_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs:msg/BoundingBox3D.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs:msg/Obstacle.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_obstacle_msgs:msg/Obstacles.msg"
+  ]
+}

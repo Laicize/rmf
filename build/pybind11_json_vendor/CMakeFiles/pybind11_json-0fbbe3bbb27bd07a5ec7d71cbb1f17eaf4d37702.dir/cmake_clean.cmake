@@ -1,0 +1,16 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702"
+  "CMakeFiles/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-complete"
+  "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-build"
+  "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-configure"
+  "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-download"
+  "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-install"
+  "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-mkdir"
+  "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-patch"
+  "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-update"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

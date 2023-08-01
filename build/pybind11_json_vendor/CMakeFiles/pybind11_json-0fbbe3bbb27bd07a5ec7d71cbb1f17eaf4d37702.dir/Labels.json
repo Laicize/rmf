@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/CMakeFiles/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/CMakeFiles/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/CMakeFiles/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-complete.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-build.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-configure.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-download.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-install.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-mkdir.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-patch.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-stamp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702"
+		],
+		"name" : "pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "package_name": "rmf_charger_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs:msg/ChargerState.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs:msg/ChargerRequest.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs:msg/ChargerCancel.msg"
+  ]
+}

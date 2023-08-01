@@ -1,0 +1,50 @@
+{
+  "package_name": "rmf_building_map_msgs",
+  "output_dir": "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_generator_c/rmf_building_map_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/AffineImage.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/BuildingMap.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Door.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Graph.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/GraphEdge.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/GraphNode.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Level.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Lift.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Param.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Place.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:srv/GetBuildingMap.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/AffineImage.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/BuildingMap.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/Door.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/Graph.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/GraphEdge.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/GraphNode.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/Level.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/Lift.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/Param.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/msg/Place.idl",
+    "/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs/srv/GetBuildingMap.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

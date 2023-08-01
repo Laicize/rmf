@@ -1,0 +1,753 @@
+[0.049s] Invoking command in '/home/wang/rmf_ws/build/rmf_fleet_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_fleet_msgs
+[0.776s] -- The C compiler identification is Clang 14.0.0
+[1.014s] -- The CXX compiler identification is Clang 14.0.0
+[1.054s] -- Detecting C compiler ABI info
+[1.199s] -- Detecting C compiler ABI info - done
+[1.213s] -- Check for working C compiler: /usr/bin/clang - skipped
+[1.213s] -- Detecting C compile features
+[1.213s] -- Detecting C compile features - done
+[1.218s] -- Detecting CXX compiler ABI info
+[1.371s] -- Detecting CXX compiler ABI info - done
+[1.384s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[1.384s] -- Detecting CXX compile features
+[1.385s] -- Detecting CXX compile features - done
+[1.388s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.927s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.071s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.122s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.130s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.144s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.224s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.636s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.638s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.640s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.642s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.840s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.925s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.968s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.971s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.013s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.014s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.014s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.014s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.088s] -- Found PythonExtra: .so  
+[3.153s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.154s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.163s] -- Configuring done (3.0s)
+[3.288s] -- Generating done (0.1s)
+[3.292s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_fleet_msgs
+[3.358s] Invoked command in '/home/wang/rmf_ws/build/rmf_fleet_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_fleet_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_fleet_msgs
+[3.366s] Invoking command in '/home/wang/rmf_ws/build/rmf_fleet_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_fleet_msgs -- -j16 -l16
+[4.421s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.421s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.422s] [  0%] Built target ament_cmake_python_copy_rmf_fleet_msgs
+[4.422s] running egg_info
+[4.422s] creating rmf_fleet_msgs.egg-info
+[4.422s] writing rmf_fleet_msgs.egg-info/PKG-INFO
+[4.422s] writing dependency_links to rmf_fleet_msgs.egg-info/dependency_links.txt
+[4.422s] writing top-level names to rmf_fleet_msgs.egg-info/top_level.txt
+[4.422s] writing manifest file 'rmf_fleet_msgs.egg-info/SOURCES.txt'
+[4.422s] reading manifest file 'rmf_fleet_msgs.egg-info/SOURCES.txt'
+[4.422s] writing manifest file 'rmf_fleet_msgs.egg-info/SOURCES.txt'
+[4.422s] [  0%] Built target ament_cmake_python_build_rmf_fleet_msgs_egg
+[12.831s] [  0%] Built target rmf_fleet_msgs__cpp
+[12.852s] [  0%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/robot_mode__functions.c.o[0m
+[12.870s] [  1%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/robot_state__functions.c.o[0m
+[12.877s] [  2%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/location__functions.c.o[0m
+[12.891s] [  3%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/fleet_state__functions.c.o[0m
+[12.911s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.924s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.935s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.997s] [  6%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/destination_request__functions.c.o[0m
+[12.999s] [  6%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/mode_request__functions.c.o[0m
+[13.015s] [  6%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/path_request__functions.c.o[0m
+[13.024s] [  7%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/pause_request__functions.c.o[0m
+[13.100s] [  7%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/mode_parameter__functions.c.o[0m
+[13.125s] [  8%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/dock_parameter__functions.c.o[0m
+[13.153s] [  9%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/dock__functions.c.o[0m
+[13.208s] [  9%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/dock_summary__functions.c.o[0m
+[13.265s] [ 10%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/lane_request__functions.c.o[0m
+[13.433s] [ 10%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/closed_lanes__functions.c.o[0m
+[13.723s] [ 11%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/interrupt_request__functions.c.o[0m
+[14.255s] [ 11%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/srv/detail/lift_clearance__functions.c.o[0m
+[15.128s] [ 12%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/lane_states__functions.c.o[0m
+[15.715s] [ 13%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/speed_limit_request__functions.c.o[0m
+[16.151s] [ 13%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_fleet_msgs/msg/detail/speed_limited_lane__functions.c.o[0m
+[16.469s] [ 14%] [32m[1mLinking C shared library librmf_fleet_msgs__rosidl_generator_c.so[0m
+[16.691s] [ 14%] Built target rmf_fleet_msgs__rosidl_generator_c
+[17.996s] [ 14%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/location__type_support.cpp.o[0m
+[18.807s] [ 15%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/location__type_support.cpp.o[0m
+[18.874s] [ 15%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/dock__type_support.cpp.o[0m
+[18.875s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/location__type_support.cpp.o[0m
+[19.455s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[19.662s] [ 17%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/dock_parameter__type_support.cpp.o[0m
+[19.816s] [ 17%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[20.174s] [ 18%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/robot_state__type_support.cpp.o[0m
+[20.207s] [ 19%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/dock_summary__type_support.cpp.o[0m
+[20.704s] [ 20%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/mode_parameter__type_support.cpp.o[0m
+[20.873s] [ 21%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o[0m
+[20.948s] [ 22%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/mode_request__type_support.cpp.o[0m
+[21.463s] [ 22%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/lane_request__type_support.cpp.o[0m
+[21.715s] [ 23%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/destination_request__type_support.cpp.o[0m
+[21.864s] [ 23%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/fleet_state__type_support.cpp.o[0m
+[22.051s] [ 24%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/closed_lanes__type_support.cpp.o[0m
+[22.355s] [ 24%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/path_request__type_support.cpp.o[0m
+[22.645s] [ 24%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/interrupt_request__type_support.cpp.o[0m
+[23.008s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/mode_request__type_support.cpp.o[0m
+[23.137s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/pause_request__type_support.cpp.o[0m
+[23.255s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/mode_parameter__type_support.cpp.o[0m
+[23.754s] [ 26%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/speed_limited_lane__type_support.cpp.o[0m
+[23.928s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/dock_parameter__type_support.cpp.o[0m
+[24.055s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/destination_request__type_support.cpp.o[0m
+[24.278s] [ 28%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/speed_limit_request__type_support.cpp.o[0m
+[24.739s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/dock_summary__type_support.cpp.o[0m
+[24.841s] [ 30%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/path_request__type_support.cpp.o[0m
+[24.903s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/pause_request__type_support.cpp.o[0m
+[25.366s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/destination_request__type_support.cpp.o[0m
+[25.771s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/path_request__type_support.cpp.o[0m
+[25.812s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/closed_lanes__type_support.cpp.o[0m
+[25.843s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/lane_states__type_support.cpp.o[0m
+[26.293s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/mode_request__type_support.cpp.o[0m
+[26.478s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/speed_limited_lane__type_support.cpp.o[0m
+[26.723s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/mode_parameter__type_support.cpp.o[0m
+[26.738s] [ 34%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/srv/lift_clearance__type_support.cpp.o[0m
+[26.971s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/speed_limit_request__type_support.cpp.o[0m
+[27.200s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/fleet_state__type_support.cpp.o[0m
+[27.523s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/dock__type_support.cpp.o[0m
+[27.652s] [ 36%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/srv/detail/lift_clearance__type_support.cpp.o[0m
+[27.655s] [ 37%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/robot_state__type_support.cpp.o[0m
+[28.147s] [ 38%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_fleet_msgs/msg/robot_mode__type_support.cpp.o[0m
+[28.208s] [ 38%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/lane_states__type_support.cpp.o[0m
+[28.472s] [ 39%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/interrupt_request__type_support.cpp.o[0m
+[28.638s] [ 39%] [32m[1mLinking CXX shared library librmf_fleet_msgs__rosidl_typesupport_cpp.so[0m
+[28.707s] [ 39%] Built target rmf_fleet_msgs__rosidl_typesupport_cpp
+[28.837s] [ 40%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/interrupt_request__type_support.cpp.o[0m
+[29.273s] [ 41%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/lane_request__type_support.cpp.o[0m
+[29.333s] [ 42%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/srv/detail/dds_fastrtps/lift_clearance__type_support.cpp.o[0m
+[29.888s] [ 42%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/lane_states__type_support.cpp.o[0m
+[29.943s] [ 42%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/dock__type_support.cpp.o[0m
+[30.444s] [ 43%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/speed_limit_request__type_support.cpp.o[0m
+[30.736s] [ 44%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/pause_request__type_support.cpp.o[0m
+[31.082s] [ 44%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/speed_limited_lane__type_support.cpp.o[0m
+[31.218s] [ 44%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_fleet_msgs/msg/detail/fleet_state__type_support.cpp.o[0m
+[31.854s] [ 45%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/closed_lanes__type_support.cpp.o[0m
+[32.119s] [ 46%] [32m[1mLinking CXX shared library librmf_fleet_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[32.191s] [ 46%] Built target rmf_fleet_msgs__rosidl_typesupport_introspection_cpp
+[32.483s] [ 46%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/lane_request__type_support.cpp.o[0m
+[33.042s] [ 47%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/dock_summary__type_support.cpp.o[0m
+[33.617s] [ 48%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_fleet_msgs/msg/detail/dds_fastrtps/dock_parameter__type_support.cpp.o[0m
+[34.173s] [ 48%] [32m[1mLinking CXX shared library librmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.245s] [ 48%] Built target rmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp
+[34.251s] [ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35.446s] [ 49%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/location__type_support.cpp.o[0m
+[35.478s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/closed_lanes__type_support.cpp.o[0m
+[35.507s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/interrupt_request__type_support.cpp.o[0m
+[35.537s] [ 51%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/speed_limited_lane__type_support.cpp.o[0m
+[35.566s] [ 51%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/speed_limit_request__type_support.cpp.o[0m
+[35.596s] [ 52%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/lane_states__type_support.cpp.o[0m
+[35.627s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/srv/lift_clearance__type_support.cpp.o[0m
+[35.661s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/lane_request__type_support.cpp.o[0m
+[35.691s] [ 54%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/dock_summary__type_support.cpp.o[0m
+[35.723s] [ 55%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/dock__type_support.cpp.o[0m
+[35.754s] [ 55%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/dock_parameter__type_support.cpp.o[0m
+[35.788s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/mode_parameter__type_support.cpp.o[0m
+[35.820s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/pause_request__type_support.cpp.o[0m
+[35.852s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/path_request__type_support.cpp.o[0m
+[35.884s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/destination_request__type_support.cpp.o[0m
+[35.927s] [ 58%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/mode_request__type_support.cpp.o[0m
+[35.974s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/fleet_state__type_support.cpp.o[0m
+[36.021s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/robot_state__type_support.cpp.o[0m
+[36.065s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_fleet_msgs/msg/robot_mode__type_support.cpp.o[0m
+[36.107s] [ 60%] [32m[1mLinking CXX shared library librmf_fleet_msgs__rosidl_typesupport_c.so[0m
+[36.170s] [ 60%] Built target rmf_fleet_msgs__rosidl_typesupport_c
+[36.176s] [ 61%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[37.573s] [ 62%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/location__type_support.c.o[0m
+[37.626s] [ 63%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/interrupt_request__type_support.c.o[0m
+[37.682s] [ 63%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/speed_limited_lane__type_support.c.o[0m
+[37.732s] [ 64%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/speed_limit_request__type_support.c.o[0m
+[37.803s] [ 64%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/lane_states__type_support.c.o[0m
+[37.847s] [ 65%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/srv/detail/lift_clearance__type_support.c.o[0m
+[37.891s] [ 66%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/closed_lanes__type_support.c.o[0m
+[37.931s] [ 66%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/lane_request__type_support.c.o[0m
+[37.979s] [ 67%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/dock_summary__type_support.c.o[0m
+[38.026s] [ 67%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/dock__type_support.c.o[0m
+[38.070s] [ 68%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/dock_parameter__type_support.c.o[0m
+[38.117s] [ 68%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/mode_parameter__type_support.c.o[0m
+[38.161s] [ 69%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/pause_request__type_support.c.o[0m
+[38.206s] [ 70%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/path_request__type_support.c.o[0m
+[38.268s] [ 70%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/destination_request__type_support.c.o[0m
+[38.322s] [ 71%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/mode_request__type_support.c.o[0m
+[38.387s] [ 71%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/fleet_state__type_support.c.o[0m
+[38.427s] [ 72%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/robot_state__type_support.c.o[0m
+[38.467s] [ 72%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_fleet_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[38.517s] [ 72%] [32m[1mLinking C shared library librmf_fleet_msgs__rosidl_typesupport_introspection_c.so[0m
+[38.576s] [ 72%] Built target rmf_fleet_msgs__rosidl_typesupport_introspection_c
+[38.583s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[40.207s] [ 73%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/location__type_support_c.cpp.o[0m
+[40.913s] [ 74%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/speed_limited_lane__type_support_c.cpp.o[0m
+[41.314s] [ 75%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/speed_limit_request__type_support_c.cpp.o[0m
+[41.729s] [ 75%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/lane_states__type_support_c.cpp.o[0m
+[42.158s] [ 76%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/srv/detail/lift_clearance__type_support_c.cpp.o[0m
+[42.568s] [ 76%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/interrupt_request__type_support_c.cpp.o[0m
+[43.016s] [ 77%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/closed_lanes__type_support_c.cpp.o[0m
+[43.411s] [ 77%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/lane_request__type_support_c.cpp.o[0m
+[43.861s] [ 78%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/dock_summary__type_support_c.cpp.o[0m
+[44.507s] [ 78%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/dock__type_support_c.cpp.o[0m
+[45.269s] [ 79%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/dock_parameter__type_support_c.cpp.o[0m
+[45.811s] [ 80%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/mode_parameter__type_support_c.cpp.o[0m
+[46.345s] [ 80%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/pause_request__type_support_c.cpp.o[0m
+[46.998s] [ 81%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/path_request__type_support_c.cpp.o[0m
+[47.552s] [ 81%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/destination_request__type_support_c.cpp.o[0m
+[48.269s] [ 82%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/mode_request__type_support_c.cpp.o[0m
+[48.824s] [ 82%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/fleet_state__type_support_c.cpp.o[0m
+[49.299s] [ 83%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/robot_state__type_support_c.cpp.o[0m
+[49.993s] [ 84%] [32mBuilding CXX object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_fleet_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[50.578s] [ 84%] [32m[1mLinking CXX shared library librmf_fleet_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[50.643s] [ 84%] Built target rmf_fleet_msgs__rosidl_typesupport_fastrtps_c
+[50.652s] [ 84%] Built target rmf_fleet_msgs
+[50.661s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[53.057s] [ 85%] Built target rmf_fleet_msgs__py
+[53.066s] [ 85%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_location_s.c.o[0m
+[53.214s] [ 86%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_speed_limited_lane_s.c.o[0m
+[53.412s] [ 86%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_speed_limit_request_s.c.o[0m
+[53.566s] [ 87%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_lane_states_s.c.o[0m
+[53.711s] [ 88%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/srv/_lift_clearance_s.c.o[0m
+[53.831s] [ 88%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_interrupt_request_s.c.o[0m
+[53.963s] [ 89%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_closed_lanes_s.c.o[0m
+[54.091s] [ 89%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_lane_request_s.c.o[0m
+[54.241s] [ 90%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_dock_summary_s.c.o[0m
+[54.398s] [ 91%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_dock_s.c.o[0m
+[54.523s] [ 91%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_dock_parameter_s.c.o[0m
+[54.752s] [ 92%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_mode_parameter_s.c.o[0m
+[54.943s] [ 92%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_pause_request_s.c.o[0m
+[55.133s] [ 93%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_path_request_s.c.o[0m
+[55.265s] [ 93%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_destination_request_s.c.o[0m
+[55.386s] [ 94%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_mode_request_s.c.o[0m
+[55.517s] [ 95%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_fleet_state_s.c.o[0m
+[55.640s] [ 95%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_robot_state_s.c.o[0m
+[55.774s] [ 96%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_fleet_msgs/msg/_robot_mode_s.c.o[0m
+[55.945s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rmf_fleet_msgs/librmf_fleet_msgs__rosidl_generator_py.so[0m
+[56.002s] [ 96%] Built target rmf_fleet_msgs__rosidl_generator_py
+[56.012s] [ 97%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_fleet_msgs/_rmf_fleet_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[56.311s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[56.352s] [ 97%] Built target rmf_fleet_msgs__rosidl_typesupport_fastrtps_c__pyext
+[56.359s] [ 98%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_fleet_msgs/_rmf_fleet_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[56.609s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[56.650s] [ 98%] Built target rmf_fleet_msgs__rosidl_typesupport_c__pyext
+[56.657s] [ 99%] [32mBuilding C object CMakeFiles/rmf_fleet_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_fleet_msgs/_rmf_fleet_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[56.902s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[56.943s] [100%] Built target rmf_fleet_msgs__rosidl_typesupport_introspection_c__pyext
+[56.955s] Invoked command in '/home/wang/rmf_ws/build/rmf_fleet_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_fleet_msgs -- -j16 -l16
+[57.205s] Invoking command in '/home/wang/rmf_ws/build/rmf_fleet_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_fleet_msgs
+[76.109s] -- Install configuration: "Release"
+[76.110s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_fleet_msgs
+[76.110s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs
+[76.110s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv
+[76.110s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail
+[76.111s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__struct.h
+[76.111s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__functions.c
+[76.111s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__type_support.h
+[76.112s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__functions.h
+[76.112s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/lift_clearance.h
+[76.112s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg
+[76.112s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/robot_mode.h
+[76.112s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/robot_state.h
+[76.112s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/fleet_state.h
+[76.113s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail
+[76.113s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__type_support.h
+[76.113s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__type_support.h
+[76.113s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__struct.h
+[76.113s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__type_support.h
+[76.114s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__functions.h
+[76.114s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__struct.h
+[76.114s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__functions.c
+[76.114s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__type_support.h
+[76.114s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__struct.h
+[76.114s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__functions.c
+[76.115s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__functions.h
+[76.115s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__struct.h
+[76.115s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__struct.h
+[76.115s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__struct.h
+[76.115s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__functions.c
+[76.115s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__functions.h
+[76.116s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__type_support.h
+[76.116s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__struct.h
+[76.116s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__struct.h
+[76.116s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__functions.h
+[76.116s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__type_support.h
+[76.117s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__type_support.h
+[76.117s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__struct.h
+[76.120s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__type_support.h
+[76.121s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__functions.h
+[76.121s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__struct.h
+[76.122s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__type_support.h
+[76.122s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__type_support.h
+[76.122s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__functions.c
+[76.122s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__type_support.h
+[76.122s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__struct.h
+[76.122s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__functions.c
+[76.123s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__functions.c
+[76.123s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__functions.h
+[76.123s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__type_support.h
+[76.126s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__struct.h
+[76.127s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__functions.c
+[76.127s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__functions.h
+[76.127s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__struct.h
+[76.128s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__functions.h
+[76.128s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__functions.c
+[76.128s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__functions.h
+[76.128s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__functions.h
+[76.128s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__functions.c
+[76.128s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__functions.h
+[76.128s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__functions.h
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__functions.h
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__type_support.h
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__type_support.h
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__functions.h
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__functions.c
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__functions.h
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__functions.c
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__struct.h
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__functions.c
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__functions.c
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__functions.c
+[76.129s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__functions.c
+[76.130s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__type_support.h
+[76.130s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__functions.c
+[76.130s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__functions.h
+[76.131s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__functions.h
+[76.133s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__struct.h
+[76.134s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__type_support.h
+[76.134s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__struct.h
+[76.135s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__struct.h
+[76.135s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__struct.h
+[76.135s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__functions.h
+[76.135s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__type_support.h
+[76.135s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__functions.c
+[76.135s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__functions.c
+[76.135s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__type_support.h
+[76.136s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/mode_parameter.h
+[76.136s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/speed_limit_request.h
+[76.136s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/rosidl_generator_c__visibility_control.h
+[76.137s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/destination_request.h
+[76.137s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/path_request.h
+[76.137s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/dock_parameter.h
+[76.137s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/pause_request.h
+[76.137s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/dock.h
+[76.137s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/lane_request.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/lane_states.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/speed_limited_lane.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/location.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/dock_summary.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/mode_request.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/interrupt_request.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/closed_lanes.h
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/library_path.sh
+[76.138s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/library_path.dsv
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_generator_c.so
+[76.139s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_generator_c.so" to ""
+[76.139s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs
+[76.139s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv
+[76.139s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg
+[76.139s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__rosidl_typesupport_fastrtps_c.h
+[76.139s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__rosidl_typesupport_fastrtps_c.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[76.140s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_fastrtps_c.so
+[76.141s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[76.141s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs
+[76.141s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv
+[76.141s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail
+[76.141s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__builder.hpp
+[76.141s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__traits.hpp
+[76.141s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__struct.hpp
+[76.141s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/lift_clearance.hpp
+[76.141s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg
+[76.141s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/speed_limited_lane.hpp
+[76.141s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail
+[76.141s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__struct.hpp
+[76.141s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__builder.hpp
+[76.142s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__builder.hpp
+[76.142s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__builder.hpp
+[76.142s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__traits.hpp
+[76.142s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__traits.hpp
+[76.142s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__builder.hpp
+[76.142s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__builder.hpp
+[76.143s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__traits.hpp
+[76.143s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__struct.hpp
+[76.143s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__builder.hpp
+[76.143s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__struct.hpp
+[76.143s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__builder.hpp
+[76.144s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__struct.hpp
+[76.144s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__struct.hpp
+[76.144s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__struct.hpp
+[76.145s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__traits.hpp
+[76.145s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__struct.hpp
+[76.145s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__struct.hpp
+[76.145s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__builder.hpp
+[76.146s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__traits.hpp
+[76.146s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__traits.hpp
+[76.147s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__builder.hpp
+[76.148s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__traits.hpp
+[76.148s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__builder.hpp
+[76.148s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__struct.hpp
+[76.148s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__builder.hpp
+[76.148s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__traits.hpp
+[76.148s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__struct.hpp
+[76.148s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__traits.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__struct.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__builder.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__traits.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__traits.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__builder.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__struct.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__builder.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__struct.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__builder.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__traits.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__builder.hpp
+[76.149s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__struct.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__struct.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__traits.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__traits.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__struct.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__traits.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__builder.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__struct.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__traits.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__traits.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__struct.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__builder.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__traits.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/fleet_state.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/speed_limit_request.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/destination_request.hpp
+[76.150s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/pause_request.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/robot_mode.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/path_request.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/location.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/lane_request.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/interrupt_request.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/mode_parameter.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/closed_lanes.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/dock.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/dock_summary.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/mode_request.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/robot_state.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/lane_states.hpp
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/dock_parameter.hpp
+[76.151s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs
+[76.151s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv
+[76.151s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail
+[76.151s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/dds_fastrtps
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg
+[76.152s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dds_fastrtps
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__rosidl_typesupport_fastrtps_cpp.hpp
+[76.152s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__rosidl_typesupport_fastrtps_cpp.hpp
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__rosidl_typesupport_fastrtps_cpp.hpp
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__rosidl_typesupport_fastrtps_cpp.hpp
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__rosidl_typesupport_fastrtps_cpp.hpp
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__rosidl_typesupport_fastrtps_cpp.hpp
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.so
+[76.153s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[76.153s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs
+[76.153s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv
+[76.153s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail
+[76.153s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__type_support.c
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__rosidl_typesupport_introspection_c.h
+[76.154s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg
+[76.154s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__type_support.c
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__type_support.c
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__type_support.c
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__type_support.c
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__type_support.c
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__type_support.c
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__rosidl_typesupport_introspection_c.h
+[76.154s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__rosidl_typesupport_introspection_c.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__type_support.c
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[76.155s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_introspection_c.so
+[76.155s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_introspection_c.so" to ""
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_c.so
+[76.156s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_c.so" to ""
+[76.156s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs
+[76.156s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv
+[76.156s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__rosidl_typesupport_introspection_cpp.hpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/srv/detail/lift_clearance__type_support.cpp
+[76.156s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg
+[76.156s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__type_support.cpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__type_support.cpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__type_support.cpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__type_support.cpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__type_support.cpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__rosidl_typesupport_introspection_cpp.hpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__rosidl_typesupport_introspection_cpp.hpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__rosidl_typesupport_introspection_cpp.hpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__type_support.cpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp
+[76.156s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/path_request__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_parameter__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_states__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/pause_request__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_request__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock_summary__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/closed_lanes__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/fleet_state__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/lane_request__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limit_request__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/speed_limited_lane__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/interrupt_request__rosidl_typesupport_introspection_cpp.hpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__type_support.cpp
+[76.157s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/mode_parameter__rosidl_typesupport_introspection_cpp.hpp
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/dock__rosidl_typesupport_introspection_cpp.hpp
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/destination_request__type_support.cpp
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/include/rmf_fleet_msgs/rmf_fleet_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_introspection_cpp.so
+[76.158s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_cpp.so
+[76.158s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_typesupport_cpp.so" to ""
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/pythonpath.sh
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/pythonpath.dsv
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs-3.0.3-py3.10.egg-info
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs-3.0.3-py3.10.egg-info/PKG-INFO
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs-3.0.3-py3.10.egg-info/dependency_links.txt
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs-3.0.3-py3.10.egg-info/SOURCES.txt
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs-3.0.3-py3.10.egg-info/top_level.txt
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/__init__.py
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/_rmf_fleet_msgs_s.ep.rosidl_typesupport_c.c
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/srv
+[76.158s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/srv/__init__.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/srv/_lift_clearance_s.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/srv/_lift_clearance.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/librmf_fleet_msgs__rosidl_generator_py.so
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/_rmf_fleet_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/_rmf_fleet_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/__init__.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_robot_state_s.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_speed_limited_lane_s.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_closed_lanes.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_path_request.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_lane_states.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_interrupt_request.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_destination_request_s.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_closed_lanes_s.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_location.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_mode_parameter_s.c
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_speed_limit_request.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_lane_request.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock.py
+[76.159s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_location_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock_parameter.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_lane_states_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock_summary.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_mode_request.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_robot_mode_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_interrupt_request_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_pause_request_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock_summary_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_pause_request.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_speed_limited_lane.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_robot_mode.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_lane_request_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_speed_limit_request_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_mode_request_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_fleet_state.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_fleet_state_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock_s.c
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_mode_parameter.py
+[76.160s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock_parameter_s.c
+[76.161s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_path_request_s.c
+[76.161s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_robot_state.py
+[76.161s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_destination_request.py
+[76.161s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[76.206s] Listing '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs'...
+[76.206s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/__init__.py'...
+[76.206s] Listing '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg'...
+[76.207s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/__init__.py'...
+[76.207s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_closed_lanes.py'...
+[76.207s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_destination_request.py'...
+[76.207s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock.py'...
+[76.207s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock_parameter.py'...
+[76.207s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_dock_summary.py'...
+[76.208s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_fleet_state.py'...
+[76.208s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_interrupt_request.py'...
+[76.208s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_lane_request.py'...
+[76.208s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_lane_states.py'...
+[76.208s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_location.py'...
+[76.208s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_mode_parameter.py'...
+[76.209s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_mode_request.py'...
+[76.209s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_path_request.py'...
+[76.209s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_pause_request.py'...
+[76.209s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_robot_mode.py'...
+[76.209s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_robot_state.py'...
+[76.209s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_speed_limit_request.py'...
+[76.209s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/msg/_speed_limited_lane.py'...
+[76.210s] Listing '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/srv'...
+[76.210s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/srv/__init__.py'...
+[76.210s] Compiling '/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/srv/_lift_clearance.py'...
+[76.215s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[76.215s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[76.215s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[76.216s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[76.216s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[76.217s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages/rmf_fleet_msgs/rmf_fleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[76.217s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_generator_py.so
+[76.217s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_msgs/lib/librmf_fleet_msgs__rosidl_generator_py.so" to ""
+[76.218s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/Location.idl
+[76.218s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/RobotMode.idl
+[76.218s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/RobotState.idl
+[76.218s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/FleetState.idl
+[76.218s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/ModeRequest.idl
+[76.219s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/DestinationRequest.idl
+[76.219s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/PathRequest.idl
+[76.219s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/PauseRequest.idl
+[76.219s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/ModeParameter.idl
+[76.219s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/DockParameter.idl
+[76.220s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/Dock.idl
+[76.220s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/DockSummary.idl
+[76.220s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/LaneRequest.idl
+[76.220s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/ClosedLanes.idl
+[76.220s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/InterruptRequest.idl
+[76.220s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/SpeedLimitedLane.idl
+[76.221s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/SpeedLimitRequest.idl
+[76.221s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/LaneStates.idl
+[76.221s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/srv/LiftClearance.idl
+[76.221s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/Location.msg
+[76.221s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/RobotMode.msg
+[76.222s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/RobotState.msg
+[76.222s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/FleetState.msg
+[76.222s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/ModeRequest.msg
+[76.222s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/DestinationRequest.msg
+[76.222s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/PathRequest.msg
+[76.223s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/PauseRequest.msg
+[76.223s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/ModeParameter.msg
+[76.223s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/DockParameter.msg
+[76.223s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/Dock.msg
+[76.223s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/DockSummary.msg
+[76.224s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/LaneRequest.msg
+[76.224s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/ClosedLanes.msg
+[76.224s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/InterruptRequest.msg
+[76.224s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/SpeedLimitedLane.msg
+[76.224s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/SpeedLimitRequest.msg
+[76.225s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/msg/LaneStates.msg
+[76.225s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/srv/LiftClearance.srv
+[76.225s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/srv/LiftClearance_Request.msg
+[76.225s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/srv/LiftClearance_Response.msg
+[76.225s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_fleet_msgs
+[76.226s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_fleet_msgs
+[76.226s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/ament_prefix_path.sh
+[76.226s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/ament_prefix_path.dsv
+[76.226s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/path.sh
+[76.226s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/environment/path.dsv
+[76.227s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/local_setup.bash
+[76.227s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/local_setup.sh
+[76.227s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/local_setup.zsh
+[76.227s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/local_setup.dsv
+[76.228s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/package.dsv
+[76.228s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/ament_index/resource_index/packages/rmf_fleet_msgs
+[76.228s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_generator_cExport.cmake
+[76.228s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_generator_cExport-release.cmake
+[76.228s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[76.228s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[76.229s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_generator_cppExport.cmake
+[76.229s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[76.229s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[76.229s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_introspection_cExport.cmake
+[76.229s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[76.230s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_cExport.cmake
+[76.230s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_cExport-release.cmake
+[76.230s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[76.230s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[76.230s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_cppExport.cmake
+[76.231s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgs__rosidl_typesupport_cppExport-release.cmake
+[76.231s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_generator_pyExport.cmake
+[76.231s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/export_rmf_fleet_msgs__rosidl_generator_pyExport-release.cmake
+[76.231s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rosidl_cmake-extras.cmake
+[76.231s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[76.232s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.232s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[76.232s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[76.232s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[76.232s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[76.233s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgsConfig.cmake
+[76.233s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake/rmf_fleet_msgsConfig-version.cmake
+[76.233s] -- Installing: /home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/package.xml
+[76.243s] Invoked command in '/home/wang/rmf_ws/build/rmf_fleet_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_fleet_msgs

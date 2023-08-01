@@ -1,0 +1,66 @@
+In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/SimulatorDB.h:31:
+[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/MengeException.h:33:9: [0m[0;1;35mwarning: [0m[1munknown pragma ignored [-Wunknown-pragmas][0m
+#pragma warning(disable : 4275)
+[0;1;32m        ^
+[0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/MengeException.h:71:9: [0m[0;1;35mwarning: [0m[1munknown pragma ignored [-Wunknown-pragmas][0m
+#pragma warning(default : 4275)
+[0;1;32m        ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:29:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/mengeCommon.h:36:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/RandGenerator.h:39:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/vector.h:32:
+[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10: [0m[0;1;35mwarning: [0m[1mdefinition of implicit copy assignment operator for 'Vector2d<float>' is deprecated because it has a user-provided copy constructor [-Wdeprecated-copy-with-user-provided-copy][0m
+  inline Vector2d(const Vector2d& v) : _x(v._x), _y(v._y) {}
+[0;1;32m         ^
+[0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:81: [0m[0;1;30mnote: [0min implicit copy assignment operator for 'Menge::Math::Vector2d<float>' first required here[0m
+  inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = dir; }
+[0;1;32m                                                                                ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:33:
+[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:122:55: [0m[0;1;35mwarning: [0m[1munused parameter 'agent' [-Wunused-parameter][0m
+  virtual void registerAgent(const Agents::BaseAgent* agent) {}
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:132:57: [0m[0;1;35mwarning: [0m[1munused parameter 'agent' [-Wunused-parameter][0m
+  virtual void unregisterAgent(const Agents::BaseAgent* agent) {}
+[0;1;32m                                                        ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27:
+[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:42: [0m[0;1;35mwarning: [0m[1munused parameter 'stride' [-Wunused-parameter][0m
+  virtual void setStrideParameters(float stride, float buffer) {}
+[0;1;32m                                         ^
+[0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:56: [0m[0;1;35mwarning: [0m[1munused parameter 'buffer' [-Wunused-parameter][0m
+  virtual void setStrideParameters(float stride, float buffer) {}
+[0;1;32m                                                       ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:28:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCASimulator.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:30:
+[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQuery.h:202:44: [0m[0;1;35mwarning: [0m[1munused parameter 'state' [-Wunused-parameter][0m
+  virtual void setNeighborVisibleTest(bool state) {}
+[0;1;32m                                           ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:28:
+In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCASimulator.h:27:
+[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:136:47: [0m[0;1;35mwarning: [0m[1munused parameter 'tagName' [-Wunused-parameter][0m
+  virtual bool isExpTarget(const std::string& tagName) { return false; }
+[0;1;32m                                              ^
+[0m9 warnings generated.

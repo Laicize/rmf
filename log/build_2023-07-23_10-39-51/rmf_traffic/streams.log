@@ -1,0 +1,315 @@
+[0.037s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_traffic
+[0.161s] -- The C compiler identification is Clang 14.0.0
+[0.357s] -- The CXX compiler identification is Clang 14.0.0
+[0.388s] -- Detecting C compiler ABI info
+[0.558s] -- Detecting C compiler ABI info - done
+[0.592s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.593s] -- Detecting C compile features
+[0.594s] -- Detecting C compile features - done
+[0.601s] -- Detecting CXX compiler ABI info
+[0.752s] -- Detecting CXX compiler ABI info - done
+[0.766s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.766s] -- Detecting CXX compile features
+[0.767s] -- Detecting CXX compile features - done
+[0.771s] -- Using in-source FCL
+[0.782s] -- Set RPATH explicitly to '/home/wang/rmf_ws/install/rmf_traffic/lib'
+[0.783s] -- Performing Test _compiler_supports_sse
+[0.926s] -- Performing Test _compiler_supports_sse - Success
+[0.956s] -- FCL uses OctoMap
+[0.960s] -- Performing Test COMPILER_SUPPORTS_VISIBILITY
+[1.085s] -- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success
+[1.087s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.218s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.219s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.358s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.358s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.491s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.507s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.628s] -- Found Threads: TRUE  
+[1.633s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.090s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.181s] -- Configuring done (2.1s)
+[2.262s] -- Generating done (0.1s)
+[2.266s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_traffic
+[2.284s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_traffic
+[2.290s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_traffic -- -j16 -l16
+[3.255s] [  0%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_SSaP.cpp.o[0m
+[5.460s] [  0%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/common/exception.cpp.o[0m
+[5.825s] [  1%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/common/time.cpp.o[0m
+[5.997s] [  1%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/bvh/BVH_utility.cpp.o[0m
+[7.701s] [  2%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/bvh/BV_node_base.cpp.o[0m
+[9.329s] [  2%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/bvh/detail/BVH_front.cpp.o[0m
+[9.438s] [  3%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/collision_geometry.cpp.o[0m
+[11.863s] [  3%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/octree/octree.cpp.o[0m
+[15.383s] [  4%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/box.cpp.o[0m
+[17.633s] [  4%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/capsule.cpp.o[0m
+[19.586s] [  5%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/cone.cpp.o[0m
+[20.626s] [  5%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/convex.cpp.o[0m
+[21.670s] [  6%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/common/detail/profiler.cpp.o[0m
+[22.714s] [  6%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/spatial_hash.cpp.o[0m
+[23.071s] [  7%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/simple_interval.cpp.o[0m
+[23.166s] [  8%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/cylinder.cpp.o[0m
+[24.198s] [  8%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/ellipsoid.cpp.o[0m
+[28.165s] [  8%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/sphere.cpp.o[0m
+[30.100s] [  9%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/triangle_p.cpp.o[0m
+[31.664s] [  9%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/utility.cpp.o[0m
+[35.156s] [ 10%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/AABB.cpp.o[0m
+[36.861s] [ 10%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/OBB.cpp.o[0m
+[39.685s] [ 11%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/OBBRSS.cpp.o[0m
+[40.690s] [ 11%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/RSS.cpp.o[0m
+[40.706s] [ 12%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/shape_base.cpp.o[0m
+[41.650s] [ 13%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/halfspace.cpp.o[0m
+[41.661s] [ 13%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/geometry/shape/plane.cpp.o[0m
+[42.729s] [ 14%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/kDOP.cpp.o[0m
+[42.745s] [ 14%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/morton.cpp.o[0m
+[43.542s] [ 15%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/interval_tree_node.cpp.o[0m
+[43.545s] [ 15%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/detail/interval_tree.cpp.o[0m
+[44.628s] [ 15%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/kIOS.cpp.o[0m
+[44.637s] [ 16%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_spatialhash.cpp.o[0m
+[49.041s] [ 17%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/motion_base.cpp.o[0m
+[51.182s] [ 17%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/screw_motion.cpp.o[0m
+[55.191s] [ 18%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/spline_motion.cpp.o[0m
+[59.761s] [ 18%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/interval.cpp.o[0m
+[61.555s] [ 19%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/interval_matrix.cpp.o[0m
+[63.459s] [ 19%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/interval_vector.cpp.o[0m
+[64.900s] [ 20%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_matrix.cpp.o[0m
+[66.636s] [ 20%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_model.cpp.o[0m
+[68.257s] [ 21%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/taylor_vector.cpp.o[0m
+[70.262s] [ 21%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/taylor_model/time_interval.cpp.o[0m
+[70.330s] [ 21%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/interp_motion.cpp.o[0m
+[72.749s] [ 21%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/triangle_motion_bound_visitor.cpp.o[0m
+[74.754s] [ 22%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/motion/translation_motion.cpp.o[0m
+[75.084s] [ 23%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/geometry.cpp.o[0m
+[75.728s] [ 24%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/rng.cpp.o[0m
+[76.751s] [ 24%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_base.cpp.o[0m
+[77.790s] [ 24%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/detail/seed.cpp.o[0m
+[78.242s] [ 25%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/detail/project.cpp.o[0m
+[78.542s] [ 26%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se2.cpp.o[0m
+[78.954s] [ 26%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se2_disk.cpp.o[0m
+[81.622s] [ 27%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/triangle.cpp.o[0m
+[81.670s] [ 27%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/variance3.cpp.o[0m
+[83.892s] [ 28%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision.cpp.o[0m
+[84.898s] [ 28%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision_object.cpp.o[0m
+[85.906s] [ 28%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_quat_ball.cpp.o[0m
+[86.912s] [ 29%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_quat.cpp.o[0m
+[87.918s] [ 29%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_euler_ball.cpp.o[0m
+[88.097s] [ 30%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/sampler/sampler_se3_euler.cpp.o[0m
+[88.151s] [ 31%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision_request.cpp.o[0m
+[89.156s] [ 31%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/collision_result.cpp.o[0m
+[89.286s] [ 31%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/detail/polysolver.cpp.o[0m
+[90.314s] [ 32%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/contact.cpp.o[0m
+[90.421s] [ 32%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/constants.cpp.o[0m
+[90.878s] [ 32%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/contact_point.cpp.o[0m
+[90.890s] [ 33%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/math/bv/utility.cpp.o[0m
+[91.653s] [ 33%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision_object.cpp.o[0m
+[92.023s] [ 34%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision_request.cpp.o[0m
+[92.070s] [ 34%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision_result.cpp.o[0m
+[92.766s] [ 35%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/cost_source.cpp.o[0m
+[93.170s] [ 35%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/epa.cpp.o[0m
+[93.848s] [ 36%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/gjk.cpp.o[0m
+[93.890s] [ 36%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/gjk_libccd.cpp.o[0m
+[94.428s] [ 37%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/continuous_collision.cpp.o[0m
+[94.515s] [ 37%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/convexity_based_algorithm/minkowski_diff.cpp.o[0m
+[100.209s] [ 38%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/halfspace.cpp.o[0m
+[100.209s] [ 38%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/intersect.cpp.o[0m
+[101.214s] [ 39%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/capsule_capsule.cpp.o[0m
+[102.241s] [ 39%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/box_box.cpp.o[0m
+[103.303s] [ 40%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/gjk_solver_libccd.cpp.o[0m
+[104.379s] [ 40%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/gjk_solver_indep.cpp.o[0m
+[115.313s] [ 41%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_sphere.cpp.o[0m
+[115.313s] [ 41%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_triangle.cpp.o[0m
+[116.322s] [ 42%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_capsule.cpp.o[0m
+[116.322s] [ 42%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_cylinder.cpp.o[0m
+[117.326s] [ 43%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/sphere_box.cpp.o[0m
+[117.328s] [ 43%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/plane.cpp.o[0m
+[118.213s] [ 44%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/failed_at_this_configuration.cpp.o[0m
+[118.222s] [ 44%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_interval_tree.cpp.o[0m
+[118.922s] [ 44%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/primitive_shape_algorithm/triangle_distance.cpp.o[0m
+[118.924s] [ 45%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_dynamic_AABB_tree_array.cpp.o[0m
+[119.418s] [ 46%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/collision_traversal_node_base.cpp.o[0m
+[120.875s] [ 46%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/mesh_collision_traversal_node.cpp.o[0m
+[123.716s] [ 46%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/mesh_distance_traversal_node.cpp.o[0m
+[124.127s] [ 47%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/mesh_conservative_advancement_traversal_node.cpp.o[0m
+[124.561s] [ 48%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/traversal_node_base.cpp.o[0m
+[125.566s] [ 48%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/traversal_recurse.cpp.o[0m
+[126.197s] [ 48%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/distance_traversal_node_base.cpp.o[0m
+[126.704s] [ 49%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/distance.cpp.o[0m
+[127.710s] [ 49%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/distance_request.cpp.o[0m
+[128.467s] [ 50%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/distance/conservative_advancement_stack_data.cpp.o[0m
+[128.734s] [ 51%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/distance_result.cpp.o[0m
+[129.217s] [ 51%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision_node.cpp.o[0m
+[129.861s] [ 52%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/narrowphase/detail/traversal/collision/mesh_continuous_collision_traversal_node.cpp.o[0m
+[131.069s] [ 52%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_dynamic_AABB_tree.cpp.o[0m
+[132.408s] [ 53%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_continuous_collision_manager.cpp.o[0m
+[132.853s] [ 53%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_collision_manager.cpp.o[0m
+[134.659s] [ 54%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_bruteforce.cpp.o[0m
+[134.985s] [ 54%] [32mBuilding CXX object thirdparty/fcl/src/CMakeFiles/fcl.dir/broadphase/broadphase_SaP.cpp.o[0m
+[175.825s] [ 54%] [32m[1mLinking CXX static library ../../../lib/libfcl.a[0m
+[176.118s] [ 54%] Built target fcl
+[176.127s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Route.cpp.o[0m
+[176.127s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Region.cpp.o[0m
+[176.127s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/DetectConflict.cpp.o[0m
+[176.127s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Spline.cpp.o[0m
+[176.127s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Motion.cpp.o[0m
+[176.127s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Profile.cpp.o[0m
+[176.128s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/StaticMotion.cpp.o[0m
+[176.128s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Trajectory.cpp.o[0m
+[176.128s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/CentralizedNegotiation.cpp.o[0m
+[176.128s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/Time.cpp.o[0m
+[176.129s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Graph.cpp.o[0m
+[176.129s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Interpolate.cpp.o[0m
+[176.227s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/RouteValidator.cpp.o[0m
+[176.671s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/SimpleNegotiator.cpp.o[0m
+[177.676s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Rollout.cpp.o[0m
+[177.676s] [ 62%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/VehicleTraits.cpp.o[0m
+[177.681s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/Planner.cpp.o[0m
+[177.699s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/LaneClosure.cpp.o[0m
+[178.466s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/internal_planning.cpp.o[0m
+[178.768s] [ 64%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDriveHeuristic.cpp.o[0m
+[179.134s] [ 64%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDriveMap.cpp.o[0m
+[179.364s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/DifferentialDrivePlanner.cpp.o[0m
+[179.508s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/EuclideanHeuristic.cpp.o[0m
+[179.830s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/MinimalTravelHeuristic.cpp.o[0m
+[179.866s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/ShortestPathHeuristic.cpp.o[0m
+[180.070s] [ 67%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/agv/planning/Supergraph.cpp.o[0m
+[180.666s] [ 67%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Constraint.cpp.o[0m
+[180.998s] [ 68%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Moderator.cpp.o[0m
+[181.506s] [ 68%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Participant.cpp.o[0m
+[182.254s] [ 69%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/Rectifier.cpp.o[0m
+[182.810s] [ 69%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/conflicts.cpp.o[0m
+[183.048s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/Supergraph.cpp:470:10: [0m[0;1;35mwarning: [0m[1mvariable 'distance_cost' set but not used [-Wunused-but-set-variable][0m
+[183.048s]   double distance_cost = 0.0;
+[183.048s] [0;1;32m         ^
+[183.059s] [ 70%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/blockade/geometry.cpp.o[0m
+[183.128s] [ 70%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/debug/Plumber.cpp.o[0m
+[183.414s] [ 71%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Box.cpp.o[0m
+[183.689s] [ 71%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Circle.cpp.o[0m
+[183.834s] [ 72%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/ConvexShape.cpp.o[0m
+[184.326s] [ 72%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Shape.cpp.o[0m
+[184.366s] [ 73%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/SimplePolygon.cpp.o[0m
+[184.779s] [ 73%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/geometry/Space.cpp.o[0m
+[185.410s] [ 74%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Change.cpp.o[0m
+[185.668s] [ 74%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Database.cpp.o[0m
+[185.750s] [ 75%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/DependencyTracker.cpp.o[0m
+[185.806s] [ 75%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Inconsistencies.cpp.o[0m
+[186.378s] [ 76%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/InconsistencyTracker.cpp.o[0m
+[186.478s] [ 76%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Mirror.cpp.o[0m
+[186.919s] [ 77%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Negotiation.cpp.o[0m
+[186.938s] [ 77%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Negotiator.cpp.o[0m
+[187.009s] [ 78%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Participant.cpp.o[0m
+[187.542s] [ 78%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/ParticipantDescription.cpp.o[0m
+[188.281s] [ 79%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Patch.cpp.o[0m
+[188.506s] [ 80%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Query.cpp.o[0m
+[188.525s] [ 80%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Progress.cpp.o[0m
+[188.778s] [ 80%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Rectifier.cpp.o[0m
+[189.019s] [0m1 warning generated.
+[189.058s] [ 80%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/StubbornNegotiator.cpp.o[0m
+[189.490s] [ 81%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Viewer.cpp.o[0m
+[189.512s] [ 81%] [32mBuilding CXX object CMakeFiles/rmf_traffic.dir/src/rmf_traffic/schedule/Writer.cpp.o[0m
+[197.567s] [ 82%] [32m[1mLinking CXX shared library librmf_traffic.so[0m
+[197.650s] [ 82%] Built target rmf_traffic
+[197.659s] [ 83%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/regression/regress_Negotiation_segfault.cpp.o[0m
+[197.659s] [ 83%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_DifferentialDriveHeuristic.cpp.o[0m
+[197.659s] [ 83%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_ShortestPathHeuristic.cpp.o[0m
+[197.659s] [ 83%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/main.cpp.o[0m
+[197.660s] [ 84%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_EuclideanHeuristic.cpp.o[0m
+[197.660s] [ 85%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/planning/test_Supergraph.cpp.o[0m
+[197.660s] [ 86%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Graph.cpp.o[0m
+[197.661s] [ 86%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Interpolate.cpp.o[0m
+[197.661s] [ 86%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_LaneClosure.cpp.o[0m
+[197.661s] [ 87%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Negotiator.cpp.o[0m
+[197.661s] [ 87%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Negotiation_edgecases.cpp.o[0m
+[197.663s] [ 88%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Planner.cpp.o[0m
+[198.668s] [ 89%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_compute_plan_starts.cpp.o[0m
+[198.668s] [ 89%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_Constraint.cpp.o[0m
+[198.669s] [ 90%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_VehicleTraits.cpp.o[0m
+[198.670s] [ 90%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/agv/test_Rollout.cpp.o[0m
+[199.551s] [ 90%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_Moderator.cpp.o[0m
+[201.158s] [ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_conflicts.cpp.o[0m
+[201.626s] [ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/test_blockade_geometry.cpp.o[0m
+[201.890s] [ 92%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/blockade/utils_blockade_scenarios.cpp.o[0m
+[202.102s] [ 92%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Database.cpp.o[0m
+[202.238s] [ 93%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Mirror.cpp.o[0m
+[202.981s] [ 93%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Modular.cpp.o[0m
+[204.843s] [ 94%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Negotiation.cpp.o[0m
+[204.890s] [ 94%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Participant.cpp.o[0m
+[205.122s] [ 95%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Query.cpp.o[0m
+[205.790s] [ 95%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Region.cpp.o[0m
+[205.850s] [ 96%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/schedule/test_Spacetime.cpp.o[0m
+[205.896s] [ 96%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/test_Conflict.cpp.o[0m
+[206.177s] [ 97%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/test_Profile.cpp.o[0m
+[206.722s] [ 97%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/test_Shape.cpp.o[0m
+[207.483s] [ 98%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/test_Space.cpp.o[0m
+[208.624s] [ 98%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/test_Spline.cpp.o[0m
+[209.543s] [ 99%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/test_Trajectory.cpp.o[0m
+[209.618s] [ 99%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic.dir/test/unit/test_make_shapes.cpp.o[0m
+[218.678s] [100%] [32m[1mLinking CXX executable test_rmf_traffic[0m
+[218.735s] [100%] Built target test_rmf_traffic
+[218.743s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_traffic -- -j16 -l16
+[218.927s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_traffic
+[218.944s] -- Install configuration: "Release"
+[218.944s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/lib/librmf_traffic.so
+[218.951s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic/lib/librmf_traffic.so" to ""
+[218.951s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic
+[218.951s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/detail
+[218.951s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/detail/bidirectional_iterator.hpp
+[218.951s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/detail/forward_iterator.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/geometry
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/geometry/ConvexShape.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/geometry/Space.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/geometry/Shape.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/geometry/Circle.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Writer.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Query.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Database.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/ParticipantDescription.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/StubbornNegotiator.hpp
+[218.952s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Negotiation.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Viewer.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Negotiator.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Version.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Patch.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Rectifier.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Snapshot.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Inconsistencies.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Mirror.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Itinerary.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Change.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/Trajectory.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/debug
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/debug/Plumber.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/Interpolate.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/RouteValidator.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/CentralizedNegotiation.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/LaneClosure.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/VehicleTraits.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/SimpleNegotiator.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/Planner.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/debug
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/debug/debug_Negotiator.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/debug/debug_Planner.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/Rollout.hpp
+[218.953s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/Graph.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/Region.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/blockade
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/blockade/Writer.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/blockade/Participant.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/blockade/Moderator.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/blockade/Rectifier.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/blockade/Status.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/Motion.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/Time.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/Route.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/Profile.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/DetectConflict.hpp
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/lib/rmf_traffic/cmake/rmf_traffic-config-version.cmake
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/lib/rmf_traffic/cmake/rmf_traffic-config.cmake
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/lib/rmf_traffic/cmake/rmf_traffic-targets.cmake
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/lib/rmf_traffic/cmake/rmf_traffic-targets-release.cmake
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/share/ament_index/resource_index/packages/rmf_traffic
+[218.954s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic/share/rmf_traffic/hook/ament_prefix_path.dsv
+[218.959s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_traffic

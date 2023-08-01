@@ -1,0 +1,148 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter Development Development.Module Development.Embed 
+-- Found rmf_fleet_adapter: 2.1.6 (/home/wang/rmf_ws/install/rmf_fleet_adapter/share/rmf_fleet_adapter/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'proj'
+--   Found proj, version 8.2.1
+-- Found pybind11_vendor: 2.4.2 (/opt/ros/humble/share/pybind11_vendor/cmake)
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Performing Test HAS_FLTO_THIN
+-- Performing Test HAS_FLTO_THIN - Success
+-- Found pybind11: /usr/include (found version "2.9.1")
+-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+-- Found pybind11_json_vendor: 0.2.3 (/home/wang/rmf_ws/install/pybind11_json_vendor/share/pybind11_json_vendor/cmake)
+-- Found ament_cmake_pytest: 1.3.5 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done (7.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_fleet_adapter_python
+[ 16%] Built target ament_cmake_python_copy_rmf_fleet_adapter_python
+[ 16%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/adapter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/types/types.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/tests.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/graph/graph.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/graph/lane.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/geometry/shapes.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/planner/planner.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/nodes/nodes.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/vehicletraits/vehicletraits.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/schedule/schedule.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/rmf_adapter.dir/src/battery/battery.cpp.o[0m
+running egg_info
+creating rmf_fleet_adapter_python.egg-info
+writing rmf_fleet_adapter_python.egg-info/PKG-INFO
+writing dependency_links to rmf_fleet_adapter_python.egg-info/dependency_links.txt
+writing top-level names to rmf_fleet_adapter_python.egg-info/top_level.txt
+writing manifest file 'rmf_fleet_adapter_python.egg-info/SOURCES.txt'
+reading manifest file 'rmf_fleet_adapter_python.egg-info/SOURCES.txt'
+writing manifest file 'rmf_fleet_adapter_python.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_rmf_fleet_adapter_python_egg
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python/src/schedule/schedule.cpp:38:7: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+      &schedule::Participant::delay, py::const_),
+[0;1;32m      ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:83:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python/src/schedule/schedule.cpp:40:30: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+      rmf_traffic::Duration>(&schedule::Participant::delay))
+[0;1;32m                             ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python/src/planner/planner.cpp:145:22: [0m[0;1;35mwarning: [0m[1m'itinerary_index' is deprecated: Use arrival_checkpoints().back().route_id instead [-Wdeprecated-declarations][0m
+    &Plan::Waypoint::itinerary_index)
+[0;1;32m                     ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/Planner.hpp:840:7: [0m[0;1;30mnote: [0m'itinerary_index' has been explicitly marked deprecated here[0m
+    [[deprecated("Use arrival_checkpoints().back().route_id instead")]]
+[0;1;32m      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python/src/planner/planner.cpp:147:22: [0m[0;1;35mwarning: [0m[1m'trajectory_index' is deprecated: Use arrival_checkpoints().back().checkpoint_id instead [-Wdeprecated-declarations][0m
+    &Plan::Waypoint::trajectory_index)
+[0;1;32m                     ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/agv/Planner.hpp:843:7: [0m[0;1;30mnote: [0m'trajectory_index' has been explicitly marked deprecated here[0m
+    [[deprecated("Use arrival_checkpoints().back().checkpoint_id instead")]]
+[0;1;32m      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python/src/adapter.cpp:390:30: [0m[0;1;35mwarning: [0m[1m'accept_delivery_requests' is deprecated: Use consider_delivery_requests() instead [-Wdeprecated-declarations][0m
+    &agv::FleetUpdateHandle::accept_delivery_requests,
+[0;1;32m                             ^
+[0m[1m/home/wang/rmf_ws/install/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/FleetUpdateHandle.hpp:333:5: [0m[0;1;30mnote: [0m'accept_delivery_requests' has been explicitly marked deprecated here[0m
+  [[deprecated("Use consider_delivery_requests() instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python/src/adapter.cpp:393:30: [0m[0;1;35mwarning: [0m[1m'accept_task_requests' is deprecated: Use the consider_..._requests functions instead [-Wdeprecated-declarations][0m
+    &agv::FleetUpdateHandle::accept_task_requests,
+[0;1;32m                             ^
+[0m[1m/home/wang/rmf_ws/install/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/FleetUpdateHandle.hpp:310:5: [0m[0;1;30mnote: [0m'accept_task_requests' has been explicitly marked deprecated here[0m
+  [[deprecated("Use the consider_..._requests functions instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter_python/src/adapter.cpp:404:30: [0m[0;1;35mwarning: [0m[1m'fleet_state_publish_period' is deprecated: Use fleet_state_topic_publish_period instead [-Wdeprecated-declarations][0m
+    &agv::FleetUpdateHandle::fleet_state_publish_period,
+[0;1;32m                             ^
+[0m[1m/home/wang/rmf_ws/install/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/FleetUpdateHandle.hpp:346:5: [0m[0;1;30mnote: [0m'fleet_state_publish_period' has been explicitly marked deprecated here[0m
+  [[deprecated("Use fleet_state_topic_publish_period instead")]]
+[0;1;32m    ^
+[0m2 warnings generated.
+2 warnings generated.
+3 warnings generated.
+[100%] [32m[1mLinking CXX shared library rmf_adapter.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target rmf_adapter
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_adapter.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_adapter.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/environment/pythonpath.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/environment/pythonpath.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python-2.1.6-py3.10.egg-info
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python-2.1.6-py3.10.egg-info/PKG-INFO
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python-2.1.6-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python-2.1.6-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python-2.1.6-py3.10.egg-info/top_level.txt
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python/__init__.py
+Listing '/home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python'...
+Compiling '/home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/python/site-packages/rmf_fleet_adapter_python/__init__.py'...
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/rmf_fleet_adapter_python/test_adapter.py
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/rmf_fleet_adapter_python/test_utils.py
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/rmf_fleet_adapter_python/test_loop.py
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/rmf_fleet_adapter_python/test_delivery.py
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/rmf_fleet_adapter_python/rmf_msg_observer.py
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/rmf_fleet_adapter_python/traffic_light.py
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/lib/rmf_fleet_adapter_python/schedule_blockade_nodes.py
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/ament_index/resource_index/package_run_dependencies/rmf_fleet_adapter_python
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/ament_index/resource_index/parent_prefix_path/rmf_fleet_adapter_python
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/environment/ament_prefix_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/environment/ament_prefix_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/environment/path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/environment/path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/local_setup.bash
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/local_setup.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/local_setup.zsh
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/local_setup.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/package.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/ament_index/resource_index/packages/rmf_fleet_adapter_python
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/cmake/rmf_fleet_adapter_pythonConfig.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/cmake/rmf_fleet_adapter_pythonConfig-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_fleet_adapter_python/share/rmf_fleet_adapter_python/package.xml

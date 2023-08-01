@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request__type_support.cpp.o"
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request__type_support.cpp.o.d"
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request_item__type_support.cpp.o"
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request_item__type_support.cpp.o.d"
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_result__type_support.cpp.o"
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_result__type_support.cpp.o.d"
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_state__type_support.cpp.o"
+  "CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_state__type_support.cpp.o.d"
+  "librmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "librmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request_item__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_result__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/ingestor_request__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/ingestor_request_item__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/ingestor_result__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/ingestor_state__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

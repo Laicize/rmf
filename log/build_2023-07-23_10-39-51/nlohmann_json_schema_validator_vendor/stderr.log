@@ -1,0 +1,19 @@
+正克隆到 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'...
+HEAD 目前位于 5ef4f90 add content-checker-callback
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    JSON_VALIDATOR_BUILD_EXAMPLES
+    JSON_VALIDATOR_BUILD_TESTS
+
+[0m
+[1m/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896/src/json-validator.cpp:643:29: [0m[0;1;35mwarning: [0m[1mloop variable 'c' of type 'const unsigned char &' binds to a temporary constructed from type '__gnu_cxx::__normal_iterator<const char *, std::basic_string<char>>::reference' (aka 'const char &') [-Wrange-loop-construct][0m
+                for (const unsigned char &c : s)
+[0;1;32m                                          ^
+[0m[1m/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896/src/json-validator.cpp:643:8: [0m[0;1;30mnote: [0muse non-reference type 'unsigned char' to make construction explicit or type 'const char &' to prevent copying[0m
+                for (const unsigned char &c : s)
+[0;1;32m                     ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896/src/json-validator.cpp:1140:10: [0m[0;1;35mwarning: [0m[1menumeration value 'binary' not handled in switch [-Wswitch][0m
+        switch (type) {
+[0;1;32m                ^~~~
+[0m2 warnings generated.

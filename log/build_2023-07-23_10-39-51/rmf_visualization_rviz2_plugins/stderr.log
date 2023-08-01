@@ -1,0 +1,63 @@
+[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/NegotiationModel.cpp:66:1: [0m[0;1;35mwarning: [0m[1mnon-void function does not return a value in all control paths [-Wreturn-type][0m
+}
+[0;1;32m^
+[0m1 warning generated.
+[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:361:38: [0m[0;1;35mwarning: [0m[1mformat string is not a string literal (potentially insecure) [-Wformat-security][0m
+    RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[0;1;32m                                     ^~~~~~~~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:361:38: [0m[0;1;30mnote: [0mtreat the string as an argument to avoid this[0m
+    RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[0;1;32m                                     ^
+[0m[0;32m                                     "%s", 
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:376:19: [0m[0;1;35mwarning: [0m[1mloop variable 'f' creates a copy from type 'std::basic_string<char> const' [-Wrange-loop-construct][0m
+  for (const auto f : msg.available_floors)
+[0;1;32m                  ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:376:8: [0m[0;1;30mnote: [0muse reference type 'std::basic_string<char> const &' to prevent copying[0m
+  for (const auto f : msg.available_floors)
+[0;1;32m       ^~~~~~~~~~~~~~
+[0m[0;32m                  &
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/DoorPanel.cpp:321:38: [0m[0;1;35mwarning: [0m[1mformat string is not a string literal (potentially insecure) [-Wformat-security][0m
+    RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[0;1;32m                                     ^~~~~~~~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/DoorPanel.cpp:321:38: [0m[0;1;30mnote: [0mtreat the string as an argument to avoid this[0m
+    RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[0;1;32m                                     ^
+[0m[0;32m                                     "%s", 
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^
+[0m1 warning generated.
+2 warnings generated.

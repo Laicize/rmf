@@ -1,0 +1,230 @@
+[0.048s] Invoking command in '/home/wang/rmf_ws/build/rmf_site_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_site_map_msgs
+[0.773s] -- The C compiler identification is Clang 14.0.0
+[1.028s] -- The CXX compiler identification is Clang 14.0.0
+[1.060s] -- Detecting C compiler ABI info
+[1.196s] -- Detecting C compiler ABI info - done
+[1.210s] -- Check for working C compiler: /usr/bin/clang - skipped
+[1.210s] -- Detecting C compile features
+[1.210s] -- Detecting C compile features - done
+[1.215s] -- Detecting CXX compiler ABI info
+[1.370s] -- Detecting CXX compiler ABI info - done
+[1.386s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[1.386s] -- Detecting CXX compile features
+[1.388s] -- Detecting CXX compile features - done
+[1.390s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.925s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.055s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.104s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.112s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.125s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.214s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.482s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.488s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.492s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.496s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.817s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.818s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.856s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.856s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.856s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.857s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.884s] -- Found PythonExtra: .so  
+[2.937s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.941s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.968s] -- Configuring done (2.9s)
+[3.031s] -- Generating done (0.1s)
+[3.041s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_site_map_msgs
+[3.138s] Invoked command in '/home/wang/rmf_ws/build/rmf_site_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_site_map_msgs
+[3.150s] Invoking command in '/home/wang/rmf_ws/build/rmf_site_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_site_map_msgs -- -j16 -l16
+[3.313s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.363s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.424s] [  6%] Built target ament_cmake_python_copy_rmf_site_map_msgs
+[4.211s] running egg_info
+[4.212s] creating rmf_site_map_msgs.egg-info
+[4.212s] writing rmf_site_map_msgs.egg-info/PKG-INFO
+[4.213s] writing dependency_links to rmf_site_map_msgs.egg-info/dependency_links.txt
+[4.213s] writing top-level names to rmf_site_map_msgs.egg-info/top_level.txt
+[4.213s] writing manifest file 'rmf_site_map_msgs.egg-info/SOURCES.txt'
+[4.217s] reading manifest file 'rmf_site_map_msgs.egg-info/SOURCES.txt'
+[4.218s] writing manifest file 'rmf_site_map_msgs.egg-info/SOURCES.txt'
+[4.272s] [  9%] [32mBuilding C object CMakeFiles/rmf_site_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_site_map_msgs/msg/detail/site_map__functions.c.o[0m
+[4.299s] [  9%] Built target ament_cmake_python_build_rmf_site_map_msgs_egg
+[4.370s] [  9%] Built target rmf_site_map_msgs__cpp
+[4.442s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.444s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.464s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.556s] [ 22%] [32m[1mLinking C shared library librmf_site_map_msgs__rosidl_generator_c.so[0m
+[4.796s] [ 22%] Built target rmf_site_map_msgs__rosidl_generator_c
+[4.863s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.904s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.936s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.245s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_site_map_msgs/msg/detail/dds_fastrtps/site_map__type_support.cpp.o[0m
+[5.579s] [ 38%] [32mBuilding CXX object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_site_map_msgs/msg/detail/site_map__type_support.cpp.o[0m
+[5.766s] [ 41%] [32mBuilding CXX object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_site_map_msgs/msg/detail/site_map__type_support_c.cpp.o[0m
+[5.848s] [ 45%] [32mBuilding CXX object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_site_map_msgs/msg/site_map__type_support.cpp.o[0m
+[6.223s] [ 48%] [32mBuilding C object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_site_map_msgs/msg/detail/site_map__type_support.c.o[0m
+[6.355s] [ 51%] [32mBuilding CXX object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_site_map_msgs/msg/site_map__type_support.cpp.o[0m
+[6.493s] [ 54%] [32m[1mLinking C shared library librmf_site_map_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.508s] [ 58%] [32m[1mLinking CXX shared library librmf_site_map_msgs__rosidl_typesupport_c.so[0m
+[6.808s] [ 58%] Built target rmf_site_map_msgs__rosidl_typesupport_introspection_c
+[6.889s] [ 58%] Built target rmf_site_map_msgs__rosidl_typesupport_c
+[7.751s] [ 61%] [32m[1mLinking CXX shared library librmf_site_map_msgs__rosidl_typesupport_cpp.so[0m
+[8.092s] [ 61%] Built target rmf_site_map_msgs__rosidl_typesupport_cpp
+[8.629s] [ 64%] [32m[1mLinking CXX shared library librmf_site_map_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.680s] [ 67%] [32m[1mLinking CXX shared library librmf_site_map_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.808s] [ 70%] [32m[1mLinking CXX shared library librmf_site_map_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.960s] [ 70%] Built target rmf_site_map_msgs__rosidl_typesupport_introspection_cpp
+[9.124s] [ 70%] Built target rmf_site_map_msgs__rosidl_typesupport_fastrtps_cpp
+[9.198s] [ 70%] Built target rmf_site_map_msgs__rosidl_typesupport_fastrtps_c
+[9.351s] [ 70%] Built target rmf_site_map_msgs
+[9.512s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.383s] [ 74%] Built target rmf_site_map_msgs__py
+[12.519s] [ 77%] [32mBuilding C object CMakeFiles/rmf_site_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_site_map_msgs/msg/_site_map_s.c.o[0m
+[14.064s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rmf_site_map_msgs/librmf_site_map_msgs__rosidl_generator_py.so[0m
+[14.285s] [ 80%] Built target rmf_site_map_msgs__rosidl_generator_py
+[14.412s] [ 83%] [32mBuilding C object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_site_map_msgs/_rmf_site_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.456s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.752s] [ 87%] Built target rmf_site_map_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.894s] [ 90%] [32mBuilding C object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_site_map_msgs/_rmf_site_map_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.563s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.768s] [ 93%] Built target rmf_site_map_msgs__rosidl_typesupport_c__pyext
+[16.872s] [ 96%] [32mBuilding C object CMakeFiles/rmf_site_map_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_site_map_msgs/_rmf_site_map_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.122s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.352s] [100%] Built target rmf_site_map_msgs__rosidl_typesupport_introspection_c__pyext
+[17.398s] Invoked command in '/home/wang/rmf_ws/build/rmf_site_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_site_map_msgs -- -j16 -l16
+[18.526s] Invoking command in '/home/wang/rmf_ws/build/rmf_site_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_site_map_msgs
+[23.662s] -- Install configuration: "Release"
+[23.662s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_site_map_msgs
+[23.662s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs
+[23.662s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg
+[23.662s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__functions.h
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__functions.c
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__struct.h
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__type_support.h
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/site_map.h
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/library_path.sh
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/library_path.dsv
+[23.663s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_generator_c.so
+[23.663s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_generator_c.so" to ""
+[23.664s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs
+[23.664s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg
+[23.664s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail
+[23.664s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__rosidl_typesupport_fastrtps_c.h
+[23.664s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.664s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_fastrtps_c.so
+[23.664s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.664s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs
+[23.664s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg
+[23.665s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail
+[23.665s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__builder.hpp
+[23.665s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__traits.hpp
+[23.665s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__struct.hpp
+[23.665s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/site_map.hpp
+[23.665s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs
+[23.665s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg
+[23.665s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail
+[23.665s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/dds_fastrtps
+[23.665s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__rosidl_typesupport_fastrtps_cpp.hpp
+[23.666s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.666s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.666s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.666s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs
+[23.666s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg
+[23.666s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail
+[23.666s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__type_support.c
+[23.666s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__rosidl_typesupport_introspection_c.h
+[23.666s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.666s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_introspection_c.so
+[23.666s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.666s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_c.so
+[23.666s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_c.so" to ""
+[23.667s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs
+[23.667s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg
+[23.667s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail
+[23.667s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__type_support.cpp
+[23.667s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/include/rmf_site_map_msgs/rmf_site_map_msgs/msg/detail/site_map__rosidl_typesupport_introspection_cpp.hpp
+[23.667s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_introspection_cpp.so
+[23.667s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.667s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_cpp.so
+[23.667s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_typesupport_cpp.so" to ""
+[23.667s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/pythonpath.sh
+[23.668s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/pythonpath.dsv
+[23.668s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs-3.0.3-py3.10.egg-info
+[23.668s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs-3.0.3-py3.10.egg-info/PKG-INFO
+[23.668s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs-3.0.3-py3.10.egg-info/dependency_links.txt
+[23.668s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs-3.0.3-py3.10.egg-info/SOURCES.txt
+[23.668s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs-3.0.3-py3.10.egg-info/top_level.txt
+[23.668s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs
+[23.669s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/_rmf_site_map_msgs_s.ep.rosidl_typesupport_c.c
+[23.669s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/__init__.py
+[23.670s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/librmf_site_map_msgs__rosidl_generator_py.so
+[23.670s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.670s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/_rmf_site_map_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[23.671s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/msg
+[23.671s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/msg/__init__.py
+[23.671s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/msg/_site_map_s.c
+[23.672s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/msg/_site_map.py
+[23.672s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.673s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.673s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/_rmf_site_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.673s] Listing '/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs'...
+[23.673s] Compiling '/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/__init__.py'...
+[23.673s] Listing '/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/msg'...
+[23.673s] Compiling '/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/msg/__init__.py'...
+[23.674s] Compiling '/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/msg/_site_map.py'...
+[23.674s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.674s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.674s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.674s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.674s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.674s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages/rmf_site_map_msgs/rmf_site_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.678s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_generator_py.so
+[23.679s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_site_map_msgs/lib/librmf_site_map_msgs__rosidl_generator_py.so" to ""
+[23.679s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/msg/SiteMap.idl
+[23.679s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/msg/SiteMap.msg
+[23.680s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_site_map_msgs
+[23.680s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_site_map_msgs
+[23.681s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/ament_prefix_path.sh
+[23.681s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/ament_prefix_path.dsv
+[23.681s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/path.sh
+[23.681s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/environment/path.dsv
+[23.682s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/local_setup.bash
+[23.682s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/local_setup.sh
+[23.682s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/local_setup.zsh
+[23.683s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/local_setup.dsv
+[23.683s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/package.dsv
+[23.685s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/ament_index/resource_index/packages/rmf_site_map_msgs
+[23.685s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_generator_cExport.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_generator_cExport-release.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_generator_cppExport.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_cExport.cmake
+[23.686s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_cExport-release.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_cppExport.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgs__rosidl_typesupport_cppExport-release.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_generator_pyExport.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/export_rmf_site_map_msgs__rosidl_generator_pyExport-release.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rosidl_cmake-extras.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.687s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.688s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.688s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.689s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.689s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.689s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgsConfig.cmake
+[23.689s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake/rmf_site_map_msgsConfig-version.cmake
+[23.689s] -- Installing: /home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/package.xml
+[23.750s] Invoked command in '/home/wang/rmf_ws/build/rmf_site_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_site_map_msgs

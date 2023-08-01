@@ -1,0 +1,5 @@
+[0m Generating schema as py mods[0m
+[33mCMake Warning at CMakeLists.txt:107 (message):
+  Not able to generate py models since 'datamodel-codegen' is not available
+
+[0m

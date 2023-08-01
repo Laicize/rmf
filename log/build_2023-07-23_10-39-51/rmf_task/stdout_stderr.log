@@ -1,0 +1,147 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_task
+[  4%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/BackupFileManager.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriorityCostCalculator.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriorityScheme.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Activator.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/CompositeData.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriority.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Constraints.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Estimate.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Header.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Event.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/InvariantHeuristicQueue.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Log.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Parameters.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Payload.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Phase.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Priority.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Request.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/State.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/Task.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/TaskPlanner.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/VersionedString.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/detail/Backup.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/detail/Resume.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/events/SimpleEventState.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/internal_task_planning.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/phases/RestoreBackup.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/requests/ChargeBattery.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/requests/ChargeBatteryFactory.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/requests/Clean.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/requests/Delivery.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/requests/Loop.cpp.o[0m
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityCostCalculator.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityCostCalculator.hpp:21:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/CostCalculator.hpp:21:
+[1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/internal_task_planning.hpp:187:10: [0m[0;1;35mwarning: [0m[1mvariable 'popped_invariant' set but not used [-Wunused-but-set-variable][0m
+    bool popped_invariant = false;
+[0;1;32m         ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityScheme.cpp:21:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityCostCalculator.hpp:21:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/CostCalculator.hpp:21:
+[1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/internal_task_planning.hpp:187:10: [0m[0;1;35mwarning: [0m[1mvariable 'popped_invariant' set but not used [-Wunused-but-set-variable][0m
+    bool popped_invariant = false;
+[0;1;32m         ^
+[ 71%] [32mBuilding CXX object CMakeFiles/rmf_task.dir/src/rmf_task/requests/ParkRobotFactory.cpp.o[0m
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/TaskPlanner.cpp:23:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityCostCalculator.hpp:21:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/CostCalculator.hpp:21:
+[1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/internal_task_planning.hpp:187:10: [0m[0;1;35mwarning: [0m[1mvariable 'popped_invariant' set but not used [-Wunused-but-set-variable][0m
+    bool popped_invariant = false;
+[0;1;32m         ^
+[0m1 warning generated.
+1 warning generated.
+In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/internal_task_planning.cpp:18:
+[1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/internal_task_planning.hpp:187:10: [0m[0;1;35mwarning: [0m[1mvariable 'popped_invariant' set but not used [-Wunused-but-set-variable][0m
+    bool popped_invariant = false;
+[0;1;32m         ^
+[0m1 warning generated.
+1 warning generated.
+[ 73%] [32m[1mLinking CXX shared library librmf_task.so[0m
+[ 73%] Built target rmf_task
+[ 80%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/mock/MockDelivery.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/integration/test_backups.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/mock/MockEvent.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/mock/MockPhase.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/mock/MockTask.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/main.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/unit/agv/test_TaskPlanner.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/unit/agv/test_State.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/unit/agv/test_Constraints.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/unit/test_Activator.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/test_rmf_task.dir/test/unit/test_Log.cpp.o[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_TaskPlanner.cpp:85:17: [0m[0;1;35mwarning: [0m[1munused variable 's' [-Wunused-variable][0m
+    const auto& s = agent[0].finish_state();
+[0;1;32m                ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_TaskPlanner.cpp:75:16: [0m[0;1;35mwarning: [0m[1munused parameter 'initial_soc' [-Wunused-parameter][0m
+  const double initial_soc)
+[0;1;32m               ^
+[0m2 warnings generated.
+[100%] [32m[1mLinking CXX executable test_rmf_task[0m
+[100%] Built target test_rmf_task
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_task/lib/librmf_task.so
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_task/lib/librmf_task.so" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Parameters.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/detail
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/detail/impl_CompositeData.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/detail/impl_Activator.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/detail/Backup.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/detail/Resume.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Header.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/RequestFactory.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/CompositeData.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Priority.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Phase.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Constraints.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Task.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/CostCalculator.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/phases
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/phases/RestoreBackup.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/BinaryPriorityScheme.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/VersionedString.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/State.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Event.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/requests
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/requests/ChargeBattery.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/requests/ChargeBatteryFactory.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/requests/Clean.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/requests/Loop.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/requests/ParkRobotFactory.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/requests/Delivery.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Activator.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Estimate.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/BackupFileManager.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Payload.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/events
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/events/SimpleEventState.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/Log.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/include/rmf_task/TaskPlanner.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task/lib/rmf_task/cmake/rmf_task-config-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task/lib/rmf_task/cmake/rmf_task-config.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task/lib/rmf_task/cmake/rmf_task-targets.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task/lib/rmf_task/cmake/rmf_task-targets-release.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task/share/ament_index/resource_index/packages/rmf_task
+-- Installing: /home/wang/rmf_ws/install/rmf_task/share/rmf_task/hook/ament_prefix_path.dsv

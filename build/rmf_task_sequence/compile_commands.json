@@ -1,0 +1,134 @@
+[
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Activity.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Activity.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Activity.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Activity.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Event.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Event.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Event.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Event.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Phase.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Phase.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Phase.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Phase.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Task.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Task.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/Task.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Task.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/detail/Backup.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/detail/Backup.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/detail/Backup.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/detail/Backup.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Bundle.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/Bundle.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/Bundle.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Bundle.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/DropOff.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/DropOff.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/DropOff.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/DropOff.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/GoToPlace.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/GoToPlace.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/GoToPlace.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/GoToPlace.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PayloadTransfer.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/PayloadTransfer.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/PayloadTransfer.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PayloadTransfer.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PerformAction.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/PerformAction.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/PerformAction.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PerformAction.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PickUp.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/PickUp.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/PickUp.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PickUp.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Placeholder.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/Placeholder.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/Placeholder.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Placeholder.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Sequence.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/Sequence.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/Sequence.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Sequence.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/WaitFor.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/WaitFor.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/WaitFor.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/WaitFor.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/utils.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/utils.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/utils.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/utils.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/phases/SimplePhase.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/phases/SimplePhase.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/phases/SimplePhase.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/phases/SimplePhase.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -Drmf_task_sequence_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/schemas/ErrorHandler.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/schemas/ErrorHandler.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/schemas/ErrorHandler.cpp",
+  "output": "CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/schemas/ErrorHandler.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task_sequence.dir/test/main.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/main.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/main.cpp",
+  "output": "CMakeFiles/test_rmf_task_sequence.dir/test/main.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task_sequence.dir/test/mock/MockActivity.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/mock/MockActivity.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/mock/MockActivity.cpp",
+  "output": "CMakeFiles/test_rmf_task_sequence.dir/test/mock/MockActivity.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task_sequence.dir/test/unit/events/test_PerformAction.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/events/test_PerformAction.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/events/test_PerformAction.cpp",
+  "output": "CMakeFiles/test_rmf_task_sequence.dir/test/unit/events/test_PerformAction.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_ComposedTaskPlanning.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/test_ComposedTaskPlanning.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/test_ComposedTaskPlanning.cpp",
+  "output": "CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_ComposedTaskPlanning.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task_sequence",
+  "command": "/usr/bin/clang++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/include -I/home/wang/rmf_ws/build/rmf_task_sequence/rmf_api_generate_schema_headers/include -isystem /home/wang/rmf_ws/install/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -isystem /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_Sequence.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/test_Sequence.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/test_Sequence.cpp",
+  "output": "CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_Sequence.cpp.o"
+}
+]

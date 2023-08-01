@@ -1,0 +1,11 @@
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/AffineImage.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/BuildingMap.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Door.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Graph.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/GraphEdge.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/GraphNode.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Level.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Lift.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Param.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:msg/Place.idl
+/home/wang/rmf_ws/build/rmf_building_map_msgs/rosidl_adapter/rmf_building_map_msgs:srv/GetBuildingMap.idl

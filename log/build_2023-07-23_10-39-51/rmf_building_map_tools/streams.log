@@ -1,0 +1,287 @@
+[1.324s] Invoking command in '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_building_map_tools/prefix_override:/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_building_map_tools build --build-base /home/wang/rmf_ws/build/rmf_building_map_tools/build install --record /home/wang/rmf_ws/build/rmf_building_map_tools/install.log --single-version-externally-managed
+[1.744s] running egg_info
+[1.746s] creating ../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info
+[1.746s] writing ../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/PKG-INFO
+[1.746s] writing dependency_links to ../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/dependency_links.txt
+[1.746s] writing entry points to ../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/entry_points.txt
+[1.746s] writing requirements to ../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/requires.txt
+[1.746s] writing top-level names to ../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/top_level.txt
+[1.747s] writing manifest file '../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/SOURCES.txt'
+[1.750s] reading manifest file '../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/SOURCES.txt'
+[1.751s] writing manifest file '../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info/SOURCES.txt'
+[1.751s] running build
+[1.752s] running build_py
+[1.752s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build
+[1.752s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib
+[1.752s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim
+[1.752s] copying building_crowdsim/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim
+[1.752s] copying building_crowdsim/building_crowdsim.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim
+[1.753s] copying building_crowdsim/_init_argparse.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim
+[1.753s] copying building_crowdsim/building_yaml_parse.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim
+[1.753s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.753s] copying building_crowdsim/navmesh/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.753s] copying building_crowdsim/navmesh/polygon_factory.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.753s] copying building_crowdsim/navmesh/obstacle.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.753s] copying building_crowdsim/navmesh/object_manager.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/polygon.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/navmesh_generator.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/file_writer.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/vertex.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/lane.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/vector.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/build_navmesh.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.754s] copying building_crowdsim/navmesh/connection.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.755s] copying building_crowdsim/navmesh/edge.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh
+[1.755s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.755s] copying building_crowdsim/config/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.755s] copying building_crowdsim/config/configfile_generator.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.755s] copying building_crowdsim/config/scene_file.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.756s] copying building_crowdsim/config/plugin_file.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.756s] copying building_crowdsim/config/behavior_file.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.756s] copying building_crowdsim/config/util.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.756s] copying building_crowdsim/config/leaf_element.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config
+[1.757s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.757s] copying building_map/hole.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.757s] copying building_map/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.757s] copying building_map/building.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.757s] copying building_map/material_utils.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.757s] copying building_map/etree_utils.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.757s] copying building_map/geopackage.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.757s] copying building_map/coordinate_system.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.758s] copying building_map/model.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.758s] copying building_map/param_value.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.758s] copying building_map/utils.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.758s] copying building_map/vertex.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.758s] copying building_map/floor.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.758s] copying building_map/web_mercator_transform.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.759s] copying building_map/level.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.759s] copying building_map/wall.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.759s] copying building_map/generator.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.759s] copying building_map/wgs84_transform.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.759s] copying building_map/fiducial.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.759s] copying building_map/lift.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.760s] copying building_map/passthrough_transform.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.760s] copying building_map/transform.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.760s] copying building_map/edge.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.760s] copying building_map/edge_type.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map
+[1.760s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors
+[1.761s] copying building_map/doors/swing_door.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors
+[1.761s] copying building_map/doors/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors
+[1.761s] copying building_map/doors/double_swing_door.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors
+[1.761s] copying building_map/doors/sliding_door.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors
+[1.761s] copying building_map/doors/door.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors
+[1.762s] copying building_map/doors/double_sliding_door.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors
+[1.762s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_server
+[1.762s] copying building_map_server/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_server
+[1.762s] copying building_map_server/building_map_server.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_server
+[1.762s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_generator
+[1.762s] copying building_map_generator/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_generator
+[1.763s] copying building_map_generator/_init_argparse.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_generator
+[1.763s] copying building_map_generator/building_map_generator.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_generator
+[1.763s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_model_downloader
+[1.763s] copying building_map_model_downloader/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_model_downloader
+[1.763s] copying building_map_model_downloader/building_map_model_downloader.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_model_downloader
+[1.763s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_converter
+[1.763s] copying building_map_converter/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_converter
+[1.764s] copying building_map_converter/building_map_converter.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_converter
+[1.764s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/model_downloader
+[1.764s] copying model_downloader/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/model_downloader
+[1.764s] copying model_downloader/model_downloader.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/model_downloader
+[1.764s] creating /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/pit_crew
+[1.764s] copying pit_crew/__init__.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/pit_crew
+[1.764s] copying pit_crew/pit_crew.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/pit_crew
+[1.764s] copying pit_crew/usage_examples.py -> /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/pit_crew
+[1.764s] running install
+[1.765s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.765s]   warnings.warn(
+[1.765s] running install_lib
+[1.766s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.766s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/hole.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.766s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.767s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/building.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.767s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/material_utils.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.767s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/etree_utils.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.767s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/geopackage.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.767s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/coordinate_system.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.768s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/model.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.768s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/param_value.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.768s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/utils.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.768s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors
+[1.768s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors/swing_door.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors
+[1.768s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors
+[1.769s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors/double_swing_door.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors
+[1.769s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors/sliding_door.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors
+[1.769s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors/door.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors
+[1.769s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/doors/double_sliding_door.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors
+[1.769s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/vertex.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.769s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/floor.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.770s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/web_mercator_transform.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.770s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/level.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.770s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/wall.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.770s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/generator.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.770s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/wgs84_transform.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.770s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/fiducial.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.771s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/lift.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.771s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/passthrough_transform.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.771s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/transform.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.771s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/edge.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.771s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map/edge_type.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map
+[1.771s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/model_downloader
+[1.771s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/model_downloader/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/model_downloader
+[1.772s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/model_downloader/model_downloader.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/model_downloader
+[1.772s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim
+[1.772s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim
+[1.772s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/building_crowdsim.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim
+[1.772s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.772s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.773s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config/configfile_generator.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.773s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config/scene_file.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.773s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config/plugin_file.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.773s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config/behavior_file.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.773s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config/util.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.773s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/config/leaf_element.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/_init_argparse.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/building_yaml_parse.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim
+[1.774s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/polygon_factory.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/obstacle.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/object_manager.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/polygon.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.774s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/navmesh_generator.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/file_writer.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/vertex.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/lane.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/vector.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/build_navmesh.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/connection.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_crowdsim/navmesh/edge.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh
+[1.775s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/pit_crew
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/pit_crew/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/pit_crew
+[1.775s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/pit_crew/pit_crew.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/pit_crew
+[1.776s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/pit_crew/usage_examples.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/pit_crew
+[1.776s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_model_downloader
+[1.776s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_model_downloader/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_model_downloader
+[1.776s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_model_downloader/building_map_model_downloader.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_model_downloader
+[1.776s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_generator
+[1.776s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_generator/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_generator
+[1.776s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_generator/_init_argparse.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_generator
+[1.776s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_generator/building_map_generator.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_generator
+[1.776s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_server
+[1.777s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_server/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_server
+[1.777s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_server/building_map_server.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_server
+[1.777s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_converter
+[1.777s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_converter/__init__.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_converter
+[1.777s] copying /home/wang/rmf_ws/build/rmf_building_map_tools/build/lib/building_map_converter/building_map_converter.py -> /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_converter
+[1.777s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/hole.py to hole.cpython-310.pyc
+[1.777s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/__init__.py to __init__.cpython-310.pyc
+[1.777s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/building.py to building.cpython-310.pyc
+[1.783s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/material_utils.py to material_utils.cpython-310.pyc
+[1.784s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/etree_utils.py to etree_utils.cpython-310.pyc
+[1.784s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/geopackage.py to geopackage.cpython-310.pyc
+[1.785s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/coordinate_system.py to coordinate_system.cpython-310.pyc
+[1.785s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/model.py to model.cpython-310.pyc
+[1.786s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/param_value.py to param_value.cpython-310.pyc
+[1.787s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/utils.py to utils.cpython-310.pyc
+[1.788s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors/swing_door.py to swing_door.cpython-310.pyc
+[1.789s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors/__init__.py to __init__.cpython-310.pyc
+[1.789s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors/double_swing_door.py to double_swing_door.cpython-310.pyc
+[1.790s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors/sliding_door.py to sliding_door.cpython-310.pyc
+[1.790s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors/door.py to door.cpython-310.pyc
+[1.791s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/doors/double_sliding_door.py to double_sliding_door.cpython-310.pyc
+[1.792s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/vertex.py to vertex.cpython-310.pyc
+[1.792s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py to floor.cpython-310.pyc
+[1.796s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/web_mercator_transform.py to web_mercator_transform.cpython-310.pyc
+[1.796s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/level.py to level.cpython-310.pyc
+[1.802s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/wall.py to wall.cpython-310.pyc
+[1.804s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/generator.py to generator.cpython-310.pyc
+[1.805s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/wgs84_transform.py to wgs84_transform.cpython-310.pyc
+[1.805s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/fiducial.py to fiducial.cpython-310.pyc
+[1.806s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/lift.py to lift.cpython-310.pyc
+[1.809s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/passthrough_transform.py to passthrough_transform.cpython-310.pyc
+[1.809s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/transform.py to transform.cpython-310.pyc
+[1.810s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/edge.py to edge.cpython-310.pyc
+[1.811s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/edge_type.py to edge_type.cpython-310.pyc
+[1.811s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/model_downloader/__init__.py to __init__.cpython-310.pyc
+[1.811s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/model_downloader/model_downloader.py to model_downloader.cpython-310.pyc
+[1.812s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/__init__.py to __init__.cpython-310.pyc
+[1.812s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/building_crowdsim.py to building_crowdsim.cpython-310.pyc
+[1.813s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config/__init__.py to __init__.cpython-310.pyc
+[1.813s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config/configfile_generator.py to configfile_generator.cpython-310.pyc
+[1.814s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config/scene_file.py to scene_file.cpython-310.pyc
+[1.815s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config/plugin_file.py to plugin_file.cpython-310.pyc
+[1.816s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config/behavior_file.py to behavior_file.cpython-310.pyc
+[1.817s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config/util.py to util.cpython-310.pyc
+[1.818s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/config/leaf_element.py to leaf_element.cpython-310.pyc
+[1.818s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/_init_argparse.py to _init_argparse.cpython-310.pyc
+[1.819s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/building_yaml_parse.py to building_yaml_parse.cpython-310.pyc
+[1.820s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/__init__.py to __init__.cpython-310.pyc
+[1.820s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/polygon_factory.py to polygon_factory.cpython-310.pyc
+[1.822s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/obstacle.py to obstacle.cpython-310.pyc
+[1.822s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/object_manager.py to object_manager.cpython-310.pyc
+[1.823s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/polygon.py to polygon.cpython-310.pyc
+[1.823s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/navmesh_generator.py to navmesh_generator.cpython-310.pyc
+[1.824s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/file_writer.py to file_writer.cpython-310.pyc
+[1.825s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/vertex.py to vertex.cpython-310.pyc
+[1.825s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/lane.py to lane.cpython-310.pyc
+[1.825s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/vector.py to vector.cpython-310.pyc
+[1.826s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/build_navmesh.py to build_navmesh.cpython-310.pyc
+[1.826s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/connection.py to connection.cpython-310.pyc
+[1.827s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_crowdsim/navmesh/edge.py to edge.cpython-310.pyc
+[1.827s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/pit_crew/__init__.py to __init__.cpython-310.pyc
+[1.827s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/pit_crew/pit_crew.py to pit_crew.cpython-310.pyc
+[1.831s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/pit_crew/usage_examples.py to usage_examples.cpython-310.pyc
+[1.832s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_model_downloader/__init__.py to __init__.cpython-310.pyc
+[1.832s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_model_downloader/building_map_model_downloader.py to building_map_model_downloader.cpython-310.pyc
+[1.833s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_generator/__init__.py to __init__.cpython-310.pyc
+[1.833s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_generator/_init_argparse.py to _init_argparse.cpython-310.pyc
+[1.834s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_generator/building_map_generator.py to building_map_generator.cpython-310.pyc
+[1.834s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_server/__init__.py to __init__.cpython-310.pyc
+[1.834s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_server/building_map_server.py to building_map_server.cpython-310.pyc
+[1.836s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_converter/__init__.py to __init__.cpython-310.pyc
+[1.837s] byte-compiling /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map_converter/building_map_converter.py to building_map_converter.cpython-310.pyc
+[1.837s] running install_data
+[1.838s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/share/ament_index
+[1.838s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/share/ament_index/resource_index
+[1.838s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/share/ament_index/resource_index/packages
+[1.838s] copying resource/rmf_building_map_tools -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/ament_index/resource_index/packages
+[1.838s] copying package.xml -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools
+[1.838s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/templates
+[1.838s] copying building_map/templates/gz_world.sdf -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/templates
+[1.838s] copying building_map/templates/ign_world.sdf -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/templates
+[1.839s] creating /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.839s] copying building_map_generator/textures/concrete3.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.840s] copying building_map_generator/textures/black_concrete.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.840s] copying building_map_generator/textures/wall_white.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.840s] copying building_map_generator/textures/default.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.840s] copying building_map_generator/textures/concrete2.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.840s] copying building_map_generator/textures/beige_black_marble_tiles.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.841s] copying building_map_generator/textures/brown_marble.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.841s] copying building_map_generator/textures/black_glitter_marble.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.841s] copying building_map_generator/textures/carpark_walkway.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.841s] copying building_map_generator/textures/concrete.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.842s] copying building_map_generator/textures/wall.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.843s] copying building_map_generator/textures/white_brick.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.843s] copying building_map_generator/textures/arrows.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.843s] copying building_map_generator/textures/white_beige_tiles.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.843s] copying building_map_generator/textures/red_tiles.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.844s] copying building_map_generator/textures/beige.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.844s] copying building_map_generator/textures/blue_linoleum_high_contrast.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.845s] copying building_map_generator/textures/metal.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.845s] copying building_map_generator/textures/blue_linoleum.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.845s] copying building_map_generator/textures/rubber_pieces.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.846s] copying building_map_generator/textures/concrete4.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.846s] copying building_map_generator/textures/gray_flooring.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.847s] copying building_map_generator/textures/white_marble.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.848s] copying building_map_generator/textures/beige_tiles.png -> /home/wang/rmf_ws/install/rmf_building_map_tools/share/rmf_building_map_tools/textures
+[1.849s] running install_egg_info
+[1.851s] Copying ../../../../build/rmf_building_map_tools/rmf_building_map_tools.egg-info to /home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/rmf_building_map_tools-1.6.1-py3.10.egg-info
+[1.852s] running install_scripts
+[1.875s] Installing building_crowdsim script to /home/wang/rmf_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools
+[1.876s] Installing building_map_converter script to /home/wang/rmf_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools
+[1.876s] Installing building_map_generator script to /home/wang/rmf_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools
+[1.876s] Installing building_map_model_downloader script to /home/wang/rmf_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools
+[1.876s] Installing building_map_server script to /home/wang/rmf_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools
+[1.876s] Installing model_downloader script to /home/wang/rmf_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools
+[1.878s] writing list of installed files to '/home/wang/rmf_ws/build/rmf_building_map_tools/install.log'
+[1.930s] Invoked command in '/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_building_map_tools' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_building_map_tools/prefix_override:/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_building_map_tools build --build-base /home/wang/rmf_ws/build/rmf_building_map_tools/build install --record /home/wang/rmf_ws/build/rmf_building_map_tools/install.log --single-version-externally-managed

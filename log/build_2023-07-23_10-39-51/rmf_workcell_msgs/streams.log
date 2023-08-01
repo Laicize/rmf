@@ -1,0 +1,370 @@
+[0.155s] Invoking command in '/home/wang/rmf_ws/build/rmf_workcell_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_workcell_msgs
+[2.668s] -- The C compiler identification is Clang 14.0.0
+[2.668s] -- The CXX compiler identification is Clang 14.0.0
+[2.668s] -- Detecting C compiler ABI info
+[2.668s] -- Detecting C compiler ABI info - done
+[2.668s] -- Check for working C compiler: /usr/bin/clang - skipped
+[2.668s] -- Detecting C compile features
+[2.668s] -- Detecting C compile features - done
+[2.668s] -- Detecting CXX compiler ABI info
+[2.668s] -- Detecting CXX compiler ABI info - done
+[2.668s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[2.669s] -- Detecting CXX compile features
+[2.669s] -- Detecting CXX compile features - done
+[2.669s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.669s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.828s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.893s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.902s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.919s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.010s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.054s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.480s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.482s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.486s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.489s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.985s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.987s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.037s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.037s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.038s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.038s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.075s] -- Found PythonExtra: .so  
+[4.157s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.160s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.188s] -- Configuring done (4.0s)
+[4.284s] -- Generating done (0.1s)
+[4.290s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_workcell_msgs
+[4.327s] Invoked command in '/home/wang/rmf_ws/build/rmf_workcell_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_workcell_msgs
+[4.328s] Invoking command in '/home/wang/rmf_ws/build/rmf_workcell_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_workcell_msgs -- -j16 -l16
+[6.949s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.950s] [  1%] Built target rmf_workcell_msgs__cpp
+[6.950s] [  1%] Built target ament_cmake_python_copy_rmf_workcell_msgs
+[6.950s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.952s] [  4%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_workcell_msgs/msg/detail/asset__type_support.cpp.o[0m
+[6.953s] [  5%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_workcell_msgs/msg/detail/workcell_result__type_support.cpp.o[0m
+[7.399s] [  7%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_workcell_msgs/msg/detail/workcell_request__type_support.cpp.o[0m
+[7.983s] [  8%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_workcell_msgs/msg/detail/workcell_state__type_support.cpp.o[0m
+[8.685s] [  9%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_workcell_msgs/msg/detail/workcell_configuration__type_support.cpp.o[0m
+[9.535s] [ 11%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_workcell_msgs/msg/detail/trait__type_support.cpp.o[0m
+[10.214s] [ 12%] [32m[1mLinking CXX shared library librmf_workcell_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.265s] [ 12%] Built target rmf_workcell_msgs__rosidl_typesupport_introspection_cpp
+[10.524s] running egg_info
+[10.524s] creating rmf_workcell_msgs.egg-info
+[10.525s] writing rmf_workcell_msgs.egg-info/PKG-INFO
+[10.525s] writing dependency_links to rmf_workcell_msgs.egg-info/dependency_links.txt
+[10.525s] writing top-level names to rmf_workcell_msgs.egg-info/top_level.txt
+[10.525s] writing manifest file 'rmf_workcell_msgs.egg-info/SOURCES.txt'
+[10.528s] reading manifest file 'rmf_workcell_msgs.egg-info/SOURCES.txt'
+[10.528s] writing manifest file 'rmf_workcell_msgs.egg-info/SOURCES.txt'
+[10.564s] [ 12%] Built target ament_cmake_python_build_rmf_workcell_msgs_egg
+[10.568s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.406s] [ 15%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/asset__type_support.cpp.o[0m
+[12.004s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_result__type_support.cpp.o[0m
+[12.577s] [ 18%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_request__type_support.cpp.o[0m
+[13.086s] [ 19%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_state__type_support.cpp.o[0m
+[13.897s] [ 21%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_configuration__type_support.cpp.o[0m
+[14.681s] [ 22%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/trait__type_support.cpp.o[0m
+[15.244s] [ 23%] [32m[1mLinking CXX shared library librmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.296s] [ 23%] Built target rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp
+[15.297s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.795s] [ 26%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_workcell_msgs/msg/asset__type_support.cpp.o[0m
+[16.081s] [ 28%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_workcell_msgs/msg/workcell_result__type_support.cpp.o[0m
+[16.353s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_workcell_msgs/msg/workcell_request__type_support.cpp.o[0m
+[16.671s] [ 30%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_workcell_msgs/msg/workcell_state__type_support.cpp.o[0m
+[17.097s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_workcell_msgs/msg/workcell_configuration__type_support.cpp.o[0m
+[17.465s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_workcell_msgs/msg/trait__type_support.cpp.o[0m
+[17.786s] [ 35%] [32m[1mLinking CXX shared library librmf_workcell_msgs__rosidl_typesupport_cpp.so[0m
+[17.841s] [ 35%] Built target rmf_workcell_msgs__rosidl_typesupport_cpp
+[17.845s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[18.526s] [ 38%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_workcell_msgs/msg/detail/asset__functions.c.o[0m
+[18.667s] [ 39%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_workcell_msgs/msg/detail/workcell_result__functions.c.o[0m
+[18.819s] [ 40%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_workcell_msgs/msg/detail/workcell_request__functions.c.o[0m
+[18.947s] [ 42%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_workcell_msgs/msg/detail/workcell_state__functions.c.o[0m
+[19.081s] [ 43%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_workcell_msgs/msg/detail/workcell_configuration__functions.c.o[0m
+[19.182s] [ 45%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_workcell_msgs/msg/detail/trait__functions.c.o[0m
+[19.267s] [ 46%] [32m[1mLinking C shared library librmf_workcell_msgs__rosidl_generator_c.so[0m
+[19.321s] [ 46%] Built target rmf_workcell_msgs__rosidl_generator_c
+[19.326s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.158s] [ 49%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_workcell_msgs/msg/detail/asset__type_support_c.cpp.o[0m
+[20.550s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_workcell_msgs/msg/detail/workcell_result__type_support_c.cpp.o[0m
+[20.988s] [ 52%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_workcell_msgs/msg/detail/workcell_request__type_support_c.cpp.o[0m
+[21.379s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_workcell_msgs/msg/detail/workcell_state__type_support_c.cpp.o[0m
+[22.092s] [ 54%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_workcell_msgs/msg/detail/workcell_configuration__type_support_c.cpp.o[0m
+[22.760s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_workcell_msgs/msg/detail/trait__type_support_c.cpp.o[0m
+[23.472s] [ 57%] [32m[1mLinking CXX shared library librmf_workcell_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.552s] [ 57%] Built target rmf_workcell_msgs__rosidl_typesupport_fastrtps_c
+[23.559s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.273s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_workcell_msgs/msg/asset__type_support.cpp.o[0m
+[24.318s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_workcell_msgs/msg/workcell_result__type_support.cpp.o[0m
+[24.363s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_workcell_msgs/msg/workcell_request__type_support.cpp.o[0m
+[24.399s] [ 64%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_workcell_msgs/msg/workcell_state__type_support.cpp.o[0m
+[24.445s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_workcell_msgs/msg/workcell_configuration__type_support.cpp.o[0m
+[24.485s] [ 67%] [32mBuilding CXX object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_workcell_msgs/msg/trait__type_support.cpp.o[0m
+[24.529s] [ 69%] [32m[1mLinking CXX shared library librmf_workcell_msgs__rosidl_typesupport_c.so[0m
+[24.588s] [ 69%] Built target rmf_workcell_msgs__rosidl_typesupport_c
+[24.594s] [ 70%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.125s] [ 71%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_workcell_msgs/msg/detail/asset__type_support.c.o[0m
+[25.160s] [ 73%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_workcell_msgs/msg/detail/workcell_result__type_support.c.o[0m
+[25.199s] [ 74%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_workcell_msgs/msg/detail/workcell_request__type_support.c.o[0m
+[25.234s] [ 76%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_workcell_msgs/msg/detail/workcell_state__type_support.c.o[0m
+[25.275s] [ 77%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_workcell_msgs/msg/detail/workcell_configuration__type_support.c.o[0m
+[25.319s] [ 78%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_workcell_msgs/msg/detail/trait__type_support.c.o[0m
+[25.358s] [ 80%] [32m[1mLinking C shared library librmf_workcell_msgs__rosidl_typesupport_introspection_c.so[0m
+[25.404s] [ 80%] Built target rmf_workcell_msgs__rosidl_typesupport_introspection_c
+[25.412s] [ 80%] Built target rmf_workcell_msgs
+[25.421s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[27.050s] [ 81%] Built target rmf_workcell_msgs__py
+[27.061s] [ 83%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_workcell_msgs/msg/_asset_s.c.o[0m
+[27.233s] [ 84%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_workcell_msgs/msg/_workcell_result_s.c.o[0m
+[27.368s] [ 85%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_workcell_msgs/msg/_workcell_request_s.c.o[0m
+[27.539s] [ 87%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_workcell_msgs/msg/_workcell_state_s.c.o[0m
+[27.737s] [ 88%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_workcell_msgs/msg/_workcell_configuration_s.c.o[0m
+[27.916s] [ 90%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_workcell_msgs/msg/_trait_s.c.o[0m
+[28.067s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/rmf_workcell_msgs/librmf_workcell_msgs__rosidl_generator_py.so[0m
+[28.125s] [ 91%] Built target rmf_workcell_msgs__rosidl_generator_py
+[28.136s] [ 92%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_workcell_msgs/_rmf_workcell_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.305s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.345s] [ 94%] Built target rmf_workcell_msgs__rosidl_typesupport_fastrtps_c__pyext
+[28.353s] [ 95%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_workcell_msgs/_rmf_workcell_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[28.500s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.549s] [ 97%] Built target rmf_workcell_msgs__rosidl_typesupport_c__pyext
+[28.557s] [ 98%] [32mBuilding C object CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_workcell_msgs/_rmf_workcell_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.782s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.840s] [100%] Built target rmf_workcell_msgs__rosidl_typesupport_introspection_c__pyext
+[28.856s] Invoked command in '/home/wang/rmf_ws/build/rmf_workcell_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_workcell_msgs -- -j16 -l16
+[28.994s] Invoking command in '/home/wang/rmf_ws/build/rmf_workcell_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_workcell_msgs
+[54.942s] -- Install configuration: "Release"
+[54.942s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_workcell_msgs
+[54.942s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs
+[54.942s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg
+[54.942s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail
+[54.942s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__functions.c
+[54.943s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__functions.h
+[54.943s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__struct.h
+[54.943s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__type_support.h
+[54.943s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__type_support.h
+[54.943s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__struct.h
+[54.943s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__type_support.h
+[54.943s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__functions.c
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__struct.h
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__functions.h
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__struct.h
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__functions.c
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__functions.c
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__functions.c
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__functions.h
+[54.944s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__functions.h
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__type_support.h
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__functions.h
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__type_support.h
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__functions.c
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__functions.h
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__struct.h
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__type_support.h
+[54.945s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__struct.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/rosidl_generator_c__visibility_control.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/asset.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_configuration.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_state.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/trait.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_request.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_result.h
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/library_path.sh
+[54.946s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/library_path.dsv
+[54.947s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_generator_c.so
+[54.947s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_generator_c.so" to ""
+[54.947s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs
+[54.947s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg
+[54.947s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail
+[54.947s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__rosidl_typesupport_fastrtps_c.h
+[54.947s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__rosidl_typesupport_fastrtps_c.h
+[54.947s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__rosidl_typesupport_fastrtps_c.h
+[54.947s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__rosidl_typesupport_fastrtps_c.h
+[54.947s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__rosidl_typesupport_fastrtps_c.h
+[54.948s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__rosidl_typesupport_fastrtps_c.h
+[54.948s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[54.948s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_fastrtps_c.so
+[54.948s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[54.948s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs
+[54.948s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg
+[54.948s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail
+[54.948s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__struct.hpp
+[54.948s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__traits.hpp
+[54.948s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__struct.hpp
+[54.948s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__traits.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__traits.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__builder.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__builder.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__struct.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__struct.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__traits.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__struct.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__builder.hpp
+[54.949s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__traits.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__struct.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__builder.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__traits.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__builder.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__builder.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_state.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_request.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_configuration.hpp
+[54.950s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/asset.hpp
+[54.951s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/workcell_result.hpp
+[54.951s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/trait.hpp
+[54.951s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs
+[54.951s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg
+[54.951s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail
+[54.951s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__rosidl_typesupport_fastrtps_cpp.hpp
+[54.951s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__rosidl_typesupport_fastrtps_cpp.hpp
+[54.951s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/dds_fastrtps
+[54.951s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__rosidl_typesupport_fastrtps_cpp.hpp
+[54.951s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__rosidl_typesupport_fastrtps_cpp.hpp
+[54.952s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__rosidl_typesupport_fastrtps_cpp.hpp
+[54.952s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__rosidl_typesupport_fastrtps_cpp.hpp
+[54.952s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[54.952s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.so
+[54.952s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[54.952s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs
+[54.952s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg
+[54.952s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail
+[54.952s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__type_support.c
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__type_support.c
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__type_support.c
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__type_support.c
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__rosidl_typesupport_introspection_c.h
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__rosidl_typesupport_introspection_c.h
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__rosidl_typesupport_introspection_c.h
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__rosidl_typesupport_introspection_c.h
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__type_support.c
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__rosidl_typesupport_introspection_c.h
+[54.953s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__rosidl_typesupport_introspection_c.h
+[54.954s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__type_support.c
+[54.954s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[54.954s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_introspection_c.so
+[54.954s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_introspection_c.so" to ""
+[54.954s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_c.so
+[54.954s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_c.so" to ""
+[54.954s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs
+[54.954s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg
+[54.954s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__rosidl_typesupport_introspection_cpp.hpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__rosidl_typesupport_introspection_cpp.hpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__rosidl_typesupport_introspection_cpp.hpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__rosidl_typesupport_introspection_cpp.hpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__type_support.cpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/asset__type_support.cpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__type_support.cpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_configuration__rosidl_typesupport_introspection_cpp.hpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/trait__type_support.cpp
+[54.955s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_request__type_support.cpp
+[54.956s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_state__type_support.cpp
+[54.956s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/include/rmf_workcell_msgs/rmf_workcell_msgs/msg/detail/workcell_result__rosidl_typesupport_introspection_cpp.hpp
+[54.956s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_introspection_cpp.so
+[54.956s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[54.956s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_cpp.so
+[54.956s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_typesupport_cpp.so" to ""
+[54.956s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/pythonpath.sh
+[54.956s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/pythonpath.dsv
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs-3.0.3-py3.10.egg-info
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs-3.0.3-py3.10.egg-info/PKG-INFO
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs-3.0.3-py3.10.egg-info/dependency_links.txt
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs-3.0.3-py3.10.egg-info/SOURCES.txt
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs-3.0.3-py3.10.egg-info/top_level.txt
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/_rmf_workcell_msgs_s.ep.rosidl_typesupport_c.c
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/__init__.py
+[54.957s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/librmf_workcell_msgs__rosidl_generator_py.so
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_trait_s.c
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_asset.py
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/__init__.py
+[54.958s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_request.py
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_state_s.c
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_result_s.c
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_result.py
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_trait.py
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_request_s.c
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_asset_s.c
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_configuration_s.c
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_state.py
+[54.959s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_configuration.py
+[54.960s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/_rmf_workcell_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[54.960s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/_rmf_workcell_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[54.980s] Listing '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/__init__.py'...
+[54.981s] Listing '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/__init__.py'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_asset.py'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_trait.py'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_configuration.py'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_request.py'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_result.py'...
+[54.981s] Compiling '/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/msg/_workcell_state.py'...
+[54.989s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[54.989s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[54.990s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[54.990s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[54.990s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[54.990s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/local/lib/python3.10/dist-packages/rmf_workcell_msgs/rmf_workcell_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[54.990s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_generator_py.so
+[54.991s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_workcell_msgs/lib/librmf_workcell_msgs__rosidl_generator_py.so" to ""
+[54.991s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/Asset.idl
+[54.991s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/Trait.idl
+[54.991s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellConfiguration.idl
+[54.992s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellState.idl
+[54.992s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellRequest.idl
+[54.992s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellResult.idl
+[54.992s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/Asset.msg
+[54.993s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/Trait.msg
+[54.993s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellConfiguration.msg
+[54.993s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellState.msg
+[54.993s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellRequest.msg
+[54.993s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/msg/WorkcellResult.msg
+[54.994s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_workcell_msgs
+[54.994s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_workcell_msgs
+[54.994s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/ament_prefix_path.sh
+[54.994s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/ament_prefix_path.dsv
+[54.994s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/path.sh
+[54.995s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/environment/path.dsv
+[54.995s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/local_setup.bash
+[54.995s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/local_setup.sh
+[54.995s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/local_setup.zsh
+[54.995s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/local_setup.dsv
+[54.995s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/package.dsv
+[54.996s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/ament_index/resource_index/packages/rmf_workcell_msgs
+[54.996s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_generator_cExport.cmake
+[54.996s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_generator_cExport-release.cmake
+[54.996s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[54.996s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[54.996s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_generator_cppExport.cmake
+[54.996s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[54.997s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[54.997s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_introspection_cExport.cmake
+[54.997s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[54.997s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_cExport.cmake
+[54.997s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_cExport-release.cmake
+[54.997s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_cppExport.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgs__rosidl_typesupport_cppExport-release.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_generator_pyExport.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/export_rmf_workcell_msgs__rosidl_generator_pyExport-release.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rosidl_cmake-extras.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.998s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[54.999s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[54.999s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[54.999s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[54.999s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgsConfig.cmake
+[54.999s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/cmake/rmf_workcell_msgsConfig-version.cmake
+[54.999s] -- Installing: /home/wang/rmf_ws/install/rmf_workcell_msgs/share/rmf_workcell_msgs/package.xml
+[55.014s] Invoked command in '/home/wang/rmf_ws/build/rmf_workcell_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_workcell_msgs

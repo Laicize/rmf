@@ -1,0 +1,88 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nlohmann_json_schema_validator_vendor: 0.2.5 (/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_task_sequence
+[  8%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Event.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Activity.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Phase.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/detail/Backup.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Task.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Bundle.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/GoToPlace.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PayloadTransfer.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/DropOff.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PerformAction.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PickUp.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Placeholder.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Sequence.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/WaitFor.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/utils.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/phases/SimplePhase.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/schemas/ErrorHandler.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library librmf_task_sequence.so[0m
+[ 75%] Built target rmf_task_sequence
+[ 79%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/mock/MockActivity.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/main.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/unit/events/test_PerformAction.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_Sequence.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_ComposedTaskPlanning.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_rmf_task_sequence[0m
+[100%] Built target test_rmf_task_sequence
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas/backup_PhaseSequenceTask_v0_1.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas/backup_EventSequence_v0_1.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/librmf_task_sequence.so
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_sequence/lib/librmf_task_sequence.so" to ""
+-- Up-to-date: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/impl_Event.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/impl_Phase.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/impl_Task.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/Backup.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Phase.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Task.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/phases
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/phases/SimplePhase.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Event.hpp
+-- Up-to-date: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas/ErrorHandler.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/typedefs.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/Bundle.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/detail
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/detail/impl_Bundle.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/WaitFor.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/PerformAction.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/PickUp.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/Placeholder.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/GoToPlace.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/DropOff.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Activity.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-config-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-config.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-targets.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-targets-release.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/share/ament_index/resource_index/packages/rmf_task_sequence
+-- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/share/rmf_task_sequence/hook/ament_prefix_path.dsv

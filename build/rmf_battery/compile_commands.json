@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++ -Drmf_battery_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/BatterySystem.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/BatterySystem.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/BatterySystem.cpp",
+  "output": "CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/BatterySystem.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++ -Drmf_battery_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/MechanicalSystem.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/MechanicalSystem.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/MechanicalSystem.cpp",
+  "output": "CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/MechanicalSystem.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++ -Drmf_battery_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/PowerSystem.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/PowerSystem.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/PowerSystem.cpp",
+  "output": "CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/PowerSystem.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++ -Drmf_battery_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/SimpleDevicePowerSink.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/SimpleDevicePowerSink.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/SimpleDevicePowerSink.cpp",
+  "output": "CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/SimpleDevicePowerSink.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++ -Drmf_battery_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/SimpleMotionPowerSink.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/SimpleMotionPowerSink.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/src/rmf_battery/agv/SimpleMotionPowerSink.cpp",
+  "output": "CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/SimpleMotionPowerSink.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_battery.dir/test/main.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/main.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/main.cpp",
+  "output": "CMakeFiles/test_rmf_battery.dir/test/main.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_BatterySystem.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_BatterySystem.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_BatterySystem.cpp",
+  "output": "CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_BatterySystem.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_MechanicalSystem.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_MechanicalSystem.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_MechanicalSystem.cpp",
+  "output": "CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_MechanicalSystem.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_PowerSystem.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_PowerSystem.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_PowerSystem.cpp",
+  "output": "CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_PowerSystem.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_battery",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery -I/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_battery_drain.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_battery_drain.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery/test/unit/agv/test_battery_drain.cpp",
+  "output": "CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_battery_drain.cpp.o"
+}
+]

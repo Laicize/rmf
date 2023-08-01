@@ -1,0 +1,28 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_traffic_examples
+[ 50%] [32mBuilding CXX object CMakeFiles/three_robots.dir/src/three_robots.cpp.o[0m
+[100%] [32m[1mLinking CXX executable three_robots[0m
+[100%] Built target three_robots
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_examples/lib/rmf_traffic_examples/three_robots
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_examples/lib/rmf_traffic_examples/three_robots" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_examples/share/ament_index/resource_index/packages/rmf_traffic_examples
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_examples/share/rmf_traffic_examples/hook/ament_prefix_path.dsv

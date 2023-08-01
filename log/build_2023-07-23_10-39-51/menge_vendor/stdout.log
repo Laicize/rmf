@@ -1,0 +1,447 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'tinyxml'
+--   Found tinyxml, version 2.6.2
+-- Found OpenMP_C: -fopenmp=libomp (found version "5.0") 
+-- Found OpenMP_CXX: -fopenmp=libomp (found version "5.0") 
+-- Found OpenMP: TRUE (found version "5.0")  
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wang/rmf_ws/build/menge_vendor
+[  0%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentGenerators/AgentGenerator.cpp.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentGenerators/HexLatticeGenerator.cpp.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentGenerators/ExplicitAgentGenerator.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentGenerators/AgentGeneratorFactory.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentInitializer.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentGenerators/NavMeshAgentGenerator.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentGenerators/AgentGeneratorDatabase.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentGenerators/RectGridGenerator.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/AgentPropertyManipulator.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/BaseAgent.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Elevations/ElevationDatabase.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/AgentEventEffect.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Elevations/ElevationNavMesh.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Elevations/ElevationFlat.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/Event.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventEffectAgentState.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventEffectDB.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventResponse.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventSystem.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventTarget.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventTargetDB.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventTargetFactory.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventTrigger.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventTriggerDB.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventTriggerExternal.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/EventTriggerFactory.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/StateEvtTrigger.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/StateMemberTarget.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/TargetAgentById.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/change_state_effect.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Events/state_population_trigger.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/Obstacle.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ObstacleSets/ExplicitObstacleSet.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ObstacleSets/ListObstacleSet.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ObstacleSets/NavMeshObstacleSet.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ObstacleSets/ObstacleSet.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ObstacleSets/ObstacleSetDatabase.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ObstacleSets/ObstacleSetFactory.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/PrefVelocity.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ProfileSelectors/ConstProfileSelector.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ProfileSelectors/ProfileSelector.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ProfileSelectors/ProfileSelectorDatabase.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ProfileSelectors/profile_selector_random.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/ProfileSelectors/profile_selector_weighted.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SCBWriter.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SimXMLLoader.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SimulatorInterface.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SimulatorState.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SpatialQueries/AgentKDTree.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SpatialQueries/KNearestQuery.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SpatialQueries/ObstacleKDTree.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/FSMDescrip.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/FSMEnumeration.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelector.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorDatabase.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorExplicit.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorFactory.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorFarthest.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorFarthestNM.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorIdentity.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorMirror.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorNearest.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorNearestNM.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorOffset.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorRandom.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorSet.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorShared.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSelectors/GoalSelectorWeighted.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/GoalSet.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/Goal.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/GoalAABB.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/GoalCircle.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/GoalDatabase.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/GoalFactory.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/GoalOBB.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/GoalPath.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Goals/GoalPoint.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/State.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/StateDescrip.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Tasks/NavMeshLocalizerTask.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Tasks/Task.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Tasks/TaskDatabase.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/CondBoolean.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/CondGoal.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/CondSpace.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/CondTimer.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/ConditionDatabase.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/Target.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/TargetDatabase.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/TargetProb.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/TargetReturn.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Transitions/Transition.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityComponents/VelCompConst.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityComponents/VelCompGoal.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityComponents/VelCompNavMesh.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityComponents/VelCompRoadMap.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityComponents/VelCompVF.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityComponents/VelComponent.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityComponents/VelComponentDatabase.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityModifiers/VelModContext.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityModifiers/VelModifier.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityModifiers/VelModifierDatabase.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/VelocityModifiers/VelModifierScale.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/buildFSM.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/fsmCommon.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/FSM.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Core.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Math/Geometry2D.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Actions/TeleportAction.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Math/Line.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Math/Matrix.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Math/geomQuery.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Orca/ORCAAgent.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Orca/ORCADBEntry.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Orca/ORCAInitializer.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Orca/ORCASimulator.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PedVO/PedVOAgent.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PedVO/PedVODBEntry.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PedVO/PedVOInitializer.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PedVO/PedVOSimulator.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PluginEngine/Attribute.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PluginEngine/AttributeSet.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PluginEngine/CorePluginEngine.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/PluginEngine/Plugin.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/ProjectSpec.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Runtime/Logger.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Runtime/ReadersWriterLock.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Runtime/SimpleLock.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Runtime/SimulatorDB.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Runtime/SimulatorDBEntry.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Runtime/Utils.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Runtime/os.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Math/SimRandom.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Math/RandGenerator.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/menge_c_api.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/Funnel.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/Graph.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Actions/ObstacleAction.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/GraphEdge.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/GraphVertex.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Actions/ActionFactory.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/MinHeap.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Actions/ActionDatabase.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/NavMesh.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/NavMeshEdge.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/NavMeshLocalizer.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/NavMeshNode.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/NavMeshObstacle.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/NavMeshPoly.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/BFSM/Actions/Action.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/Route.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/VectorField.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/WayPortal.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/RoadMapPath.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/ResourceManager.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/Resource.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/PortalPath.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/Portal.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/resources/PathPlanner.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/XMLSimulatorBase.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/StateSelectors/StateSelectorDatabase.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/StateSelectors/StateSelector.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/StateSelectors/ConstStateSelector.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SpatialQueries/SpatialQueryNavMesh.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SpatialQueries/SpatialQueryFactory.cpp.o[0m
+[ 99%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SpatialQueries/SpatialQueryDatabase.cpp.o[0m
+[ 99%] [32mBuilding CXX object CMakeFiles/menge_vendor.dir/src/Menge/MengeCore/Agents/SpatialQueries/SpatialQuery.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmenge_vendor.so[0m
+[100%] Built target menge_vendor
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/environment/library_path.sh
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/environment/library_path.dsv
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/lib/libmenge_vendor.so
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Core.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/NavMeshEdge.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/NavMeshNode.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/NavMesh.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/RoadMapPath.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/PortalPath.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/Funnel.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/NavMeshLocalizer.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/WayPortal.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/Graph.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/MinHeap.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/VectorField.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/NavMeshPoly.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/ResourceManager.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/Portal.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/PathPlanner.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/NavMeshObstacle.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/GraphVertex.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/Route.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/Resource.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/resources/GraphEdge.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/MengeException.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/FSM.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Actions
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Actions/ActionFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Actions/ActionDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Actions/ObstacleAction.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Actions/PropertyAction.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Actions/TeleportAction.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Actions/Action.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/State.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSet.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelCompConst.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelComponentDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelComponentFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelCompGoal.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelCompNavMesh.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelCompRoadMap.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelComponent.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityComponents/VelCompVF.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorWeighted.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorFarthest.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorExplicit.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorFarthestNM.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorShared.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorIdentity.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorOffset.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorRandom.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorNearest.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelector.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorSet.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorNearestNM.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/GoalSelectors/GoalSelectorMirror.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/TargetProb.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/CondBoolean.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/ConditionDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/Condition.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/CondAuto.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/CondTimer.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/Target.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/TargetFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/ConditionFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/TargetDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/CondGoal.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/CondSpace.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/Transition.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Transitions/TargetReturn.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/FSMEnumeration.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/GoalFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/GoalAABB.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/Goal.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/GoalPath.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/GoalCircle.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/GoalOBB.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/GoalPoint.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Goals/GoalDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/StateDescrip.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Tasks
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Tasks/TaskFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Tasks/TaskDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Tasks/NavMeshLocalizerTask.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/Tasks/Task.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifierScale.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifierDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifierFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifierContext.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/fsmCommon.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/FSMDescrip.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/SimpleLock.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/ReadersWriterLock.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/os.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/SimulatorDB.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/Logger.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/Utils.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/SimulatorDBEntry.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/AttributeSet.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/BasePluginEngine.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/SharedLibrary.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/CorePluginEngine.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/Element.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/Attribute.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/ElementDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/ElementFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PluginEngine/Plugin.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/menge_c_api.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAInitializer.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCASimulator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/XMLSimulatorBase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorInterface.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ProfileSelectors
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ProfileSelectors/ConstProfileSelector.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ProfileSelectors/ProfileSelectorFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ProfileSelectors/profile_selector_weighted.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ProfileSelectors/ProfileSelectorDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ProfileSelectors/ProfileSelector.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ProfileSelectors/profile_selector_random.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentPropertyManipulator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/StateSelectors
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/StateSelectors/StateSelectorFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/StateSelectors/StateSelector.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/StateSelectors/ConstStateSelector.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/StateSelectors/StateSelectorDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorState.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimXMLLoader.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Elevations
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Elevations/ElevationNavMesh.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Elevations/ElevationFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Elevations/Elevation.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Elevations/ElevationFlat.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Elevations/ElevationDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets/NavMeshObstacleSet.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets/ObstacleVertexList.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets/ExplicitObstacleSet.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets/ListObstacleSet.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets/ObstacleSet.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets/ObstacleSetFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/ObstacleSets/ObstacleSetDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators/AgentGenerator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators/AgentGeneratorDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators/RectGridGenerator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators/ExplicitAgentGenerator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators/AgentGeneratorFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators/NavMeshAgentGenerator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentGenerators/HexLatticeGenerator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/AgentInitializer.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SCBWriter.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Obstacle.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/AgentKDTree.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/ObstacleKDTree.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQueryKDTree.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQueryNavMesh.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQueryDatabase.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQueryStructs.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/ProximityQuery.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/KNearestQuery.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQueryFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQuery.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventTargetFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventTrigger.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventResponse.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventTriggerDB.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/AgentEventTarget.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventEffectFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventEffectDB.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/Event.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventEffect.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventEffectAgentState.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventTriggerExternal.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventSystem.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventTargetDB.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/change_state_effect.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventException.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/StateMemberTarget.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/AgentEventEffect.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventTarget.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/EventTriggerFactory.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/AgentPropertyEffect.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/TargetAgentById.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/StateEvtTrigger.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/Events/state_population_trigger.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/Matrix.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/Vector3.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/geomQuery.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/consts.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/SimRandom.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/Geometry2D.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/Line.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/RandGenerator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/vector.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/CoreConfig.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/data_set_selector.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/mengeCommon.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PedVO
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PedVO/PedVOInitializer.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PedVO/PedVODBEntry.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PedVO/PedVO.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PedVO/PedVOAgent.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/PedVO/PedVOSimulator.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/ProjectSpec.h
+-- Up-to-date: /home/wang/rmf_ws/install/menge_vendor/include
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/macros.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/splinelib
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/splinelib/HermitePoint.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/splinelib/Hermite.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/include/splinelib/CatmullRom.h
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/ament_index/resource_index/package_run_dependencies/menge_vendor
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/ament_index/resource_index/parent_prefix_path/menge_vendor
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/environment/path.sh
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/environment/path.dsv
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/local_setup.bash
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/local_setup.sh
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/local_setup.zsh
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/local_setup.dsv
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/package.dsv
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/ament_index/resource_index/packages/menge_vendor
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/cmake/menge_vendorExport.cmake
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/cmake/menge_vendorExport-release.cmake
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/cmake/menge_vendorConfig.cmake
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/cmake/menge_vendorConfig-version.cmake
+-- Installing: /home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/package.xml

@@ -1,0 +1,4 @@
+source;share/nlohmann_json_schema_validator_vendor/local_setup.bash
+source;share/nlohmann_json_schema_validator_vendor/local_setup.dsv
+source;share/nlohmann_json_schema_validator_vendor/local_setup.sh
+source;share/nlohmann_json_schema_validator_vendor/local_setup.zsh

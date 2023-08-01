@@ -1,0 +1,170 @@
+[0.081s] Invoking command in '/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor
+[0.751s] -- The C compiler identification is Clang 14.0.0
+[1.009s] -- The CXX compiler identification is Clang 14.0.0
+[1.041s] -- Detecting C compiler ABI info
+[1.185s] -- Detecting C compiler ABI info - done
+[1.198s] -- Check for working C compiler: /usr/bin/clang - skipped
+[1.198s] -- Detecting C compile features
+[1.199s] -- Detecting C compile features - done
+[1.208s] -- Detecting CXX compiler ABI info
+[1.368s] -- Detecting CXX compiler ABI info - done
+[1.382s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[1.382s] -- Detecting CXX compile features
+[1.383s] -- Detecting CXX compile features - done
+[1.386s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.926s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.159s] -- Configuring done (2.1s)
+[2.164s] -- Generating done (0.0s)
+[2.166s] -- Build files have been written to: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor
+[2.182s] Invoked command in '/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/thirdparty/nlohmann_json_schema_validator_vendor -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor
+[2.183s] Invoking command in '/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor -- -j16 -l16
+[2.831s] [ 12%] [34m[1mCreating directories for 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[2.831s] [ 25%] [34m[1mPerforming download step (git clone) for 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[2.831s] 正克隆到 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'...
+[4.157s] HEAD 目前位于 5ef4f90 add content-checker-callback
+[4.650s] [ 37%] [34m[1mNo update step for 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[4.760s] [ 50%] [34m[1mPerforming patch step for 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[4.843s] patching file CMakeLists.txt
+[4.918s] [ 62%] [34m[1mPerforming configure step for 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[5.461s] -- The CXX compiler identification is Clang 14.0.0
+[5.542s] -- Detecting CXX compiler ABI info
+[6.547s] -- Detecting CXX compiler ABI info - done
+[6.580s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[6.580s] -- Detecting CXX compile features
+[6.581s] -- Detecting CXX compile features - done
+[6.619s] -- Found nlohmann_json-cmake-package - linking with it
+[6.648s] -- Set JSON_SCHEMA_TEST_SUITE_PATH to a path in which JSON-Schema-Test-Suite is located (github.com/json-schema-org/JSON-Schema-Test-Suite). Using internal test-suite which might be out of date.
+[6.706s] -- Configuring done (1.8s)
+[6.911s] -- Generating done (0.2s)
+[6.926s] [33mCMake Warning:
+[6.927s]   Manually-specified variables were not used by the project:
+[6.927s] 
+[6.927s]     JSON_VALIDATOR_BUILD_EXAMPLES
+[6.927s]     JSON_VALIDATOR_BUILD_TESTS
+[6.940s] 
+[6.940s] [0m
+[6.949s] -- Build files have been written to: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-build
+[7.039s] [ 75%] [34m[1mPerforming build step for 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[7.316s] [  3%] [32mBuilding CXX object CMakeFiles/nlohmann_json_schema_validator.dir/src/json-schema-draft7.json.cpp.o[0m
+[7.322s] [  6%] [32mBuilding CXX object CMakeFiles/nlohmann_json_schema_validator.dir/src/json-uri.cpp.o[0m
+[7.342s] [  9%] [32mBuilding CXX object CMakeFiles/nlohmann_json_schema_validator.dir/src/json-validator.cpp.o[0m
+[7.353s] [ 12%] [32mBuilding CXX object CMakeFiles/nlohmann_json_schema_validator.dir/src/json-patch.cpp.o[0m
+[7.447s] [ 15%] [32mBuilding CXX object CMakeFiles/nlohmann_json_schema_validator.dir/src/string-format-check.cpp.o[0m
+[16.412s] [1m/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896/src/json-validator.cpp:643:29: [0m[0;1;35mwarning: [0m[1mloop variable 'c' of type 'const unsigned char &' binds to a temporary constructed from type '__gnu_cxx::__normal_iterator<const char *, std::basic_string<char>>::reference' (aka 'const char &') [-Wrange-loop-construct][0m
+[16.412s]                 for (const unsigned char &c : s)
+[16.412s] [0;1;32m                                          ^
+[16.412s] [0m[1m/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896/src/json-validator.cpp:643:8: [0m[0;1;30mnote: [0muse non-reference type 'unsigned char' to make construction explicit or type 'const char &' to prevent copying[0m
+[16.412s]                 for (const unsigned char &c : s)
+[16.413s] [0;1;32m                     ^~~~~~~~~~~~~~~~~~~~~~~~
+[16.707s] [0m[1m/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896/src/json-validator.cpp:1140:10: [0m[0;1;35mwarning: [0m[1menumeration value 'binary' not handled in switch [-Wswitch][0m
+[16.707s]         switch (type) {
+[16.708s] [0;1;32m                ^~~~
+[34.866s] [0m2 warnings generated.
+[34.882s] [ 18%] [32m[1mLinking CXX shared library libnlohmann_json_schema_validator.so[0m
+[35.055s] [ 18%] Built target nlohmann_json_schema_validator
+[35.066s] [ 21%] [32mBuilding CXX object CMakeFiles/json-schema-validate.dir/app/json-schema-validate.cpp.o[0m
+[39.618s] [ 25%] [32m[1mLinking CXX executable json-schema-validate[0m
+[39.747s] [ 25%] Built target json-schema-validate
+[39.755s] [ 28%] [32mBuilding CXX object test/issue-93/CMakeFiles/issue-93.dir/issue-93.cpp.o[0m
+[44.386s] [ 31%] [32m[1mLinking CXX executable issue-93[0m
+[44.536s] [ 31%] Built target issue-93
+[44.546s] [ 34%] [32mBuilding CXX object test/JSON-Schema-Test-Suite/CMakeFiles/json-schema-test.dir/json-schema-test.cpp.o[0m
+[50.417s] [ 37%] [32m[1mLinking CXX executable json-schema-test[0m
+[50.508s] [ 37%] Built target json-schema-test
+[50.514s] [ 40%] [32mBuilding CXX object test/CMakeFiles/issue-117-format-error.dir/issue-117-format-error.cpp.o[0m
+[54.194s] [ 43%] [32m[1mLinking CXX executable issue-117-format-error[0m
+[54.330s] [ 43%] Built target issue-117-format-error
+[54.340s] [ 46%] [32mBuilding CXX object test/CMakeFiles/json-patch.dir/json-patch.cpp.o[0m
+[57.911s] [ 50%] [32m[1mLinking CXX executable json-patch[0m
+[57.995s] [ 50%] Built target json-patch
+[58.001s] [ 53%] [32mBuilding CXX object test/CMakeFiles/string-format-check-test.dir/string-format-check-test.cpp.o[0m
+[59.353s] [ 56%] [32m[1mLinking CXX executable string-format-check-test[0m
+[59.436s] [ 56%] Built target string-format-check-test
+[59.442s] [ 59%] [32mBuilding CXX object test/CMakeFiles/issue-98.dir/issue-98.cpp.o[0m
+[61.144s] [ 62%] [32m[1mLinking CXX executable issue-98[0m
+[61.244s] [ 62%] Built target issue-98
+[61.250s] [ 65%] [32mBuilding CXX object test/CMakeFiles/issue-25-default-values.dir/issue-25-default-values.cpp.o[0m
+[64.467s] [ 68%] [32m[1mLinking CXX executable issue-25-default-values[0m
+[64.676s] [ 68%] Built target issue-25-default-values
+[64.755s] [ 71%] [32mBuilding CXX object test/CMakeFiles/issue-70-root-schema-constructor.dir/issue-70-root-schema-constructor.cpp.o[0m
+[64.803s] [ 75%] [32mBuilding CXX object test/CMakeFiles/issue-70.dir/issue-70.cpp.o[0m
+[71.873s] [ 78%] [32m[1mLinking CXX executable issue-70[0m
+[72.001s] [ 78%] Built target issue-70
+[73.141s] [ 81%] [32m[1mLinking CXX executable issue-70-root-schema-constructor[0m
+[73.257s] [ 81%] Built target issue-70-root-schema-constructor
+[73.266s] [ 84%] [32mBuilding CXX object test/CMakeFiles/errors.dir/errors.cpp.o[0m
+[77.452s] [ 87%] [32m[1mLinking CXX executable errors[0m
+[77.556s] [ 87%] Built target errors
+[77.565s] [ 90%] [32mBuilding CXX object test/CMakeFiles/uri.dir/uri.cpp.o[0m
+[79.616s] [ 93%] [32m[1mLinking CXX executable uri[0m
+[79.737s] [ 93%] Built target uri
+[79.747s] [ 96%] [32mBuilding CXX object CMakeFiles/readme-json-schema.dir/app/readme.cpp.o[0m
+[83.351s] [100%] [32m[1mLinking CXX executable readme-json-schema[0m
+[83.446s] [100%] Built target readme-json-schema
+[83.454s] [ 87%] [34m[1mPerforming install step for 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[83.478s] [ 18%] Built target nlohmann_json_schema_validator
+[83.488s] [ 25%] Built target json-schema-validate
+[83.498s] [ 31%] Built target issue-93
+[83.509s] [ 37%] Built target json-schema-test
+[83.520s] [ 43%] Built target issue-117-format-error
+[83.531s] [ 50%] Built target json-patch
+[83.542s] [ 56%] Built target string-format-check-test
+[83.554s] [ 62%] Built target issue-98
+[83.564s] [ 68%] Built target issue-25-default-values
+[83.573s] [ 75%] Built target issue-70-root-schema-constructor
+[83.585s] [ 81%] Built target issue-70
+[83.595s] [ 87%] Built target errors
+[83.605s] [ 93%] Built target uri
+[83.616s] [100%] Built target readme-json-schema
+[83.622s] [36mInstall the project...[0m
+[83.625s] -- Install configuration: "Release"
+[83.625s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/lib/libnlohmann_json_schema_validator.so.2.1.1
+[83.626s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/lib/libnlohmann_json_schema_validator.so.1
+[83.626s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/lib/libnlohmann_json_schema_validator.so
+[83.626s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/include/nlohmann/json-schema.hpp
+[83.626s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/bin/json-schema-validate
+[83.627s] -- Set runtime path of "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/bin/json-schema-validate" to ""
+[83.627s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/bin/readme-json-schema
+[83.627s] -- Set runtime path of "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/bin/readme-json-schema" to ""
+[83.627s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorTargets.cmake
+[83.627s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorTargets-release.cmake
+[83.628s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorConfig.cmake
+[83.628s] -- Installing: /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/json_external_project/install/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorConfigVersion.cmake
+[83.634s] [100%] [34m[1mCompleted 'nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896'[0m
+[83.642s] [100%] Built target nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896
+[83.652s] Invoked command in '/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor -- -j16 -l16
+[83.694s] Invoking command in '/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor
+[83.720s] -- Install configuration: "Release"
+[83.720s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor
+[83.720s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib
+[83.720s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/libnlohmann_json_schema_validator.so
+[83.720s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/libnlohmann_json_schema_validator.so.1
+[83.720s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/cmake
+[83.720s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/cmake/nlohmann_json_schema_validator
+[83.720s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorConfig.cmake
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorTargets.cmake
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorTargets-release.cmake
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/cmake/nlohmann_json_schema_validator/nlohmann_json_schema_validatorConfigVersion.cmake
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib/libnlohmann_json_schema_validator.so.2.1.1
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin/readme-json-schema
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin/json-schema-validate
+[83.721s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include
+[83.722s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include/nlohmann
+[83.722s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/include/nlohmann/json-schema.hpp
+[83.722s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/ament_index/resource_index/package_run_dependencies/nlohmann_json_schema_validator_vendor
+[83.722s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/ament_index/resource_index/parent_prefix_path/nlohmann_json_schema_validator_vendor
+[83.722s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/environment/ament_prefix_path.sh
+[83.723s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/environment/ament_prefix_path.dsv
+[83.723s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/environment/path.sh
+[83.723s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/environment/path.dsv
+[83.723s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/local_setup.bash
+[83.723s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/local_setup.sh
+[83.723s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/local_setup.zsh
+[83.723s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/local_setup.dsv
+[83.724s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/package.dsv
+[83.724s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/ament_index/resource_index/packages/nlohmann_json_schema_validator_vendor
+[83.724s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/cmake/nlohmann_json_schema_validator_vendorConfig.cmake
+[83.724s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/cmake/nlohmann_json_schema_validator_vendorConfig-version.cmake
+[83.724s] -- Installing: /home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/package.xml
+[83.730s] Invoked command in '/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor

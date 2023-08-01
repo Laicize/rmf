@@ -1,0 +1,315 @@
+[0.072s] Invoking command in '/home/wang/rmf_ws/build/rmf_ingestor_msgs': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_ingestor_msgs
+[0.824s] -- The C compiler identification is Clang 14.0.0
+[0.825s] -- The CXX compiler identification is Clang 14.0.0
+[0.825s] -- Detecting C compiler ABI info
+[0.834s] -- Detecting C compiler ABI info - done
+[0.835s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.835s] -- Detecting C compile features
+[0.835s] -- Detecting C compile features - done
+[0.835s] -- Detecting CXX compiler ABI info
+[0.895s] -- Detecting CXX compiler ABI info - done
+[0.913s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.914s] -- Detecting CXX compile features
+[0.916s] -- Detecting CXX compile features - done
+[0.920s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.539s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.674s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.734s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.743s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.760s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.859s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.065s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.442s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.446s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.449s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.454s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.927s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.132s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.134s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.178s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.178s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.178s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.178s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.212s] -- Found PythonExtra: .so  
+[3.329s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.333s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.345s] -- Configuring done (3.2s)
+[3.425s] -- Generating done (0.1s)
+[3.430s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_ingestor_msgs
+[3.461s] Invoked command in '/home/wang/rmf_ws/build/rmf_ingestor_msgs' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_ingestor_msgs
+[3.462s] Invoking command in '/home/wang/rmf_ws/build/rmf_ingestor_msgs': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_ingestor_msgs -- -j16 -l16
+[3.912s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.273s] [  1%] Built target rmf_ingestor_msgs__cpp
+[4.281s] [  1%] Built target ament_cmake_python_copy_rmf_ingestor_msgs
+[4.286s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.787s] [  5%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_ingestor_msgs/msg/detail/ingestor_request__type_support.cpp.o[0m
+[5.297s] [  7%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_ingestor_msgs/msg/detail/ingestor_state__type_support.cpp.o[0m
+[5.843s] [  9%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_ingestor_msgs/msg/detail/ingestor_result__type_support.cpp.o[0m
+[6.390s] [ 10%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_ingestor_msgs/msg/detail/ingestor_request_item__type_support.cpp.o[0m
+[6.785s] [ 12%] [32m[1mLinking CXX shared library librmf_ingestor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.840s] [ 12%] Built target rmf_ingestor_msgs__rosidl_typesupport_introspection_cpp
+[7.179s] running egg_info
+[7.180s] creating rmf_ingestor_msgs.egg-info
+[7.180s] writing rmf_ingestor_msgs.egg-info/PKG-INFO
+[7.180s] writing dependency_links to rmf_ingestor_msgs.egg-info/dependency_links.txt
+[7.180s] writing top-level names to rmf_ingestor_msgs.egg-info/top_level.txt
+[7.181s] writing manifest file 'rmf_ingestor_msgs.egg-info/SOURCES.txt'
+[7.184s] reading manifest file 'rmf_ingestor_msgs.egg-info/SOURCES.txt'
+[7.185s] writing manifest file 'rmf_ingestor_msgs.egg-info/SOURCES.txt'
+[7.237s] [ 12%] Built target ament_cmake_python_build_rmf_ingestor_msgs_egg
+[7.242s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.780s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request__type_support.cpp.o[0m
+[8.664s] [ 18%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_state__type_support.cpp.o[0m
+[9.541s] [ 20%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_result__type_support.cpp.o[0m
+[10.078s] [ 21%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_ingestor_msgs/msg/detail/dds_fastrtps/ingestor_request_item__type_support.cpp.o[0m
+[10.609s] [ 23%] [32m[1mLinking CXX shared library librmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.660s] [ 23%] Built target rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp
+[10.664s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.040s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_ingestor_msgs/msg/ingestor_request__type_support.cpp.o[0m
+[11.338s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_ingestor_msgs/msg/ingestor_state__type_support.cpp.o[0m
+[11.687s] [ 30%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_ingestor_msgs/msg/ingestor_result__type_support.cpp.o[0m
+[12.034s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_ingestor_msgs/msg/ingestor_request_item__type_support.cpp.o[0m
+[12.344s] [ 34%] [32m[1mLinking CXX shared library librmf_ingestor_msgs__rosidl_typesupport_cpp.so[0m
+[12.406s] [ 34%] Built target rmf_ingestor_msgs__rosidl_typesupport_cpp
+[12.412s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.015s] [ 38%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_ingestor_msgs/msg/detail/ingestor_request__functions.c.o[0m
+[13.149s] [ 40%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_ingestor_msgs/msg/detail/ingestor_state__functions.c.o[0m
+[13.281s] [ 41%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_ingestor_msgs/msg/detail/ingestor_result__functions.c.o[0m
+[13.410s] [ 43%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_ingestor_msgs/msg/detail/ingestor_request_item__functions.c.o[0m
+[13.541s] [ 45%] [32m[1mLinking C shared library librmf_ingestor_msgs__rosidl_generator_c.so[0m
+[13.599s] [ 45%] Built target rmf_ingestor_msgs__rosidl_generator_c
+[13.604s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.070s] [ 49%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_ingestor_msgs/msg/detail/ingestor_request__type_support_c.cpp.o[0m
+[14.603s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_ingestor_msgs/msg/detail/ingestor_state__type_support_c.cpp.o[0m
+[15.089s] [ 52%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_ingestor_msgs/msg/detail/ingestor_result__type_support_c.cpp.o[0m
+[15.702s] [ 54%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_ingestor_msgs/msg/detail/ingestor_request_item__type_support_c.cpp.o[0m
+[16.393s] [ 56%] [32m[1mLinking CXX shared library librmf_ingestor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[16.460s] [ 56%] Built target rmf_ingestor_msgs__rosidl_typesupport_fastrtps_c
+[16.466s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.080s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_ingestor_msgs/msg/ingestor_request__type_support.cpp.o[0m
+[17.124s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_ingestor_msgs/msg/ingestor_state__type_support.cpp.o[0m
+[17.173s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_ingestor_msgs/msg/ingestor_result__type_support.cpp.o[0m
+[17.218s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_ingestor_msgs/msg/ingestor_request_item__type_support.cpp.o[0m
+[17.262s] [ 67%] [32m[1mLinking CXX shared library librmf_ingestor_msgs__rosidl_typesupport_c.so[0m
+[17.326s] [ 67%] Built target rmf_ingestor_msgs__rosidl_typesupport_c
+[17.332s] [ 69%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.994s] [ 70%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_ingestor_msgs/msg/detail/ingestor_request__type_support.c.o[0m
+[18.045s] [ 72%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_ingestor_msgs/msg/detail/ingestor_state__type_support.c.o[0m
+[18.100s] [ 74%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_ingestor_msgs/msg/detail/ingestor_result__type_support.c.o[0m
+[18.148s] [ 76%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_ingestor_msgs/msg/detail/ingestor_request_item__type_support.c.o[0m
+[18.200s] [ 78%] [32m[1mLinking C shared library librmf_ingestor_msgs__rosidl_typesupport_introspection_c.so[0m
+[18.254s] [ 78%] Built target rmf_ingestor_msgs__rosidl_typesupport_introspection_c
+[18.261s] [ 78%] Built target rmf_ingestor_msgs
+[18.269s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.992s] [ 80%] Built target rmf_ingestor_msgs__py
+[18.999s] [ 81%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_ingestor_msgs/msg/_ingestor_request_s.c.o[0m
+[19.140s] [ 83%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_ingestor_msgs/msg/_ingestor_state_s.c.o[0m
+[19.313s] [ 85%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_ingestor_msgs/msg/_ingestor_result_s.c.o[0m
+[19.547s] [ 87%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_ingestor_msgs/msg/_ingestor_request_item_s.c.o[0m
+[19.803s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/rmf_ingestor_msgs/librmf_ingestor_msgs__rosidl_generator_py.so[0m
+[19.877s] [ 89%] Built target rmf_ingestor_msgs__rosidl_generator_py
+[19.889s] [ 90%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_ingestor_msgs/_rmf_ingestor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.118s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.177s] [ 92%] Built target rmf_ingestor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[20.188s] [ 94%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_ingestor_msgs/_rmf_ingestor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[20.419s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.482s] [ 96%] Built target rmf_ingestor_msgs__rosidl_typesupport_c__pyext
+[20.495s] [ 98%] [32mBuilding C object CMakeFiles/rmf_ingestor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_ingestor_msgs/_rmf_ingestor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.736s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.812s] [100%] Built target rmf_ingestor_msgs__rosidl_typesupport_introspection_c__pyext
+[20.834s] Invoked command in '/home/wang/rmf_ws/build/rmf_ingestor_msgs' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_ingestor_msgs -- -j16 -l16
+[20.976s] Invoking command in '/home/wang/rmf_ws/build/rmf_ingestor_msgs': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_ingestor_msgs
+[22.614s] -- Install configuration: "Release"
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_ingestor_msgs
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_request.h
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_result.h
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__functions.h
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__struct.h
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__functions.c
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__struct.h
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__functions.h
+[22.615s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__functions.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__type_support.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__type_support.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__struct.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__functions.c
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__struct.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__functions.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__type_support.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__type_support.h
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__functions.c
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__functions.c
+[22.616s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/rosidl_generator_c__visibility_control.h
+[22.617s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_state.h
+[22.617s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_request_item.h
+[22.617s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/library_path.sh
+[22.617s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/library_path.dsv
+[22.617s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_generator_c.so
+[22.617s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_generator_c.so" to ""
+[22.617s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs
+[22.617s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg
+[22.617s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__rosidl_typesupport_fastrtps_c.h
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__rosidl_typesupport_fastrtps_c.h
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__rosidl_typesupport_fastrtps_c.h
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__rosidl_typesupport_fastrtps_c.h
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_fastrtps_c.so
+[22.618s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[22.618s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs
+[22.618s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg
+[22.618s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__struct.hpp
+[22.618s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__builder.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__builder.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__struct.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__traits.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__struct.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__traits.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__builder.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__traits.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__struct.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__traits.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__builder.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_request_item.hpp
+[22.619s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_request.hpp
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_result.hpp
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/ingestor_state.hpp
+[22.620s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs
+[22.620s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg
+[22.620s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__rosidl_typesupport_fastrtps_cpp.hpp
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/dds_fastrtps
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__rosidl_typesupport_fastrtps_cpp.hpp
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__rosidl_typesupport_fastrtps_cpp.hpp
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[22.620s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[22.621s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.621s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs
+[22.621s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg
+[22.621s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__type_support.c
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__rosidl_typesupport_introspection_c.h
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__rosidl_typesupport_introspection_c.h
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__type_support.c
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__rosidl_typesupport_introspection_c.h
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__type_support.c
+[22.621s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__type_support.c
+[22.622s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__rosidl_typesupport_introspection_c.h
+[22.622s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.622s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_introspection_c.so
+[22.622s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[22.622s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_c.so
+[22.622s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_c.so" to ""
+[22.622s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs
+[22.622s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg
+[22.622s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail
+[22.622s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__type_support.cpp
+[22.622s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__type_support.cpp
+[22.622s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__type_support.cpp
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request_item__rosidl_typesupport_introspection_cpp.hpp
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_result__rosidl_typesupport_introspection_cpp.hpp
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_request__rosidl_typesupport_introspection_cpp.hpp
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__type_support.cpp
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/include/rmf_ingestor_msgs/rmf_ingestor_msgs/msg/detail/ingestor_state__rosidl_typesupport_introspection_cpp.hpp
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_introspection_cpp.so
+[22.623s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_cpp.so
+[22.623s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_typesupport_cpp.so" to ""
+[22.623s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/pythonpath.sh
+[22.624s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/pythonpath.dsv
+[22.624s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs-3.0.3-py3.10.egg-info
+[22.624s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs-3.0.3-py3.10.egg-info/PKG-INFO
+[22.624s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs-3.0.3-py3.10.egg-info/dependency_links.txt
+[22.628s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs-3.0.3-py3.10.egg-info/SOURCES.txt
+[22.628s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs-3.0.3-py3.10.egg-info/top_level.txt
+[22.628s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs
+[22.629s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/__init__.py
+[22.629s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.629s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/_rmf_ingestor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[22.629s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/librmf_ingestor_msgs__rosidl_generator_py.so
+[22.629s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/_rmf_ingestor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.629s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.629s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.630s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg
+[22.630s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_state_s.c
+[22.630s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_request_s.c
+[22.630s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/__init__.py
+[22.630s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_result_s.c
+[22.630s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_request_item.py
+[22.630s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_result.py
+[22.631s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_request.py
+[22.631s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_request_item_s.c
+[22.631s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_state.py
+[22.631s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/_rmf_ingestor_msgs_s.ep.rosidl_typesupport_c.c
+[22.631s] Listing '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs'...
+[22.631s] Compiling '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/__init__.py'...
+[22.631s] Listing '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg'...
+[22.631s] Compiling '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/__init__.py'...
+[22.631s] Compiling '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_request.py'...
+[22.631s] Compiling '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_request_item.py'...
+[22.631s] Compiling '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_result.py'...
+[22.631s] Compiling '/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/msg/_ingestor_state.py'...
+[22.631s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.632s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.632s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.632s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.632s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.633s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages/rmf_ingestor_msgs/rmf_ingestor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.633s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_generator_py.so
+[22.633s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib/librmf_ingestor_msgs__rosidl_generator_py.so" to ""
+[22.633s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorRequest.idl
+[22.633s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorRequestItem.idl
+[22.633s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorResult.idl
+[22.633s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorState.idl
+[22.633s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorRequest.msg
+[22.634s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorRequestItem.msg
+[22.634s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorResult.msg
+[22.634s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/msg/IngestorState.msg
+[22.634s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_ingestor_msgs
+[22.634s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_ingestor_msgs
+[22.635s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/ament_prefix_path.sh
+[22.635s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/ament_prefix_path.dsv
+[22.635s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/path.sh
+[22.635s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/environment/path.dsv
+[22.636s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/local_setup.bash
+[22.636s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/local_setup.sh
+[22.638s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/local_setup.zsh
+[22.638s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/local_setup.dsv
+[22.638s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/package.dsv
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/ament_index/resource_index/packages/rmf_ingestor_msgs
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_generator_cExport.cmake
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_generator_cExport-release.cmake
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_generator_cppExport.cmake
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.639s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[22.640s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[22.640s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[22.640s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_cExport.cmake
+[22.640s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_cExport-release.cmake
+[22.640s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[22.641s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[22.641s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_cppExport.cmake
+[22.641s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgs__rosidl_typesupport_cppExport-release.cmake
+[22.641s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_generator_pyExport.cmake
+[22.642s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/export_rmf_ingestor_msgs__rosidl_generator_pyExport-release.cmake
+[22.644s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rosidl_cmake-extras.cmake
+[22.644s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgsConfig.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/cmake/rmf_ingestor_msgsConfig-version.cmake
+[22.645s] -- Installing: /home/wang/rmf_ws/install/rmf_ingestor_msgs/share/rmf_ingestor_msgs/package.xml
+[22.646s] Invoked command in '/home/wang/rmf_ws/build/rmf_ingestor_msgs' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_ingestor_msgs

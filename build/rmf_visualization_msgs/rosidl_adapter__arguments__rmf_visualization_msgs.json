@@ -1,0 +1,6 @@
+{
+  "package_name": "rmf_visualization_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs:msg/RvizParam.msg"
+  ]
+}

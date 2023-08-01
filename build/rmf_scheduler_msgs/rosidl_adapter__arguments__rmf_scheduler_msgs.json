@@ -1,0 +1,19 @@
+{
+  "package_name": "rmf_scheduler_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/CancelAll.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/CancelSchedule.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/CancelTrigger.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/CreateSchedule.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/CreateTrigger.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/ListSchedules.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/ListScheduleStates.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/ListTriggers.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:srv/ListTriggerStates.srv",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:msg/Payload.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:msg/Schedule.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:msg/ScheduleState.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:msg/Trigger.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_scheduler_msgs:msg/TriggerState.msg"
+  ]
+}

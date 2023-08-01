@@ -1,0 +1,4 @@
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic/src/rmf_traffic/agv/planning/Supergraph.cpp:470:10: [0m[0;1;35mwarning: [0m[1mvariable 'distance_cost' set but not used [-Wunused-but-set-variable][0m
+  double distance_cost = 0.0;
+[0;1;32m         ^
+[0m1 warning generated.

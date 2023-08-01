@@ -1,0 +1,69 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found rmf_building_map_msgs: 1.2.1 (/home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake)
+-- Found rmf_fleet_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake)
+-- Found rmf_visualization_msgs: 1.2.1 (/home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake)
+-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rmf_traffic_ros2: 2.1.6 (/home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'proj'
+--   Found proj, version 8.2.1
+-- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Configuring done (2.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_visualization_navgraphs
+[ 25%] [32mBuilding CXX object CMakeFiles/navgraph_visualizer_node.dir/rclcpp_components/node_main_navgraph_visualizer_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navgraph_visualizer.dir/src/NavGraphVisualizer.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable navgraph_visualizer_node[0m
+[ 75%] Built target navgraph_visualizer_node
+[100%] [32m[1mLinking CXX shared library libnavgraph_visualizer.so[0m
+[100%] Built target navgraph_visualizer
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/lib/rmf_visualization_navgraphs/navgraph_visualizer_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_navgraphs/lib/rmf_visualization_navgraphs/navgraph_visualizer_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/lib/libnavgraph_visualizer.so
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_navgraphs/lib/libnavgraph_visualizer.so" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_navgraphs
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_navgraphs
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/ament_prefix_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/ament_prefix_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.bash
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.zsh
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/package.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/packages/rmf_visualization_navgraphs
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/rclcpp_components/rmf_visualization_navgraphs
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/cmake/rmf_visualization_navgraphsConfig.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/cmake/rmf_visualization_navgraphsConfig-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/package.xml

@@ -1,0 +1,6 @@
+{
+  "package_name": "rmf_site_map_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_site_map_msgs:msg/SiteMap.msg"
+  ]
+}

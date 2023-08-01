@@ -1,0 +1,11 @@
+{
+  "package_name": "rmf_door_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs:msg/DoorMode.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs:msg/DoorState.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs:msg/DoorRequest.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs:msg/DoorSessions.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs:msg/Session.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_door_msgs:msg/SupervisorHeartbeat.msg"
+  ]
+}

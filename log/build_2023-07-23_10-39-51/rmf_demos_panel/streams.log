@@ -1,0 +1,48 @@
+[2.030s] Invoking command in '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_demos_dashboard_resources:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_demos_dashboard_resources LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_demos_panel/prefix_override:/home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_demos_panel build --build-base /home/wang/rmf_ws/build/rmf_demos_panel/build install --record /home/wang/rmf_ws/build/rmf_demos_panel/install.log --single-version-externally-managed
+[2.676s] running egg_info
+[2.678s] creating ../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info
+[2.679s] writing ../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/PKG-INFO
+[2.679s] writing dependency_links to ../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/dependency_links.txt
+[2.679s] writing entry points to ../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/entry_points.txt
+[2.679s] writing requirements to ../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/requires.txt
+[2.679s] writing top-level names to ../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/top_level.txt
+[2.683s] writing manifest file '../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[2.683s] reading manifest file '../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[2.684s] writing manifest file '../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[2.684s] running build
+[2.684s] running build_py
+[2.684s] creating /home/wang/rmf_ws/build/rmf_demos_panel/build
+[2.685s] creating /home/wang/rmf_ws/build/rmf_demos_panel/build/lib
+[2.685s] creating /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.685s] copying rmf_demos_panel/__init__.py -> /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.685s] copying rmf_demos_panel/simple_api_server.py -> /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.685s] copying rmf_demos_panel/dispatcher_client.py -> /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.685s] copying rmf_demos_panel/rmf_msg_observer.py -> /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.685s] running install
+[2.686s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.686s]   warnings.warn(
+[2.686s] running install_lib
+[2.693s] creating /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.693s] copying /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel/__init__.py -> /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.693s] copying /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel/simple_api_server.py -> /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.693s] copying /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel/dispatcher_client.py -> /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.693s] copying /home/wang/rmf_ws/build/rmf_demos_panel/build/lib/rmf_demos_panel/rmf_msg_observer.py -> /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.694s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/__init__.py to __init__.cpython-310.pyc
+[2.694s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/simple_api_server.py to simple_api_server.cpython-310.pyc
+[2.694s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/dispatcher_client.py to dispatcher_client.cpython-310.pyc
+[2.697s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/rmf_msg_observer.py to rmf_msg_observer.cpython-310.pyc
+[2.698s] running install_data
+[2.699s] creating /home/wang/rmf_ws/install/rmf_demos_panel/share/ament_index
+[2.699s] creating /home/wang/rmf_ws/install/rmf_demos_panel/share/ament_index/resource_index
+[2.699s] creating /home/wang/rmf_ws/install/rmf_demos_panel/share/ament_index/resource_index/packages
+[2.699s] copying resource/rmf_demos_panel -> /home/wang/rmf_ws/install/rmf_demos_panel/share/ament_index/resource_index/packages
+[2.699s] copying package.xml -> /home/wang/rmf_ws/install/rmf_demos_panel/share/rmf_demos_panel
+[2.700s] creating /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/templates
+[2.700s] creating /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/static
+[2.700s] creating /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/static/dist
+[2.700s] running install_egg_info
+[2.703s] Copying ../../../../build/rmf_demos_panel/rmf_demos_panel.egg-info to /home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel-2.0.3-py3.10.egg-info
+[2.704s] running install_scripts
+[2.738s] Installing simple_api_server script to /home/wang/rmf_ws/install/rmf_demos_panel/lib/rmf_demos_panel
+[2.739s] writing list of installed files to '/home/wang/rmf_ws/build/rmf_demos_panel/install.log'
+[2.804s] Invoked command in '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_panel' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_demos_dashboard_resources:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_demos_dashboard_resources LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_demos_panel/prefix_override:/home/wang/rmf_ws/install/rmf_demos_panel/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_demos_panel build --build-base /home/wang/rmf_ws/build/rmf_demos_panel/build install --record /home/wang/rmf_ws/build/rmf_demos_panel/install.log --single-version-externally-managed

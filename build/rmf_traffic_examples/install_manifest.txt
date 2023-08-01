@@ -1,0 +1,3 @@
+/home/wang/rmf_ws/install/rmf_traffic_examples/lib/rmf_traffic_examples/three_robots
+/home/wang/rmf_ws/install/rmf_traffic_examples/share/ament_index/resource_index/packages/rmf_traffic_examples
+/home/wang/rmf_ws/install/rmf_traffic_examples/share/rmf_traffic_examples/hook/ament_prefix_path.dsv

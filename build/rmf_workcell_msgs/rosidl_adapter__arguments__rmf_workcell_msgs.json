@@ -1,0 +1,11 @@
+{
+  "package_name": "rmf_workcell_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs:msg/Asset.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs:msg/Trait.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs:msg/WorkcellConfiguration.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs:msg/WorkcellState.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs:msg/WorkcellRequest.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_workcell_msgs:msg/WorkcellResult.msg"
+  ]
+}

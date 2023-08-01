@@ -1,0 +1,4 @@
+source;share/rmf_fleet_adapter/local_setup.bash
+source;share/rmf_fleet_adapter/local_setup.dsv
+source;share/rmf_fleet_adapter/local_setup.sh
+source;share/rmf_fleet_adapter/local_setup.zsh

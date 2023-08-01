@@ -1,0 +1,38 @@
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/airport_terminal/airport_terminal.building.yaml /home/wang/rmf_ws/build/rmf_demos_maps/maps/airport_terminal/airport_terminal.world /home/wang/rmf_ws/build/rmf_demos_maps/maps/airport_terminal/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/airport_terminal/airport_terminal.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/battle_royale/battle_royale.building.yaml /home/wang/rmf_ws/build/rmf_demos_maps/maps/battle_royale/battle_royale.world /home/wang/rmf_ws/build/rmf_demos_maps/maps/battle_royale/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/battle_royale/battle_royale.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/campus/campus.building.yaml /home/wang/rmf_ws/build/rmf_demos_maps/maps/campus/campus.world /home/wang/rmf_ws/build/rmf_demos_maps/maps/campus/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/campus/campus.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/clinic/clinic.building.yaml /home/wang/rmf_ws/build/rmf_demos_maps/maps/clinic/clinic.world /home/wang/rmf_ws/build/rmf_demos_maps/maps/clinic/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/clinic/clinic.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/hotel/hotel.building.yaml /home/wang/rmf_ws/build/rmf_demos_maps/maps/hotel/hotel.world /home/wang/rmf_ws/build/rmf_demos_maps/maps/hotel/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/hotel/hotel.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/office/office.building.yaml /home/wang/rmf_ws/build/rmf_demos_maps/maps/office/office.world /home/wang/rmf_ws/build/rmf_demos_maps/maps/office/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/office/office.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/triple_H/triple_H.building.yaml /home/wang/rmf_ws/build/rmf_demos_maps/maps/triple_H/triple_H.world /home/wang/rmf_ws/build/rmf_demos_maps/maps/triple_H/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_maps/maps/triple_H/triple_H.building.yaml[0m
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+/home/wang/rmf_ws/install/rmf_building_map_tools/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:

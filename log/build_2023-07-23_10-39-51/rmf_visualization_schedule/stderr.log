@@ -1,0 +1,75 @@
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/jwt.hpp:37:
+[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:288:12: [0m[0;1;35mwarning: [0m[1m'EC_KEY_free' is deprecated [-Wdeprecated-declarations][0m
+  if (ptr) EC_KEY_free(ptr);
+[0;1;32m           ^
+[0m[1m/usr/include/openssl/ec.h:1003:1: [0m[0;1;30mnote: [0m'EC_KEY_free' has been explicitly marked deprecated here[0m
+OSSL_DEPRECATEDIN_3_0 void EC_KEY_free(EC_KEY *key);
+[0;1;32m^
+[0m[1m/usr/include/openssl/macros.h:182:49: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATEDIN_3_0'[0m
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+[0;1;32m                                                ^
+[0m[1m/usr/include/openssl/macros.h:62:52: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATED'[0m
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+[0;1;32m                                                   ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/jwt.hpp:37:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:554:
+[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:24: [0m[0;1;35mwarning: [0m[1m'EVP_PKEY_get1_EC_KEY' is deprecated [-Wdeprecated-declarations][0m
+    EC_KEY_uptr ec_key{EVP_PKEY_get1_EC_KEY(pkey.get()), ec_key_deletor};
+[0;1;32m                       ^
+[0m[1m/usr/include/openssl/evp.h:1373:1: [0m[0;1;30mnote: [0m'EVP_PKEY_get1_EC_KEY' has been explicitly marked deprecated here[0m
+OSSL_DEPRECATEDIN_3_0
+[0;1;32m^
+[0m[1m/usr/include/openssl/macros.h:182:49: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATEDIN_3_0'[0m
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+[0;1;32m                                                ^
+[0m[1m/usr/include/openssl/macros.h:62:52: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATED'[0m
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+[0;1;32m                                                   ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/jwt.hpp:37:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:554:
+[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:9: [0m[0;1;35mwarning: [0m[1m'EC_KEY_get0_group' is deprecated [-Wdeprecated-declarations][0m
+        EC_KEY_get0_group(ec_key.get()));
+[0;1;32m        ^
+[0m[1m/usr/include/openssl/ec.h:1034:1: [0m[0;1;30mnote: [0m'EC_KEY_get0_group' has been explicitly marked deprecated here[0m
+OSSL_DEPRECATEDIN_3_0 const EC_GROUP *EC_KEY_get0_group(const EC_KEY *key);
+[0;1;32m^
+[0m[1m/usr/include/openssl/macros.h:182:49: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATEDIN_3_0'[0m
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+[0;1;32m                                                ^
+[0m[1m/usr/include/openssl/macros.h:62:52: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATED'[0m
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+[0;1;32m                                                   ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/jwt.hpp:37:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:554:
+[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:22: [0m[0;1;35mwarning: [0m[1m'EVP_PKEY_get1_EC_KEY' is deprecated [-Wdeprecated-declarations][0m
+  EC_KEY_uptr ec_key{EVP_PKEY_get1_EC_KEY(pkey), ec_key_deletor};
+[0;1;32m                     ^
+[0m[1m/usr/include/openssl/evp.h:1373:1: [0m[0;1;30mnote: [0m'EVP_PKEY_get1_EC_KEY' has been explicitly marked deprecated here[0m
+OSSL_DEPRECATEDIN_3_0
+[0;1;32m^
+[0m[1m/usr/include/openssl/macros.h:182:49: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATEDIN_3_0'[0m
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+[0;1;32m                                                ^
+[0m[1m/usr/include/openssl/macros.h:62:52: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATED'[0m
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+[0;1;32m                                                   ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/jwt.hpp:37:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:554:
+[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:41: [0m[0;1;35mwarning: [0m[1m'EC_KEY_get0_group' is deprecated [-Wdeprecated-declarations][0m
+  uint32_t degree = EC_GROUP_get_degree(EC_KEY_get0_group(ec_key.get()));
+[0;1;32m                                        ^
+[0m[1m/usr/include/openssl/ec.h:1034:1: [0m[0;1;30mnote: [0m'EC_KEY_get0_group' has been explicitly marked deprecated here[0m
+OSSL_DEPRECATEDIN_3_0 const EC_GROUP *EC_KEY_get0_group(const EC_KEY *key);
+[0;1;32m^
+[0m[1m/usr/include/openssl/macros.h:182:49: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATEDIN_3_0'[0m
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+[0;1;32m                                                ^
+[0m[1m/usr/include/openssl/macros.h:62:52: [0m[0;1;30mnote: [0mexpanded from macro 'OSSL_DEPRECATED'[0m
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+[0;1;32m                                                   ^
+[0m5 warnings generated.

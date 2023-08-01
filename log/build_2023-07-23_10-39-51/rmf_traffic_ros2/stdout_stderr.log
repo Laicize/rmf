@@ -1,0 +1,465 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rmf_traffic_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_traffic_msgs/share/rmf_traffic_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmf_site_map_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_site_map_msgs/share/rmf_site_map_msgs/cmake)
+-- Found rmf_building_map_msgs: 1.2.1 (/home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake)
+-- Found rmf_fleet_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake)
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+-- Found LibUUID: /usr/lib/x86_64-linux-gnu/libuuid.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'proj'
+--   Found proj, version 8.2.1
+-- found rmf_traffic
+-- rmf_traffic_LIBRARIES: 
+-- rmf_traffic_INCLUDE_DIRS: /usr/include/eigen3
+-- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Configuring done (1.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_traffic_ros2
+[  7%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/blockade/Node.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/blockade/Writer.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/convert_Profile.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/convert_Route.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/convert_Graph.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/convert_Trajectory.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/convert_Time.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/geometry/Circle.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/geometry/Shape.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/geometry/ConvexShape.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/MirrorManager.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/MonitorNode.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/Negotiation.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/NegotiationRoom.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/Node.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/ParticipantRegistry.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/ScheduleIdentity.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/Writer.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/YamlLogger.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/YamlSerialization.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/convert_Change.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/convert_Inconsistencies.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/convert_Itinerary.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/convert_ParticipantDescription.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/convert_Patch.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rmf_traffic_ros2.dir/src/rmf_traffic_ros2/schedule/convert_Query.cpp.o[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/blockade/Node.cpp:273:38: [0m[0;1;35mwarning: [0m[1mformat string is not a string literal (potentially insecure) [-Wformat-security][0m
+        RCLCPP_INFO(n->get_logger(), msg.c_str());
+[0;1;32m                                     ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/blockade/Node.cpp:273:38: [0m[0;1;30mnote: [0mtreat the string as an argument to avoid this[0m
+        RCLCPP_INFO(n->get_logger(), msg.c_str());
+[0;1;32m                                     ^
+[0m[0;32m                                     "%s", 
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/blockade/Node.cpp:282:39: [0m[0;1;35mwarning: [0m[1mformat string is not a string literal (potentially insecure) [-Wformat-security][0m
+        RCLCPP_DEBUG(n->get_logger(), msg.c_str());
+[0;1;32m                                      ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:102:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_DEBUG'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:256:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_DEBUG_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/blockade/Node.cpp:282:39: [0m[0;1;30mnote: [0mtreat the string as an argument to avoid this[0m
+        RCLCPP_DEBUG(n->get_logger(), msg.c_str());
+[0;1;32m                                      ^
+[0m[0;32m                                      "%s", 
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:102:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_DEBUG'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:256:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_DEBUG_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/Writer.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Writer.hpp:24:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/Writer.cpp:347:9)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/Writer.cpp:347:9), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/Writer.cpp:347:9), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/Writer.cpp:347:9), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/Writer.cpp:344:47: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/Writer.cpp:347:9), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>>' requested here[0m
+      transport->schedule_startup_sub = node->create_subscription<ScheduleId>(
+[0;1;32m                                              ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:21:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:121:7)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:121:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:121:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:121:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:118:34: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:121:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>>' requested here[0m
+    schedule_startup_sub = node->create_subscription<ScheduleIdentity>(
+[0;1;32m                                 ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<rmf_traffic_msgs::msg::ScheduleIdentity_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:18:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/internal_MonitorNode.hpp:21:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/internal_Node.hpp:26:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:105:5)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:105:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:105:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:105:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:102:19: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:105:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>, rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>>' requested here[0m
+  heartbeat_sub = create_subscription<Heartbeat>(
+[0;1;32m                  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<rmf_traffic_msgs::msg::Heartbeat_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:183:7)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:183:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:183:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:183:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:180:30: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:183:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>>' requested here[0m
+    queries_info_sub = node->create_subscription<ScheduleQueries>(
+[0;1;32m                             ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:126:5)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:126:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:126:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:126:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:123:22: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MonitorNode.cpp:126:5), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>, rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>>' requested here[0m
+  queries_info_sub = create_subscription<ScheduleQueries>(
+[0;1;32m                     ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<rmf_traffic_msgs::msg::ScheduleQueries_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:249:7)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:249:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:249:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:249:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:246:35: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:249:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>, rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>>' requested here[0m
+    participants_info_sub = node->create_subscription<ParticipantsInfo>(
+[0;1;32m                                  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<rmf_traffic_msgs::msg::Participants_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:259:7)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:259:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:259:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:259:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:256:31: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/src/rmf_traffic_ros2/schedule/MirrorManager.cpp:259:7), std::allocator<void>, rclcpp::Subscription<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, std::allocator<void>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>, rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>>' requested here[0m
+    mirror_update_sub = node->create_subscription<MirrorUpdate>(
+[0;1;32m                              ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<rmf_traffic_msgs::msg::MirrorUpdate_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0m4 warnings generated.
+2 warnings generated.
+2 warnings generated.
+8 warnings generated.
+[ 49%] [32m[1mLinking CXX shared library librmf_traffic_ros2.so[0m
+[ 49%] Built target rmf_traffic_ros2
+[ 52%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic_ros2.dir/test/unit/test_ParticipantRegistry.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/missing_query_schedule_node.dir/test/mock_schedule_nodes/missing_query_schedule.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic_ros2.dir/test/main.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/test_rmf_traffic_ros2.dir/test/unit/test_convert_Graph.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mock_repetitive_delay_participant.dir/test/mock_participants/repetitive_delay_participant.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/wrong_query_schedule_node.dir/test/mock_schedule_nodes/wrong_query.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/changed_participant_schedule_node.dir/test/mock_schedule_nodes/changed_participant_id.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/missing_query_monitor_node.dir/test/mock_monitor_nodes/missing_query_monitor.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/missing_participant_schedule_node.dir/test/mock_schedule_nodes/missing_participant.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rmf_traffic_schedule.dir/src/rmf_traffic_schedule/main.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/participant_node.dir/examples/participant_node.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/delayed_query_broadcast_monitor_node.dir/test/mock_monitor_nodes/delayed_query_broadcast_monitor.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rmf_traffic_blockade.dir/src/rmf_traffic_blockade/main.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/rmf_traffic_schedule_monitor.dir/src/rmf_traffic_schedule_monitor/main.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/update_participant.dir/src/update_participant/main.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable rmf_traffic_blockade[0m
+[ 80%] [32m[1mLinking CXX executable rmf_traffic_schedule[0m
+[ 80%] Built target rmf_traffic_blockade
+[ 80%] Built target rmf_traffic_schedule
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_traffic_ros2/test/mock_participants/repetitive_delay_participant.cpp:70:20: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+      participant->delay(1s);
+[0;1;32m                   ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[ 81%] [32m[1mLinking CXX executable participant_node[0m
+[ 81%] Built target participant_node
+[ 83%] [32m[1mLinking CXX executable rmf_traffic_schedule_monitor[0m
+[ 83%] Built target rmf_traffic_schedule_monitor
+[0m1 warning generated.
+[ 85%] [32m[1mLinking CXX executable mock_repetitive_delay_participant[0m
+[ 85%] Built target mock_repetitive_delay_participant
+[ 87%] [32m[1mLinking CXX executable update_participant[0m
+[ 87%] Built target update_participant
+[ 89%] [32m[1mLinking CXX executable changed_participant_schedule_node[0m
+[ 89%] Built target changed_participant_schedule_node
+[ 90%] [32m[1mLinking CXX executable missing_participant_schedule_node[0m
+[ 90%] Built target missing_participant_schedule_node
+[ 92%] [32m[1mLinking CXX executable missing_query_schedule_node[0m
+[ 92%] Built target missing_query_schedule_node
+[ 94%] [32m[1mLinking CXX executable missing_query_monitor_node[0m
+[ 96%] [32m[1mLinking CXX executable wrong_query_schedule_node[0m
+[ 96%] Built target missing_query_monitor_node
+[ 96%] Built target wrong_query_schedule_node
+[ 98%] [32m[1mLinking CXX executable delayed_query_broadcast_monitor_node[0m
+[ 98%] Built target delayed_query_broadcast_monitor_node
+[100%] [32m[1mLinking CXX executable test_rmf_traffic_ros2[0m
+[100%] Built target test_rmf_traffic_ros2
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/missing_query_schedule_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/missing_query_schedule_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/missing_query_monitor_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/missing_query_monitor_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/wrong_query_schedule_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/wrong_query_schedule_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/delayed_query_broadcast_monitor_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/delayed_query_broadcast_monitor_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/missing_participant_schedule_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/missing_participant_schedule_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/changed_participant_schedule_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/changed_participant_schedule_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/mock_repetitive_delay_participant
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/mock_repetitive_delay_participant" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/environment/library_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/environment/library_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/geometry
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/geometry/ConvexShape.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/geometry/Shape.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/geometry/Circle.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Writer.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/MonitorNode.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Query.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Node.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/ParticipantDescription.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Negotiation.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Patch.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Inconsistencies.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/ParticipantRegistry.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/MirrorManager.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Itinerary.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/ScheduleIdentity.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/schedule/Change.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/Trajectory.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/StandardNames.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/agv
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/agv/Graph.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/blockade
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/blockade/Writer.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/blockade/Node.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/Time.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/Route.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/include/rmf_traffic_ros2/Profile.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/librmf_traffic_ros2.so
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/librmf_traffic_ros2.so" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/rmf_traffic_schedule
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/rmf_traffic_schedule" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/rmf_traffic_schedule_monitor
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/rmf_traffic_schedule_monitor" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/rmf_traffic_blockade
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/rmf_traffic_blockade" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/update_participant
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_ros2/lib/rmf_traffic_ros2/update_participant" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/ament_index/resource_index/package_run_dependencies/rmf_traffic_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/ament_index/resource_index/parent_prefix_path/rmf_traffic_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/environment/path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/environment/path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/local_setup.bash
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/local_setup.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/local_setup.zsh
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/local_setup.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/package.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/ament_index/resource_index/packages/rmf_traffic_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake/rmf_traffic_ros2Export.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake/rmf_traffic_ros2Export-release.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake/proj_dependency.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake/rmf_traffic_ros2Config.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake/rmf_traffic_ros2Config-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/package.xml

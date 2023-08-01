@@ -1,0 +1,6 @@
+/home/wang/rmf_ws/build/rmf_door_msgs/rosidl_adapter/rmf_door_msgs:msg/DoorMode.idl
+/home/wang/rmf_ws/build/rmf_door_msgs/rosidl_adapter/rmf_door_msgs:msg/DoorState.idl
+/home/wang/rmf_ws/build/rmf_door_msgs/rosidl_adapter/rmf_door_msgs:msg/DoorRequest.idl
+/home/wang/rmf_ws/build/rmf_door_msgs/rosidl_adapter/rmf_door_msgs:msg/DoorSessions.idl
+/home/wang/rmf_ws/build/rmf_door_msgs/rosidl_adapter/rmf_door_msgs:msg/Session.idl
+/home/wang/rmf_ws/build/rmf_door_msgs/rosidl_adapter/rmf_door_msgs:msg/SupervisorHeartbeat.idl

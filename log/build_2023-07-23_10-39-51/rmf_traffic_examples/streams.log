@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic_examples': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_traffic_examples
+[0.082s] -- The C compiler identification is Clang 14.0.0
+[0.183s] -- The CXX compiler identification is Clang 14.0.0
+[0.200s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.287s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.287s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.374s] -- Detecting CXX compiler ABI info - done
+[0.381s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.381s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.383s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.389s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.475s] -- Found Threads: TRUE  
+[0.476s] -- Configuring done (0.5s)
+[0.478s] -- Generating done (0.0s)
+[0.478s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_traffic_examples
+[0.486s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic_examples' returned '0': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_traffic/rmf_traffic_examples -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_traffic_examples
+[0.487s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic_examples': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_traffic_examples -- -j16 -l16
+[0.519s] [ 50%] [32mBuilding CXX object CMakeFiles/three_robots.dir/src/three_robots.cpp.o[0m
+[5.644s] [100%] [32m[1mLinking CXX executable three_robots[0m
+[5.848s] [100%] Built target three_robots
+[5.877s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic_examples' returned '0': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_traffic_examples -- -j16 -l16
+[6.209s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic_examples': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_traffic_examples
+[6.296s] -- Install configuration: "Release"
+[6.309s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_examples/lib/rmf_traffic_examples/three_robots
+[6.309s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_examples/lib/rmf_traffic_examples/three_robots" to ""
+[6.310s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_examples/share/ament_index/resource_index/packages/rmf_traffic_examples
+[6.310s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_examples/share/rmf_traffic_examples/hook/ament_prefix_path.dsv
+[6.329s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic_examples' returned '0': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_traffic_examples

@@ -1,0 +1,449 @@
+[0.026s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic_editor': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_traffic_editor
+[3.193s] -- The C compiler identification is Clang 14.0.0
+[3.195s] -- The CXX compiler identification is Clang 14.0.0
+[3.195s] -- Detecting C compiler ABI info
+[3.196s] -- Detecting C compiler ABI info - done
+[3.198s] -- Check for working C compiler: /usr/bin/clang - skipped
+[3.198s] -- Detecting C compile features
+[3.198s] -- Detecting C compile features - done
+[3.198s] -- Detecting CXX compiler ABI info
+[3.198s] -- Detecting CXX compiler ABI info - done
+[3.198s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[3.198s] -- Detecting CXX compile features
+[3.198s] -- Detecting CXX compile features - done
+[3.198s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.199s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.199s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[3.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.199s] -- Found Threads: TRUE  
+[3.200s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[3.200s] -- Found required Ceres dependency: glog
+[3.200s] -- Found required Ceres dependency: gflags
+[3.200s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[3.200s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.200s] -- Configuring done (1.6s)
+[3.200s] -- Generating done (0.0s)
+[3.200s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_traffic_editor
+[3.220s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic_editor' returned '0': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_traffic_editor
+[3.221s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic_editor': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_traffic_editor -- -j16 -l16
+[5.952s] [  1%] [34m[1mAutomatic MOC and UIC for target gui_lib[0m
+[5.952s] [  1%] Built target gui_lib_autogen
+[5.952s] [  2%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui_lib_autogen/mocs_compilation.cpp.o[0m
+[8.010s] In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+[8.010s] In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[8.010s] [1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[8.010s]   void mousePressEvent(QMouseEvent* e);
+[8.010s] [0;1;32m       ^
+[8.010s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[8.010s]     virtual void mousePressEvent(QMouseEvent *event);
+[8.011s] [0;1;32m                 ^
+[8.011s] [0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+[8.011s] In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[8.011s] [1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[8.011s]   void mouseReleaseEvent(QMouseEvent* e);
+[8.011s] [0;1;32m       ^
+[8.011s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[8.011s]     virtual void mouseReleaseEvent(QMouseEvent *event);
+[8.011s] [0;1;32m                 ^
+[8.011s] [0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+[8.011s] In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[8.012s] [1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[8.012s]   void mouseMoveEvent(QMouseEvent* e);
+[8.012s] [0;1;32m       ^
+[8.012s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[8.012s]     virtual void mouseMoveEvent(QMouseEvent *event);
+[8.012s] [0;1;32m                 ^
+[8.012s] [0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+[8.012s] In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[8.012s] [1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[8.012s]   void keyPressEvent(QKeyEvent* event);
+[8.012s] [0;1;32m       ^
+[8.013s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[8.013s]     virtual void keyPressEvent(QKeyEvent *event);
+[8.013s] [0;1;32m                 ^
+[8.013s] [0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+[8.013s] In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[8.013s] [1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[8.013s]   void closeEvent(QCloseEvent* event);
+[8.013s] [0;1;32m       ^
+[8.013s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[8.013s]     virtual void closeEvent(QCloseEvent *event);
+[8.014s] [0;1;32m                 ^
+[9.308s] [0m5 warnings generated.
+[9.328s] [  3%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/polygon_add_vertex.cpp.o[0m
+[11.392s] [  4%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/rotate_model.cpp.o[0m
+[13.752s] [  5%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/add_param_dialog.cpp.o[0m
+[19.020s] [  6%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/building.cpp.o[0m
+[20.025s] [  7%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/building_dialog.cpp.o[0m
+[21.051s] [  9%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/polygon_remove_vertices.cpp.o[0m
+[22.103s] [ 10%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/move_vertex.cpp.o[0m
+[23.133s] [ 11%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/move_model.cpp.o[0m
+[24.159s] [ 12%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/move_fiducial.cpp.o[0m
+[30.500s] [ 13%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/editor.cpp.o[0m
+[34.558s] In file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[34.558s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[34.558s]   void mousePressEvent(QMouseEvent* e);
+[34.558s] [0;1;32m       ^
+[34.559s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[34.559s]     virtual void mousePressEvent(QMouseEvent *event);
+[34.559s] [0;1;32m                 ^
+[34.559s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[34.559s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[34.559s]   void mouseReleaseEvent(QMouseEvent* e);
+[34.559s] [0;1;32m       ^
+[34.559s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[34.559s]     virtual void mouseReleaseEvent(QMouseEvent *event);
+[34.559s] [0;1;32m                 ^
+[34.560s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[34.560s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[34.560s]   void mouseMoveEvent(QMouseEvent* e);
+[34.560s] [0;1;32m       ^
+[34.560s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[34.560s]     virtual void mouseMoveEvent(QMouseEvent *event);
+[34.560s] [0;1;32m                 ^
+[34.560s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[34.561s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[34.561s]   void keyPressEvent(QKeyEvent* event);
+[34.561s] [0;1;32m       ^
+[34.561s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[34.561s]     virtual void keyPressEvent(QKeyEvent *event);
+[34.561s] [0;1;32m                 ^
+[34.561s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[34.561s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[34.561s]   void closeEvent(QCloseEvent* event);
+[34.561s] [0;1;32m       ^
+[34.562s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[34.562s]     virtual void closeEvent(QCloseEvent *event);
+[34.562s] [0;1;32m                 ^
+[34.633s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:409:30: [0m[0;1;35mwarning: [0m[1m'buttonToggled' is deprecated: Use QButtonGroup::idToggled(int, bool) instead [-Wdeprecated-declarations][0m
+[34.633s]     QOverload<int, bool>::of(&QButtonGroup::buttonToggled),
+[34.633s] [0;1;32m                             ^
+[34.633s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h:95:5: [0m[0;1;30mnote: [0m'buttonToggled' has been explicitly marked deprecated here[0m
+[34.633s]     QT_DEPRECATED_VERSION_X_5_15("Use QButtonGroup::idToggled(int, bool) instead")
+[34.633s] [0;1;32m    ^
+[34.633s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+[34.633s] # define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[34.633s] [0;1;32m                                            ^
+[34.634s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[34.634s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[34.634s] [0;1;32m                                ^
+[34.634s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[34.634s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[34.634s] [0;1;32m                                                      ^
+[34.677s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:698:15: [0m[0;1;35mwarning: [0m[1m'setConfirmOverwrite' is deprecated: Use setOption(DontConfirmOverwrite, !enabled) instead [-Wdeprecated-declarations][0m
+[34.677s]   file_dialog.setConfirmOverwrite(true);
+[34.677s] [0;1;32m              ^
+[34.677s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h:176:5: [0m[0;1;30mnote: [0m'setConfirmOverwrite' has been explicitly marked deprecated here[0m
+[34.677s]     QT_DEPRECATED_X("Use setOption(DontConfirmOverwrite, !enabled) instead")
+[34.678s] [0;1;32m    ^
+[34.678s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[34.678s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[34.678s] [0;1;32m                                ^
+[34.678s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[34.678s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[34.678s] [0;1;32m                                                      ^
+[34.683s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:781:10: [0m[0;1;35mwarning: [0m[1m'setConfirmOverwrite' is deprecated: Use setOption(DontConfirmOverwrite, !enabled) instead [-Wdeprecated-declarations][0m
+[34.684s]   dialog.setConfirmOverwrite(true);
+[34.684s] [0;1;32m         ^
+[34.684s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h:176:5: [0m[0;1;30mnote: [0m'setConfirmOverwrite' has been explicitly marked deprecated here[0m
+[34.684s]     QT_DEPRECATED_X("Use setOption(DontConfirmOverwrite, !enabled) instead")
+[34.684s] [0;1;32m    ^
+[34.684s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[34.684s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[34.684s] [0;1;32m                                ^
+[34.684s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[34.685s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[34.685s] [0;1;32m                                                      ^
+[40.167s] [0m8 warnings generated.
+[40.188s] [ 17%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/editor_model.cpp.o[0m
+[40.188s] [ 17%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/edge.cpp.o[0m
+[40.188s] [ 17%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/feature.cpp.o[0m
+[41.223s] [ 18%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/fiducial.cpp.o[0m
+[41.251s] [ 19%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/coordinate_system.cpp.o[0m
+[41.970s] [ 20%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/constraint.cpp.o[0m
+[41.979s] [ 21%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/move_feature.cpp.o[0m
+[43.042s] [ 22%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/graph.cpp.o[0m
+[43.048s] [ 23%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/delete.cpp.o[0m
+[43.296s] [ 25%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_vertex.cpp.o[0m
+[44.342s] [ 26%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/layer.cpp.o[0m
+[44.345s] [ 27%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_property.cpp.o[0m
+[44.479s] [ 28%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_polygon.cpp.o[0m
+[51.294s] [ 29%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/map_tile_cache.cpp.o[0m
+[52.895s] [ 30%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/map_view.cpp.o[0m
+[55.220s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:52:41: [0m[0;1;35mwarning: [0m[1m'pos' is deprecated: Use position() [-Wdeprecated-declarations][0m
+[55.220s]   const QPointF p_start = mapToScene(e->pos());
+[55.220s] [0;1;32m                                        ^
+[55.220s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:224:5: [0m[0;1;30mnote: [0m'pos' has been explicitly marked deprecated here[0m
+[55.220s]     QT_DEPRECATED_VERSION_X_5_15("Use position()")
+[55.221s] [0;1;32m    ^
+[55.221s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+[55.221s] # define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[55.221s] [0;1;32m                                            ^
+[55.221s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[55.221s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[55.221s] [0;1;32m                                ^
+[55.221s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[55.221s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[55.221s] [0;1;32m                                                      ^
+[55.222s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:59:12: [0m[0;1;35mwarning: [0m[1m'delta' is deprecated: Use angleDelta() [-Wdeprecated-declarations][0m
+[55.222s]     if (e->delta() > 0)
+[55.222s] [0;1;32m           ^
+[55.222s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:218:5: [0m[0;1;30mnote: [0m'delta' has been explicitly marked deprecated here[0m
+[55.222s]     QT_DEPRECATED_VERSION_X_5_15("Use angleDelta()")
+[55.222s] [0;1;32m    ^
+[55.222s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+[55.222s] # define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[55.222s] [0;1;32m                                            ^
+[55.222s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[55.222s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[55.222s] [0;1;32m                                ^
+[55.223s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[55.223s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[55.223s] [0;1;32m                                                      ^
+[55.223s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:69:41: [0m[0;1;35mwarning: [0m[1m'pos' is deprecated: Use position() [-Wdeprecated-declarations][0m
+[55.223s]     const QPointF p_end = mapToScene(e->pos());
+[55.223s] [0;1;32m                                        ^
+[55.223s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:224:5: [0m[0;1;30mnote: [0m'pos' has been explicitly marked deprecated here[0m
+[55.223s]     QT_DEPRECATED_VERSION_X_5_15("Use position()")
+[55.223s] [0;1;32m    ^
+[55.223s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+[55.223s] # define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[55.223s] [0;1;32m                                            ^
+[55.223s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[55.224s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[55.224s] [0;1;32m                                ^
+[55.224s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[55.224s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[55.224s] [0;1;32m                                                      ^
+[55.224s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:80:12: [0m[0;1;35mwarning: [0m[1m'delta' is deprecated: Use angleDelta() [-Wdeprecated-declarations][0m
+[55.224s]     if (e->delta() > 0)
+[55.224s] [0;1;32m           ^
+[55.224s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:218:5: [0m[0;1;30mnote: [0m'delta' has been explicitly marked deprecated here[0m
+[55.224s]     QT_DEPRECATED_VERSION_X_5_15("Use angleDelta()")
+[55.224s] [0;1;32m    ^
+[55.224s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+[55.224s] # define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[55.224s] [0;1;32m                                            ^
+[55.225s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[55.225s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[55.225s] [0;1;32m                                ^
+[55.225s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[55.225s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[55.225s] [0;1;32m                                                      ^
+[55.225s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:99:41: [0m[0;1;35mwarning: [0m[1m'pos' is deprecated: Use position() [-Wdeprecated-declarations][0m
+[55.225s]     const QPointF p_end = mapToScene(e->pos());
+[55.225s] [0;1;32m                                        ^
+[55.225s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:224:5: [0m[0;1;30mnote: [0m'pos' has been explicitly marked deprecated here[0m
+[55.225s]     QT_DEPRECATED_VERSION_X_5_15("Use position()")
+[55.225s] [0;1;32m    ^
+[55.225s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+[55.226s] # define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[55.226s] [0;1;32m                                            ^
+[55.226s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[55.226s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[55.226s] [0;1;32m                                ^
+[55.226s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[55.226s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[55.226s] [0;1;32m                                                      ^
+[55.257s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:359:15: [0m[0;1;35mwarning: [0m[1m'sprintf' is deprecated: Use asprintf(), arg() or QTextStream instead [-Wdeprecated-declarations][0m
+[55.257s]         label.sprintf("%d (%d,%d)", zoom, x, y);
+[55.257s] [0;1;32m              ^
+[55.257s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:392:5: [0m[0;1;30mnote: [0m'sprintf' has been explicitly marked deprecated here[0m
+[55.257s]     QT_DEPRECATED_X("Use asprintf(), arg() or QTextStream instead")
+[55.258s] [0;1;32m    ^
+[55.258s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[55.258s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[55.258s] [0;1;32m                                ^
+[55.258s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[55.258s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[55.258s] [0;1;32m                                                      ^
+[55.272s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:386:17: [0m[0;1;35mwarning: [0m[1m'sprintf' is deprecated: Use asprintf(), arg() or QTextStream instead [-Wdeprecated-declarations][0m
+[55.272s]     request_url.sprintf(
+[55.272s] [0;1;32m                ^
+[55.272s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:392:5: [0m[0;1;30mnote: [0m'sprintf' has been explicitly marked deprecated here[0m
+[55.272s]     QT_DEPRECATED_X("Use asprintf(), arg() or QTextStream instead")
+[55.272s] [0;1;32m    ^
+[55.272s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+[55.272s] #  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[55.272s] [0;1;32m                                ^
+[55.272s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+[55.273s] #    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[55.273s] [0;1;32m                                                      ^
+[56.247s] [0m7 warnings generated.
+[56.263s] [ 31%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/model.cpp.o[0m
+[59.829s] [ 32%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/model_dialog.cpp.o[0m
+[65.049s] [ 34%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/param.cpp.o[0m
+[67.532s] [ 35%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/polygon.cpp.o[0m
+[69.921s] [ 36%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/preferences_dialog.cpp.o[0m
+[71.927s] [ 37%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/preferences_keys.cpp.o[0m
+[72.816s] [ 38%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/lift_table.cpp.o[0m
+[75.324s] [ 39%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/table_list.cpp.o[0m
+[76.371s] [ 40%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/rendering_options.cpp.o[0m
+[76.591s] [ 42%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/lift_door.cpp.o[0m
+[77.631s] [ 43%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/traffic_table.cpp.o[0m
+[78.675s] [ 44%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/lift_dialog.cpp.o[0m
+[79.691s] [ 45%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/lift.cpp.o[0m
+[85.642s] [ 47%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/multi_select_combo_box.cpp.o[0m
+[85.643s] [ 47%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/yaml_utils.cpp.o[0m
+[86.533s] [ 48%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/vertex.cpp.o[0m
+[87.587s] [ 50%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/agent_group.cpp.o[0m
+[88.298s] [ 51%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/transform.cpp.o[0m
+[88.299s] [ 52%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/traffic_map.cpp.o[0m
+[89.327s] [ 53%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/agent_group_table.cpp.o[0m
+[90.369s] [ 54%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/level_table.cpp.o[0m
+[90.883s] [ 55%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/level_dialog.cpp.o[0m
+[91.592s] [ 56%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/agent_profile.cpp.o[0m
+[91.680s] [ 57%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/agent_profile_table.cpp.o[0m
+[91.901s] [ 59%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/condition.cpp.o[0m
+[91.991s] [ 60%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/condition_dialog.cpp.o[0m
+[93.018s] [ 61%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/crowd_sim_dialog.cpp.o[0m
+[94.064s] [ 62%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/level.cpp.o[0m
+[99.779s] [ 64%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/model_type_table.cpp.o[0m
+[99.780s] [ 64%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/model_type.cpp.o[0m
+[100.785s] [ 65%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/state.cpp.o[0m
+[101.811s] [ 67%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/goal_set_table.cpp.o[0m
+[101.856s] [ 68%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/goal_set.cpp.o[0m
+[102.895s] [ 69%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/crowd_sim_table_base.cpp.o[0m
+[103.014s] [ 70%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/crowd_sim_impl.cpp.o[0m
+[104.059s] [ 71%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/state_table.cpp.o[0m
+[111.899s] [ 72%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/transition_table.cpp.o[0m
+[117.137s] [ 76%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/to_state_dialog.cpp.o[0m
+[117.138s] [ 76%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/transition.cpp.o[0m
+[117.138s] [ 76%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/to_state_table.cpp.o[0m
+[120.975s] [ 77%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/crowd_sim/crowd_sim_editor_table.cpp.o[0m
+[121.769s] [ 78%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/layer_table.cpp.o[0m
+[123.271s] [ 79%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/layer_dialog.cpp.o[0m
+[126.850s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/layer_table.cpp:115:22: [0m[0;1;35mwarning: [0m[1mlambda capture 'color_button' is not used [-Wunused-lambda-capture][0m
+[126.850s]       [this, &level, color_button, row_idx]()
+[126.850s] [0;1;32m                   ~~^~~~~~~~~~~~
+[128.136s] [0m1 warning generated.
+[128.158s] [ 80%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_model.cpp.o[0m
+[129.371s] [ 81%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_fiducial.cpp.o[0m
+[130.794s] [ 82%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_feature.cpp.o[0m
+[131.413s] [ 84%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_edge.cpp.o[0m
+[132.524s] [ 85%] [32mBuilding CXX object CMakeFiles/gui_lib.dir/gui/actions/add_constraint.cpp.o[0m
+[135.274s] [ 86%] [32m[1mLinking CXX static library libgui_lib.a[0m
+[135.860s] [ 86%] Built target gui_lib
+[135.868s] [ 87%] [34m[1mAutomatic MOC and UIC for target traffic-editor[0m
+[135.868s] [ 88%] [34m[1mAutomatic MOC and UIC for target test_gui[0m
+[135.899s] [ 88%] Built target traffic-editor_autogen
+[135.906s] [ 89%] [34m[1mAutomatic RCC for resources/resource.qrc[0m
+[135.934s] [ 92%] [32mBuilding CXX object CMakeFiles/traffic-editor.dir/traffic-editor_autogen/mocs_compilation.cpp.o[0m
+[135.934s] [ 92%] [32mBuilding CXX object CMakeFiles/traffic-editor.dir/gui/main.cpp.o[0m
+[135.968s] [ 93%] [32mBuilding CXX object CMakeFiles/traffic-editor.dir/traffic-editor_autogen/3YJK5W5UP7/qrc_resource.cpp.o[0m
+[136.221s] [ 93%] Built target test_gui_autogen
+[136.225s] [ 94%] [34m[1mAutomatic RCC for ../resources/resource.qrc[0m
+[136.249s] [ 96%] [32mBuilding CXX object test/CMakeFiles/test_gui.dir/test_gui_autogen/mocs_compilation.cpp.o[0m
+[136.250s] [ 96%] [32mBuilding CXX object test/CMakeFiles/test_gui.dir/test_gui.cpp.o[0m
+[136.283s] [ 97%] [32mBuilding CXX object test/CMakeFiles/test_gui.dir/test_gui_autogen/7BV4YJK25R/qrc_resource.cpp.o[0m
+[139.512s] In file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[139.512s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.512s]   void mousePressEvent(QMouseEvent* e);
+[139.512s] [0;1;32m       ^
+[139.513s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.513s]     virtual void mousePressEvent(QMouseEvent *event);
+[139.513s] [0;1;32m                 ^
+[139.513s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[139.513s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.513s]   void mouseReleaseEvent(QMouseEvent* e);
+[139.513s] [0;1;32m       ^
+[139.513s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.513s]     virtual void mouseReleaseEvent(QMouseEvent *event);
+[139.513s] [0;1;32m                 ^
+[139.513s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[139.513s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.514s]   void mouseMoveEvent(QMouseEvent* e);
+[139.514s] [0;1;32m       ^
+[139.514s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.514s]     virtual void mouseMoveEvent(QMouseEvent *event);
+[139.514s] [0;1;32m                 ^
+[139.514s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[139.514s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.514s]   void keyPressEvent(QKeyEvent* event);
+[139.514s] [0;1;32m       ^
+[139.514s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.514s]     virtual void keyPressEvent(QKeyEvent *event);
+[139.514s] [0;1;32m                 ^
+[139.514s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[139.515s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.515s]   void closeEvent(QCloseEvent* event);
+[139.515s] [0;1;32m       ^
+[139.515s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.515s]     virtual void closeEvent(QCloseEvent *event);
+[139.515s] [0;1;32m                 ^
+[139.836s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[139.836s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.836s]   void mousePressEvent(QMouseEvent* e);
+[139.836s] [0;1;32m       ^
+[139.836s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.836s]     virtual void mousePressEvent(QMouseEvent *event);
+[139.836s] [0;1;32m                 ^
+[139.837s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[139.837s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.837s]   void mouseReleaseEvent(QMouseEvent* e);
+[139.837s] [0;1;32m       ^
+[139.837s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.837s]     virtual void mouseReleaseEvent(QMouseEvent *event);
+[139.837s] [0;1;32m                 ^
+[139.837s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[139.837s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.837s]   void mouseMoveEvent(QMouseEvent* e);
+[139.837s] [0;1;32m       ^
+[139.838s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.838s]     virtual void mouseMoveEvent(QMouseEvent *event);
+[139.838s] [0;1;32m                 ^
+[139.838s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[139.838s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.838s]   void keyPressEvent(QKeyEvent* event);
+[139.838s] [0;1;32m       ^
+[139.838s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.838s]     virtual void keyPressEvent(QKeyEvent *event);
+[139.838s] [0;1;32m                 ^
+[139.838s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[139.838s] [1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+[139.839s]   void closeEvent(QCloseEvent* event);
+[139.839s] [0;1;32m       ^
+[139.839s] [0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+[139.839s]     virtual void closeEvent(QCloseEvent *event);
+[139.839s] [0;1;32m                 ^
+[140.175s] [0m5 warnings generated.
+[140.187s] [ 98%] [32m[1mLinking CXX executable test_gui[0m
+[140.330s] [ 98%] Built target test_gui
+[140.811s] 5 warnings generated.
+[140.829s] [100%] [32m[1mLinking CXX executable traffic-editor[0m
+[140.992s] [100%] Built target traffic-editor
+[141.005s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic_editor' returned '0': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_traffic_editor -- -j16 -l16
+[141.232s] Invoking command in '/home/wang/rmf_ws/build/rmf_traffic_editor': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_traffic_editor
+[141.265s] -- Install configuration: "RelWithDebInfo"
+[141.265s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/bin/traffic-editor
+[141.295s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_traffic_editor/bin/traffic-editor" to ""
+[141.295s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/plugins
+[141.295s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/plugins/simulation.h
+[141.296s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/goal_set.h
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/condition.h
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/crowd_sim_impl.h
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/model_type.h
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/agent_profile.h
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/transition.h
+[141.296s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/state.h
+[141.297s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/include/traffic_editor/crowd_sim/agent_group.h
+[141.297s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/ament_index/resource_index/package_run_dependencies/rmf_traffic_editor
+[141.297s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/ament_index/resource_index/parent_prefix_path/rmf_traffic_editor
+[141.297s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/environment/ament_prefix_path.sh
+[141.297s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/environment/ament_prefix_path.dsv
+[141.298s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/environment/path.sh
+[141.298s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/environment/path.dsv
+[141.298s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/local_setup.bash
+[141.298s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/local_setup.sh
+[141.298s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/local_setup.zsh
+[141.298s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/local_setup.dsv
+[141.299s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/package.dsv
+[141.299s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/ament_index/resource_index/packages/rmf_traffic_editor
+[141.299s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/cmake/ament_cmake_export_include_directories-extras.cmake
+[141.299s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/cmake/rmf_traffic_editorConfig.cmake
+[141.299s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/cmake/rmf_traffic_editorConfig-version.cmake
+[141.300s] -- Installing: /home/wang/rmf_ws/install/rmf_traffic_editor/share/rmf_traffic_editor/package.xml
+[141.311s] Invoked command in '/home/wang/rmf_ws/build/rmf_traffic_editor' returned '0': CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_traffic_editor

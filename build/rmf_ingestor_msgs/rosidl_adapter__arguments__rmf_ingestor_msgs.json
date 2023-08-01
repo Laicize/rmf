@@ -1,0 +1,9 @@
+{
+  "package_name": "rmf_ingestor_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs:msg/IngestorRequest.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs:msg/IngestorRequestItem.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs:msg/IngestorResult.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_ingestor_msgs:msg/IngestorState.msg"
+  ]
+}

@@ -1,0 +1,285 @@
+[0.187s] Invoking command in '/home/wang/rmf_ws/build/rmf_charger_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_charger_msgs
+[11.612s] -- The C compiler identification is Clang 14.0.0
+[11.612s] -- The CXX compiler identification is Clang 14.0.0
+[11.612s] -- Detecting C compiler ABI info
+[11.613s] -- Detecting C compiler ABI info - done
+[11.613s] -- Check for working C compiler: /usr/bin/clang - skipped
+[11.613s] -- Detecting C compile features
+[11.613s] -- Detecting C compile features - done
+[11.613s] -- Detecting CXX compiler ABI info
+[11.613s] -- Detecting CXX compiler ABI info - done
+[11.613s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[11.613s] -- Detecting CXX compile features
+[11.614s] -- Detecting CXX compile features - done
+[11.614s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.614s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[11.614s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[11.614s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.614s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.614s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.615s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[11.615s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.615s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[11.615s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.615s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[11.615s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.615s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.616s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.616s] -- Found PythonExtra: .so  
+[11.616s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.616s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.616s] -- Added test 'lint_cmake' to check CMake code style
+[11.616s] -- Added test 'xmllint' to check XML markup files
+[11.616s] -- Configuring done (8.9s)
+[11.616s] -- Generating done (0.2s)
+[11.616s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_charger_msgs
+[11.645s] Invoked command in '/home/wang/rmf_ws/build/rmf_charger_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_charger_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_charger_msgs
+[11.655s] Invoking command in '/home/wang/rmf_ws/build/rmf_charger_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_charger_msgs -- -j16 -l16
+[15.443s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.443s] [  2%] Built target rmf_charger_msgs__cpp
+[15.443s] [  2%] Built target ament_cmake_python_copy_rmf_charger_msgs
+[15.443s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.443s] [  6%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_charger_msgs/msg/detail/charger_state__type_support.cpp.o[0m
+[15.443s] [  8%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_charger_msgs/msg/detail/charger_cancel__type_support.cpp.o[0m
+[16.056s] [ 10%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_charger_msgs/msg/detail/charger_request__type_support.cpp.o[0m
+[16.770s] [ 12%] [32m[1mLinking CXX shared library librmf_charger_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[16.915s] [ 12%] Built target rmf_charger_msgs__rosidl_typesupport_introspection_cpp
+[17.414s] running egg_info
+[17.415s] creating rmf_charger_msgs.egg-info
+[17.416s] writing rmf_charger_msgs.egg-info/PKG-INFO
+[17.416s] writing dependency_links to rmf_charger_msgs.egg-info/dependency_links.txt
+[17.416s] writing top-level names to rmf_charger_msgs.egg-info/top_level.txt
+[17.416s] writing manifest file 'rmf_charger_msgs.egg-info/SOURCES.txt'
+[17.420s] reading manifest file 'rmf_charger_msgs.egg-info/SOURCES.txt'
+[17.421s] writing manifest file 'rmf_charger_msgs.egg-info/SOURCES.txt'
+[17.507s] [ 12%] Built target ament_cmake_python_build_rmf_charger_msgs_egg
+[17.513s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.359s] [ 17%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_charger_msgs/msg/detail/dds_fastrtps/charger_state__type_support.cpp.o[0m
+[19.267s] [ 19%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_charger_msgs/msg/detail/dds_fastrtps/charger_cancel__type_support.cpp.o[0m
+[20.082s] [ 21%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_charger_msgs/msg/detail/dds_fastrtps/charger_request__type_support.cpp.o[0m
+[20.865s] [ 23%] [32m[1mLinking CXX shared library librmf_charger_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.931s] [ 23%] Built target rmf_charger_msgs__rosidl_typesupport_fastrtps_cpp
+[20.936s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.655s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_charger_msgs/msg/charger_state__type_support.cpp.o[0m
+[22.154s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_charger_msgs/msg/charger_cancel__type_support.cpp.o[0m
+[22.569s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_charger_msgs/msg/charger_request__type_support.cpp.o[0m
+[23.014s] [ 34%] [32m[1mLinking CXX shared library librmf_charger_msgs__rosidl_typesupport_cpp.so[0m
+[23.083s] [ 34%] Built target rmf_charger_msgs__rosidl_typesupport_cpp
+[23.088s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[23.805s] [ 38%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_charger_msgs/msg/detail/charger_state__functions.c.o[0m
+[23.911s] [ 40%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_charger_msgs/msg/detail/charger_cancel__functions.c.o[0m
+[24.032s] [ 42%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_charger_msgs/msg/detail/charger_request__functions.c.o[0m
+[24.157s] [ 44%] [32m[1mLinking C shared library librmf_charger_msgs__rosidl_generator_c.so[0m
+[24.216s] [ 44%] Built target rmf_charger_msgs__rosidl_generator_c
+[24.221s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.012s] [ 48%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_charger_msgs/msg/detail/charger_state__type_support_c.cpp.o[0m
+[25.745s] [ 51%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_charger_msgs/msg/detail/charger_cancel__type_support_c.cpp.o[0m
+[26.208s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_charger_msgs/msg/detail/charger_request__type_support_c.cpp.o[0m
+[26.831s] [ 55%] [32m[1mLinking CXX shared library librmf_charger_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.898s] [ 55%] Built target rmf_charger_msgs__rosidl_typesupport_fastrtps_c
+[26.904s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.573s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_charger_msgs/msg/charger_state__type_support.cpp.o[0m
+[27.619s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_charger_msgs/msg/charger_cancel__type_support.cpp.o[0m
+[27.667s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_charger_msgs/msg/charger_request__type_support.cpp.o[0m
+[27.710s] [ 65%] [32m[1mLinking CXX shared library librmf_charger_msgs__rosidl_typesupport_c.so[0m
+[27.772s] [ 65%] Built target rmf_charger_msgs__rosidl_typesupport_c
+[27.777s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.547s] [ 70%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_charger_msgs/msg/detail/charger_state__type_support.c.o[0m
+[28.596s] [ 72%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_charger_msgs/msg/detail/charger_cancel__type_support.c.o[0m
+[28.648s] [ 74%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_charger_msgs/msg/detail/charger_request__type_support.c.o[0m
+[28.702s] [ 76%] [32m[1mLinking C shared library librmf_charger_msgs__rosidl_typesupport_introspection_c.so[0m
+[28.758s] [ 76%] Built target rmf_charger_msgs__rosidl_typesupport_introspection_c
+[28.768s] [ 76%] Built target rmf_charger_msgs
+[28.779s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.768s] [ 78%] Built target rmf_charger_msgs__py
+[29.778s] [ 80%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_charger_msgs/msg/_charger_state_s.c.o[0m
+[29.910s] [ 82%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_charger_msgs/msg/_charger_cancel_s.c.o[0m
+[30.030s] [ 85%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_charger_msgs/msg/_charger_request_s.c.o[0m
+[30.156s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/rmf_charger_msgs/librmf_charger_msgs__rosidl_generator_py.so[0m
+[30.198s] [ 87%] Built target rmf_charger_msgs__rosidl_generator_py
+[30.206s] [ 89%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_charger_msgs/_rmf_charger_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.335s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.376s] [ 91%] Built target rmf_charger_msgs__rosidl_typesupport_fastrtps_c__pyext
+[30.383s] [ 93%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_charger_msgs/_rmf_charger_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[30.504s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.546s] [ 95%] Built target rmf_charger_msgs__rosidl_typesupport_c__pyext
+[30.553s] [ 97%] [32mBuilding C object CMakeFiles/rmf_charger_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_charger_msgs/_rmf_charger_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.676s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.717s] [100%] Built target rmf_charger_msgs__rosidl_typesupport_introspection_c__pyext
+[30.729s] Invoked command in '/home/wang/rmf_ws/build/rmf_charger_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_charger_msgs -- -j16 -l16
+[30.837s] Invoking command in '/home/wang/rmf_ws/build/rmf_charger_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_charger_msgs
+[30.864s] -- Install configuration: "Release"
+[30.865s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_charger_msgs
+[30.865s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs
+[30.866s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg
+[30.866s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail
+[30.866s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__struct.h
+[30.870s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__type_support.h
+[30.871s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__type_support.h
+[30.871s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__functions.c
+[30.871s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__struct.h
+[30.872s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__functions.h
+[30.872s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__struct.h
+[30.872s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__functions.c
+[30.873s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__type_support.h
+[30.873s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__functions.h
+[30.874s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__functions.c
+[30.874s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__functions.h
+[30.874s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/rosidl_generator_c__visibility_control.h
+[30.875s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/charger_request.h
+[30.875s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/charger_cancel.h
+[30.875s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/charger_state.h
+[30.875s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/library_path.sh
+[30.876s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/library_path.dsv
+[30.876s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_generator_c.so
+[30.876s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_generator_c.so" to ""
+[30.877s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs
+[30.878s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg
+[30.878s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail
+[30.878s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__rosidl_typesupport_fastrtps_c.h
+[30.878s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__rosidl_typesupport_fastrtps_c.h
+[30.878s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__rosidl_typesupport_fastrtps_c.h
+[30.878s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.879s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_fastrtps_c.so
+[30.879s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[30.879s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs
+[30.879s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg
+[30.879s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail
+[30.879s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__struct.hpp
+[30.879s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__builder.hpp
+[30.879s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__traits.hpp
+[30.879s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__struct.hpp
+[30.879s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__traits.hpp
+[30.879s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__struct.hpp
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__builder.hpp
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__traits.hpp
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__builder.hpp
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/charger_request.hpp
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/charger_cancel.hpp
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/charger_state.hpp
+[30.880s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs
+[30.880s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg
+[30.880s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/dds_fastrtps
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__rosidl_typesupport_fastrtps_cpp.hpp
+[30.880s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__rosidl_typesupport_fastrtps_cpp.hpp
+[30.881s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__rosidl_typesupport_fastrtps_cpp.hpp
+[30.881s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.881s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_fastrtps_cpp.so
+[30.881s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.881s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs
+[30.881s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg
+[30.881s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail
+[30.881s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__type_support.c
+[30.881s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__rosidl_typesupport_introspection_c.h
+[30.881s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__type_support.c
+[30.882s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__rosidl_typesupport_introspection_c.h
+[30.882s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__rosidl_typesupport_introspection_c.h
+[30.882s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__type_support.c
+[30.882s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.882s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_introspection_c.so
+[30.882s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_introspection_c.so" to ""
+[30.882s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_c.so
+[30.882s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_c.so" to ""
+[30.882s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs
+[30.882s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg
+[30.882s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__type_support.cpp
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__rosidl_typesupport_introspection_cpp.hpp
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_state__type_support.cpp
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__type_support.cpp
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_cancel__rosidl_typesupport_introspection_cpp.hpp
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/include/rmf_charger_msgs/rmf_charger_msgs/msg/detail/charger_request__rosidl_typesupport_introspection_cpp.hpp
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_introspection_cpp.so
+[30.883s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_cpp.so
+[30.883s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_typesupport_cpp.so" to ""
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/pythonpath.sh
+[30.883s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/pythonpath.dsv
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs-3.0.3-py3.10.egg-info
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs-3.0.3-py3.10.egg-info/PKG-INFO
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs-3.0.3-py3.10.egg-info/dependency_links.txt
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs-3.0.3-py3.10.egg-info/SOURCES.txt
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs-3.0.3-py3.10.egg-info/top_level.txt
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/__init__.py
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/_rmf_charger_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/_rmf_charger_msgs_s.ep.rosidl_typesupport_c.c
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/_rmf_charger_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.884s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/librmf_charger_msgs__rosidl_generator_py.so
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/__init__.py
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_cancel_s.c
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_state.py
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_request_s.c
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_request.py
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_state_s.c
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_cancel.py
+[30.885s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.909s] Listing '/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs'...
+[30.909s] Compiling '/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/__init__.py'...
+[30.909s] Listing '/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg'...
+[30.909s] Compiling '/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/__init__.py'...
+[30.909s] Compiling '/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_cancel.py'...
+[30.909s] Compiling '/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_request.py'...
+[30.909s] Compiling '/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/msg/_charger_state.py'...
+[30.916s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.916s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.916s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.916s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.916s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.917s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/local/lib/python3.10/dist-packages/rmf_charger_msgs/rmf_charger_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.917s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_generator_py.so
+[30.917s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_charger_msgs/lib/librmf_charger_msgs__rosidl_generator_py.so" to ""
+[30.917s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/msg/ChargerState.idl
+[30.917s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/msg/ChargerRequest.idl
+[30.917s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/msg/ChargerCancel.idl
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/msg/ChargerState.msg
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/msg/ChargerRequest.msg
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/msg/ChargerCancel.msg
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_charger_msgs
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_charger_msgs
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/ament_prefix_path.sh
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/ament_prefix_path.dsv
+[30.918s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/path.sh
+[30.919s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/environment/path.dsv
+[30.919s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/local_setup.bash
+[30.919s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/local_setup.sh
+[30.919s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/local_setup.zsh
+[30.919s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/local_setup.dsv
+[30.919s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/package.dsv
+[30.919s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/ament_index/resource_index/packages/rmf_charger_msgs
+[30.920s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_generator_cExport.cmake
+[30.920s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_generator_cExport-release.cmake
+[30.920s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[30.920s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[30.921s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_generator_cppExport.cmake
+[30.921s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[30.921s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[30.921s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_introspection_cExport.cmake
+[30.921s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[30.922s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_cExport.cmake
+[30.922s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_cExport-release.cmake
+[30.922s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[30.922s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[30.923s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_cppExport.cmake
+[30.923s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgs__rosidl_typesupport_cppExport-release.cmake
+[30.923s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_generator_pyExport.cmake
+[30.923s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/export_rmf_charger_msgs__rosidl_generator_pyExport-release.cmake
+[30.923s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rosidl_cmake-extras.cmake
+[30.923s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.924s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.924s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[30.924s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[30.924s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.924s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.924s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgsConfig.cmake
+[30.924s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/cmake/rmf_charger_msgsConfig-version.cmake
+[30.925s] -- Installing: /home/wang/rmf_ws/install/rmf_charger_msgs/share/rmf_charger_msgs/package.xml
+[30.935s] Invoked command in '/home/wang/rmf_ws/build/rmf_charger_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_charger_msgs

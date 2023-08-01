@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+ac6328a6b99cf82a1ea5002f84551f59 CMakeFiles/ament_cmake_python_build_rmf_fleet_adapter_python_egg
+c9de9f1d19dd8b96e24239a521f8a107 CMakeFiles/ament_cmake_python_copy_rmf_fleet_adapter_python
+d47613f17e63b8c4b17c507a9374a371 CMakeFiles/rmf_fleet_adapter_python_uninstall

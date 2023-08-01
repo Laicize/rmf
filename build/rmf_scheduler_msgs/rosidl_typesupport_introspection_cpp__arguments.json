@@ -1,0 +1,51 @@
+{
+  "package_name": "rmf_scheduler_msgs",
+  "output_dir": "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_typesupport_introspection_cpp/rmf_scheduler_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/CancelAll.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/CancelSchedule.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/CancelTrigger.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/CreateSchedule.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/CreateTrigger.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/ListSchedules.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/ListScheduleStates.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/ListTriggers.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:srv/ListTriggerStates.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:msg/Payload.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:msg/Schedule.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:msg/ScheduleState.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:msg/Trigger.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs:msg/TriggerState.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/CancelAll.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/CancelSchedule.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/CancelTrigger.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/CreateSchedule.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/CreateTrigger.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/ListSchedules.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/ListScheduleStates.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/ListTriggers.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/srv/ListTriggerStates.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/msg/Payload.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/msg/Schedule.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/msg/ScheduleState.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/msg/Trigger.idl",
+    "/home/wang/rmf_ws/build/rmf_scheduler_msgs/rosidl_adapter/rmf_scheduler_msgs/msg/TriggerState.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

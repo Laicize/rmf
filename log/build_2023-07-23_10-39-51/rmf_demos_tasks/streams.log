@@ -1,0 +1,84 @@
+[1.975s] Invoking command in '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_demos_tasks/prefix_override:/home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_demos_tasks build --build-base /home/wang/rmf_ws/build/rmf_demos_tasks/build install --record /home/wang/rmf_ws/build/rmf_demos_tasks/install.log --single-version-externally-managed
+[2.453s] running egg_info
+[2.457s] creating ../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info
+[2.458s] writing ../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/PKG-INFO
+[2.459s] writing dependency_links to ../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/dependency_links.txt
+[2.460s] writing entry points to ../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/entry_points.txt
+[2.460s] writing requirements to ../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/requires.txt
+[2.461s] writing top-level names to ../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/top_level.txt
+[2.462s] writing manifest file '../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[2.465s] reading manifest file '../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[2.467s] writing manifest file '../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[2.468s] running build
+[2.468s] running build_py
+[2.469s] creating /home/wang/rmf_ws/build/rmf_demos_tasks/build
+[2.469s] creating /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib
+[2.470s] creating /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.470s] copying rmf_demos_tasks/dispatch_action.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.471s] copying rmf_demos_tasks/request_lift.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.471s] copying rmf_demos_tasks/__init__.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.472s] copying rmf_demos_tasks/dispatch_loop.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.473s] copying rmf_demos_tasks/teleop_robot.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.473s] copying rmf_demos_tasks/dispatch_go_to_place.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.474s] copying rmf_demos_tasks/cancel_task.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.475s] copying rmf_demos_tasks/dispatch_clean.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.475s] copying rmf_demos_tasks/request_loop.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.476s] copying rmf_demos_tasks/dispatch_delivery.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.477s] copying rmf_demos_tasks/dispatch_teleop.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.477s] copying rmf_demos_tasks/dispatch_patrol.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.478s] copying rmf_demos_tasks/mock_docker.py -> /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.479s] running install
+[2.479s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.479s]   warnings.warn(
+[2.480s] running install_lib
+[2.482s] creating /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.483s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_action.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.484s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/request_lift.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.484s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/__init__.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.484s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_loop.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.485s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/teleop_robot.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.485s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_go_to_place.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.486s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/cancel_task.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.486s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_clean.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.487s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/request_loop.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.487s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_delivery.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.488s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_teleop.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.491s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_patrol.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.492s] copying /home/wang/rmf_ws/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/mock_docker.py -> /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks
+[2.493s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/dispatch_action.py to dispatch_action.cpython-310.pyc
+[2.495s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/request_lift.py to request_lift.cpython-310.pyc
+[2.499s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/__init__.py to __init__.cpython-310.pyc
+[2.500s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/dispatch_loop.py to dispatch_loop.cpython-310.pyc
+[2.502s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/teleop_robot.py to teleop_robot.cpython-310.pyc
+[2.503s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/dispatch_go_to_place.py to dispatch_go_to_place.cpython-310.pyc
+[2.505s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/cancel_task.py to cancel_task.cpython-310.pyc
+[2.510s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/dispatch_clean.py to dispatch_clean.cpython-310.pyc
+[2.512s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/request_loop.py to request_loop.cpython-310.pyc
+[2.513s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/dispatch_delivery.py to dispatch_delivery.cpython-310.pyc
+[2.519s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/dispatch_teleop.py to dispatch_teleop.cpython-310.pyc
+[2.520s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/dispatch_patrol.py to dispatch_patrol.cpython-310.pyc
+[2.526s] byte-compiling /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks/mock_docker.py to mock_docker.cpython-310.pyc
+[2.528s] running install_data
+[2.529s] creating /home/wang/rmf_ws/install/rmf_demos_tasks/share/ament_index
+[2.529s] creating /home/wang/rmf_ws/install/rmf_demos_tasks/share/ament_index/resource_index
+[2.533s] creating /home/wang/rmf_ws/install/rmf_demos_tasks/share/ament_index/resource_index/packages
+[2.533s] copying resource/rmf_demos_tasks -> /home/wang/rmf_ws/install/rmf_demos_tasks/share/ament_index/resource_index/packages
+[2.534s] copying package.xml -> /home/wang/rmf_ws/install/rmf_demos_tasks/share/rmf_demos_tasks
+[2.534s] copying rmf_demos_tasks/airport_docker_config.yaml -> /home/wang/rmf_ws/install/rmf_demos_tasks/share/rmf_demos_tasks
+[2.534s] copying rmf_demos_tasks/hotel_cleaner_config.yaml -> /home/wang/rmf_ws/install/rmf_demos_tasks/share/rmf_demos_tasks
+[2.534s] running install_egg_info
+[2.541s] Copying ../../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks-2.0.3-py3.10.egg-info
+[2.547s] running install_scripts
+[2.586s] Installing cancel_task script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.587s] Installing dispatch_action script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.587s] Installing dispatch_clean script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.587s] Installing dispatch_delivery script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.587s] Installing dispatch_go_to_place script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.588s] Installing dispatch_loop script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.588s] Installing dispatch_patrol script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.588s] Installing mock_docker script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.588s] Installing request_lift script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.588s] Installing request_loop script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.589s] Installing teleop_robot script to /home/wang/rmf_ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[2.590s] writing list of installed files to '/home/wang/rmf_ws/build/rmf_demos_tasks/install.log'
+[2.655s] Invoked command in '/home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_tasks' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_demos_tasks/prefix_override:/home/wang/rmf_ws/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_demos_tasks build --build-base /home/wang/rmf_ws/build/rmf_demos_tasks/build install --record /home/wang/rmf_ws/build/rmf_demos_tasks/install.log --single-version-externally-managed

@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/asset__type_support.cpp.o"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/asset__type_support.cpp.o.d"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/trait__type_support.cpp.o"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/trait__type_support.cpp.o.d"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_configuration__type_support.cpp.o"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_configuration__type_support.cpp.o.d"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_request__type_support.cpp.o"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_request__type_support.cpp.o.d"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_result__type_support.cpp.o"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_result__type_support.cpp.o.d"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_state__type_support.cpp.o"
+  "CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_state__type_support.cpp.o.d"
+  "librmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "librmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/asset__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/asset__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/trait__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_configuration__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_request__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_result__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/dds_fastrtps/workcell_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/trait__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/workcell_configuration__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/workcell_request__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/workcell_result__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rmf_workcell_msgs/msg/detail/workcell_state__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rmf_workcell_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

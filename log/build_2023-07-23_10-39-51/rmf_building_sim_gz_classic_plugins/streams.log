@@ -1,0 +1,175 @@
+[0.020s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins
+[0.148s] -- The C compiler identification is Clang 14.0.0
+[0.277s] -- The CXX compiler identification is Clang 14.0.0
+[0.297s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.410s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.410s] -- Detecting C compile features
+[0.410s] -- Detecting C compile features - done
+[0.414s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.529s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.551s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.944s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.049s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.111s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.120s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.134s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.322s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.326s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.458s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.501s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.575s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.592s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.694s] -- Found Threads: TRUE  
+[1.869s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.877s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.878s] -- Checking for module 'bullet>=2.82'
+[1.892s] --   Found bullet, version 3.05
+[1.976s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.014s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.045s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.102s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.134s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.144s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.154s] -- Searching for dependencies of ignition-math6
+[2.157s] -- Looking for OGRE...
+[2.158s] -- OGRE_PREFIX_WATCH changed.
+[2.165s] -- Checking for module 'OGRE'
+[2.181s] --   Found OGRE, version 1.9.0
+[2.221s] -- Found Ogre Ghadamon (1.9.0)
+[2.244s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.259s] -- Looking for OGRE_Paging...
+[2.281s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.281s] -- Looking for OGRE_Terrain...
+[2.303s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.303s] -- Looking for OGRE_Property...
+[2.324s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.324s] -- Looking for OGRE_RTShaderSystem...
+[2.346s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.346s] -- Looking for OGRE_Volume...
+[2.367s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.367s] -- Looking for OGRE_Overlay...
+[2.388s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.729s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.732s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.733s] -- Searching for dependencies of ignition-transport8
+[2.751s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.762s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.767s] -- Checking for module 'libzmq >= 4'
+[2.777s] --   Found libzmq , version 4.3.4
+[2.810s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.818s] -- Checking for module 'uuid'
+[2.832s] --   Found uuid, version 2.37.2
+[2.871s] -- Found UUID: TRUE  
+[2.875s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.875s] -- Searching for dependencies of ignition-msgs5
+[2.902s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.909s] -- Checking for module 'tinyxml2'
+[2.925s] --   Found tinyxml2, version 9.0.0
+[2.964s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.968s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.968s] -- Searching for dependencies of ignition-common3
+[2.969s] -- Looking for dlfcn.h - found
+[2.971s] -- Looking for libdl - found
+[2.973s] -- Found DL: TRUE  
+[2.993s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.994s] -- Searching for <ignition-common3> component [graphics]
+[2.997s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.997s] -- Searching for dependencies of ignition-common3-graphics
+[2.997s] -- Looking for ignition-math6 -- found version 6.14.0
+[3.003s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.003s] -- Searching for dependencies of ignition-fuel_tools4
+[3.094s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.107s] -- Checking for module 'jsoncpp'
+[3.124s] --   Found jsoncpp, version 1.9.5
+[3.166s] -- Found JSONCPP: TRUE  
+[3.174s] -- Checking for module 'libzip'
+[3.192s] --   Found libzip, version 1.7.3
+[3.232s] -- Found ZIP: TRUE  
+[3.233s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.234s] -- Looking for ignition-math6 -- found version 6.14.0
+[3.235s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.242s] -- Gazebo version: 11.10
+[3.243s] -- Checking for module 'tbb'
+[3.261s] --   Found tbb, version 2021.5.0
+[3.306s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.340s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.341s] -- Found rmf_fleet_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake)
+[3.413s] -- Found rmf_building_sim_common: 2.0.2 (/home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake)
+[3.874s] -- Configuring done (3.8s)
+[4.062s] -- Generating done (0.1s)
+[4.069s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins
+[4.113s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_gz_classic_plugins -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins
+[4.114s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins -- -j16 -l16
+[4.311s] [  4%] [34m[1mAutomatic MOC for target door[0m
+[4.351s] [  8%] [34m[1mAutomatic MOC for target lift[0m
+[4.395s] [ 12%] [34m[1mAutomatic MOC for target toggle_floors[0m
+[4.459s] [ 12%] Built target door_autogen
+[4.481s] [ 12%] Built target lift_autogen
+[4.576s] [ 16%] [34m[1mAutomatic MOC for target crowd_simulator[0m
+[4.583s] [ 20%] [32mBuilding CXX object CMakeFiles/door.dir/door_autogen/mocs_compilation.cpp.o[0m
+[4.610s] [ 25%] [32mBuilding CXX object CMakeFiles/door.dir/src/door.cpp.o[0m
+[4.716s] [ 25%] Built target crowd_simulator_autogen
+[4.830s] [ 29%] [32mBuilding CXX object CMakeFiles/lift.dir/lift_autogen/mocs_compilation.cpp.o[0m
+[4.839s] [ 33%] [32mBuilding CXX object CMakeFiles/lift.dir/src/lift.cpp.o[0m
+[9.039s] [ 33%] Built target toggle_floors_autogen
+[24.055s] [ 37%] [32m[1mLinking CXX shared library liblift.so[0m
+[24.435s] [ 37%] Built target lift
+[24.527s] [ 41%] [32mBuilding CXX object CMakeFiles/toggle_floors.dir/toggle_floors_autogen/mocs_compilation.cpp.o[0m
+[24.535s] [ 45%] [32mBuilding CXX object CMakeFiles/toggle_floors.dir/src/toggle_floors.cpp.o[0m
+[25.098s] [ 50%] [32m[1mLinking CXX shared library libdoor.so[0m
+[25.256s] [ 50%] Built target door
+[25.267s] [ 54%] [32mBuilding CXX object CMakeFiles/crowd_simulator.dir/crowd_simulator_autogen/mocs_compilation.cpp.o[0m
+[25.268s] [ 58%] [32mBuilding CXX object CMakeFiles/crowd_simulator.dir/src/crowd_simulator.cpp.o[0m
+[46.318s] [ 62%] [32m[1mLinking CXX shared library libcrowd_simulator.so[0m
+[46.377s] [ 62%] Built target crowd_simulator
+[46.384s] [ 66%] [34m[1mAutomatic MOC for target thumbnail_generator[0m
+[46.387s] [ 70%] [34m[1mAutomatic MOC for target toggle_charging[0m
+[46.413s] [ 70%] Built target thumbnail_generator_autogen
+[46.421s] [ 79%] [32mBuilding CXX object CMakeFiles/thumbnail_generator.dir/thumbnail_generator_autogen/mocs_compilation.cpp.o[0m
+[46.422s] [ 79%] [32mBuilding CXX object CMakeFiles/thumbnail_generator.dir/src/thumbnail_generator.cpp.o[0m
+[48.152s] [ 79%] Built target toggle_charging_autogen
+[48.163s] [ 83%] [32mBuilding CXX object CMakeFiles/toggle_charging.dir/src/toggle_charging.cpp.o[0m
+[48.163s] [ 87%] [32mBuilding CXX object CMakeFiles/toggle_charging.dir/toggle_charging_autogen/mocs_compilation.cpp.o[0m
+[62.923s] [ 91%] [32m[1mLinking CXX shared library libtoggle_floors.so[0m
+[63.094s] [ 91%] Built target toggle_floors
+[65.343s] [ 95%] [32m[1mLinking CXX shared library libtoggle_charging.so[0m
+[65.477s] [ 95%] Built target toggle_charging
+[68.266s] [100%] [32m[1mLinking CXX shared library libthumbnail_generator.so[0m
+[68.345s] [100%] Built target thumbnail_generator
+[68.358s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins -- -j16 -l16
+[68.416s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins
+[68.441s] -- Install configuration: "Release"
+[68.441s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libdoor.so
+[68.441s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libdoor.so" to ""
+[68.442s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/liblift.so
+[68.442s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/liblift.so" to ""
+[68.442s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libtoggle_floors.so
+[68.444s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libtoggle_floors.so" to ""
+[68.444s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libtoggle_charging.so
+[68.445s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libtoggle_charging.so" to ""
+[68.445s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libthumbnail_generator.so
+[68.446s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libcrowd_simulator.so
+[68.447s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/lib/rmf_building_sim_gz_classic_plugins/libcrowd_simulator.so" to ""
+[68.447s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/ament_index/resource_index/package_run_dependencies/rmf_building_sim_gz_classic_plugins
+[68.447s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/ament_index/resource_index/parent_prefix_path/rmf_building_sim_gz_classic_plugins
+[68.447s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/environment/ament_prefix_path.sh
+[68.447s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/environment/ament_prefix_path.dsv
+[68.447s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/environment/path.sh
+[68.447s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/environment/path.dsv
+[68.448s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/local_setup.bash
+[68.448s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/local_setup.sh
+[68.448s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/local_setup.zsh
+[68.448s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/local_setup.dsv
+[68.448s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/package.dsv
+[68.448s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/ament_index/resource_index/packages/rmf_building_sim_gz_classic_plugins
+[68.448s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/cmake/rmf_building_sim_gz_classic_pluginsConfig.cmake
+[68.449s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/cmake/rmf_building_sim_gz_classic_pluginsConfig-version.cmake
+[68.449s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_gz_classic_plugins/share/rmf_building_sim_gz_classic_plugins/package.xml
+[68.460s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_building_sim_common/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_building_sim_gz_classic_plugins

@@ -1,0 +1,61 @@
+[0.007s] Invoking command in '/home/wang/rmf_ws/build/rmf_battery': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_battery
+[0.084s] -- The C compiler identification is Clang 14.0.0
+[0.186s] -- The CXX compiler identification is Clang 14.0.0
+[0.202s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.289s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.290s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.293s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.388s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.393s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.395s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.477s] -- Found Threads: TRUE  
+[0.747s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.798s] -- Configuring done (0.8s)
+[0.803s] -- Generating done (0.0s)
+[0.804s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_battery
+[0.812s] Invoked command in '/home/wang/rmf_ws/build/rmf_battery' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_battery/rmf_battery -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_battery
+[0.813s] Invoking command in '/home/wang/rmf_ws/build/rmf_battery': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_battery -- -j16 -l16
+[0.846s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/MechanicalSystem.cpp.o[0m
+[0.847s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/BatterySystem.cpp.o[0m
+[0.847s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/SimpleDevicePowerSink.cpp.o[0m
+[0.847s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/SimpleMotionPowerSink.cpp.o[0m
+[0.847s] [ 41%] [32mBuilding CXX object CMakeFiles/rmf_battery.dir/src/rmf_battery/agv/PowerSystem.cpp.o[0m
+[1.984s] [ 50%] [32m[1mLinking CXX shared library librmf_battery.so[0m
+[2.026s] [ 50%] Built target rmf_battery
+[2.033s] [ 58%] [32mBuilding CXX object CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_MechanicalSystem.cpp.o[0m
+[2.034s] [ 66%] [32mBuilding CXX object CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_PowerSystem.cpp.o[0m
+[2.034s] [ 83%] [32mBuilding CXX object CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_battery_drain.cpp.o[0m
+[2.034s] [ 83%] [32mBuilding CXX object CMakeFiles/test_rmf_battery.dir/test/main.cpp.o[0m
+[2.034s] [ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_battery.dir/test/unit/agv/test_BatterySystem.cpp.o[0m
+[20.881s] [100%] [32m[1mLinking CXX executable test_rmf_battery[0m
+[20.937s] [100%] Built target test_rmf_battery
+[20.948s] Invoked command in '/home/wang/rmf_ws/build/rmf_battery' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_battery -- -j16 -l16
+[20.997s] Invoking command in '/home/wang/rmf_ws/build/rmf_battery': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_battery
+[21.019s] -- Install configuration: "Release"
+[21.019s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/lib/librmf_battery.so
+[21.019s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_battery/lib/librmf_battery.so" to ""
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/MotionPowerSink.hpp
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/agv
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/agv/BatterySystem.hpp
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/agv/MechanicalSystem.hpp
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/agv/PowerSystem.hpp
+[21.020s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/agv/SimpleDevicePowerSink.hpp
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/agv/SimpleMotionPowerSink.hpp
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/include/rmf_battery/DevicePowerSink.hpp
+[21.021s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_battery/lib/librmf_battery.so
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/lib/rmf_battery/cmake/rmf_battery-config-version.cmake
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/lib/rmf_battery/cmake/rmf_battery-config.cmake
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/lib/rmf_battery/cmake/rmf_battery-targets.cmake
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/lib/rmf_battery/cmake/rmf_battery-targets-release.cmake
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/share/ament_index/resource_index/packages/rmf_battery
+[21.021s] -- Installing: /home/wang/rmf_ws/install/rmf_battery/share/rmf_battery/hook/ament_prefix_path.dsv
+[21.027s] Invoked command in '/home/wang/rmf_ws/build/rmf_battery' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_battery

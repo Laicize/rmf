@@ -1,0 +1,260 @@
+[
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Activator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Activator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Activator.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Activator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/BackupFileManager.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BackupFileManager.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BackupFileManager.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/BackupFileManager.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriority.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriority.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriority.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriority.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriorityCostCalculator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityCostCalculator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityCostCalculator.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriorityCostCalculator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriorityScheme.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityScheme.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/BinaryPriorityScheme.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/BinaryPriorityScheme.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/CompositeData.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/CompositeData.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/CompositeData.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/CompositeData.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Constraints.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Constraints.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Constraints.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Constraints.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Estimate.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Estimate.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Estimate.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Estimate.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Event.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Event.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Event.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Event.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Header.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Header.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Header.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Header.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/InvariantHeuristicQueue.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/InvariantHeuristicQueue.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/InvariantHeuristicQueue.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/InvariantHeuristicQueue.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Log.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Log.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Log.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Log.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Parameters.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Parameters.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Parameters.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Parameters.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Payload.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Payload.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Payload.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Payload.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Phase.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Phase.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Phase.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Phase.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Priority.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Priority.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Priority.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Priority.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Request.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Request.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Request.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Request.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/State.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/State.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/State.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/State.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/Task.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Task.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/Task.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/Task.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/TaskPlanner.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/TaskPlanner.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/TaskPlanner.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/TaskPlanner.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/VersionedString.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/VersionedString.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/VersionedString.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/VersionedString.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/detail/Backup.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/detail/Backup.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/detail/Backup.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/detail/Backup.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/detail/Resume.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/detail/Resume.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/detail/Resume.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/detail/Resume.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/events/SimpleEventState.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/events/SimpleEventState.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/events/SimpleEventState.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/events/SimpleEventState.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/internal_task_planning.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/internal_task_planning.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/internal_task_planning.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/internal_task_planning.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/phases/RestoreBackup.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/phases/RestoreBackup.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/phases/RestoreBackup.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/phases/RestoreBackup.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/requests/ChargeBattery.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/ChargeBattery.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/ChargeBattery.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/requests/ChargeBattery.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/requests/ChargeBatteryFactory.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/ChargeBatteryFactory.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/ChargeBatteryFactory.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/requests/ChargeBatteryFactory.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/requests/Clean.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/Clean.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/Clean.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/requests/Clean.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/requests/Delivery.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/Delivery.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/Delivery.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/requests/Delivery.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/requests/Loop.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/Loop.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/Loop.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/requests/Loop.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++ -Drmf_task_EXPORTS -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/rmf_task.dir/src/rmf_task/requests/ParkRobotFactory.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/ParkRobotFactory.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/src/rmf_task/requests/ParkRobotFactory.cpp",
+  "output": "CMakeFiles/rmf_task.dir/src/rmf_task/requests/ParkRobotFactory.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/main.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/main.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/main.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/main.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/integration/test_backups.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/integration/test_backups.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/integration/test_backups.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/integration/test_backups.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/mock/MockDelivery.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockDelivery.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockDelivery.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/mock/MockDelivery.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/mock/MockEvent.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockEvent.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockEvent.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/mock/MockEvent.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/mock/MockPhase.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockPhase.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockPhase.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/mock/MockPhase.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/mock/MockTask.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockTask.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/mock/MockTask.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/mock/MockTask.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/unit/agv/test_Constraints.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_Constraints.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_Constraints.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/unit/agv/test_Constraints.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/unit/agv/test_State.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_State.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_State.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/unit/agv/test_State.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/unit/agv/test_TaskPlanner.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_TaskPlanner.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/agv/test_TaskPlanner.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/unit/agv/test_TaskPlanner.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/unit/test_Activator.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/test_Activator.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/test_Activator.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/unit/test_Activator.cpp.o"
+},
+{
+  "directory": "/home/wang/rmf_ws/build/rmf_task",
+  "command": "/usr/bin/clang++  -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task -I/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/include -isystem /usr/include/eigen3 -isystem /home/wang/rmf_ws/install/rmf_battery/include -isystem /home/wang/rmf_ws/install/rmf_utils/include -isystem /home/wang/rmf_ws/install/rmf_traffic/include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/test_rmf_task.dir/test/unit/test_Log.cpp.o -c /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/test_Log.cpp",
+  "file": "/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task/test/unit/test_Log.cpp",
+  "output": "CMakeFiles/test_rmf_task.dir/test/unit/test_Log.cpp.o"
+}
+]

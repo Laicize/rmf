@@ -1,0 +1,67 @@
+[0.108s] Invoking command in '/home/wang/rmf_ws/build/rmf_demos_dashboard_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_demos_dashboard_resources
+[2.806s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.807s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.807s] -- Configuring done (0.5s)
+[2.808s] -- Generating done (0.0s)
+[2.809s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_demos_dashboard_resources
+[2.810s] [33mCMake Warning:
+[2.810s]   Manually-specified variables were not used by the project:
+[2.811s] 
+[2.811s]     CMAKE_EXE_LINKER_FLAGS
+[2.811s]     CMAKE_MODULE_LINKER_FLAGS
+[2.811s]     CMAKE_SHARED_LINKER_FLAGS
+[2.811s] 
+[2.811s] [0m
+[2.818s] Invoked command in '/home/wang/rmf_ws/build/rmf_demos_dashboard_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/demonstrations/rmf_demos/rmf_demos_dashboard_resources -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_demos_dashboard_resources
+[2.819s] Invoking command in '/home/wang/rmf_ws/build/rmf_demos_dashboard_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_demos_dashboard_resources -- -j16 -l16
+[3.125s] [100%] Built target build
+[3.166s] Invoked command in '/home/wang/rmf_ws/build/rmf_demos_dashboard_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_demos_dashboard_resources -- -j16 -l16
+[3.598s] Invoking command in '/home/wang/rmf_ws/build/rmf_demos_dashboard_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_demos_dashboard_resources
+[4.977s] -- Install configuration: "Release"
+[4.977s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/ament_index/resource_index/package_run_dependencies/rmf_demos_dashboard_resources
+[4.977s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/ament_index/resource_index/parent_prefix_path/rmf_demos_dashboard_resources
+[4.977s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/environment/ament_prefix_path.sh
+[4.977s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/environment/ament_prefix_path.dsv
+[4.977s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/environment/path.sh
+[4.977s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/environment/path.dsv
+[4.977s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/local_setup.bash
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/local_setup.sh
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/local_setup.zsh
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/local_setup.dsv
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.dsv
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/ament_index/resource_index/packages/rmf_demos_dashboard_resources
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/cmake/rmf_demos_dashboard_resourcesConfig.cmake
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/cmake/rmf_demos_dashboard_resourcesConfig-version.cmake
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.xml
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/main.json
+[4.978s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/dashboard_config.json
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/icons
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/icons/deliveryRobot.png
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/icons/tinyRobot.png
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/icons/caddy.png
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/icons/cleanerBotE.png
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/icons/cleanerBotA.png
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/airport_terminal/icons/headerLogo.png
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/main.json
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/dashboard_config.json
+[4.979s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/icons
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/icons/fridge.png
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/icons/humanIcon.png
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/icons/deliveryRobot.png
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/icons/tinyRobot.png
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/icons/roshealth-logo-blue.png
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/office/icons/headerLogo.png
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/main.json
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/dashboard_config.json
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/icons
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/icons/deliveryRobot.png
+[4.980s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/icons/tinyRobot.png
+[4.981s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/icons/cleanerBotA.png
+[4.981s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/icons/headerLogo.png
+[4.981s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/clinic
+[4.981s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/clinic/main.json
+[4.981s] -- Installing: /home/wang/rmf_ws/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/clinic/dashboard_config.json
+[5.112s] Invoked command in '/home/wang/rmf_ws/build/rmf_demos_dashboard_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_demos_dashboard_resources

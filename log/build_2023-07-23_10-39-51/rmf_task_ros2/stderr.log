@@ -1,0 +1,37 @@
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:80:33: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    const auto id = dispatcher->submit_task(task_desc1);
+[0;1;32m                                ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:104:25: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    REQUIRE(dispatcher->submit_task(task_desc2) == std::nullopt);
+[0;1;32m                        ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:104:25: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    REQUIRE(dispatcher->submit_task(task_desc2) == std::nullopt);
+[0;1;32m                        ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:104:25: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    REQUIRE(dispatcher->submit_task(task_desc2) == std::nullopt);
+[0;1;32m                        ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:122:27: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    auto id = dispatcher->submit_task(task_desc1);
+[0;1;32m                          ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:139:22: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    id = dispatcher->submit_task(task_desc2);
+[0;1;32m                     ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m6 warnings generated.

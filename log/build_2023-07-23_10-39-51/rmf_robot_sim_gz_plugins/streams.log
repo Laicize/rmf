@@ -1,0 +1,324 @@
+[0.018s] Invoking command in '/home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common/lib:/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins
+[0.122s] -- The C compiler identification is Clang 14.0.0
+[0.239s] -- The CXX compiler identification is Clang 14.0.0
+[0.259s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.362s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.362s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.466s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.475s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.912s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.029s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.111s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.120s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.137s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.304s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.390s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.421s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.567s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.568s] -- Found Threads: TRUE  
+[1.872s] -- Looking for ignition-gazebo6 -- found version 6.14.0
+[1.872s] -- Searching for dependencies of ignition-gazebo6
+[1.874s] -- Looking for sdformat12 -- found version 12.7.1
+[1.875s] -- Searching for dependencies of sdformat12
+[1.879s] -- Checking for module 'tinyxml2'
+[1.890s] --   Found tinyxml2, version 9.0.0
+[1.916s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.916s] -- Searching for dependencies of ignition-math6
+[1.918s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.919s] -- Searching for dependencies of ignition-utils1
+[1.922s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.922s] -- Searching for dependencies of ignition-plugin1
+[1.922s] -- Searching for <ignition-plugin1> component [loader]
+[1.924s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.925s] -- Searching for dependencies of ignition-plugin1-loader
+[1.925s] -- Searching for <ignition-plugin1> component [register]
+[1.927s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.928s] -- Searching for dependencies of ignition-plugin1-register
+[1.930s] -- Looking for ignition-transport11 -- found version 11.4.0
+[1.931s] -- Searching for dependencies of ignition-transport11
+[1.959s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.969s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.974s] -- Checking for module 'libzmq >= 4'
+[1.984s] --   Found libzmq , version 4.3.4
+[2.014s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.022s] -- Checking for module 'uuid'
+[2.035s] --   Found uuid, version 2.37.2
+[2.058s] -- Found UUID: TRUE  
+[2.059s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.059s] -- Searching for dependencies of ignition-utils1
+[2.059s] -- Searching for <ignition-utils1> component [cli]
+[2.061s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[2.062s] -- Searching for dependencies of ignition-utils1-cli
+[2.064s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.064s] -- Searching for dependencies of ignition-msgs8
+[2.082s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.096s] -- Searching for <ignition-transport11> component [log]
+[2.099s] -- Looking for ignition-transport11-log -- found version 11.4.0
+[2.099s] -- Searching for dependencies of ignition-transport11-log
+[2.100s] -- Searching for <ignition-transport11> component [parameters]
+[2.104s] -- Looking for ignition-transport11-parameters -- found version 11.4.0
+[2.104s] -- Searching for dependencies of ignition-transport11-parameters
+[2.105s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.109s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.109s] -- Searching for dependencies of ignition-common4
+[2.110s] -- Looking for dlfcn.h - found
+[2.112s] -- Looking for libdl - found
+[2.114s] -- Found DL: TRUE  
+[2.128s] -- Searching for <ignition-common4> component [profiler]
+[2.131s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[2.132s] -- Searching for dependencies of ignition-common4-profiler
+[2.133s] -- Searching for <ignition-common4> component [events]
+[2.136s] -- Looking for ignition-common4-events -- found version 4.7.0
+[2.136s] -- Searching for dependencies of ignition-common4-events
+[2.137s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.138s] -- Searching for <ignition-common4> component [av]
+[2.141s] -- Looking for ignition-common4-av -- found version 4.7.0
+[2.141s] -- Searching for dependencies of ignition-common4-av
+[2.148s] -- Checking for module 'libswscale'
+[2.162s] --   Found libswscale, version 5.9.100
+[2.191s] -- Found SWSCALE: TRUE  
+[2.198s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.212s] --   Found libavdevice , version 58.13.100
+[2.248s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.255s] -- Checking for module 'libavformat'
+[2.269s] --   Found libavformat, version 58.76.100
+[2.298s] -- Found AVFORMAT: TRUE  
+[2.305s] -- Checking for module 'libavcodec'
+[2.319s] --   Found libavcodec, version 58.134.100
+[2.358s] -- Found AVCODEC: TRUE  
+[2.365s] -- Checking for module 'libavutil'
+[2.380s] --   Found libavutil, version 56.70.100
+[2.417s] -- Found AVUTIL: TRUE  
+[2.421s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[2.422s] -- Searching for dependencies of ignition-fuel_tools7
+[2.524s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.536s] -- Checking for module 'jsoncpp'
+[2.551s] --   Found jsoncpp, version 1.9.5
+[2.586s] -- Found JSONCPP: TRUE  
+[2.594s] -- Checking for module 'libzip'
+[2.609s] --   Found libzip, version 1.7.3
+[2.647s] -- Found ZIP: TRUE  
+[2.648s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.649s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.649s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.654s] -- Looking for ignition-gui6 -- found version 6.8.0
+[2.654s] -- Searching for dependencies of ignition-gui6
+[2.692s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.693s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.694s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.694s] -- Looking for ignition-transport11 -- found version 11.4.0
+[2.698s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[2.698s] -- Searching for dependencies of ignition-rendering6
+[2.699s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.699s] -- Searching for dependencies of ignition-math6
+[2.699s] -- Searching for <ignition-math6> component [eigen3]
+[2.703s] -- Looking for ignition-math6-eigen3 -- found version 6.14.0
+[2.703s] -- Searching for dependencies of ignition-math6-eigen3
+[2.714s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.714s] -- Searching for dependencies of ignition-common4
+[2.714s] -- Looking for dlfcn.h - found
+[2.714s] -- Looking for libdl - found
+[2.730s] -- Searching for <ignition-common4> component [graphics]
+[2.734s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[2.734s] -- Searching for dependencies of ignition-common4-graphics
+[2.735s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.735s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.736s] -- Searching for <ignition-common4> component [events]
+[2.737s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.738s] -- Searching for dependencies of ignition-plugin1
+[2.738s] -- Searching for <ignition-plugin1> component [all]
+[2.741s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[2.742s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.745s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.781s] -- Looking for ignition-physics5 -- found version 5.3.1
+[2.781s] -- Searching for dependencies of ignition-physics5
+[2.782s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.782s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.783s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.785s] -- Searching for <ignition-physics5> component [heightmap]
+[2.788s] -- Looking for ignition-physics5-heightmap -- found version 5.3.1
+[2.789s] -- Searching for dependencies of ignition-physics5-heightmap
+[2.789s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.790s] -- Searching for <ignition-physics5> component [mesh]
+[2.794s] -- Looking for ignition-physics5-mesh -- found version 5.3.1
+[2.794s] -- Searching for dependencies of ignition-physics5-mesh
+[2.794s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.795s] -- Searching for <ignition-physics5> component [sdf]
+[2.799s] -- Looking for ignition-physics5-sdf -- found version 5.3.1
+[2.799s] -- Searching for dependencies of ignition-physics5-sdf
+[2.799s] -- Looking for sdformat12 -- found version 12.7.1
+[2.804s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[2.804s] -- Searching for dependencies of ignition-sensors6
+[2.831s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.831s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.832s] -- Looking for ignition-transport11 -- found version 11.4.0
+[2.833s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[2.834s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.835s] -- Looking for sdformat12 -- found version 12.7.1
+[2.836s] -- Searching for <ignition-sensors6> component [air_pressure]
+[2.839s] -- Looking for ignition-sensors6-air_pressure -- found version 6.7.0
+[2.839s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[2.841s] -- Searching for <ignition-sensors6> component [altimeter]
+[2.844s] -- Looking for ignition-sensors6-altimeter -- found version 6.7.0
+[2.844s] -- Searching for dependencies of ignition-sensors6-altimeter
+[2.845s] -- Searching for <ignition-sensors6> component [imu]
+[2.849s] -- Looking for ignition-sensors6-imu -- found version 6.7.0
+[2.849s] -- Searching for dependencies of ignition-sensors6-imu
+[2.850s] -- Searching for <ignition-sensors6> component [force_torque]
+[2.854s] -- Looking for ignition-sensors6-force_torque -- found version 6.7.0
+[2.854s] -- Searching for dependencies of ignition-sensors6-force_torque
+[2.855s] -- Searching for <ignition-sensors6> component [logical_camera]
+[2.858s] -- Looking for ignition-sensors6-logical_camera -- found version 6.7.0
+[2.859s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[2.860s] -- Searching for <ignition-sensors6> component [magnetometer]
+[2.863s] -- Looking for ignition-sensors6-magnetometer -- found version 6.7.0
+[2.863s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[2.864s] -- Searching for <ignition-sensors6> component [navsat]
+[2.867s] -- Looking for ignition-sensors6-navsat -- found version 6.7.0
+[2.868s] -- Searching for dependencies of ignition-sensors6-navsat
+[2.869s] -- Searching for <ignition-sensors6> component [rendering]
+[2.872s] -- Looking for ignition-sensors6-rendering -- found version 6.7.0
+[2.872s] -- Searching for dependencies of ignition-sensors6-rendering
+[2.873s] -- Searching for <ignition-sensors6> component [lidar]
+[2.877s] -- Looking for ignition-sensors6-lidar -- found version 6.7.0
+[2.877s] -- Searching for dependencies of ignition-sensors6-lidar
+[2.877s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[2.878s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[2.882s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.7.0
+[2.882s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[2.883s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[2.884s] -- Searching for <ignition-sensors6> component [camera]
+[2.887s] -- Looking for ignition-sensors6-camera -- found version 6.7.0
+[2.887s] -- Searching for dependencies of ignition-sensors6-camera
+[2.888s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[2.889s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[2.892s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.7.0
+[2.893s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[2.894s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.897s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.7.0
+[2.897s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.898s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.902s] -- Looking for ignition-sensors6-depth_camera -- found version 6.7.0
+[2.902s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.902s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[2.903s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.907s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.7.0
+[2.907s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.908s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[2.909s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.913s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.7.0
+[2.913s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.914s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[2.916s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[2.917s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.921s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.948s] -- Looking for ignition-gazebo6 - found
+[2.948s] 
+[2.950s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.950s] -- Looking for ignition-plugin1 - found
+[2.950s] 
+[2.951s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.951s] -- Looking for ignition-common4 - found
+[2.951s] 
+[2.953s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.953s] -- Looking for ignition-math6 - found
+[2.953s] 
+[2.954s] -- Looking for ignition-gui6 -- found version 6.8.0
+[2.954s] -- Looking for ignition-gui6 - found
+[2.954s] 
+[2.955s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.955s] -- Looking for ignition-msgs8 - found
+[2.956s] 
+[2.957s] -- Looking for ignition-transport11 -- found version 11.4.0
+[2.957s] -- Looking for ignition-transport11 - found
+[2.957s] 
+[2.958s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[2.958s] -- Looking for ignition-rendering6 - found
+[2.958s] 
+[2.960s] -- Looking for sdformat12 -- found version 12.7.1
+[2.960s] -- Looking for sdformat12 - found
+[2.960s] 
+[2.962s] -- Found rmf_fleet_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake)
+[3.031s] -- Found rmf_building_map_msgs: 1.2.1 (/home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake)
+[3.099s] -- Found rmf_robot_sim_common: 2.0.2 (/home/wang/rmf_ws/install/rmf_robot_sim_common/share/rmf_robot_sim_common/cmake)
+[4.356s] -- Configuring done (4.3s)
+[4.500s] -- Generating done (0.1s)
+[4.506s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins
+[4.547s] Invoked command in '/home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common/lib:/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins
+[4.549s] Invoking command in '/home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common/lib:/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins -- -j16 -l16
+[4.612s] [ 13%] [34m[1mAutomatic MOC for target slotcar[0m
+[4.612s] [ 13%] [34m[1mAutomatic MOC for target teleport_dispenser[0m
+[4.613s] [ 18%] [34m[1mAutomatic MOC for target teleport_ingestor[0m
+[4.613s] [ 22%] [34m[1mAutomatic MOC for target readonly[0m
+[4.613s] [ 22%] [34m[1mAutomatic MOC for target LightTuning[0m
+[4.659s] [ 22%] Built target readonly_autogen
+[4.661s] [ 22%] Built target teleport_dispenser_autogen
+[4.661s] [ 22%] Built target teleport_ingestor_autogen
+[4.663s] [ 22%] Built target slotcar_autogen
+[4.672s] [ 31%] [32mBuilding CXX object CMakeFiles/readonly.dir/readonly_autogen/mocs_compilation.cpp.o[0m
+[4.672s] [ 31%] [32mBuilding CXX object CMakeFiles/teleport_dispenser.dir/src/TeleportDispenser.cpp.o[0m
+[4.673s] [ 36%] [32mBuilding CXX object CMakeFiles/readonly.dir/src/readonly.cpp.o[0m
+[4.675s] [ 40%] [32mBuilding CXX object CMakeFiles/slotcar.dir/slotcar_autogen/mocs_compilation.cpp.o[0m
+[4.680s] [ 45%] [32mBuilding CXX object CMakeFiles/slotcar.dir/src/slotcar.cpp.o[0m
+[4.687s] [ 50%] [32mBuilding CXX object CMakeFiles/teleport_dispenser.dir/teleport_dispenser_autogen/mocs_compilation.cpp.o[0m
+[4.712s] [ 54%] [32mBuilding CXX object CMakeFiles/teleport_ingestor.dir/teleport_ingestor_autogen/mocs_compilation.cpp.o[0m
+[4.735s] [ 59%] [32mBuilding CXX object CMakeFiles/teleport_ingestor.dir/src/TeleportIngestor.cpp.o[0m
+[6.819s] [ 59%] Built target LightTuning_autogen
+[6.825s] [ 63%] [34m[1mGenerating qrc_LightTuning.cpp[0m
+[6.845s] [ 68%] [32mBuilding CXX object CMakeFiles/LightTuning.dir/src/LightTuning/LightTuning.cpp.o[0m
+[6.847s] [ 72%] [32mBuilding CXX object CMakeFiles/LightTuning.dir/LightTuning_autogen/mocs_compilation.cpp.o[0m
+[6.864s] [ 77%] [32mBuilding CXX object CMakeFiles/LightTuning.dir/qrc_LightTuning.cpp.o[0m
+[17.514s] [1m/home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_robot_sim_gz_plugins/src/slotcar.cpp:61:8: [0m[0;1;35mwarning: [0m[1mprivate field '_remove_world_pose_cmd' is not used [-Wunused-private-field][0m
+[17.514s]   bool _remove_world_pose_cmd = false;
+[17.515s] [0;1;32m       ^
+[22.729s] [ 81%] [32m[1mLinking CXX shared library libreadonly.so[0m
+[22.881s] [ 81%] Built target readonly
+[23.762s] [ 86%] [32m[1mLinking CXX shared library libLightTuning.so[0m
+[23.867s] [ 86%] Built target LightTuning
+[24.802s] [ 90%] [32m[1mLinking CXX shared library libteleport_dispenser.so[0m
+[24.857s] [ 95%] [32m[1mLinking CXX shared library libteleport_ingestor.so[0m
+[24.859s] [0m1 warning generated.
+[24.883s] [100%] [32m[1mLinking CXX shared library libslotcar.so[0m
+[24.915s] [100%] Built target teleport_dispenser
+[24.966s] [100%] Built target teleport_ingestor
+[24.988s] [100%] Built target slotcar
+[24.996s] Invoked command in '/home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common/lib:/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins -- -j16 -l16
+[25.057s] Invoking command in '/home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common/lib:/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins
+[25.077s] -- Install configuration: "Release"
+[25.077s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libteleport_dispenser.so
+[25.078s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libteleport_dispenser.so" to ""
+[25.078s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libteleport_ingestor.so
+[25.079s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libteleport_ingestor.so" to ""
+[25.079s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libreadonly.so
+[25.080s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libreadonly.so" to ""
+[25.080s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libslotcar.so
+[25.081s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libslotcar.so" to ""
+[25.081s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libLightTuning.so
+[25.082s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/libLightTuning.so" to ""
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/ament_index/resource_index/package_run_dependencies/rmf_robot_sim_gz_plugins
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/ament_index/resource_index/parent_prefix_path/rmf_robot_sim_gz_plugins
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/environment/ament_prefix_path.sh
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/environment/ament_prefix_path.dsv
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/environment/path.sh
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/environment/path.dsv
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/local_setup.bash
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/local_setup.sh
+[25.082s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/local_setup.zsh
+[25.083s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/local_setup.dsv
+[25.083s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/package.dsv
+[25.083s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/ament_index/resource_index/packages/rmf_robot_sim_gz_plugins
+[25.083s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/cmake/rmf_robot_sim_gz_pluginsConfig.cmake
+[25.083s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/cmake/rmf_robot_sim_gz_pluginsConfig-version.cmake
+[25.083s] -- Installing: /home/wang/rmf_ws/install/rmf_robot_sim_gz_plugins/share/rmf_robot_sim_gz_plugins/package.xml
+[25.091s] Invoked command in '/home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common:/home/wang/rmf_ws/install/rmf_ingestor_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_dispenser_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_robot_sim_common/lib:/home/wang/rmf_ws/install/rmf_ingestor_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_ingestor_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_robot_sim_gz_plugins

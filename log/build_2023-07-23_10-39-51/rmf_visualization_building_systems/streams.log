@@ -1,0 +1,39 @@
+[1.269s] Invoking command in '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_visualization_building_systems/prefix_override:/home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_visualization_building_systems build --build-base /home/wang/rmf_ws/build/rmf_visualization_building_systems/build install --record /home/wang/rmf_ws/build/rmf_visualization_building_systems/install.log --single-version-externally-managed
+[1.529s] running egg_info
+[1.532s] creating ../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info
+[1.532s] writing ../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/PKG-INFO
+[1.532s] writing dependency_links to ../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/dependency_links.txt
+[1.532s] writing entry points to ../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/entry_points.txt
+[1.532s] writing requirements to ../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/requires.txt
+[1.532s] writing top-level names to ../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/top_level.txt
+[1.533s] writing manifest file '../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[1.534s] reading manifest file '../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[1.535s] writing manifest file '../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.535s] running build_py
+[1.536s] creating /home/wang/rmf_ws/build/rmf_visualization_building_systems/build
+[1.536s] creating /home/wang/rmf_ws/build/rmf_visualization_building_systems/build/lib
+[1.536s] creating /home/wang/rmf_ws/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[1.536s] copying rmf_visualization_building_systems/__init__.py -> /home/wang/rmf_ws/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[1.536s] copying rmf_visualization_building_systems/rmf_visualization_building_systems.py -> /home/wang/rmf_ws/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[1.536s] running install
+[1.536s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.536s]   warnings.warn(
+[1.537s] running install_lib
+[1.537s] creating /home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages/rmf_visualization_building_systems
+[1.537s] copying /home/wang/rmf_ws/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems/__init__.py -> /home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages/rmf_visualization_building_systems
+[1.538s] copying /home/wang/rmf_ws/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems/rmf_visualization_building_systems.py -> /home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages/rmf_visualization_building_systems
+[1.538s] byte-compiling /home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages/rmf_visualization_building_systems/__init__.py to __init__.cpython-310.pyc
+[1.538s] byte-compiling /home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages/rmf_visualization_building_systems/rmf_visualization_building_systems.py to rmf_visualization_building_systems.cpython-310.pyc
+[1.541s] running install_data
+[1.541s] creating /home/wang/rmf_ws/install/rmf_visualization_building_systems/share/ament_index
+[1.541s] creating /home/wang/rmf_ws/install/rmf_visualization_building_systems/share/ament_index/resource_index
+[1.541s] creating /home/wang/rmf_ws/install/rmf_visualization_building_systems/share/ament_index/resource_index/packages
+[1.542s] copying resource/rmf_visualization_building_systems -> /home/wang/rmf_ws/install/rmf_visualization_building_systems/share/ament_index/resource_index/packages
+[1.542s] copying package.xml -> /home/wang/rmf_ws/install/rmf_visualization_building_systems/share/rmf_visualization_building_systems
+[1.542s] running install_egg_info
+[1.543s] Copying ../../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info to /home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages/rmf_visualization_building_systems-2.0.2-py3.10.egg-info
+[1.544s] running install_scripts
+[1.565s] Installing rmf_visualization_building_systems script to /home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/rmf_visualization_building_systems
+[1.565s] writing list of installed files to '/home/wang/rmf_ws/build/rmf_visualization_building_systems/install.log'
+[1.607s] Invoked command in '/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_building_systems' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/build/rmf_visualization_building_systems/prefix_override:/home/wang/rmf_ws/install/rmf_visualization_building_systems/lib/python3.10/site-packages:/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/rmf_visualization_building_systems build --build-base /home/wang/rmf_ws/build/rmf_visualization_building_systems/build install --record /home/wang/rmf_ws/build/rmf_visualization_building_systems/install.log --single-version-externally-managed

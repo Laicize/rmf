@@ -1,0 +1,1014 @@
+[0.031s] Invoking command in '/home/wang/rmf_ws/build/rmf_task_msgs': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_task_msgs
+[0.240s] -- The C compiler identification is Clang 14.0.0
+[0.462s] -- The CXX compiler identification is Clang 14.0.0
+[0.505s] -- Detecting C compiler ABI info
+[0.728s] -- Detecting C compiler ABI info - done
+[0.742s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.742s] -- Detecting C compile features
+[0.743s] -- Detecting C compile features - done
+[0.750s] -- Detecting CXX compiler ABI info
+[0.924s] -- Detecting CXX compiler ABI info - done
+[0.942s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.942s] -- Detecting CXX compile features
+[0.943s] -- Detecting CXX compile features - done
+[0.947s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.527s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.665s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.726s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.736s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.752s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.778s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.855s] -- Found rmf_dispenser_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_dispenser_msgs/share/rmf_dispenser_msgs/cmake)
+[2.256s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.801s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.804s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.806s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.809s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.449s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.451s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.496s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.497s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.498s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.498s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.536s] -- Found PythonExtra: .so  
+[3.651s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.655s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.670s] -- Configuring done (3.6s)
+[3.845s] -- Generating done (0.1s)
+[3.851s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_task_msgs
+[3.892s] Invoked command in '/home/wang/rmf_ws/build/rmf_task_msgs' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_internal_msgs/rmf_task_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_task_msgs
+[3.895s] Invoking command in '/home/wang/rmf_ws/build/rmf_task_msgs': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_task_msgs -- -j16 -l16
+[10.583s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.583s] [  0%] Built target rmf_task_msgs__cpp
+[10.583s] [  0%] Built target ament_cmake_python_copy_rmf_task_msgs
+[10.583s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.583s] [  1%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/srv/detail/api_service__type_support.cpp.o[0m
+[10.584s] [  2%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/station__type_support.cpp.o[0m
+[10.584s] [  2%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/task_description__type_support.cpp.o[0m
+[10.591s] [  2%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/task_summary__type_support.cpp.o[0m
+[11.269s] [  3%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/tasks__type_support.cpp.o[0m
+[12.028s] [  3%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/loop__type_support.cpp.o[0m
+[12.410s] [  4%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/tow__type_support.cpp.o[0m
+[12.899s] [  4%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/task_type__type_support.cpp.o[0m
+[13.498s] [  4%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/clean__type_support.cpp.o[0m
+[14.076s] [  5%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/task_profile__type_support.cpp.o[0m
+[14.751s] [  5%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/bid_notice__type_support.cpp.o[0m
+[15.335s] [  6%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/bid_proposal__type_support.cpp.o[0m
+[15.757s] [  6%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/bid_response__type_support.cpp.o[0m
+[16.186s] [  6%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/dispatch_state__type_support.cpp.o[0m
+[16.713s] [  7%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/dispatch_states__type_support.cpp.o[0m
+[17.367s] [  7%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/dispatch_command__type_support.cpp.o[0m
+[17.883s] [  8%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/dispatch_ack__type_support.cpp.o[0m
+[18.554s] [  8%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/priority__type_support.cpp.o[0m
+[18.886s] [  8%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/behavior_parameter__type_support.cpp.o[0m
+[19.255s] [  9%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/behavior__type_support.cpp.o[0m
+[19.829s] [  9%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/delivery__type_support.cpp.o[0m
+[20.663s] [  9%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/assignment__type_support.cpp.o[0m
+[21.285s] [ 10%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/api_response__type_support.cpp.o[0m
+[21.869s] [ 10%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/msg/detail/api_request__type_support.cpp.o[0m
+[22.353s] [ 11%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/srv/detail/get_dispatch_states__type_support.cpp.o[0m
+[23.107s] [ 11%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/srv/detail/revive_task__type_support.cpp.o[0m
+[23.738s] [ 11%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/srv/detail/cancel_task__type_support.cpp.o[0m
+[24.301s] [ 12%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_task_msgs/srv/detail/submit_task__type_support.cpp.o[0m
+[24.974s] [ 13%] [32m[1mLinking CXX shared library librmf_task_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.042s] [ 13%] Built target rmf_task_msgs__rosidl_typesupport_introspection_cpp
+[25.299s] running egg_info
+[25.301s] creating rmf_task_msgs.egg-info
+[25.301s] writing rmf_task_msgs.egg-info/PKG-INFO
+[25.302s] writing dependency_links to rmf_task_msgs.egg-info/dependency_links.txt
+[25.302s] writing top-level names to rmf_task_msgs.egg-info/top_level.txt
+[25.302s] writing manifest file 'rmf_task_msgs.egg-info/SOURCES.txt'
+[25.307s] reading manifest file 'rmf_task_msgs.egg-info/SOURCES.txt'
+[25.308s] writing manifest file 'rmf_task_msgs.egg-info/SOURCES.txt'
+[25.359s] [ 13%] Built target ament_cmake_python_build_rmf_task_msgs_egg
+[25.366s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.584s] [ 14%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/srv/detail/dds_fastrtps/api_service__type_support.cpp.o[0m
+[29.095s] [ 14%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/task_summary__type_support.cpp.o[0m
+[29.563s] [ 15%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/tasks__type_support.cpp.o[0m
+[30.293s] [ 15%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/loop__type_support.cpp.o[0m
+[30.748s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/tow__type_support.cpp.o[0m
+[31.201s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/task_type__type_support.cpp.o[0m
+[31.631s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/clean__type_support.cpp.o[0m
+[32.100s] [ 17%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/task_profile__type_support.cpp.o[0m
+[32.584s] [ 17%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/bid_notice__type_support.cpp.o[0m
+[33.044s] [ 18%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/bid_proposal__type_support.cpp.o[0m
+[33.503s] [ 18%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/bid_response__type_support.cpp.o[0m
+[34.019s] [ 18%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/dispatch_state__type_support.cpp.o[0m
+[34.535s] [ 19%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/dispatch_states__type_support.cpp.o[0m
+[35.084s] [ 19%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/dispatch_command__type_support.cpp.o[0m
+[35.844s] [ 20%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/dispatch_ack__type_support.cpp.o[0m
+[36.729s] [ 20%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/priority__type_support.cpp.o[0m
+[37.291s] [ 20%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/task_description__type_support.cpp.o[0m
+[37.717s] [ 21%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/station__type_support.cpp.o[0m
+[38.433s] [ 21%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/behavior_parameter__type_support.cpp.o[0m
+[38.901s] [ 22%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/behavior__type_support.cpp.o[0m
+[39.427s] [ 23%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/delivery__type_support.cpp.o[0m
+[39.427s] [ 23%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/assignment__type_support.cpp.o[0m
+[40.296s] [ 23%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/api_response__type_support.cpp.o[0m
+[40.375s] [ 23%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/msg/detail/dds_fastrtps/api_request__type_support.cpp.o[0m
+[41.173s] [ 24%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/srv/detail/dds_fastrtps/get_dispatch_states__type_support.cpp.o[0m
+[41.500s] [ 24%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/srv/detail/dds_fastrtps/revive_task__type_support.cpp.o[0m
+[42.690s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/srv/detail/dds_fastrtps/cancel_task__type_support.cpp.o[0m
+[42.921s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_task_msgs/srv/detail/dds_fastrtps/submit_task__type_support.cpp.o[0m
+[44.316s] [ 25%] [32m[1mLinking CXX shared library librmf_task_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[44.525s] [ 25%] Built target rmf_task_msgs__rosidl_typesupport_fastrtps_cpp
+[44.585s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[47.983s] [ 26%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/srv/api_service__type_support.cpp.o[0m
+[48.481s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/tasks__type_support.cpp.o[0m
+[48.938s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/loop__type_support.cpp.o[0m
+[49.355s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/tow__type_support.cpp.o[0m
+[49.761s] [ 28%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/task_type__type_support.cpp.o[0m
+[50.225s] [ 28%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/clean__type_support.cpp.o[0m
+[50.691s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/task_profile__type_support.cpp.o[0m
+[51.213s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/bid_notice__type_support.cpp.o[0m
+[51.724s] [ 29%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/bid_proposal__type_support.cpp.o[0m
+[52.030s] [ 30%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/bid_response__type_support.cpp.o[0m
+[52.372s] [ 30%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/dispatch_state__type_support.cpp.o[0m
+[52.721s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/dispatch_states__type_support.cpp.o[0m
+[53.070s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/dispatch_command__type_support.cpp.o[0m
+[53.422s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/dispatch_ack__type_support.cpp.o[0m
+[53.689s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/priority__type_support.cpp.o[0m
+[53.987s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/task_summary__type_support.cpp.o[0m
+[54.430s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/task_description__type_support.cpp.o[0m
+[54.772s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/station__type_support.cpp.o[0m
+[55.050s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/behavior_parameter__type_support.cpp.o[0m
+[55.325s] [ 34%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/behavior__type_support.cpp.o[0m
+[55.591s] [ 34%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/delivery__type_support.cpp.o[0m
+[55.856s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/assignment__type_support.cpp.o[0m
+[56.123s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/api_response__type_support.cpp.o[0m
+[56.398s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/msg/api_request__type_support.cpp.o[0m
+[56.661s] [ 36%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/srv/get_dispatch_states__type_support.cpp.o[0m
+[56.935s] [ 36%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/srv/revive_task__type_support.cpp.o[0m
+[57.231s] [ 37%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/srv/cancel_task__type_support.cpp.o[0m
+[57.528s] [ 37%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_task_msgs/srv/submit_task__type_support.cpp.o[0m
+[57.819s] [ 37%] [32m[1mLinking CXX shared library librmf_task_msgs__rosidl_typesupport_cpp.so[0m
+[57.866s] [ 37%] Built target rmf_task_msgs__rosidl_typesupport_cpp
+[57.871s] [ 38%] [34m[1mGenerating C code for ROS interfaces[0m
+[62.736s] [ 38%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/srv/detail/api_service__functions.c.o[0m
+[62.761s] [ 39%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/srv/detail/submit_task__functions.c.o[0m
+[62.771s] [ 39%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/srv/detail/cancel_task__functions.c.o[0m
+[63.080s] [ 39%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/loop__functions.c.o[0m
+[63.213s] [ 40%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/tow__functions.c.o[0m
+[63.217s] [ 41%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/tasks__functions.c.o[0m
+[63.284s] [ 41%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/task_type__functions.c.o[0m
+[63.385s] [ 41%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/clean__functions.c.o[0m
+[63.496s] [ 42%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/task_profile__functions.c.o[0m
+[63.496s] [ 42%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/bid_notice__functions.c.o[0m
+[63.512s] [ 42%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/task_summary__functions.c.o[0m
+[63.560s] [ 42%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/bid_response__functions.c.o[0m
+[63.787s] [ 42%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/dispatch_state__functions.c.o[0m
+[63.851s] [ 42%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/dispatch_command__functions.c.o[0m
+[63.860s] [ 43%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/dispatch_states__functions.c.o[0m
+[63.944s] [ 44%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/dispatch_ack__functions.c.o[0m
+[64.230s] [ 44%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/priority__functions.c.o[0m
+[64.510s] [ 45%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/bid_proposal__functions.c.o[0m
+[64.795s] [ 45%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/task_description__functions.c.o[0m
+[65.097s] [ 46%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/station__functions.c.o[0m
+[65.439s] [ 46%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/behavior_parameter__functions.c.o[0m
+[65.636s] [ 47%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/behavior__functions.c.o[0m
+[65.947s] [ 47%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/delivery__functions.c.o[0m
+[66.208s] [ 47%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/assignment__functions.c.o[0m
+[66.448s] [ 48%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/api_response__functions.c.o[0m
+[66.680s] [ 48%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/msg/detail/api_request__functions.c.o[0m
+[66.892s] [ 49%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/srv/detail/get_dispatch_states__functions.c.o[0m
+[67.292s] [ 49%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_task_msgs/srv/detail/revive_task__functions.c.o[0m
+[67.564s] [ 49%] [32m[1mLinking C shared library librmf_task_msgs__rosidl_generator_c.so[0m
+[67.737s] [ 49%] Built target rmf_task_msgs__rosidl_generator_c
+[67.788s] [ 50%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[71.224s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/srv/detail/api_service__type_support_c.cpp.o[0m
+[71.913s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/task_summary__type_support_c.cpp.o[0m
+[72.490s] [ 51%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/tasks__type_support_c.cpp.o[0m
+[73.092s] [ 51%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/loop__type_support_c.cpp.o[0m
+[73.589s] [ 52%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/tow__type_support_c.cpp.o[0m
+[74.002s] [ 52%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/task_type__type_support_c.cpp.o[0m
+[74.382s] [ 52%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/clean__type_support_c.cpp.o[0m
+[74.784s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/task_profile__type_support_c.cpp.o[0m
+[75.179s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/bid_notice__type_support_c.cpp.o[0m
+[75.585s] [ 54%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/bid_proposal__type_support_c.cpp.o[0m
+[76.217s] [ 54%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/bid_response__type_support_c.cpp.o[0m
+[76.913s] [ 54%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/dispatch_state__type_support_c.cpp.o[0m
+[77.327s] [ 55%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/dispatch_states__type_support_c.cpp.o[0m
+[77.723s] [ 55%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/dispatch_command__type_support_c.cpp.o[0m
+[78.138s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/dispatch_ack__type_support_c.cpp.o[0m
+[78.553s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/priority__type_support_c.cpp.o[0m
+[78.944s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/task_description__type_support_c.cpp.o[0m
+[79.505s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/station__type_support_c.cpp.o[0m
+[80.202s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/behavior_parameter__type_support_c.cpp.o[0m
+[80.892s] [ 58%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/behavior__type_support_c.cpp.o[0m
+[81.586s] [ 58%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/delivery__type_support_c.cpp.o[0m
+[82.165s] [ 58%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/assignment__type_support_c.cpp.o[0m
+[82.784s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/api_response__type_support_c.cpp.o[0m
+[83.423s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/msg/detail/api_request__type_support_c.cpp.o[0m
+[84.050s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/srv/detail/get_dispatch_states__type_support_c.cpp.o[0m
+[84.729s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/srv/detail/revive_task__type_support_c.cpp.o[0m
+[85.444s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/srv/detail/cancel_task__type_support_c.cpp.o[0m
+[86.148s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_task_msgs/srv/detail/submit_task__type_support_c.cpp.o[0m
+[86.807s] [ 61%] [32m[1mLinking CXX shared library librmf_task_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[86.875s] [ 61%] Built target rmf_task_msgs__rosidl_typesupport_fastrtps_c
+[86.881s] [ 62%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[89.458s] [ 62%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/srv/api_service__type_support.cpp.o[0m
+[89.458s] [ 62%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/srv/submit_task__type_support.cpp.o[0m
+[89.507s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/tasks__type_support.cpp.o[0m
+[89.508s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/loop__type_support.cpp.o[0m
+[89.551s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/tow__type_support.cpp.o[0m
+[89.595s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/clean__type_support.cpp.o[0m
+[89.644s] [ 64%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/task_profile__type_support.cpp.o[0m
+[89.686s] [ 64%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/bid_notice__type_support.cpp.o[0m
+[89.718s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/bid_proposal__type_support.cpp.o[0m
+[89.748s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/bid_response__type_support.cpp.o[0m
+[89.780s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/dispatch_state__type_support.cpp.o[0m
+[89.809s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/dispatch_states__type_support.cpp.o[0m
+[89.839s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/dispatch_command__type_support.cpp.o[0m
+[89.869s] [ 67%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/dispatch_ack__type_support.cpp.o[0m
+[89.899s] [ 67%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/priority__type_support.cpp.o[0m
+[89.929s] [ 68%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/task_type__type_support.cpp.o[0m
+[89.959s] [ 68%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/task_summary__type_support.cpp.o[0m
+[89.991s] [ 69%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/task_description__type_support.cpp.o[0m
+[90.036s] [ 69%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/station__type_support.cpp.o[0m
+[90.069s] [ 69%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/behavior_parameter__type_support.cpp.o[0m
+[90.099s] [ 70%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/behavior__type_support.cpp.o[0m
+[90.129s] [ 70%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/delivery__type_support.cpp.o[0m
+[90.160s] [ 71%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/assignment__type_support.cpp.o[0m
+[90.190s] [ 71%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/api_response__type_support.cpp.o[0m
+[90.221s] [ 71%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/msg/api_request__type_support.cpp.o[0m
+[90.266s] [ 72%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/srv/get_dispatch_states__type_support.cpp.o[0m
+[90.315s] [ 72%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/srv/revive_task__type_support.cpp.o[0m
+[90.366s] [ 73%] [32mBuilding CXX object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_task_msgs/srv/cancel_task__type_support.cpp.o[0m
+[90.418s] [ 73%] [32m[1mLinking CXX shared library librmf_task_msgs__rosidl_typesupport_c.so[0m
+[90.471s] [ 73%] Built target rmf_task_msgs__rosidl_typesupport_c
+[90.475s] [ 74%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[93.393s] [ 74%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/srv/detail/api_service__type_support.c.o[0m
+[93.394s] [ 75%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/srv/detail/submit_task__type_support.c.o[0m
+[93.457s] [ 75%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/loop__type_support.c.o[0m
+[93.461s] [ 76%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/tow__type_support.c.o[0m
+[93.516s] [ 77%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/tasks__type_support.c.o[0m
+[93.516s] [ 77%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/task_type__type_support.c.o[0m
+[93.572s] [ 78%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/task_profile__type_support.c.o[0m
+[93.582s] [ 78%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/bid_notice__type_support.c.o[0m
+[93.635s] [ 79%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/bid_proposal__type_support.c.o[0m
+[93.640s] [ 79%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/bid_response__type_support.c.o[0m
+[93.694s] [ 80%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/dispatch_state__type_support.c.o[0m
+[93.704s] [ 80%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/dispatch_states__type_support.c.o[0m
+[93.762s] [ 80%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/dispatch_command__type_support.c.o[0m
+[93.773s] [ 81%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/dispatch_ack__type_support.c.o[0m
+[93.814s] [ 81%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/priority__type_support.c.o[0m
+[93.820s] [ 81%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/clean__type_support.c.o[0m
+[93.863s] [ 81%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/task_summary__type_support.c.o[0m
+[93.869s] [ 81%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/task_description__type_support.c.o[0m
+[93.919s] [ 82%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/station__type_support.c.o[0m
+[93.924s] [ 82%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/behavior_parameter__type_support.c.o[0m
+[93.969s] [ 83%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/behavior__type_support.c.o[0m
+[93.974s] [ 83%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/delivery__type_support.c.o[0m
+[94.033s] [ 83%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/assignment__type_support.c.o[0m
+[94.038s] [ 84%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/api_response__type_support.c.o[0m
+[94.089s] [ 84%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/msg/detail/api_request__type_support.c.o[0m
+[94.095s] [ 85%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/srv/detail/get_dispatch_states__type_support.c.o[0m
+[94.149s] [ 85%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/srv/detail/revive_task__type_support.c.o[0m
+[94.153s] [ 85%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_task_msgs/srv/detail/cancel_task__type_support.c.o[0m
+[94.215s] [ 86%] [32m[1mLinking C shared library librmf_task_msgs__rosidl_typesupport_introspection_c.so[0m
+[94.278s] [ 86%] Built target rmf_task_msgs__rosidl_typesupport_introspection_c
+[94.291s] [ 86%] Built target rmf_task_msgs
+[94.305s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[101.728s] [ 86%] Built target rmf_task_msgs__py
+[101.736s] [ 87%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/srv/_api_service_s.c.o[0m
+[101.865s] [ 87%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_loop_s.c.o[0m
+[101.990s] [ 87%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_tow_s.c.o[0m
+[102.117s] [ 88%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_task_type_s.c.o[0m
+[102.229s] [ 88%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_clean_s.c.o[0m
+[102.343s] [ 89%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_task_profile_s.c.o[0m
+[102.471s] [ 89%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_bid_notice_s.c.o[0m
+[102.593s] [ 89%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_bid_proposal_s.c.o[0m
+[102.717s] [ 90%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_bid_response_s.c.o[0m
+[102.847s] [ 90%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_dispatch_state_s.c.o[0m
+[102.983s] [ 91%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_dispatch_states_s.c.o[0m
+[103.124s] [ 91%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_dispatch_command_s.c.o[0m
+[103.250s] [ 91%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_dispatch_ack_s.c.o[0m
+[103.383s] [ 92%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_priority_s.c.o[0m
+[103.498s] [ 93%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_tasks_s.c.o[0m
+[103.625s] [ 93%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_task_summary_s.c.o[0m
+[103.766s] [ 94%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_task_description_s.c.o[0m
+[103.892s] [ 94%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_station_s.c.o[0m
+[104.015s] [ 94%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_behavior_parameter_s.c.o[0m
+[104.129s] [ 95%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_behavior_s.c.o[0m
+[104.260s] [ 96%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_delivery_s.c.o[0m
+[104.261s] [ 96%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_assignment_s.c.o[0m
+[104.447s] [ 96%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_api_response_s.c.o[0m
+[104.522s] [ 97%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/msg/_api_request_s.c.o[0m
+[104.644s] [ 97%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/srv/_get_dispatch_states_s.c.o[0m
+[104.734s] [ 97%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/srv/_revive_task_s.c.o[0m
+[104.900s] [ 98%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/srv/_cancel_task_s.c.o[0m
+[104.965s] [ 98%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_task_msgs/srv/_submit_task_s.c.o[0m
+[105.185s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rmf_task_msgs/librmf_task_msgs__rosidl_generator_py.so[0m
+[105.250s] [ 98%] Built target rmf_task_msgs__rosidl_generator_py
+[105.262s] [100%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_task_msgs/_rmf_task_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[105.263s] [100%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_task_msgs/_rmf_task_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[105.263s] [100%] [32mBuilding C object CMakeFiles/rmf_task_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_task_msgs/_rmf_task_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[105.913s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[105.937s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[106.038s] [100%] Built target rmf_task_msgs__rosidl_typesupport_fastrtps_c__pyext
+[106.043s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[106.047s] [100%] Built target rmf_task_msgs__rosidl_typesupport_introspection_c__pyext
+[106.110s] [100%] Built target rmf_task_msgs__rosidl_typesupport_c__pyext
+[106.129s] Invoked command in '/home/wang/rmf_ws/build/rmf_task_msgs' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_task_msgs -- -j16 -l16
+[106.837s] Invoking command in '/home/wang/rmf_ws/build/rmf_task_msgs': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_task_msgs
+[106.874s] -- Install configuration: "Release"
+[106.875s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_task_msgs
+[106.875s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs
+[106.875s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv
+[106.875s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/api_service.h
+[106.876s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail
+[106.876s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__type_support.h
+[106.876s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__struct.h
+[106.876s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__functions.c
+[106.876s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__functions.h
+[106.876s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__type_support.h
+[106.877s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__functions.h
+[106.877s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__functions.c
+[106.877s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__type_support.h
+[106.877s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__functions.c
+[106.877s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__functions.h
+[106.877s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__struct.h
+[106.878s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__functions.h
+[106.878s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__type_support.h
+[106.878s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__type_support.h
+[106.878s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__struct.h
+[106.878s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__functions.c
+[106.879s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__struct.h
+[106.879s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__struct.h
+[106.879s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__functions.h
+[106.879s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__functions.c
+[106.879s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/cancel_task.h
+[106.879s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/submit_task.h
+[106.879s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/revive_task.h
+[106.880s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/get_dispatch_states.h
+[106.880s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg
+[106.880s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/priority.h
+[106.880s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail
+[106.880s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__struct.h
+[106.881s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__functions.c
+[106.881s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__struct.h
+[106.881s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__struct.h
+[106.882s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__functions.h
+[106.882s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__type_support.h
+[106.882s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__functions.h
+[106.882s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__struct.h
+[106.882s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__struct.h
+[106.882s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__type_support.h
+[106.882s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__type_support.h
+[106.887s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__functions.h
+[106.887s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__functions.c
+[106.887s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__functions.h
+[106.887s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__functions.h
+[106.887s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__type_support.h
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__functions.h
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__functions.c
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__functions.c
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__struct.h
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__struct.h
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__type_support.h
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__struct.h
+[106.888s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__functions.c
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__functions.h
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__functions.h
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__struct.h
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__type_support.h
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__struct.h
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__functions.c
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__functions.c
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__struct.h
+[106.889s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__struct.h
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__type_support.h
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__functions.c
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__functions.h
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__type_support.h
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__functions.c
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__struct.h
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__functions.h
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__functions.h
+[106.890s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__functions.h
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__type_support.h
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__functions.h
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__functions.c
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__type_support.h
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__type_support.h
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__type_support.h
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__type_support.h
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__functions.c
+[106.891s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__functions.h
+[106.892s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__struct.h
+[106.892s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__struct.h
+[106.892s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__functions.c
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__functions.c
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__functions.c
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__functions.c
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__type_support.h
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__struct.h
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__functions.h
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__functions.h
+[106.893s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__functions.h
+[106.894s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__type_support.h
+[106.894s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__functions.c
+[106.895s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__struct.h
+[106.895s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__struct.h
+[106.895s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__type_support.h
+[106.895s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__functions.h
+[106.895s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__type_support.h
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__functions.c
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__type_support.h
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__functions.c
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__functions.h
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__functions.c
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__functions.c
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__type_support.h
+[106.896s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__functions.h
+[106.897s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__type_support.h
+[106.897s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__type_support.h
+[106.897s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__functions.c
+[106.897s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__type_support.h
+[106.897s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__struct.h
+[106.898s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__struct.h
+[106.898s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__struct.h
+[106.898s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__functions.c
+[106.898s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__functions.h
+[106.898s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__struct.h
+[106.898s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__functions.h
+[106.898s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__struct.h
+[106.899s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__type_support.h
+[106.899s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__functions.c
+[106.899s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__functions.h
+[106.899s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/tow.h
+[106.899s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_description.h
+[106.899s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/tasks.h
+[106.900s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/rosidl_generator_c__visibility_control.h
+[106.900s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/clean.h
+[106.900s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_ack.h
+[106.900s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_command.h
+[106.900s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/bid_proposal.h
+[106.900s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/behavior.h
+[106.901s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_summary.h
+[106.901s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/station.h
+[106.901s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/assignment.h
+[106.901s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/api_request.h
+[106.901s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/behavior_parameter.h
+[106.901s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/bid_notice.h
+[106.901s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_type.h
+[106.902s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_states.h
+[106.902s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/loop.h
+[106.902s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/api_response.h
+[106.902s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/bid_response.h
+[106.902s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_profile.h
+[106.902s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_state.h
+[106.903s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/delivery.h
+[106.903s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/library_path.sh
+[106.903s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/library_path.dsv
+[106.903s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_generator_c.so
+[106.903s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_generator_c.so" to ""
+[106.903s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs
+[106.903s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv
+[106.904s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail
+[106.904s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__rosidl_typesupport_fastrtps_c.h
+[106.904s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__rosidl_typesupport_fastrtps_c.h
+[106.904s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__rosidl_typesupport_fastrtps_c.h
+[106.904s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__rosidl_typesupport_fastrtps_c.h
+[106.904s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__rosidl_typesupport_fastrtps_c.h
+[106.904s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg
+[106.905s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail
+[106.905s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__rosidl_typesupport_fastrtps_c.h
+[106.905s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__rosidl_typesupport_fastrtps_c.h
+[106.905s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__rosidl_typesupport_fastrtps_c.h
+[106.905s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__rosidl_typesupport_fastrtps_c.h
+[106.906s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__rosidl_typesupport_fastrtps_c.h
+[106.906s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__rosidl_typesupport_fastrtps_c.h
+[106.906s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__rosidl_typesupport_fastrtps_c.h
+[106.906s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__rosidl_typesupport_fastrtps_c.h
+[106.906s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__rosidl_typesupport_fastrtps_c.h
+[106.906s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__rosidl_typesupport_fastrtps_c.h
+[106.906s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__rosidl_typesupport_fastrtps_c.h
+[106.907s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__rosidl_typesupport_fastrtps_c.h
+[106.907s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__rosidl_typesupport_fastrtps_c.h
+[106.907s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__rosidl_typesupport_fastrtps_c.h
+[106.907s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_c.h
+[106.907s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__rosidl_typesupport_fastrtps_c.h
+[106.907s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__rosidl_typesupport_fastrtps_c.h
+[106.908s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__rosidl_typesupport_fastrtps_c.h
+[106.908s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__rosidl_typesupport_fastrtps_c.h
+[106.908s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__rosidl_typesupport_fastrtps_c.h
+[106.908s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__rosidl_typesupport_fastrtps_c.h
+[106.908s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__rosidl_typesupport_fastrtps_c.h
+[106.908s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__rosidl_typesupport_fastrtps_c.h
+[106.908s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[106.909s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_fastrtps_c.so
+[106.909s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[106.909s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs
+[106.909s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv
+[106.909s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail
+[106.909s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__struct.hpp
+[106.910s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__builder.hpp
+[106.910s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__traits.hpp
+[106.910s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__traits.hpp
+[106.910s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__struct.hpp
+[106.910s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__builder.hpp
+[106.910s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__struct.hpp
+[106.911s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__builder.hpp
+[106.911s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__struct.hpp
+[106.911s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__traits.hpp
+[106.911s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__struct.hpp
+[106.911s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__builder.hpp
+[106.911s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__builder.hpp
+[106.912s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__traits.hpp
+[106.912s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__traits.hpp
+[106.912s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/revive_task.hpp
+[106.912s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/cancel_task.hpp
+[106.912s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/submit_task.hpp
+[106.912s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/get_dispatch_states.hpp
+[106.913s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/api_service.hpp
+[106.913s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg
+[106.913s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/api_request.hpp
+[106.913s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/priority.hpp
+[106.913s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail
+[106.913s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__builder.hpp
+[106.913s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__builder.hpp
+[106.913s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__builder.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__builder.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__struct.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__traits.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__builder.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__builder.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__struct.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__builder.hpp
+[106.914s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__traits.hpp
+[106.915s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__struct.hpp
+[106.915s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__struct.hpp
+[106.915s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__struct.hpp
+[106.915s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__struct.hpp
+[106.915s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__traits.hpp
+[106.915s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__traits.hpp
+[106.916s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__builder.hpp
+[106.916s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__traits.hpp
+[106.916s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__struct.hpp
+[106.916s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__builder.hpp
+[106.916s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__struct.hpp
+[106.917s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__traits.hpp
+[106.917s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__builder.hpp
+[106.917s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__traits.hpp
+[106.917s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__builder.hpp
+[106.917s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__traits.hpp
+[106.917s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__traits.hpp
+[106.918s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__traits.hpp
+[106.918s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__traits.hpp
+[106.918s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__traits.hpp
+[106.918s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__builder.hpp
+[106.918s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__builder.hpp
+[106.918s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__builder.hpp
+[106.919s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__struct.hpp
+[106.919s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__struct.hpp
+[106.919s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__traits.hpp
+[106.919s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__struct.hpp
+[106.919s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__traits.hpp
+[106.919s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__struct.hpp
+[106.919s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__struct.hpp
+[106.920s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__traits.hpp
+[106.920s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__struct.hpp
+[106.920s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__builder.hpp
+[106.920s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__traits.hpp
+[106.920s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__struct.hpp
+[106.920s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__struct.hpp
+[106.920s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__traits.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__traits.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__struct.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__builder.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__traits.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__struct.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__traits.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__struct.hpp
+[106.921s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__struct.hpp
+[106.922s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__builder.hpp
+[106.922s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__builder.hpp
+[106.922s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__builder.hpp
+[106.922s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__traits.hpp
+[106.922s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__struct.hpp
+[106.923s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__traits.hpp
+[106.923s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__struct.hpp
+[106.923s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__traits.hpp
+[106.923s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__builder.hpp
+[106.923s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__builder.hpp
+[106.923s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__builder.hpp
+[106.924s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__struct.hpp
+[106.924s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__builder.hpp
+[106.924s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_ack.hpp
+[106.924s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_profile.hpp
+[106.924s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/behavior_parameter.hpp
+[106.924s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/station.hpp
+[106.925s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_summary.hpp
+[106.925s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/clean.hpp
+[106.925s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/bid_proposal.hpp
+[106.925s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/api_response.hpp
+[106.925s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_command.hpp
+[106.926s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/behavior.hpp
+[106.926s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/bid_response.hpp
+[106.926s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_state.hpp
+[106.926s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/tow.hpp
+[106.927s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/assignment.hpp
+[106.927s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/delivery.hpp
+[106.927s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_description.hpp
+[106.927s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/tasks.hpp
+[106.927s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/task_type.hpp
+[106.928s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/bid_notice.hpp
+[106.928s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/dispatch_states.hpp
+[106.928s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/loop.hpp
+[106.928s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs
+[106.928s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv
+[106.928s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail
+[106.929s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__rosidl_typesupport_fastrtps_cpp.hpp
+[106.929s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/dds_fastrtps
+[106.929s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__rosidl_typesupport_fastrtps_cpp.hpp
+[106.929s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__rosidl_typesupport_fastrtps_cpp.hpp
+[106.929s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__rosidl_typesupport_fastrtps_cpp.hpp
+[106.930s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__rosidl_typesupport_fastrtps_cpp.hpp
+[106.930s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg
+[106.930s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail
+[106.930s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__rosidl_typesupport_fastrtps_cpp.hpp
+[106.930s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__rosidl_typesupport_fastrtps_cpp.hpp
+[106.931s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__rosidl_typesupport_fastrtps_cpp.hpp
+[106.931s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__rosidl_typesupport_fastrtps_cpp.hpp
+[106.931s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__rosidl_typesupport_fastrtps_cpp.hpp
+[106.931s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__rosidl_typesupport_fastrtps_cpp.hpp
+[106.931s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__rosidl_typesupport_fastrtps_cpp.hpp
+[106.932s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__rosidl_typesupport_fastrtps_cpp.hpp
+[106.932s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_cpp.hpp
+[106.932s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__rosidl_typesupport_fastrtps_cpp.hpp
+[106.932s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dds_fastrtps
+[106.933s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__rosidl_typesupport_fastrtps_cpp.hpp
+[106.933s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__rosidl_typesupport_fastrtps_cpp.hpp
+[106.933s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__rosidl_typesupport_fastrtps_cpp.hpp
+[106.933s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__rosidl_typesupport_fastrtps_cpp.hpp
+[106.934s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__rosidl_typesupport_fastrtps_cpp.hpp
+[106.934s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__rosidl_typesupport_fastrtps_cpp.hpp
+[106.934s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[106.934s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__rosidl_typesupport_fastrtps_cpp.hpp
+[106.934s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__rosidl_typesupport_fastrtps_cpp.hpp
+[106.935s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__rosidl_typesupport_fastrtps_cpp.hpp
+[106.935s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__rosidl_typesupport_fastrtps_cpp.hpp
+[106.935s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__rosidl_typesupport_fastrtps_cpp.hpp
+[106.935s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__rosidl_typesupport_fastrtps_cpp.hpp
+[106.935s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[106.936s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_fastrtps_cpp.so
+[106.936s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[106.936s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs
+[106.936s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv
+[106.936s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail
+[106.936s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__type_support.c
+[106.937s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__rosidl_typesupport_introspection_c.h
+[106.937s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__type_support.c
+[106.937s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__rosidl_typesupport_introspection_c.h
+[106.937s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__rosidl_typesupport_introspection_c.h
+[106.937s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__type_support.c
+[106.938s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__type_support.c
+[106.938s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__rosidl_typesupport_introspection_c.h
+[106.938s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__type_support.c
+[106.938s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__rosidl_typesupport_introspection_c.h
+[106.938s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg
+[106.939s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail
+[106.939s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__rosidl_typesupport_introspection_c.h
+[106.939s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__rosidl_typesupport_introspection_c.h
+[106.939s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__type_support.c
+[106.939s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__type_support.c
+[106.939s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__rosidl_typesupport_introspection_c.h
+[106.939s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__rosidl_typesupport_introspection_c.h
+[106.940s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__rosidl_typesupport_introspection_c.h
+[106.941s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__type_support.c
+[106.941s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__type_support.c
+[106.955s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__type_support.c
+[106.956s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__type_support.c
+[106.956s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__type_support.c
+[106.956s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__rosidl_typesupport_introspection_c.h
+[106.956s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__rosidl_typesupport_introspection_c.h
+[106.956s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__type_support.c
+[106.957s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__rosidl_typesupport_introspection_c.h
+[106.957s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__rosidl_typesupport_introspection_c.h
+[106.957s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__rosidl_typesupport_introspection_c.h
+[106.957s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__rosidl_typesupport_introspection_c.h
+[106.957s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__rosidl_typesupport_introspection_c.h
+[106.957s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__type_support.c
+[106.958s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__type_support.c
+[106.958s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__type_support.c
+[106.958s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__type_support.c
+[106.958s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__type_support.c
+[106.958s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__type_support.c
+[106.958s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__type_support.c
+[106.958s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__type_support.c
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__rosidl_typesupport_introspection_c.h
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__rosidl_typesupport_introspection_c.h
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__type_support.c
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__type_support.c
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__rosidl_typesupport_introspection_c.h
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__rosidl_typesupport_introspection_c.h
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__type_support.c
+[106.959s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__rosidl_typesupport_introspection_c.h
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__rosidl_typesupport_introspection_c.h
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__type_support.c
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__type_support.c
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__rosidl_typesupport_introspection_c.h
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__type_support.c
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__type_support.c
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__rosidl_typesupport_introspection_c.h
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__rosidl_typesupport_introspection_c.h
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__rosidl_typesupport_introspection_c.h
+[106.960s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__rosidl_typesupport_introspection_c.h
+[106.961s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[106.961s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_introspection_c.so
+[106.961s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_introspection_c.so" to ""
+[106.961s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_c.so
+[106.962s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_c.so" to ""
+[106.962s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs
+[106.962s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv
+[106.962s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail
+[106.962s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__type_support.cpp
+[106.963s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__type_support.cpp
+[106.963s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__type_support.cpp
+[106.963s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__type_support.cpp
+[106.963s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__rosidl_typesupport_introspection_cpp.hpp
+[106.963s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/api_service__rosidl_typesupport_introspection_cpp.hpp
+[106.963s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/cancel_task__rosidl_typesupport_introspection_cpp.hpp
+[106.963s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/submit_task__rosidl_typesupport_introspection_cpp.hpp
+[106.974s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/revive_task__rosidl_typesupport_introspection_cpp.hpp
+[106.974s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/srv/detail/get_dispatch_states__type_support.cpp
+[106.974s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg
+[106.974s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail
+[106.974s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__type_support.cpp
+[106.974s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__rosidl_typesupport_introspection_cpp.hpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__rosidl_typesupport_introspection_cpp.hpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__type_support.cpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__rosidl_typesupport_introspection_cpp.hpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__type_support.cpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__rosidl_typesupport_introspection_cpp.hpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__rosidl_typesupport_introspection_cpp.hpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__rosidl_typesupport_introspection_cpp.hpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__type_support.cpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_response__type_support.cpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__rosidl_typesupport_introspection_cpp.hpp
+[106.975s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__rosidl_typesupport_introspection_cpp.hpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior__type_support.cpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tow__type_support.cpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/api_request__type_support.cpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__type_support.cpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__type_support.cpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/station__type_support.cpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__rosidl_typesupport_introspection_cpp.hpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/loop__rosidl_typesupport_introspection_cpp.hpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_summary__type_support.cpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_states__rosidl_typesupport_introspection_cpp.hpp
+[106.976s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__rosidl_typesupport_introspection_cpp.hpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__type_support.cpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__rosidl_typesupport_introspection_cpp.hpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__rosidl_typesupport_introspection_cpp.hpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__type_support.cpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_profile__type_support.cpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/delivery__rosidl_typesupport_introspection_cpp.hpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_type__type_support.cpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/clean__rosidl_typesupport_introspection_cpp.hpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__rosidl_typesupport_introspection_cpp.hpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/tasks__rosidl_typesupport_introspection_cpp.hpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__type_support.cpp
+[106.977s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/behavior_parameter__type_support.cpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_response__type_support.cpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_ack__type_support.cpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_command__rosidl_typesupport_introspection_cpp.hpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/task_description__rosidl_typesupport_introspection_cpp.hpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__rosidl_typesupport_introspection_cpp.hpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/dispatch_state__type_support.cpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_proposal__rosidl_typesupport_introspection_cpp.hpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/priority__rosidl_typesupport_introspection_cpp.hpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/assignment__type_support.cpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/include/rmf_task_msgs/rmf_task_msgs/msg/detail/bid_notice__type_support.cpp
+[106.978s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_introspection_cpp.so
+[106.979s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[106.979s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_cpp.so
+[106.979s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_typesupport_cpp.so" to ""
+[106.979s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/pythonpath.sh
+[106.979s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/pythonpath.dsv
+[106.979s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs-3.0.3-py3.10.egg-info
+[106.979s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs-3.0.3-py3.10.egg-info/PKG-INFO
+[106.979s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs-3.0.3-py3.10.egg-info/dependency_links.txt
+[106.979s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs-3.0.3-py3.10.egg-info/SOURCES.txt
+[106.980s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs-3.0.3-py3.10.egg-info/top_level.txt
+[106.980s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs
+[106.980s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/__init__.py
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/__init__.py
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_api_service.py
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_cancel_task_s.c
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_get_dispatch_states_s.c
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_submit_task_s.c
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_cancel_task.py
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_get_dispatch_states.py
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_api_service_s.c
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_revive_task_s.c
+[106.981s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_submit_task.py
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_revive_task.py
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/_rmf_task_msgs_s.ep.rosidl_typesupport_c.c
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_delivery_s.c
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_clean_s.c
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_tow_s.c
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_proposal_s.c
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/__init__.py
+[106.982s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_behavior_parameter.py
+[106.983s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_summary_s.c
+[106.983s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_states_s.c
+[106.988s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_api_response.py
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_response.py
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_api_request.py
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_command_s.c
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_behavior_parameter_s.c
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_behavior_s.c
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_api_response_s.c
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_type.py
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_profile_s.c
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_proposal.py
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_loop.py
+[106.989s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_clean.py
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_tasks_s.c
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_ack.py
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_notice_s.c
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_description_s.c
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_notice.py
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_profile.py
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_delivery.py
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_tow.py
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_priority_s.c
+[106.990s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_station_s.c
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_description.py
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_api_request_s.c
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_response_s.c
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_assignment_s.c
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_state.py
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_tasks.py
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_type_s.c
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_loop_s.c
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_states.py
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_ack_s.c
+[106.991s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_command.py
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_state_s.c
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_assignment.py
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_station.py
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_summary.py
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_priority.py
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_behavior.py
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/_rmf_task_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/librmf_task_msgs__rosidl_generator_py.so
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[106.992s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/_rmf_task_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[107.052s] Listing '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/__init__.py'...
+[107.053s] Listing '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/__init__.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_api_request.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_api_response.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_assignment.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_behavior.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_behavior_parameter.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_notice.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_proposal.py'...
+[107.053s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_bid_response.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_clean.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_delivery.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_ack.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_command.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_state.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_dispatch_states.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_loop.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_priority.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_station.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_description.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_profile.py'...
+[107.054s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_summary.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_task_type.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_tasks.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/msg/_tow.py'...
+[107.055s] Listing '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/__init__.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_api_service.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_cancel_task.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_get_dispatch_states.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_revive_task.py'...
+[107.055s] Compiling '/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/srv/_submit_task.py'...
+[107.064s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[107.064s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[107.064s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[107.065s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[107.065s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[107.066s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/local/lib/python3.10/dist-packages/rmf_task_msgs/rmf_task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[107.066s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_generator_py.so
+[107.066s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_msgs/lib/librmf_task_msgs__rosidl_generator_py.so" to ""
+[107.066s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ApiService.idl
+[107.067s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/SubmitTask.idl
+[107.067s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/CancelTask.idl
+[107.068s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ReviveTask.idl
+[107.068s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/GetDispatchStates.idl
+[107.068s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/ApiRequest.idl
+[107.068s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/ApiResponse.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Assignment.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Delivery.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Behavior.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BehaviorParameter.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Station.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskDescription.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskSummary.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Tasks.idl
+[107.070s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Loop.idl
+[107.086s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Tow.idl
+[107.086s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskType.idl
+[107.086s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Clean.idl
+[107.086s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskProfile.idl
+[107.086s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BidNotice.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BidProposal.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BidResponse.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchState.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchStates.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchCommand.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchAck.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Priority.idl
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ApiService.srv
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ApiService_Request.msg
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ApiService_Response.msg
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/SubmitTask.srv
+[107.087s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/SubmitTask_Request.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/SubmitTask_Response.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/CancelTask.srv
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/CancelTask_Request.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/CancelTask_Response.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ReviveTask.srv
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ReviveTask_Request.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/ReviveTask_Response.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/GetDispatchStates.srv
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/GetDispatchStates_Request.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/srv/GetDispatchStates_Response.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/ApiRequest.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/ApiResponse.msg
+[107.088s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Assignment.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Delivery.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Behavior.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BehaviorParameter.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Station.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskDescription.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskSummary.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Tasks.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Loop.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Tow.msg
+[107.089s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskType.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Clean.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/TaskProfile.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BidNotice.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BidProposal.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/BidResponse.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchState.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchStates.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchCommand.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/DispatchAck.msg
+[107.090s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/msg/Priority.msg
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_task_msgs
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_task_msgs
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/ament_prefix_path.sh
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/ament_prefix_path.dsv
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/path.sh
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/environment/path.dsv
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/local_setup.bash
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/local_setup.sh
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/local_setup.zsh
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/local_setup.dsv
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/package.dsv
+[107.091s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/ament_index/resource_index/packages/rmf_task_msgs
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_generator_cExport.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_generator_cExport-release.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_generator_cppExport.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_introspection_cExport.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[107.092s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_cExport.cmake
+[107.101s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_cExport-release.cmake
+[107.102s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[107.102s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[107.102s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_cppExport.cmake
+[107.102s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgs__rosidl_typesupport_cppExport-release.cmake
+[107.102s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_generator_pyExport.cmake
+[107.102s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/export_rmf_task_msgs__rosidl_generator_pyExport-release.cmake
+[107.103s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rosidl_cmake-extras.cmake
+[107.103s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[107.103s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[107.104s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[107.104s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[107.104s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[107.104s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[107.104s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgsConfig.cmake
+[107.105s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake/rmf_task_msgsConfig-version.cmake
+[107.105s] -- Installing: /home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/package.xml
+[107.110s] Invoked command in '/home/wang/rmf_ws/build/rmf_task_msgs' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/rmf_ws/install/rmf_dispenser_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_task_msgs

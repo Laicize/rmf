@@ -1,0 +1,334 @@
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/ScheduleManager.cpp:75:16: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+  _participant.delay(duration);
+[0;1;32m               ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/experimental_lift_watchdog/main.cpp:18:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<std_msgs::msg::Bool_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/experimental_lift_watchdog/main.cpp:47:7)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<std_msgs::msg::Bool_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/experimental_lift_watchdog/main.cpp:47:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::Bool_<std::allocator<void>>, std_msgs::msg::Bool_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void>>>, std_msgs::msg::Bool_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<std_msgs::msg::Bool_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/experimental_lift_watchdog/main.cpp:47:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::Bool_<std::allocator<void>>, std_msgs::msg::Bool_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, std_msgs::msg::Bool_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<std_msgs::msg::Bool_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/experimental_lift_watchdog/main.cpp:47:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::Bool_<std::allocator<void>>, std_msgs::msg::Bool_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/experimental_lift_watchdog/main.cpp:45:31: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<std_msgs::msg::Bool_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/experimental_lift_watchdog/main.cpp:47:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::Bool_<std::allocator<void>>, std_msgs::msg::Bool_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void>>>>' requested here[0m
+    permission_subscription = create_subscription<std_msgs::msg::Bool>(
+[0;1;32m                              ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<std_msgs::msg::Bool_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hppIn file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/ScheduleManager.cpp::18:
+[1m405:5/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/ScheduleManager.hpp:78::17:  [0m[0;1;30m[0m[0;1;35mwarning: note: [0m[1mprivate field '_node' is not used [-Wunused-private-field][0m
+  rclcpp::Node* _node;
+[0;1;32m                ^
+[0m[0m'set_deprecated<std_msgs::msg::Bool_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0m2 warnings generated.
+In file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/test/test_Transport.cpp:20:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:21:
+In file included from /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/detail/TransportDetail.hpp:21:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<std_msgs::msg::String_<std::allocator<void>>>::set<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:146:7)>' requested here[0m
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+[0;1;32m                            ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription_factory<std_msgs::msg::String_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:146:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>>, std_msgs::msg::String_<std::allocator<void>>>' requested here[0m
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::detail::create_subscription<std_msgs::msg::String_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:146:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, std_msgs::msg::String_<std::allocator<void>>>' requested here[0m
+  return rclcpp::detail::create_subscription<
+[0;1;32m                         ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::create_subscription<std_msgs::msg::String_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:146:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>>, rclcpp::Node>' requested here[0m
+  return rclcpp::create_subscription<MessageT>(
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:144:27: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rclcpp::Node::create_subscription<std_msgs::msg::String_<std::allocator<void>>, (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:146:7), std::allocator<void>, rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>>>' requested here[0m
+    _subscription = node->create_subscription<Message>(
+[0;1;32m                          ^
+[0m[1m/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_construct.h:119:25: [0m[0;1;30mnote: [0m(skipping 4 contexts in backtrace; use -ftemplate-backtrace-limit=0 to see all)[0m
+      ::new((void*)__p) _Tp(std::forward<_Args>(__args)...);
+[0;1;32m                        ^
+[0m[1m/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/shared_ptr_base.h:1712:14: [0m[0;1;30mnote: [0min instantiation of function template specialization 'std::__shared_count<__gnu_cxx::_S_atomic>::__shared_count<rmf_rxcpp::SubscriptionBridge<std_msgs::msg::String_<std::allocator<void>>>, std::allocator<void>, std::shared_ptr<rclcpp::Node>, const std::basic_string<char> &, const rclcpp::QoS &>' requested here[0m
+        : _M_ptr(), _M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)
+[0;1;32m                    ^
+[0m[1m/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/shared_ptr.h:464:4: [0m[0;1;30mnote: [0min instantiation of function template specialization 'std::__shared_ptr<rmf_rxcpp::SubscriptionBridge<std_msgs::msg::String_<std::allocator<void>>>, __gnu_cxx::_S_atomic>::__shared_ptr<std::allocator<void>, std::shared_ptr<rclcpp::Node>, const std::basic_string<char> &, const rclcpp::QoS &>' requested here[0m
+        : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...)
+[0;1;32m          ^
+[0m[1m/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/shared_ptr.h:1009:14: [0m[0;1;30mnote: [0min instantiation of function template specialization 'std::shared_ptr<rmf_rxcpp::SubscriptionBridge<std_msgs::msg::String_<std::allocator<void>>>>::shared_ptr<std::allocator<void>, std::shared_ptr<rclcpp::Node>, const std::basic_string<char> &, const rclcpp::QoS &>' requested here[0m
+      return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},
+[0;1;32m             ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/include/rmf_rxcpp/Transport.hpp:262:17: [0m[0;1;30mnote: [0min instantiation of function template specialization 'std::make_shared<rmf_rxcpp::SubscriptionBridge<std_msgs::msg::String_<std::allocator<void>>>, std::shared_ptr<rclcpp::Node>, const std::basic_string<char> &, const rclcpp::QoS &>' requested here[0m
+    return std::make_shared<
+[0;1;32m                ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/test/test_Transport.cpp:86:16: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rmf_rxcpp::Transport::create_observable<std_msgs::msg::String_<std::allocator<void>>>' requested here[0m
+    transport->create_observable<std_msgs::msg::String>(topic_name, 10);
+[0;1;32m               ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3: [0m[0;1;30mnote: [0m'set_deprecated' has been explicitly marked deprecated here[0m
+  set_deprecated(std::function<void(std::shared_ptr<SetT>)> callback)
+[0;1;32m  ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: [0m[0;1;35mwarning: [0m[1m'set_deprecated<std_msgs::msg::String_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations][0m
+      set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: [0m[0;1;30mnote: [0m'set_deprecated<std_msgs::msg::String_<std::allocator<void>>>' has been explicitly marked deprecated here[0m
+  [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/robot_state_aggregator/RobotStateAggregator.cpp:118:8: [0m[0;1;35mwarning: [0m[1mprivate field '_active_node' is not used [-Wunused-private-field][0m
+  bool _active_node;
+[0;1;32m       ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/robot_state_aggregator/RobotStateAggregator.cpp:122:8: [0m[0;1;35mwarning: [0m[1mprivate field '_failover_mode' is not used [-Wunused-private-field][0m
+  bool _failover_mode;
+[0;1;32m       ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/TaskManager.cpp:958:17: [0m[0;1;35mwarning: [0m[1m'current_mode' is deprecated [-Wdeprecated-declarations][0m
+      _context->current_mode())
+[0;1;32m                ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/events/../agv/RobotContext.hpp:211:5: [0m[0;1;30mnote: [0m'current_mode' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/agv/FleetUpdateHandle.cpp:1697:13: [0m[0;1;35mwarning: [0m[1mformat specifies type 'int' but the argument has type 'std::size_t' (aka 'unsigned long') [-Wformat][0m
+            request.lane_index(),
+[0;1;32m            ^~~~~~~~~~~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:972:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_WARN'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:750:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_WARN_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:186:40: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rmf_fleet_adapter::agv::FleetUpdateHandle::limit_lane_speeds(std::vector<SpeedLimitRequest>)::(anonymous class)::operator()<rxcpp::schedulers::schedulable>' requested here[0m
+    static auto check(int) -> decltype((*(CF*)nullptr)(*(schedulable*)nullptr));
+[0;1;32m                                       ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:190:53: [0m[0;1;30mnote: [0mwhile substituting explicitly-specified template arguments into function template 'check' [0m
+    static const bool value = std::is_same<decltype(check<rxu::decay_t<F>>(0)), void>::value;
+[0;1;32m                                                    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:803:18: [0m[0;1;30mnote: [0min instantiation of template class 'rxcpp::schedulers::detail::is_action_function<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/agv/FleetUpdateHandle.cpp:1675:5)>' requested here[0m
+        (detail::is_action_function<Arg0>::value ||
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/agv/FleetUpdateHandle.cpp:1674:18: [0m[0;1;30mnote: [0mwhile substituting deduced template arguments into function template 'schedule' [with Arg0 = (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/agv/FleetUpdateHandle.cpp:1675:5), ArgN = <>][0m
+  _pimpl->worker.schedule(
+[0;1;32m                 ^
+[0m2 warnings generated.
+2 warnings generated.
+2 warnings generated.
+1 warning generated.
+1 warning generated.
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/DockRobot.cpp:38:13: [0m[0;1;35mwarning: [0m[1m'current_mode' is deprecated [-Wdeprecated-declarations][0m
+  _context->current_mode(rmf_fleet_msgs::msg::RobotMode::MODE_DOCKING);
+[0;1;32m            ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/../agv/RobotContext.hpp:207:5: [0m[0;1;30mnote: [0m'current_mode' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/DoorOpen.cpp:126:60: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+          me->_expected_finish + me->_context->itinerary().delay();
+[0;1;32m                                                           ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:83:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/DoorOpen.cpp:134:38: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+                context->itinerary().delay(delay);
+[0;1;32m                                     ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/DoorOpen.cpp:134:38: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+                context->itinerary().delay(delay);
+[0;1;32m                                     ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:186:40: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rmf_fleet_adapter::phases::DoorOpen::ActivePhase::_init_obs()::(anonymous class)::operator()()::(anonymous class)::operator()()::(anonymous class)::operator()<rxcpp::schedulers::schedulable>' requested here[0m
+    static auto check(int) -> decltype((*(CF*)nullptr)(*(schedulable*)nullptr));
+[0;1;32m                                       ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:190:53: [0m[0;1;30mnote: [0mwhile substituting explicitly-specified template arguments into function template 'check' [0m
+    static const bool value = std::is_same<decltype(check<rxu::decay_t<F>>(0)), void>::value;
+[0;1;32m                                                    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:803:18: [0m[0;1;30mnote: [0min instantiation of template class 'rxcpp::schedulers::detail::is_action_function<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/DoorOpen.cpp:132:15)>' requested here[0m
+        (detail::is_action_function<Arg0>::value ||
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/DoorOpen.cpp:131:36: [0m[0;1;30mnote: [0mwhile substituting deduced template arguments into function template 'schedule' [with Arg0 = (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/DoorOpen.cpp:132:15), ArgN = <>][0m
+            me->_context->worker().schedule(
+[0;1;32m                                   ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/RequestLift.cpp:124:62: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+            me->_expected_finish + me->_context->itinerary().delay();
+[0;1;32m                                                             ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:83:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/RequestLift.cpp:132:40: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+                  context->itinerary().delay(delay);
+[0;1;32m                                       ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/RequestLift.cpp:132:40: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+                  context->itinerary().delay(delay);
+[0;1;32m                                       ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:186:40: [0m[0;1;30mnote: [0min instantiation of function template specialization 'rmf_fleet_adapter::phases::RequestLift::ActivePhase::_init_obs()::(anonymous class)::operator()()::(anonymous class)::operator()()::(anonymous class)::operator()<rxcpp::schedulers::schedulable>' requested here[0m
+    static auto check(int) -> decltype((*(CF*)nullptr)(*(schedulable*)nullptr));
+[0;1;32m                                       ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:190:53: [0m[0;1;30mnote: [0mwhile substituting explicitly-specified template arguments into function template 'check' [0m
+    static const bool value = std::is_same<decltype(check<rxu::decay_t<F>>(0)), void>::value;
+[0;1;32m                                                    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/rmf_rxcpp/RxCpp-4.1.0/Rx/v2/src/rxcpp/rx-scheduler.hpp:803:18: [0m[0;1;30mnote: [0min instantiation of template class 'rxcpp::schedulers::detail::is_action_function<(lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/RequestLift.cpp:130:17)>' requested here[0m
+        (detail::is_action_function<Arg0>::value ||
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/RequestLift.cpp:129:38: [0m[0;1;30mnote: [0mwhile substituting deduced template arguments into function template 'schedule' [with Arg0 = (lambda at /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/RequestLift.cpp:130:17), ArgN = <>][0m
+              me->_context->worker().schedule(
+[0;1;32m                                     ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/WaitForCharge.cpp:91:13: [0m[0;1;35mwarning: [0m[1m'current_mode' is deprecated [-Wdeprecated-declarations][0m
+  _context->current_mode(rmf_fleet_msgs::msg::RobotMode::MODE_CHARGING);
+[0;1;32m            ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/rmf_fleet_adapter/phases/../agv/RobotContext.hpp:207:5: [0m[0;1;30mnote: [0m'current_mode' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m1 warning generated.
+1 warning generated.
+3 warnings generated.
+3 warnings generated.
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/read_only_blockade/FleetAdapterNode.cpp:205:26: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+            participant->delay(t);
+[0;1;32m                         ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/read_only_blockade/FleetAdapterNode.cpp:322:26: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+        robot->schedule->delay(make_delay(*robot->schedule, now));
+[0;1;32m                         ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/read_only_blockade/FleetAdapterNode.cpp:617:46: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+  const auto current_delay = robot.schedule->delay();
+[0;1;32m                                             ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:83:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/read_only_blockade/FleetAdapterNode.cpp:643:19: [0m[0;1;35mwarning: [0m[1m'delay' is deprecated: Use cumulative_delay instead [-Wdeprecated-declarations][0m
+  robot.schedule->delay(new_delay);
+[0;1;32m                  ^
+[0m[1m/home/wang/rmf_ws/install/rmf_traffic/include/rmf_traffic/schedule/Participant.hpp:80:5: [0m[0;1;30mnote: [0m'delay' has been explicitly marked deprecated here[0m
+  [[deprecated("Use cumulative_delay instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/full_control/main.cpp:1314:25: [0m[0;1;35mwarning: [0m[1m'accept_delivery_requests' is deprecated: Use consider_delivery_requests() instead [-Wdeprecated-declarations][0m
+    connections->fleet->accept_delivery_requests(
+[0;1;32m                        ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/FleetUpdateHandle.hpp:333:5: [0m[0;1;30mnote: [0m'accept_delivery_requests' has been explicitly marked deprecated here[0m
+  [[deprecated("Use consider_delivery_requests() instead")]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/src/full_control/main.cpp:1323:23: [0m[0;1;35mwarning: [0m[1m'accept_task_requests' is deprecated: Use the consider_..._requests functions instead [-Wdeprecated-declarations][0m
+  connections->fleet->accept_task_requests(
+[0;1;32m                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/FleetUpdateHandle.hpp:310:5: [0m[0;1;30mnote: [0m'accept_task_requests' has been explicitly marked deprecated here[0m
+  [[deprecated("Use the consider_..._requests functions instead")]]
+[0;1;32m    ^
+[0m4 warnings generated.
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:380:10: [0m[0;1;35mwarning: [0m[1muse of bitwise '|' with boolean operands [-Wbitwise-instead-of-logical][0m
+  CHECK((visited_north(v0, n_loops) | visited_south(v0, n_loops)));
+[0;1;32m        ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[0;32m                                    ||
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:17677:97: [0m[0;1;30mnote: [0mexpanded from macro 'CHECK'[0m
+#define CHECK( ... ) INTERNAL_CATCH_TEST( "CHECK", Catch::ResultDisposition::ContinueOnFailure, __VA_ARGS__ )
+[0;1;32m                                                                                                ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:2705:40: [0m[0;1;30mnote: [0mexpanded from macro 'INTERNAL_CATCH_TEST'[0m
+        CATCH_INTERNAL_IGNORE_BUT_WARN(__VA_ARGS__); \
+[0;1;32m                                       ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:165:76: [0m[0;1;30mnote: [0mexpanded from macro 'CATCH_INTERNAL_IGNORE_BUT_WARN'[0m
+#    define CATCH_INTERNAL_IGNORE_BUT_WARN(...) (void)__builtin_constant_p(__VA_ARGS__) /* NOLINT(cppcoreguidelines-pro-type-vararg, hicpp-vararg) */
+[0;1;32m                                                                           ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:380:10: [0m[0;1;30mnote: [0mcast one or both operands to int to silence this warning[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:380:10: [0m[0;1;35mwarning: [0m[1muse of bitwise '|' with boolean operands [-Wbitwise-instead-of-logical][0m
+  CHECK((visited_north(v0, n_loops) | visited_south(v0, n_loops)));
+[0;1;32m        ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[0;32m                                    ||
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:17677:97: [0m[0;1;30mnote: [0mexpanded from macro 'CHECK'[0m
+#define CHECK( ... ) INTERNAL_CATCH_TEST( "CHECK", Catch::ResultDisposition::ContinueOnFailure, __VA_ARGS__ )
+[0;1;32m                                                                                                ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:2710:70: [0m[0;1;30mnote: [0mexpanded from macro 'INTERNAL_CATCH_TEST'[0m
+            catchAssertionHandler.handleExpr( Catch::Decomposer() <= __VA_ARGS__ ); \
+[0;1;32m                                                                     ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:380:10: [0m[0;1;30mnote: [0mcast one or both operands to int to silence this warning[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:380:10: [0m[0;1;35mwarning: [0m[1muse of bitwise '|' with boolean operands [-Wbitwise-instead-of-logical][0m
+  CHECK((visited_north(v0, n_loops) | visited_south(v0, n_loops)));
+[0;1;32m  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[0;32m                                    ||
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:17677:97: [0m[0;1;30mnote: [0mexpanded from macro 'CHECK'[0m
+#define CHECK( ... ) INTERNAL_CATCH_TEST( "CHECK", Catch::ResultDisposition::ContinueOnFailure, __VA_ARGS__ )
+[0;1;32m                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:2714:56: [0m[0;1;30mnote: [0mexpanded from macro 'INTERNAL_CATCH_TEST'[0m
+    } while( (void)0, (false) && static_cast<bool>( !!(__VA_ARGS__) ) )
+[0;1;32m                                                      ~^~~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:380:10: [0m[0;1;30mnote: [0mcast one or both operands to int to silence this warning[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:401:10: [0m[0;1;35mwarning: [0m[1muse of bitwise '|' with boolean operands [-Wbitwise-instead-of-logical][0m
+  CHECK((visited_north(v1, n_loops) | visited_south(v1, n_loops)));
+[0;1;32m        ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[0;32m                                    ||
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:17677:97: [0m[0;1;30mnote: [0mexpanded from macro 'CHECK'[0m
+#define CHECK( ... ) INTERNAL_CATCH_TEST( "CHECK", Catch::ResultDisposition::ContinueOnFailure, __VA_ARGS__ )
+[0;1;32m                                                                                                ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:2705:40: [0m[0;1;30mnote: [0mexpanded from macro 'INTERNAL_CATCH_TEST'[0m
+        CATCH_INTERNAL_IGNORE_BUT_WARN(__VA_ARGS__); \
+[0;1;32m                                       ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:165:76: [0m[0;1;30mnote: [0mexpanded from macro 'CATCH_INTERNAL_IGNORE_BUT_WARN'[0m
+#    define CATCH_INTERNAL_IGNORE_BUT_WARN(...) (void)__builtin_constant_p(__VA_ARGS__) /* NOLINT(cppcoreguidelines-pro-type-vararg, hicpp-vararg) */
+[0;1;32m                                                                           ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:401:10: [0m[0;1;30mnote: [0mcast one or both operands to int to silence this warning[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:401:10: [0m[0;1;35mwarning: [0m[1muse of bitwise '|' with boolean operands [-Wbitwise-instead-of-logical][0m
+  CHECK((visited_north(v1, n_loops) | visited_south(v1, n_loops)));
+[0;1;32m        ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[0;32m                                    ||
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:17677:97: [0m[0;1;30mnote: [0mexpanded from macro 'CHECK'[0m
+#define CHECK( ... ) INTERNAL_CATCH_TEST( "CHECK", Catch::ResultDisposition::ContinueOnFailure, __VA_ARGS__ )
+[0;1;32m                                                                                                ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:2710:70: [0m[0;1;30mnote: [0mexpanded from macro 'INTERNAL_CATCH_TEST'[0m
+            catchAssertionHandler.handleExpr( Catch::Decomposer() <= __VA_ARGS__ ); \
+[0;1;32m                                                                     ^~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:401:10: [0m[0;1;30mnote: [0mcast one or both operands to int to silence this warning[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:401:10: [0m[0;1;35mwarning: [0m[1muse of bitwise '|' with boolean operands [-Wbitwise-instead-of-logical][0m
+  CHECK((visited_north(v1, n_loops) | visited_south(v1, n_loops)));
+[0;1;32m  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[0;32m                                    ||
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:17677:97: [0m[0;1;30mnote: [0mexpanded from macro 'CHECK'[0m
+#define CHECK( ... ) INTERNAL_CATCH_TEST( "CHECK", Catch::ResultDisposition::ContinueOnFailure, __VA_ARGS__ )
+[0;1;32m                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/install/rmf_utils/include/rmf_utils/catch.hpp:2714:56: [0m[0;1;30mnote: [0mexpanded from macro 'INTERNAL_CATCH_TEST'[0m
+    } while( (void)0, (false) && static_cast<bool>( !!(__VA_ARGS__) ) )
+[0;1;32m                                                      ~^~~~~~~~~~~~
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:401:10: [0m[0;1;30mnote: [0mcast one or both operands to int to silence this warning[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:162:15: [0m[0;1;35mwarning: [0m[1munused variable 'finding_a_plan_1_count' [-Wunused-variable][0m
+  std::size_t finding_a_plan_1_count = 0;
+[0;1;32m              ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_fleet_adapter/test/tasks/test_Loop.cpp:153:15: [0m[0;1;35mwarning: [0m[1munused variable 'finding_a_plan_0_count' [-Wunused-variable][0m
+  std::size_t finding_a_plan_0_count = 0;
+[0;1;32m              ^
+[0m8 warnings generated.
+2 warnings generated.

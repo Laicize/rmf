@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/CMakeFiles/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/CMakeFiles/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/CMakeFiles/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-complete.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-stamp/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-build.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-stamp/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-configure.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-stamp/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-download.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-stamp/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-install.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-stamp/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-mkdir.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-stamp/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-patch.rule"
+		},
+		{
+			"file" : "/home/wang/rmf_ws/build/nlohmann_json_schema_validator_vendor/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-prefix/src/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-stamp/nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896"
+		],
+		"name" : "nlohmann_json_schema_validator-5ef4f903af055550e06955973a193e17efded896"
+	}
+}

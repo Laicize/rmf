@@ -1,0 +1,72 @@
+[0.014s] Invoking command in '/home/wang/rmf_ws/build/rmf_websocket': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_websocket
+[0.148s] -- The C compiler identification is Clang 14.0.0
+[0.322s] -- The CXX compiler identification is Clang 14.0.0
+[0.351s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.496s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.497s] -- Detecting C compile features
+[0.498s] -- Detecting C compile features - done
+[0.505s] -- Detecting CXX compiler ABI info
+[0.642s] -- Detecting CXX compiler ABI info - done
+[0.657s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.658s] -- Detecting CXX compile features
+[0.658s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.539s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.803s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.899s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.909s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.926s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.154s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.158s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.672s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.778s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.413s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.415s] -- Found Threads: TRUE  
+[4.368s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[4.370s] -- Found nlohmann_json_schema_validator_vendor: 0.2.5 (/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/cmake)
+[4.483s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem 
+[4.779s] -- Configuring done (4.7s)
+[4.997s] -- Generating done (0.1s)
+[5.009s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_websocket
+[5.075s] Invoked command in '/home/wang/rmf_ws/build/rmf_websocket' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_websocket -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_websocket
+[5.075s] Invoking command in '/home/wang/rmf_ws/build/rmf_websocket': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_websocket -- -j16 -l16
+[5.283s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_websocket.dir/src/rmf_websocket/BroadcastClient.cpp.o[0m
+[27.091s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_websocket.dir/src/rmf_websocket/BroadcastServer.cpp.o[0m
+[47.432s] [100%] [32m[1mLinking CXX shared library librmf_websocket.so[0m
+[47.567s] [100%] Built target rmf_websocket
+[47.579s] Invoked command in '/home/wang/rmf_ws/build/rmf_websocket' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_websocket -- -j16 -l16
+[47.659s] Invoking command in '/home/wang/rmf_ws/build/rmf_websocket': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_websocket
+[47.723s] -- Install configuration: "Release"
+[47.723s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/environment/library_path.sh
+[47.724s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/environment/library_path.dsv
+[47.724s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/include
+[47.724s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/include/rmf_websocket
+[47.724s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/include/rmf_websocket/BroadcastClient.hpp
+[47.725s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/include/rmf_websocket/BroadcastServer.hpp
+[47.725s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/lib/librmf_websocket.so
+[47.728s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_websocket/lib/librmf_websocket.so" to ""
+[47.728s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/ament_index/resource_index/package_run_dependencies/rmf_websocket
+[47.728s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/ament_index/resource_index/parent_prefix_path/rmf_websocket
+[47.728s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/environment/ament_prefix_path.sh
+[47.728s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/environment/ament_prefix_path.dsv
+[47.728s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/environment/path.sh
+[47.728s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/environment/path.dsv
+[47.729s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/local_setup.bash
+[47.729s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/local_setup.sh
+[47.729s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/local_setup.zsh
+[47.729s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/local_setup.dsv
+[47.729s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/package.dsv
+[47.730s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/ament_index/resource_index/packages/rmf_websocket
+[47.730s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/cmake/rmf_websocketExport.cmake
+[47.730s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/cmake/rmf_websocketExport-release.cmake
+[47.740s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/cmake/ament_cmake_export_targets-extras.cmake
+[47.741s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.741s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/cmake/rmf_websocketConfig.cmake
+[47.741s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/cmake/rmf_websocketConfig-version.cmake
+[47.741s] -- Installing: /home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/package.xml
+[47.747s] Invoked command in '/home/wang/rmf_ws/build/rmf_websocket' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_websocket

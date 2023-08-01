@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/home/wang/.local/lib/python3.10/site-packages/cmake/data/bin/cmake;-P;/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/tmp/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-gitclone.cmake
+source_dir=/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702
+work_dir=/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json-0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702-prefix/src
+repository=https://github.com/pybind/pybind11_json.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=
+

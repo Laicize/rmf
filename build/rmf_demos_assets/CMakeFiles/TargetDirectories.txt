@@ -1,0 +1,9 @@
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/uninstall.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/rmf_demos_assets_uninstall.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/test.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/edit_cache.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/rebuild_cache.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/list_install_components.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/install.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/install/local.dir
+/home/wang/rmf_ws/build/rmf_demos_assets/CMakeFiles/install/strip.dir

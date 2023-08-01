@@ -1,0 +1,3 @@
+/home/wang/rmf_ws/build/rmf_charger_msgs/rosidl_adapter/rmf_charger_msgs:msg/ChargerState.idl
+/home/wang/rmf_ws/build/rmf_charger_msgs/rosidl_adapter/rmf_charger_msgs:msg/ChargerRequest.idl
+/home/wang/rmf_ws/build/rmf_charger_msgs/rosidl_adapter/rmf_charger_msgs:msg/ChargerCancel.idl

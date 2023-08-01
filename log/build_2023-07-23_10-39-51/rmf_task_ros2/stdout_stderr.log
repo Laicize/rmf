@@ -1,0 +1,134 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rmf_traffic_ros2: 2.1.6 (/home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'proj'
+--   Found proj, version 8.2.1
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rmf_task_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_task_msgs/share/rmf_task_msgs/cmake)
+-- Found rmf_websocket: 2.1.6 (/home/wang/rmf_ws/install/rmf_websocket/share/rmf_websocket/cmake)
+-- Found nlohmann_json_schema_validator_vendor: 0.2.5 (/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/cmake)
+-- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Configuring done (1.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_task_ros2
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_ros2.dir/src/rmf_task_ros2/DispatchState.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_ros2.dir/src/rmf_task_ros2/Dispatcher.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_ros2.dir/src/rmf_task_ros2/bidding/Auctioneer.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_ros2.dir/src/rmf_task_ros2/bidding/Response.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_ros2.dir/src/rmf_task_ros2/bidding/AsyncBidder.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library librmf_task_ros2.so[0m
+[ 40%] Built target rmf_task_ros2
+[ 66%] [32mBuilding CXX object CMakeFiles/test_rmf_task_ros2.dir/test/bidding/test_SelfBid.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_rmf_task_ros2.dir/test/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rmf_bidder_node.dir/src/mock_bidder/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rmf_task_dispatcher.dir/src/dispatcher_node/main.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/test_rmf_task_ros2.dir/test/dispatcher/test_Dispatcher.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_rmf_task_ros2.dir/test/bidding/test_Evaluator.cpp.o[0m
+[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:80:33: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    const auto id = dispatcher->submit_task(task_desc1);
+[0;1;32m                                ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:104:25: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    REQUIRE(dispatcher->submit_task(task_desc2) == std::nullopt);
+[0;1;32m                        ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:104:25: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    REQUIRE(dispatcher->submit_task(task_desc2) == std::nullopt);
+[0;1;32m                        ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:104:25: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    REQUIRE(dispatcher->submit_task(task_desc2) == std::nullopt);
+[0;1;32m                        ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:122:27: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    auto id = dispatcher->submit_task(task_desc1);
+[0;1;32m                          ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/test/dispatcher/test_Dispatcher.cpp:139:22: [0m[0;1;35mwarning: [0m[1m'submit_task' is deprecated [-Wdeprecated-declarations][0m
+    id = dispatcher->submit_task(task_desc2);
+[0;1;32m                     ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_ros2/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp:82:5: [0m[0;1;30mnote: [0m'submit_task' has been explicitly marked deprecated here[0m
+  [[deprecated]]
+[0;1;32m    ^
+[ 86%] [32m[1mLinking CXX executable rmf_task_dispatcher[0m
+[ 86%] Built target rmf_task_dispatcher
+[ 93%] [32m[1mLinking CXX executable rmf_bidder_node[0m
+[ 93%] Built target rmf_bidder_node
+[0m6 warnings generated.
+[100%] [32m[1mLinking CXX executable test_rmf_task_ros2[0m
+[100%] Built target test_rmf_task_ros2
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/environment/library_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/environment/library_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2/bidding
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2/bidding/Response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2/bidding/Auctioneer.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2/bidding/AsyncBidder.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2/DispatchState.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2/Dispatcher.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/include/rmf_task_ros2/StandardNames.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/lib/librmf_task_ros2.so
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_ros2/lib/librmf_task_ros2.so" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/lib/rmf_task_ros2/rmf_task_dispatcher
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_ros2/lib/rmf_task_ros2/rmf_task_dispatcher" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/lib/rmf_task_ros2/rmf_bidder_node
+-- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_ros2/lib/rmf_task_ros2/rmf_bidder_node" to ""
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/ament_index/resource_index/package_run_dependencies/rmf_task_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/ament_index/resource_index/parent_prefix_path/rmf_task_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/environment/path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/environment/path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/local_setup.bash
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/local_setup.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/local_setup.zsh
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/local_setup.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/package.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/ament_index/resource_index/packages/rmf_task_ros2
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/cmake/rmf_task_ros2Export.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/cmake/rmf_task_ros2Export-release.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/cmake/rmf_task_ros2Config.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/cmake/rmf_task_ros2Config-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_task_ros2/share/rmf_task_ros2/package.xml

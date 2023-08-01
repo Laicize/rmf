@@ -1,0 +1,160 @@
+[0.001s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_sim_common': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_building_sim_common
+[0.123s] -- The C compiler identification is Clang 14.0.0
+[0.293s] -- The CXX compiler identification is Clang 14.0.0
+[0.321s] -- Detecting C compiler ABI info
+[0.447s] -- Detecting C compiler ABI info - done
+[0.460s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.460s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.466s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.611s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.611s] -- Detecting CXX compile features
+[0.612s] -- Detecting CXX compile features - done
+[0.616s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.146s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.285s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.361s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.370s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.387s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.592s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.596s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.741s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.792s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.866s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.883s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.024s] -- Found Threads: TRUE  
+[2.344s] -- Found rmf_door_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_door_msgs/share/rmf_door_msgs/cmake)
+[2.413s] -- Found rmf_lift_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_lift_msgs/share/rmf_lift_msgs/cmake)
+[2.481s] -- Found rmf_building_map_msgs: 1.2.1 (/home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake)
+[2.552s] -- Found menge_vendor: 1.0.1 (/home/wang/rmf_ws/install/menge_vendor/share/menge_vendor/cmake)
+[2.676s] -- Configuring done (2.7s)
+[2.704s] -- Generating done (0.0s)
+[2.708s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_building_sim_common
+[2.732s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_sim_common' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_building_sim_common
+[2.735s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_sim_common': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_building_sim_common -- -j16 -l16
+[2.844s] [ 12%] [32mBuilding CXX object CMakeFiles/rmf_building_sim_utils.dir/src/utils.cpp.o[0m
+[3.247s] [ 25%] [32m[1mLinking CXX shared library librmf_building_sim_utils.so[0m
+[3.292s] [ 25%] Built target rmf_building_sim_utils
+[3.299s] [ 37%] [32mBuilding CXX object CMakeFiles/crowd_simulator_common.dir/src/crowd_simulator_common.cpp.o[0m
+[3.970s] In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+[3.970s] In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:27:
+[3.971s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Runtime/SimulatorDB.h:31:
+[3.971s] [1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/MengeException.h:33:9: [0m[0;1;35mwarning: [0m[1munknown pragma ignored [-Wunknown-pragmas][0m
+[3.971s] #pragma warning(disable : 4275)
+[3.971s] [0;1;32m        ^
+[3.971s] [0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/MengeException.h:71:9: [0m[0;1;35mwarning: [0m[1munknown pragma ignored [-Wunknown-pragmas][0m
+[3.971s] #pragma warning(default : 4275)
+[3.971s] [0;1;32m        ^
+[4.004s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+[4.004s] In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+[4.004s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+[4.004s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27:
+[4.004s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27:
+[4.004s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:29:
+[4.005s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:27:
+[4.005s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/mengeCommon.h:36:
+[4.005s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/RandGenerator.h:39:
+[4.005s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/vector.h:32:
+[4.005s] [1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10: [0m[0;1;35mwarning: [0m[1mdefinition of implicit copy assignment operator for 'Vector2d<float>' is deprecated because it has a user-provided copy constructor [-Wdeprecated-copy-with-user-provided-copy][0m
+[4.005s]   inline Vector2d(const Vector2d& v) : _x(v._x), _y(v._y) {}
+[4.005s] [0;1;32m         ^
+[4.005s] [0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:81: [0m[0;1;30mnote: [0min implicit copy assignment operator for 'Menge::Math::Vector2d<float>' first required here[0m
+[4.005s]   inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = dir; }
+[4.005s] [0;1;32m                                                                                ^
+[4.028s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+[4.028s] In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+[4.028s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+[4.029s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27:
+[4.029s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27:
+[4.029s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:33:
+[4.029s] [1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:122:55: [0m[0;1;35mwarning: [0m[1munused parameter 'agent' [-Wunused-parameter][0m
+[4.029s]   virtual void registerAgent(const Agents::BaseAgent* agent) {}
+[4.029s] [0;1;32m                                                      ^
+[4.029s] [0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:132:57: [0m[0;1;35mwarning: [0m[1munused parameter 'agent' [-Wunused-parameter][0m
+[4.029s]   virtual void unregisterAgent(const Agents::BaseAgent* agent) {}
+[4.029s] [0;1;32m                                                        ^
+[4.035s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+[4.035s] In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+[4.035s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+[4.035s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27:
+[4.036s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27:
+[4.036s] [1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:42: [0m[0;1;35mwarning: [0m[1munused parameter 'stride' [-Wunused-parameter][0m
+[4.036s]   virtual void setStrideParameters(float stride, float buffer) {}
+[4.036s] [0;1;32m                                         ^
+[4.036s] [0m[1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:56: [0m[0;1;35mwarning: [0m[1munused parameter 'buffer' [-Wunused-parameter][0m
+[4.036s]   virtual void setStrideParameters(float stride, float buffer) {}
+[4.036s] [0;1;32m                                                       ^
+[4.043s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+[4.043s] In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+[4.043s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+[4.044s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:28:
+[4.044s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCASimulator.h:27:
+[4.044s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:30:
+[4.044s] [1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQuery.h:202:44: [0m[0;1;35mwarning: [0m[1munused parameter 'state' [-Wunused-parameter][0m
+[4.044s]   virtual void setNeighborVisibleTest(bool state) {}
+[4.044s] [0;1;32m                                           ^
+[4.045s] [0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/src/crowd_simulator_common.cpp:23:
+[4.045s] In file included from /home/wang/rmf_ws/src/rmf/rmf_simulation/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp:28:
+[4.045s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27:
+[4.045s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:28:
+[4.045s] In file included from /home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Orca/ORCASimulator.h:27:
+[4.045s] [1m/home/wang/rmf_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:136:47: [0m[0;1;35mwarning: [0m[1munused parameter 'tagName' [-Wunused-parameter][0m
+[4.045s]   virtual bool isExpTarget(const std::string& tagName) { return false; }
+[4.045s] [0;1;32m                                              ^
+[7.515s] [0m9 warnings generated.
+[7.526s] [ 50%] [32m[1mLinking CXX shared library libcrowd_simulator_common.so[0m
+[7.600s] [ 50%] Built target crowd_simulator_common
+[7.611s] [ 75%] [32mBuilding CXX object CMakeFiles/lift_common.dir/src/lift_common.cpp.o[0m
+[7.611s] [ 75%] [32mBuilding CXX object CMakeFiles/door_common.dir/src/door_common.cpp.o[0m
+[23.264s] [ 87%] [32m[1mLinking CXX shared library libdoor_common.so[0m
+[23.363s] [ 87%] Built target door_common
+[33.878s] [100%] [32m[1mLinking CXX shared library liblift_common.so[0m
+[33.990s] [100%] Built target lift_common
+[34.005s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_sim_common' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_building_sim_common -- -j16 -l16
+[34.076s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_sim_common': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_building_sim_common
+[34.116s] -- Install configuration: "Release"
+[34.117s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/environment/library_path.sh
+[34.117s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/environment/library_path.dsv
+[34.118s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/lib/libcrowd_simulator_common.so
+[34.119s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_common/lib/libcrowd_simulator_common.so" to ""
+[34.119s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/lib/librmf_building_sim_utils.so
+[34.119s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/lib/libdoor_common.so
+[34.122s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_common/lib/libdoor_common.so" to ""
+[34.122s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/lib/liblift_common.so
+[34.126s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_sim_common/lib/liblift_common.so" to ""
+[34.126s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/include/rmf_building_sim_common
+[34.127s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/include/rmf_building_sim_common/utils.hpp
+[34.127s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/include/rmf_building_sim_common/lift_common.hpp
+[34.127s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/include/rmf_building_sim_common/crowd_simulator_common.hpp
+[34.128s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/include/rmf_building_sim_common/door_common.hpp
+[34.128s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/ament_index/resource_index/package_run_dependencies/rmf_building_sim_common
+[34.129s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/ament_index/resource_index/parent_prefix_path/rmf_building_sim_common
+[34.129s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/environment/ament_prefix_path.sh
+[34.130s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/environment/ament_prefix_path.dsv
+[34.130s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/environment/path.sh
+[34.131s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/environment/path.dsv
+[34.131s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/local_setup.bash
+[34.132s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/local_setup.sh
+[34.132s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/local_setup.zsh
+[34.133s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/local_setup.dsv
+[34.133s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/package.dsv
+[34.134s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/ament_index/resource_index/packages/rmf_building_sim_common
+[34.134s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/crowd_simulator_commonExport.cmake
+[34.134s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/crowd_simulator_commonExport-release.cmake
+[34.135s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/rmf_building_sim_utilsExport.cmake
+[34.135s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/rmf_building_sim_utilsExport-release.cmake
+[34.135s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/door_commonExport.cmake
+[34.135s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/door_commonExport-release.cmake
+[34.135s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/lift_commonExport.cmake
+[34.135s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/lift_commonExport-release.cmake
+[34.136s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/ament_cmake_export_targets-extras.cmake
+[34.136s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.136s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.136s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/rmf_building_sim_commonConfig.cmake
+[34.136s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/cmake/rmf_building_sim_commonConfig-version.cmake
+[34.137s] -- Installing: /home/wang/rmf_ws/install/rmf_building_sim_common/share/rmf_building_sim_common/package.xml
+[34.156s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_sim_common' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble:/home/wang/rmf_ws/install/menge_vendor LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:/home/wang/rmf_ws/install/menge_vendor/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/menge_vendor/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/wang/rmf_ws/install/menge_vendor/share /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_building_sim_common

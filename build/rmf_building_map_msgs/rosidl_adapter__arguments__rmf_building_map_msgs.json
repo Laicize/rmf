@@ -1,0 +1,16 @@
+{
+  "package_name": "rmf_building_map_msgs",
+  "non_idl_tuples": [
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/AffineImage.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/BuildingMap.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/Door.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/Graph.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/GraphEdge.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/GraphNode.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/Level.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/Lift.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/Param.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:msg/Place.msg",
+    "/home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs:srv/GetBuildingMap.srv"
+  ]
+}

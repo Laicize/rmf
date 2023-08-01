@@ -1,0 +1,292 @@
+In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mousePressEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mousePressEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseReleaseEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseReleaseEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseMoveEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseMoveEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void keyPressEvent(QKeyEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void keyPressEvent(QKeyEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/mocs_compilation.cpp:3:
+In file included from /home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/moc_editor.cpp:10:
+[1m/home/wang/rmf_ws/build/rmf_traffic_editor/gui_lib_autogen/DMHXEJ42XS/../../../../src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void closeEvent(QCloseEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void closeEvent(QCloseEvent *event);
+[0;1;32m                 ^
+[0m5 warnings generated.
+In file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mousePressEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mousePressEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseReleaseEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseReleaseEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseMoveEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseMoveEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void keyPressEvent(QKeyEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void keyPressEvent(QKeyEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:51:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void closeEvent(QCloseEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void closeEvent(QCloseEvent *event);
+[0;1;32m                 ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:409:30: [0m[0;1;35mwarning: [0m[1m'buttonToggled' is deprecated: Use QButtonGroup::idToggled(int, bool) instead [-Wdeprecated-declarations][0m
+    QOverload<int, bool>::of(&QButtonGroup::buttonToggled),
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h:95:5: [0m[0;1;30mnote: [0m'buttonToggled' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_VERSION_X_5_15("Use QButtonGroup::idToggled(int, bool) instead")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+# define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[0;1;32m                                            ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:698:15: [0m[0;1;35mwarning: [0m[1m'setConfirmOverwrite' is deprecated: Use setOption(DontConfirmOverwrite, !enabled) instead [-Wdeprecated-declarations][0m
+  file_dialog.setConfirmOverwrite(true);
+[0;1;32m              ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h:176:5: [0m[0;1;30mnote: [0m'setConfirmOverwrite' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_X("Use setOption(DontConfirmOverwrite, !enabled) instead")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.cpp:781:10: [0m[0;1;35mwarning: [0m[1m'setConfirmOverwrite' is deprecated: Use setOption(DontConfirmOverwrite, !enabled) instead [-Wdeprecated-declarations][0m
+  dialog.setConfirmOverwrite(true);
+[0;1;32m         ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h:176:5: [0m[0;1;30mnote: [0m'setConfirmOverwrite' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_X("Use setOption(DontConfirmOverwrite, !enabled) instead")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m8 warnings generated.
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:52:41: [0m[0;1;35mwarning: [0m[1m'pos' is deprecated: Use position() [-Wdeprecated-declarations][0m
+  const QPointF p_start = mapToScene(e->pos());
+[0;1;32m                                        ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:224:5: [0m[0;1;30mnote: [0m'pos' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_VERSION_X_5_15("Use position()")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+# define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[0;1;32m                                            ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:59:12: [0m[0;1;35mwarning: [0m[1m'delta' is deprecated: Use angleDelta() [-Wdeprecated-declarations][0m
+    if (e->delta() > 0)
+[0;1;32m           ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:218:5: [0m[0;1;30mnote: [0m'delta' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_VERSION_X_5_15("Use angleDelta()")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+# define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[0;1;32m                                            ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:69:41: [0m[0;1;35mwarning: [0m[1m'pos' is deprecated: Use position() [-Wdeprecated-declarations][0m
+    const QPointF p_end = mapToScene(e->pos());
+[0;1;32m                                        ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:224:5: [0m[0;1;30mnote: [0m'pos' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_VERSION_X_5_15("Use position()")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+# define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[0;1;32m                                            ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:80:12: [0m[0;1;35mwarning: [0m[1m'delta' is deprecated: Use angleDelta() [-Wdeprecated-declarations][0m
+    if (e->delta() > 0)
+[0;1;32m           ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:218:5: [0m[0;1;30mnote: [0m'delta' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_VERSION_X_5_15("Use angleDelta()")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+# define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[0;1;32m                                            ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:99:41: [0m[0;1;35mwarning: [0m[1m'pos' is deprecated: Use position() [-Wdeprecated-declarations][0m
+    const QPointF p_end = mapToScene(e->pos());
+[0;1;32m                                        ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:224:5: [0m[0;1;30mnote: [0m'pos' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_VERSION_X_5_15("Use position()")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:374:45: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_VERSION_X_5_15'[0m
+# define QT_DEPRECATED_VERSION_X_5_15(text) QT_DEPRECATED_X(text)
+[0;1;32m                                            ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:359:15: [0m[0;1;35mwarning: [0m[1m'sprintf' is deprecated: Use asprintf(), arg() or QTextStream instead [-Wdeprecated-declarations][0m
+        label.sprintf("%d (%d,%d)", zoom, x, y);
+[0;1;32m              ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:392:5: [0m[0;1;30mnote: [0m'sprintf' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_X("Use asprintf(), arg() or QTextStream instead")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/map_view.cpp:386:17: [0m[0;1;35mwarning: [0m[1m'sprintf' is deprecated: Use asprintf(), arg() or QTextStream instead [-Wdeprecated-declarations][0m
+    request_url.sprintf(
+[0;1;32m                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:392:5: [0m[0;1;30mnote: [0m'sprintf' has been explicitly marked deprecated here[0m
+    QT_DEPRECATED_X("Use asprintf(), arg() or QTextStream instead")
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:294:33: [0m[0;1;30mnote: [0mexpanded from macro 'QT_DEPRECATED_X'[0m
+#  define QT_DEPRECATED_X(text) Q_DECL_DEPRECATED_X(text)
+[0;1;32m                                ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:675:55: [0m[0;1;30mnote: [0mexpanded from macro 'Q_DECL_DEPRECATED_X'[0m
+#    define Q_DECL_DEPRECATED_X(text) __attribute__ ((__deprecated__(text)))
+[0;1;32m                                                      ^
+[0m7 warnings generated.
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/layer_table.cpp:115:22: [0m[0;1;35mwarning: [0m[1mlambda capture 'color_button' is not used [-Wunused-lambda-capture][0m
+      [this, &level, color_button, row_idx]()
+[0;1;32m                   ~~^~~~~~~~~~~~
+[0m1 warning generated.
+In file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mousePressEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mousePressEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseReleaseEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseReleaseEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseMoveEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseMoveEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void keyPressEvent(QKeyEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void keyPressEvent(QKeyEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/test_gui.cpp:4:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/test/../gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void closeEvent(QCloseEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void closeEvent(QCloseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:96:8: [0m[0;1;35mwarning: [0m[1m'mousePressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mousePressEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:620:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mousePressEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:97:8: [0m[0;1;35mwarning: [0m[1m'mouseReleaseEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseReleaseEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:621:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseReleaseEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:98:8: [0m[0;1;35mwarning: [0m[1m'mouseMoveEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void mouseMoveEvent(QMouseEvent* e);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:623:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void mouseMoveEvent(QMouseEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:99:8: [0m[0;1;35mwarning: [0m[1m'keyPressEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void keyPressEvent(QKeyEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:627:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void keyPressEvent(QKeyEvent *event);
+[0;1;32m                 ^
+[0mIn file included from /home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/main.cpp:25:
+[1m/home/wang/rmf_ws/src/rmf/rmf_traffic_editor/rmf_traffic_editor/gui/editor.h:100:8: [0m[0;1;35mwarning: [0m[1m'closeEvent' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void closeEvent(QCloseEvent* event);
+[0;1;32m       ^
+[0m[1m/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:636:18: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+    virtual void closeEvent(QCloseEvent *event);
+[0;1;32m                 ^
+[0m5 warnings generated.
+5 warnings generated.

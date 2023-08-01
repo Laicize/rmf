@@ -1,0 +1,4 @@
+source;share/rmf_task_ros2/local_setup.bash
+source;share/rmf_task_ros2/local_setup.dsv
+source;share/rmf_task_ros2/local_setup.sh
+source;share/rmf_task_ros2/local_setup.zsh

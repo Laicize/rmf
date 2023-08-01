@@ -1,0 +1,1 @@
+cmd='/home/wang/.local/lib/python3.10/site-packages/cmake/data/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/build/pybind11_json_vendor/pybind11_json;-DBUILD_SHARED_LIBS=true;-Dpybind11_DIR=/usr/lib/cmake/pybind11;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

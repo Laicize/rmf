@@ -1,0 +1,230 @@
+[0.081s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_visualization_msgs
+[0.757s] -- The C compiler identification is Clang 14.0.0
+[1.013s] -- The CXX compiler identification is Clang 14.0.0
+[1.043s] -- Detecting C compiler ABI info
+[1.184s] -- Detecting C compiler ABI info - done
+[1.196s] -- Check for working C compiler: /usr/bin/clang - skipped
+[1.197s] -- Detecting C compile features
+[1.197s] -- Detecting C compile features - done
+[1.202s] -- Detecting CXX compiler ABI info
+[1.356s] -- Detecting CXX compiler ABI info - done
+[1.368s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[1.369s] -- Detecting CXX compile features
+[1.370s] -- Detecting CXX compile features - done
+[1.373s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.900s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.022s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.086s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.094s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.107s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.199s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.477s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.480s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.483s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.485s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.800s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.802s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.841s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.841s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.841s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.841s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.867s] -- Found PythonExtra: .so  
+[2.917s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.922s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.960s] -- Configuring done (2.9s)
+[3.096s] -- Generating done (0.1s)
+[3.101s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_visualization_msgs
+[3.167s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_visualization_msgs/rmf_visualization_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_visualization_msgs
+[3.175s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_visualization_msgs -- -j16 -l16
+[3.760s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.760s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.760s] [  6%] Built target ament_cmake_python_copy_rmf_visualization_msgs
+[4.390s] running egg_info
+[4.402s] creating rmf_visualization_msgs.egg-info
+[4.403s] writing rmf_visualization_msgs.egg-info/PKG-INFO
+[4.416s] writing dependency_links to rmf_visualization_msgs.egg-info/dependency_links.txt
+[4.417s] writing top-level names to rmf_visualization_msgs.egg-info/top_level.txt
+[4.417s] writing manifest file 'rmf_visualization_msgs.egg-info/SOURCES.txt'
+[4.419s] reading manifest file 'rmf_visualization_msgs.egg-info/SOURCES.txt'
+[4.420s] writing manifest file 'rmf_visualization_msgs.egg-info/SOURCES.txt'
+[4.479s] [  9%] [32mBuilding C object CMakeFiles/rmf_visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_visualization_msgs/msg/detail/rviz_param__functions.c.o[0m
+[4.560s] [  9%] Built target ament_cmake_python_build_rmf_visualization_msgs_egg
+[4.737s] [  9%] Built target rmf_visualization_msgs__cpp
+[4.786s] [ 12%] [32m[1mLinking C shared library librmf_visualization_msgs__rosidl_generator_c.so[0m
+[4.801s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.825s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.837s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.100s] [ 22%] Built target rmf_visualization_msgs__rosidl_generator_c
+[5.134s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.150s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.169s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.651s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_visualization_msgs/msg/detail/dds_fastrtps/rviz_param__type_support.cpp.o[0m
+[6.279s] [ 38%] [32mBuilding CXX object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_visualization_msgs/msg/detail/rviz_param__type_support.cpp.o[0m
+[6.329s] [ 41%] [32mBuilding CXX object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_visualization_msgs/msg/rviz_param__type_support.cpp.o[0m
+[6.505s] [ 45%] [32mBuilding CXX object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_visualization_msgs/msg/rviz_param__type_support.cpp.o[0m
+[6.813s] [ 48%] [32m[1mLinking CXX shared library librmf_visualization_msgs__rosidl_typesupport_c.so[0m
+[6.867s] [ 51%] [32mBuilding CXX object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_visualization_msgs/msg/detail/rviz_param__type_support_c.cpp.o[0m
+[6.897s] [ 54%] [32mBuilding C object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_visualization_msgs/msg/detail/rviz_param__type_support.c.o[0m
+[7.014s] [ 58%] [32m[1mLinking C shared library librmf_visualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.197s] [ 58%] Built target rmf_visualization_msgs__rosidl_typesupport_c
+[7.304s] [ 58%] Built target rmf_visualization_msgs__rosidl_typesupport_introspection_c
+[7.680s] [ 61%] [32m[1mLinking CXX shared library librmf_visualization_msgs__rosidl_typesupport_cpp.so[0m
+[7.948s] [ 61%] Built target rmf_visualization_msgs__rosidl_typesupport_cpp
+[8.836s] [ 64%] [32m[1mLinking CXX shared library librmf_visualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.958s] [ 67%] [32m[1mLinking CXX shared library librmf_visualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.193s] [ 67%] Built target rmf_visualization_msgs__rosidl_typesupport_fastrtps_c
+[9.329s] [ 70%] [32m[1mLinking CXX shared library librmf_visualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.329s] [ 70%] Built target rmf_visualization_msgs__rosidl_typesupport_introspection_cpp
+[9.670s] [ 70%] Built target rmf_visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[9.805s] [ 70%] Built target rmf_visualization_msgs
+[9.961s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.603s] [ 74%] Built target rmf_visualization_msgs__py
+[12.798s] [ 77%] [32mBuilding C object CMakeFiles/rmf_visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_visualization_msgs/msg/_rviz_param_s.c.o[0m
+[14.013s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rmf_visualization_msgs/librmf_visualization_msgs__rosidl_generator_py.so[0m
+[14.241s] [ 80%] Built target rmf_visualization_msgs__rosidl_generator_py
+[14.375s] [ 83%] [32mBuilding C object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_visualization_msgs/_rmf_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.289s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.556s] [ 87%] Built target rmf_visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.689s] [ 90%] [32mBuilding C object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_visualization_msgs/_rmf_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.394s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.561s] [ 93%] Built target rmf_visualization_msgs__rosidl_typesupport_c__pyext
+[16.649s] [ 96%] [32mBuilding C object CMakeFiles/rmf_visualization_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_visualization_msgs/_rmf_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.989s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.174s] [100%] Built target rmf_visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[17.240s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_visualization_msgs -- -j16 -l16
+[18.339s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_visualization_msgs
+[23.615s] -- Install configuration: "Release"
+[23.615s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_visualization_msgs
+[23.616s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs
+[23.616s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg
+[23.616s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail
+[23.616s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__struct.h
+[23.616s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__type_support.h
+[23.616s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__functions.h
+[23.616s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__functions.c
+[23.617s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.617s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/rviz_param.h
+[23.617s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/library_path.sh
+[23.617s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/library_path.dsv
+[23.617s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_generator_c.so
+[23.617s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_generator_c.so" to ""
+[23.617s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs
+[23.617s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg
+[23.618s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail
+[23.618s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__rosidl_typesupport_fastrtps_c.h
+[23.618s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.618s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_fastrtps_c.so
+[23.618s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.618s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs
+[23.618s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg
+[23.618s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail
+[23.618s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__builder.hpp
+[23.619s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__struct.hpp
+[23.619s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__traits.hpp
+[23.619s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/rviz_param.hpp
+[23.619s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs
+[23.619s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg
+[23.619s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail
+[23.619s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/dds_fastrtps
+[23.619s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__rosidl_typesupport_fastrtps_cpp.hpp
+[23.619s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.619s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.619s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.620s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs
+[23.620s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg
+[23.620s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail
+[23.620s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__type_support.c
+[23.620s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__rosidl_typesupport_introspection_c.h
+[23.620s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.620s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_introspection_c.so
+[23.620s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.620s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_c.so
+[23.620s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_c.so" to ""
+[23.621s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs
+[23.621s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg
+[23.621s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail
+[23.621s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__type_support.cpp
+[23.621s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/include/rmf_visualization_msgs/rmf_visualization_msgs/msg/detail/rviz_param__rosidl_typesupport_introspection_cpp.hpp
+[23.621s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_introspection_cpp.so
+[23.621s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.621s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_cpp.so
+[23.621s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_typesupport_cpp.so" to ""
+[23.621s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/pythonpath.sh
+[23.621s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/pythonpath.dsv
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs-1.2.1-py3.10.egg-info
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/__init__.py
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/librmf_visualization_msgs__rosidl_generator_py.so
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/_rmf_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[23.622s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/_rmf_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.623s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.623s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.623s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.623s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/_rmf_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[23.623s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/msg
+[23.623s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/msg/__init__.py
+[23.624s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/msg/_rviz_param.py
+[23.624s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/msg/_rviz_param_s.c
+[23.624s] Listing '/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs'...
+[23.624s] Compiling '/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/__init__.py'...
+[23.624s] Listing '/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/msg'...
+[23.624s] Compiling '/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/msg/__init__.py'...
+[23.624s] Compiling '/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/msg/_rviz_param.py'...
+[23.624s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.624s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.624s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.625s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.625s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.625s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages/rmf_visualization_msgs/rmf_visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.625s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_generator_py.so
+[23.625s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_msgs/lib/librmf_visualization_msgs__rosidl_generator_py.so" to ""
+[23.625s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/msg/RvizParam.idl
+[23.625s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/msg/RvizParam.msg
+[23.625s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_msgs
+[23.625s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_msgs
+[23.625s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/ament_prefix_path.sh
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/ament_prefix_path.dsv
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/path.sh
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/environment/path.dsv
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/local_setup.bash
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/local_setup.sh
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/local_setup.zsh
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/local_setup.dsv
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/package.dsv
+[23.626s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/ament_index/resource_index/packages/rmf_visualization_msgs
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_generator_cExport.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_generator_cExport-release.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_generator_cppExport.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[23.627s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_cExport.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_cExport-release.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_cppExport.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgs__rosidl_typesupport_cppExport-release.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_generator_pyExport.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/export_rmf_visualization_msgs__rosidl_generator_pyExport-release.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.628s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.629s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.629s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.629s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.629s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgsConfig.cmake
+[23.629s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake/rmf_visualization_msgsConfig-version.cmake
+[23.629s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/package.xml
+[23.653s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_visualization_msgs

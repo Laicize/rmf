@@ -1,0 +1,106 @@
+[0.012s] Invoking command in '/home/wang/rmf_ws/build/rmf_task_sequence': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task:/home/wang/rmf_ws/install/rmf_battery:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task/lib:/home/wang/rmf_ws/install/rmf_battery/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_task/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_task_sequence
+[0.081s] -- The C compiler identification is Clang 14.0.0
+[0.161s] -- The CXX compiler identification is Clang 14.0.0
+[0.177s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.259s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.259s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.349s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.350s] -- Detecting CXX compile features - done
+[0.354s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[0.358s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.364s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.444s] -- Found Threads: TRUE  
+[0.447s] -- Found nlohmann_json_schema_validator_vendor: 0.2.5 (/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/share/nlohmann_json_schema_validator_vendor/cmake)
+[0.703s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.753s] -- Configuring done (0.7s)
+[0.766s] -- Generating done (0.0s)
+[0.767s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_task_sequence
+[0.776s] Invoked command in '/home/wang/rmf_ws/build/rmf_task_sequence' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task:/home/wang/rmf_ws/install/rmf_battery:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task/lib:/home/wang/rmf_ws/install/rmf_battery/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_task/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_task_sequence
+[0.778s] Invoking command in '/home/wang/rmf_ws/build/rmf_task_sequence': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task:/home/wang/rmf_ws/install/rmf_battery:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task/lib:/home/wang/rmf_ws/install/rmf_battery/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_task/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_task_sequence -- -j16 -l16
+[0.814s] [  8%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Event.cpp.o[0m
+[0.815s] [ 12%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Activity.cpp.o[0m
+[0.815s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Phase.cpp.o[0m
+[0.815s] [ 16%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/detail/Backup.cpp.o[0m
+[0.815s] [ 20%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/Task.cpp.o[0m
+[0.815s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Bundle.cpp.o[0m
+[0.816s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/GoToPlace.cpp.o[0m
+[0.816s] [ 37%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PayloadTransfer.cpp.o[0m
+[0.816s] [ 37%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/DropOff.cpp.o[0m
+[0.816s] [ 41%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PerformAction.cpp.o[0m
+[0.817s] [ 45%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/PickUp.cpp.o[0m
+[0.817s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Placeholder.cpp.o[0m
+[0.817s] [ 54%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/Sequence.cpp.o[0m
+[0.827s] [ 62%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/WaitFor.cpp.o[0m
+[0.828s] [ 62%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/events/utils.cpp.o[0m
+[0.829s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/phases/SimplePhase.cpp.o[0m
+[4.202s] [ 70%] [32mBuilding CXX object CMakeFiles/rmf_task_sequence.dir/src/rmf_task_sequence/schemas/ErrorHandler.cpp.o[0m
+[5.494s] [1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/src/rmf_task_sequence/events/PerformAction.cpp:83:26: [0m[0;1;35mwarning: [0m[1munused parameter 'travel_estimator' [-Wunused-parameter][0m
+[5.494s]   const TravelEstimator& travel_estimator) const
+[5.494s] [0;1;32m                         ^
+[7.031s] [0m1 warning generated.
+[9.854s] [ 75%] [32m[1mLinking CXX shared library librmf_task_sequence.so[0m
+[9.900s] [ 75%] Built target rmf_task_sequence
+[9.908s] [ 79%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/mock/MockActivity.cpp.o[0m
+[9.908s] [ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/main.cpp.o[0m
+[9.909s] [ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/unit/events/test_PerformAction.cpp.o[0m
+[9.909s] [ 91%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_Sequence.cpp.o[0m
+[9.909s] [ 95%] [32mBuilding CXX object CMakeFiles/test_rmf_task_sequence.dir/test/unit/test_ComposedTaskPlanning.cpp.o[0m
+[12.340s] In file included from /home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/events/test_PerformAction.cpp:22:
+[12.340s] [1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/events/../utils.hpp:71:8: [0m[0;1;35mwarning: [0m[1munused parameter 'drain_battery' [-Wunused-parameter][0m
+[12.340s]   bool drain_battery = true)
+[12.340s] [0;1;32m       ^
+[13.512s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_task/rmf_task_sequence/test/unit/events/../utils.hpp:214:38: [0m[0;1;35mwarning: [0m[1munused function 'estimate_travel_duration' [-Wunused-function][0m
+[13.512s] std::optional<rmf_traffic::Duration> estimate_travel_duration(
+[13.512s] [0;1;32m                                     ^
+[15.194s] [0m2 warnings generated.
+[22.158s] [100%] [32m[1mLinking CXX executable test_rmf_task_sequence[0m
+[22.206s] [100%] Built target test_rmf_task_sequence
+[22.215s] Invoked command in '/home/wang/rmf_ws/build/rmf_task_sequence' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task:/home/wang/rmf_ws/install/rmf_battery:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task/lib:/home/wang/rmf_ws/install/rmf_battery/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_task/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_task_sequence -- -j16 -l16
+[22.290s] Invoking command in '/home/wang/rmf_ws/build/rmf_task_sequence': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task:/home/wang/rmf_ws/install/rmf_battery:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task/lib:/home/wang/rmf_ws/install/rmf_battery/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_task/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_task_sequence
+[22.309s] -- Install configuration: "Release"
+[22.309s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas/backup_PhaseSequenceTask_v0_1.hpp
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas/backup_EventSequence_v0_1.hpp
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/librmf_task_sequence.so
+[22.310s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_task_sequence/lib/librmf_task_sequence.so" to ""
+[22.310s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/impl_Event.hpp
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/impl_Phase.hpp
+[22.310s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/impl_Task.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/detail/Backup.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Phase.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Task.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/phases
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/phases/SimplePhase.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Event.hpp
+[22.311s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/schemas/ErrorHandler.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/typedefs.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/Bundle.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/detail
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/detail/impl_Bundle.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/WaitFor.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/PerformAction.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/PickUp.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/Placeholder.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/GoToPlace.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/events/DropOff.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/include/rmf_task_sequence/Activity.hpp
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-config-version.cmake
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-config.cmake
+[22.311s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-targets.cmake
+[22.312s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/lib/rmf_task_sequence/cmake/rmf_task_sequence-targets-release.cmake
+[22.312s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/share/ament_index/resource_index/packages/rmf_task_sequence
+[22.312s] -- Installing: /home/wang/rmf_ws/install/rmf_task_sequence/share/rmf_task_sequence/hook/ament_prefix_path.dsv
+[22.317s] Invoked command in '/home/wang/rmf_ws/build/rmf_task_sequence' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_task:/home/wang/rmf_ws/install/rmf_battery:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_api_msgs:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/wang/rmf_ws/install/ament_cmake_catch2:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_task/lib:/home/wang/rmf_ws/install/rmf_battery/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/wang/rmf_ws/install/nlohmann_json_schema_validator_vendor/bin:${PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_task/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_battery/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_task_sequence

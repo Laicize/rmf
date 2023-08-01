@@ -1,0 +1,69 @@
+[0.020s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_fleet_states': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_visualization_fleet_states
+[1.298s] -- The C compiler identification is Clang 14.0.0
+[1.299s] -- The CXX compiler identification is Clang 14.0.0
+[1.299s] -- Detecting C compiler ABI info
+[1.300s] -- Detecting C compiler ABI info - done
+[1.300s] -- Check for working C compiler: /usr/bin/clang - skipped
+[1.300s] -- Detecting C compile features
+[1.300s] -- Detecting C compile features - done
+[1.300s] -- Detecting CXX compiler ABI info
+[1.300s] -- Detecting CXX compiler ABI info - done
+[1.300s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[1.300s] -- Detecting CXX compile features
+[1.300s] -- Detecting CXX compile features - done
+[1.300s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.300s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.411s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.420s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.435s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.641s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.645s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.786s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.830s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.040s] -- Found Threads: TRUE  
+[2.218s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.291s] -- Found rmf_fleet_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake)
+[2.329s] -- Found rmf_visualization_msgs: 1.2.1 (/home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake)
+[2.388s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.436s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.858s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.924s] -- Configuring done (2.9s)
+[3.090s] -- Generating done (0.1s)
+[3.092s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_visualization_fleet_states
+[3.111s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_fleet_states' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_fleet_states -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_visualization_fleet_states
+[3.113s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_fleet_states': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_visualization_fleet_states -- -j16 -l16
+[3.191s] [ 25%] [32mBuilding CXX object CMakeFiles/fleetstates_visualizer.dir/src/FleetStatesVisualizer.cpp.o[0m
+[28.631s] [ 50%] [32m[1mLinking CXX shared library libfleetstates_visualizer.so[0m
+[28.815s] [ 50%] Built target fleetstates_visualizer
+[28.826s] [ 75%] [32mBuilding CXX object CMakeFiles/fleetstates_visualizer_node.dir/rclcpp_components/node_main_fleetstates_visualizer_node.cpp.o[0m
+[32.837s] [100%] [32m[1mLinking CXX executable fleetstates_visualizer_node[0m
+[32.908s] [100%] Built target fleetstates_visualizer_node
+[32.917s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_fleet_states' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_visualization_fleet_states -- -j16 -l16
+[32.968s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_fleet_states': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_visualization_fleet_states
+[32.991s] -- Install configuration: "Release"
+[32.991s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/lib/rmf_visualization_fleet_states/fleetstates_visualizer_node
+[32.992s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_fleet_states/lib/rmf_visualization_fleet_states/fleetstates_visualizer_node" to ""
+[32.993s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/lib/libfleetstates_visualizer.so
+[32.994s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_fleet_states/lib/libfleetstates_visualizer.so" to ""
+[32.994s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_fleet_states
+[32.995s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_fleet_states
+[32.995s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/ament_prefix_path.sh
+[32.995s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/ament_prefix_path.dsv
+[32.995s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/path.sh
+[32.995s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/path.dsv
+[32.995s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.bash
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.sh
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.zsh
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.dsv
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/package.dsv
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/packages/rmf_visualization_fleet_states
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/rclcpp_components/rmf_visualization_fleet_states
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/cmake/rmf_visualization_fleet_statesConfig.cmake
+[32.996s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/cmake/rmf_visualization_fleet_statesConfig-version.cmake
+[32.997s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/package.xml
+[33.007s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_fleet_states' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_visualization_fleet_states

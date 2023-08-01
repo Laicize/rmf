@@ -1,0 +1,4 @@
+/home/wang/rmf_ws/build/rmf_ingestor_msgs/rosidl_adapter/rmf_ingestor_msgs:msg/IngestorRequest.idl
+/home/wang/rmf_ws/build/rmf_ingestor_msgs/rosidl_adapter/rmf_ingestor_msgs:msg/IngestorRequestItem.idl
+/home/wang/rmf_ws/build/rmf_ingestor_msgs/rosidl_adapter/rmf_ingestor_msgs:msg/IngestorResult.idl
+/home/wang/rmf_ws/build/rmf_ingestor_msgs/rosidl_adapter/rmf_ingestor_msgs:msg/IngestorState.idl

@@ -1,0 +1,530 @@
+[0.055s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_building_map_msgs
+[0.783s] -- The C compiler identification is Clang 14.0.0
+[1.036s] -- The CXX compiler identification is Clang 14.0.0
+[1.068s] -- Detecting C compiler ABI info
+[1.209s] -- Detecting C compiler ABI info - done
+[1.221s] -- Check for working C compiler: /usr/bin/clang - skipped
+[1.222s] -- Detecting C compile features
+[1.222s] -- Detecting C compile features - done
+[1.227s] -- Detecting CXX compiler ABI info
+[1.382s] -- Detecting CXX compiler ABI info - done
+[1.394s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[1.395s] -- Detecting CXX compile features
+[1.396s] -- Detecting CXX compile features - done
+[1.403s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.941s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.073s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.117s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.125s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.138s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.222s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.386s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.715s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.718s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.720s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.723s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.095s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.162s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.186s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.187s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.232s] -- Found PythonExtra: .so  
+[3.348s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.348s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.379s] -- Configuring done (3.3s)
+[3.676s] -- Generating done (0.2s)
+[3.688s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_building_map_msgs
+[3.800s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_building_map_msgs/rmf_building_map_msgs -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_building_map_msgs
+[3.801s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_building_map_msgs -- -j16 -l16
+[5.122s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.123s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.123s] [  1%] Built target ament_cmake_python_copy_rmf_building_map_msgs
+[5.123s] running egg_info
+[5.123s] creating rmf_building_map_msgs.egg-info
+[5.123s] writing rmf_building_map_msgs.egg-info/PKG-INFO
+[5.123s] writing dependency_links to rmf_building_map_msgs.egg-info/dependency_links.txt
+[5.123s] writing top-level names to rmf_building_map_msgs.egg-info/top_level.txt
+[5.123s] writing manifest file 'rmf_building_map_msgs.egg-info/SOURCES.txt'
+[5.123s] reading manifest file 'rmf_building_map_msgs.egg-info/SOURCES.txt'
+[5.123s] writing manifest file 'rmf_building_map_msgs.egg-info/SOURCES.txt'
+[5.124s] [  1%] Built target ament_cmake_python_build_rmf_building_map_msgs_egg
+[8.030s] [  2%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/affine_image__functions.c.o[0m
+[8.046s] [  3%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/building_map__functions.c.o[0m
+[8.066s] [  4%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/door__functions.c.o[0m
+[8.094s] [  5%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/graph__functions.c.o[0m
+[8.204s] [  6%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/graph_edge__functions.c.o[0m
+[8.209s] [  7%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/graph_node__functions.c.o[0m
+[8.218s] [  7%] Built target rmf_building_map_msgs__cpp
+[8.268s] [  8%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/level__functions.c.o[0m
+[8.292s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.324s] [  8%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/lift__functions.c.o[0m
+[8.327s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.344s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.358s] [ 11%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/param__functions.c.o[0m
+[8.444s] [ 12%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/msg/detail/place__functions.c.o[0m
+[8.460s] [ 13%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/rmf_building_map_msgs/srv/detail/get_building_map__functions.c.o[0m
+[9.598s] [ 14%] [32m[1mLinking C shared library librmf_building_map_msgs__rosidl_generator_c.so[0m
+[9.956s] [ 14%] Built target rmf_building_map_msgs__rosidl_generator_c
+[10.040s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.050s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.114s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.436s] [ 18%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/affine_image__type_support.cpp.o[0m
+[13.450s] [ 19%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/door__type_support.cpp.o[0m
+[13.460s] [ 20%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/building_map__type_support.cpp.o[0m
+[13.496s] [ 21%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/graph__type_support.cpp.o[0m
+[13.578s] [ 22%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/graph_edge__type_support.cpp.o[0m
+[13.606s] [ 23%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/graph_node__type_support.cpp.o[0m
+[13.626s] [ 24%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/level__type_support.cpp.o[0m
+[14.622s] [ 25%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/affine_image__type_support.cpp.o[0m
+[16.018s] [ 26%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/affine_image__type_support.cpp.o[0m
+[16.191s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/building_map__type_support.cpp.o[0m
+[16.330s] [ 27%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/door__type_support.cpp.o[0m
+[16.377s] [ 28%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/affine_image__type_support.cpp.o[0m
+[16.422s] [ 29%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/affine_image__type_support.c.o[0m
+[16.426s] [ 30%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/graph__type_support.cpp.o[0m
+[16.433s] [ 31%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/level__type_support.cpp.o[0m
+[16.524s] [ 32%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/srv/get_building_map__type_support.cpp.o[0m
+[16.562s] [ 33%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/graph_edge__type_support.cpp.o[0m
+[16.631s] [ 34%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/building_map__type_support.c.o[0m
+[16.694s] [ 35%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/graph_node__type_support.cpp.o[0m
+[16.770s] [ 36%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/affine_image__type_support_c.cpp.o[0m
+[16.878s] [ 37%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/level__type_support.cpp.o[0m
+[16.954s] [ 38%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/door__type_support.c.o[0m
+[17.015s] [ 39%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/lift__type_support.cpp.o[0m
+[17.098s] [ 40%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/graph__type_support.c.o[0m
+[17.194s] [ 41%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/param__type_support.cpp.o[0m
+[17.286s] [ 42%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/graph_edge__type_support.c.o[0m
+[17.325s] [ 43%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/msg/place__type_support.cpp.o[0m
+[17.377s] [ 44%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/place__type_support.cpp.o[0m
+[17.410s] [ 45%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmf_building_map_msgs/srv/get_building_map__type_support.cpp.o[0m
+[17.450s] [ 46%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/graph_node__type_support.c.o[0m
+[17.522s] [ 46%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/level__type_support.c.o[0m
+[17.524s] [ 47%] [32m[1mLinking CXX shared library librmf_building_map_msgs__rosidl_typesupport_c.so[0m
+[17.639s] [ 48%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/lift__type_support.c.o[0m
+[17.730s] [ 48%] Built target rmf_building_map_msgs__rosidl_typesupport_c
+[17.856s] [ 49%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/place__type_support.c.o[0m
+[17.860s] [ 50%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/building_map__type_support_c.cpp.o[0m
+[17.999s] [ 51%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/msg/detail/param__type_support.c.o[0m
+[18.046s] [ 52%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/param__type_support.cpp.o[0m
+[18.062s] [ 53%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/graph_edge__type_support.cpp.o[0m
+[18.130s] [ 54%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmf_building_map_msgs/srv/detail/get_building_map__type_support.c.o[0m
+[18.309s] [ 55%] [32m[1mLinking C shared library librmf_building_map_msgs__rosidl_typesupport_introspection_c.so[0m
+[18.509s] [ 55%] Built target rmf_building_map_msgs__rosidl_typesupport_introspection_c
+[18.814s] [ 55%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmf_building_map_msgs/msg/lift__type_support.cpp.o[0m
+[18.875s] [ 56%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/door__type_support_c.cpp.o[0m
+[19.178s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/lift__type_support.cpp.o[0m
+[19.438s] [ 58%] [32m[1mLinking CXX shared library librmf_building_map_msgs__rosidl_typesupport_cpp.so[0m
+[19.560s] [ 59%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/lift__type_support.cpp.o[0m
+[19.595s] [ 59%] Built target rmf_building_map_msgs__rosidl_typesupport_cpp
+[19.942s] [ 60%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[20.518s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/param__type_support.cpp.o[0m
+[20.792s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/place__type_support.cpp.o[0m
+[21.022s] [ 61%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/graph_edge__type_support_c.cpp.o[0m
+[21.258s] [ 62%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/place__type_support.cpp.o[0m
+[21.804s] [ 63%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/graph_node__type_support_c.cpp.o[0m
+[21.895s] [ 64%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/srv/detail/get_building_map__type_support.cpp.o[0m
+[21.897s] [ 65%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/srv/detail/dds_fastrtps/get_building_map__type_support.cpp.o[0m
+[22.510s] [ 66%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/lift__type_support_c.cpp.o[0m
+[22.710s] [ 67%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/param__type_support.cpp.o[0m
+[22.790s] [ 68%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/graph_node__type_support.cpp.o[0m
+[23.250s] [ 69%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/srv/detail/get_building_map__type_support_c.cpp.o[0m
+[23.535s] [ 70%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/graph_edge__type_support.cpp.o[0m
+[23.539s] [ 71%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/level__type_support.cpp.o[0m
+[23.903s] [ 72%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/place__type_support_c.cpp.o[0m
+[24.312s] [ 73%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/graph__type_support.cpp.o[0m
+[24.614s] [ 74%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/param__type_support_c.cpp.o[0m
+[25.073s] [ 75%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/graph_node__type_support.cpp.o[0m
+[25.401s] [ 76%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmf_building_map_msgs/msg/detail/level__type_support_c.cpp.o[0m
+[25.462s] [ 77%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/door__type_support.cpp.o[0m
+[26.022s] [ 78%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[26.050s] [ 78%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmf_building_map_msgs/msg/detail/building_map__type_support.cpp.o[0m
+[26.133s] [ 79%] [32m[1mLinking CXX shared library librmf_building_map_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.198s] [ 79%] Built target rmf_building_map_msgs__rosidl_typesupport_fastrtps_c
+[27.163s] [ 80%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/door__type_support.cpp.o[0m
+[27.961s] [ 81%] [32mBuilding CXX object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmf_building_map_msgs/msg/detail/dds_fastrtps/building_map__type_support.cpp.o[0m
+[28.129s] [ 82%] [32m[1mLinking CXX shared library librmf_building_map_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[28.205s] [ 82%] Built target rmf_building_map_msgs__rosidl_typesupport_introspection_cpp
+[29.171s] [ 83%] [32m[1mLinking CXX shared library librmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.237s] [ 83%] Built target rmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp
+[29.249s] [ 83%] Built target rmf_building_map_msgs
+[29.261s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.831s] [ 84%] Built target rmf_building_map_msgs__py
+[31.840s] [ 85%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_affine_image_s.c.o[0m
+[32.092s] [ 86%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/srv/_get_building_map_s.c.o[0m
+[32.232s] [ 87%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_place_s.c.o[0m
+[32.409s] [ 88%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_param_s.c.o[0m
+[32.560s] [ 89%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_lift_s.c.o[0m
+[32.778s] [ 90%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_level_s.c.o[0m
+[33.072s] [ 90%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_graph_node_s.c.o[0m
+[33.288s] [ 91%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_graph_edge_s.c.o[0m
+[33.523s] [ 92%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_graph_s.c.o[0m
+[33.764s] [ 93%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_door_s.c.o[0m
+[33.954s] [ 94%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/rmf_building_map_msgs/msg/_building_map_s.c.o[0m
+[34.145s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/rmf_building_map_msgs/librmf_building_map_msgs__rosidl_generator_py.so[0m
+[34.203s] [ 95%] Built target rmf_building_map_msgs__rosidl_generator_py
+[34.214s] [ 96%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmf_building_map_msgs/_rmf_building_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.460s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.503s] [ 97%] Built target rmf_building_map_msgs__rosidl_typesupport_fastrtps_c__pyext
+[34.510s] [ 97%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmf_building_map_msgs/_rmf_building_map_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.705s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.763s] [ 98%] Built target rmf_building_map_msgs__rosidl_typesupport_c__pyext
+[34.773s] [ 99%] [32mBuilding C object CMakeFiles/rmf_building_map_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmf_building_map_msgs/_rmf_building_map_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.125s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.180s] [100%] Built target rmf_building_map_msgs__rosidl_typesupport_introspection_c__pyext
+[35.195s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_building_map_msgs -- -j16 -l16
+[35.370s] Invoking command in '/home/wang/rmf_ws/build/rmf_building_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_building_map_msgs
+[36.362s] -- Install configuration: "Release"
+[36.363s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/ament_index/resource_index/rosidl_interfaces/rmf_building_map_msgs
+[36.364s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs
+[36.364s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv
+[36.364s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail
+[36.365s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__type_support.h
+[36.365s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__struct.h
+[36.365s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__functions.c
+[36.365s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__functions.h
+[36.365s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/get_building_map.h
+[36.365s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg
+[36.365s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail
+[36.366s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__struct.h
+[36.366s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__struct.h
+[36.366s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__type_support.h
+[36.366s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__struct.h
+[36.366s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__type_support.h
+[36.366s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__type_support.h
+[36.366s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__functions.c
+[36.367s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__struct.h
+[36.367s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__functions.c
+[36.367s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__functions.h
+[36.367s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__functions.c
+[36.367s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__functions.h
+[36.367s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__functions.c
+[36.368s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__struct.h
+[36.368s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__type_support.h
+[36.368s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__functions.h
+[36.368s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__functions.c
+[36.368s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__functions.h
+[36.368s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__type_support.h
+[36.369s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__functions.c
+[36.369s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__struct.h
+[36.369s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__struct.h
+[36.369s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__functions.h
+[36.369s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__functions.h
+[36.369s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__functions.h
+[36.369s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__type_support.h
+[36.370s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__functions.c
+[36.370s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__functions.c
+[36.370s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__functions.c
+[36.370s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__struct.h
+[36.370s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__type_support.h
+[36.370s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__functions.c
+[36.371s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__functions.h
+[36.371s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__functions.h
+[36.371s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__struct.h
+[36.371s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__type_support.h
+[36.371s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__struct.h
+[36.371s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__type_support.h
+[36.371s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__type_support.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__functions.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/graph.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/rosidl_generator_c__visibility_control.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/place.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/level.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/graph_node.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/param.h
+[36.372s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/building_map.h
+[36.373s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/affine_image.h
+[36.373s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/door.h
+[36.373s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/graph_edge.h
+[36.373s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/lift.h
+[36.373s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/library_path.sh
+[36.373s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/library_path.dsv
+[36.373s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_generator_c.so
+[36.374s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_generator_c.so" to ""
+[36.374s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs
+[36.374s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv
+[36.374s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail
+[36.374s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__rosidl_typesupport_fastrtps_c.h
+[36.374s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg
+[36.374s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail
+[36.374s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[36.375s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__rosidl_typesupport_fastrtps_c.h
+[36.376s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__rosidl_typesupport_fastrtps_c.h
+[36.376s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.376s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_fastrtps_c.so
+[36.376s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.376s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs
+[36.376s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv
+[36.376s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail
+[36.376s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__builder.hpp
+[36.377s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__struct.hpp
+[36.377s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__traits.hpp
+[36.377s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/get_building_map.hpp
+[36.377s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg
+[36.377s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/door.hpp
+[36.377s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail
+[36.377s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__traits.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__builder.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__traits.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__traits.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__struct.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__builder.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__struct.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__struct.hpp
+[36.378s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__struct.hpp
+[36.379s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__traits.hpp
+[36.379s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__struct.hpp
+[36.379s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__traits.hpp
+[36.379s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__traits.hpp
+[36.379s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__builder.hpp
+[36.379s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__builder.hpp
+[36.379s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__builder.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__struct.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__builder.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__struct.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__struct.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__struct.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__builder.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__builder.hpp
+[36.380s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__traits.hpp
+[36.381s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__traits.hpp
+[36.381s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__traits.hpp
+[36.381s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__builder.hpp
+[36.381s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__builder.hpp
+[36.381s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__traits.hpp
+[36.381s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__struct.hpp
+[36.381s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/graph_edge.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/graph_node.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/building_map.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/param.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/lift.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/affine_image.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/place.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/level.hpp
+[36.382s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/graph.hpp
+[36.382s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs
+[36.383s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv
+[36.383s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail
+[36.383s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/dds_fastrtps
+[36.383s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__rosidl_typesupport_fastrtps_cpp.hpp
+[36.383s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg
+[36.383s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail
+[36.383s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__rosidl_typesupport_fastrtps_cpp.hpp
+[36.383s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/dds_fastrtps
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__rosidl_typesupport_fastrtps_cpp.hpp
+[36.384s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__rosidl_typesupport_fastrtps_cpp.hpp
+[36.385s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.385s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.385s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.385s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs
+[36.385s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv
+[36.385s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail
+[36.385s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__rosidl_typesupport_introspection_c.h
+[36.385s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__type_support.c
+[36.385s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg
+[36.386s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__rosidl_typesupport_introspection_c.h
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__rosidl_typesupport_introspection_c.h
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__type_support.c
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__rosidl_typesupport_introspection_c.h
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__type_support.c
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__type_support.c
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__type_support.c
+[36.386s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__rosidl_typesupport_introspection_c.h
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__type_support.c
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__rosidl_typesupport_introspection_c.h
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__type_support.c
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__type_support.c
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__rosidl_typesupport_introspection_c.h
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__type_support.c
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__type_support.c
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__rosidl_typesupport_introspection_c.h
+[36.387s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__rosidl_typesupport_introspection_c.h
+[36.388s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__type_support.c
+[36.388s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__rosidl_typesupport_introspection_c.h
+[36.388s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.388s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_introspection_c.so
+[36.388s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_introspection_c.so" to ""
+[36.388s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_c.so
+[36.388s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_c.so" to ""
+[36.388s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs
+[36.388s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv
+[36.389s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail
+[36.389s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__type_support.cpp
+[36.389s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/srv/detail/get_building_map__rosidl_typesupport_introspection_cpp.hpp
+[36.389s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg
+[36.389s] -- Up-to-date: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail
+[36.389s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__type_support.cpp
+[36.389s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__type_support.cpp
+[36.389s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__rosidl_typesupport_introspection_cpp.hpp
+[36.390s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__rosidl_typesupport_introspection_cpp.hpp
+[36.390s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__rosidl_typesupport_introspection_cpp.hpp
+[36.390s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__rosidl_typesupport_introspection_cpp.hpp
+[36.390s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__rosidl_typesupport_introspection_cpp.hpp
+[36.390s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/building_map__type_support.cpp
+[36.391s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_node__type_support.cpp
+[36.391s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/level__rosidl_typesupport_introspection_cpp.hpp
+[36.391s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__type_support.cpp
+[36.391s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/affine_image__type_support.cpp
+[36.391s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__type_support.cpp
+[36.391s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/param__type_support.cpp
+[36.391s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__rosidl_typesupport_introspection_cpp.hpp
+[36.392s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph_edge__type_support.cpp
+[36.392s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/door__rosidl_typesupport_introspection_cpp.hpp
+[36.392s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/place__type_support.cpp
+[36.392s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/lift__rosidl_typesupport_introspection_cpp.hpp
+[36.392s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/include/rmf_building_map_msgs/rmf_building_map_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[36.392s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_introspection_cpp.so
+[36.392s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.392s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_cpp.so
+[36.392s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_typesupport_cpp.so" to ""
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/pythonpath.sh
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/pythonpath.dsv
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs-1.2.1-py3.10.egg-info
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[36.393s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/__init__.py
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/_rmf_building_map_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/_rmf_building_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/srv
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/srv/__init__.py
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/srv/_get_building_map.py
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/srv/_get_building_map_s.c
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/_rmf_building_map_msgs_s.ep.rosidl_typesupport_c.c
+[36.394s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/librmf_building_map_msgs__rosidl_generator_py.so
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph_edge_s.c
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/__init__.py
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph.py
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_building_map_s.c
+[36.395s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_lift_s.c
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph_s.c
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_place_s.c
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_door_s.c
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph_node_s.c
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_place.py
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph_node.py
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_door.py
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph_edge.py
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_affine_image.py
+[36.396s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_lift.py
+[36.397s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_building_map.py
+[36.397s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_affine_image_s.c
+[36.397s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_level_s.c
+[36.397s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_param.py
+[36.397s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_param_s.c
+[36.397s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_level.py
+[36.397s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.451s] Listing '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs'...
+[36.451s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/__init__.py'...
+[36.452s] Listing '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg'...
+[36.452s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/__init__.py'...
+[36.452s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_affine_image.py'...
+[36.452s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_building_map.py'...
+[36.452s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_door.py'...
+[36.452s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph.py'...
+[36.453s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph_edge.py'...
+[36.453s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_graph_node.py'...
+[36.453s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_level.py'...
+[36.453s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_lift.py'...
+[36.453s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_param.py'...
+[36.453s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/msg/_place.py'...
+[36.453s] Listing '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/srv'...
+[36.454s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/srv/__init__.py'...
+[36.454s] Compiling '/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/srv/_get_building_map.py'...
+[36.461s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.461s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.461s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.462s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.462s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.462s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages/rmf_building_map_msgs/rmf_building_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.462s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_generator_py.so
+[36.463s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_building_map_msgs/lib/librmf_building_map_msgs__rosidl_generator_py.so" to ""
+[36.463s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/AffineImage.idl
+[36.466s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/BuildingMap.idl
+[36.466s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Door.idl
+[36.467s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Graph.idl
+[36.467s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/GraphEdge.idl
+[36.467s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/GraphNode.idl
+[36.467s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Level.idl
+[36.467s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Lift.idl
+[36.467s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Param.idl
+[36.468s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Place.idl
+[36.468s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/srv/GetBuildingMap.idl
+[36.468s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/AffineImage.msg
+[36.469s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/BuildingMap.msg
+[36.469s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Door.msg
+[36.469s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Graph.msg
+[36.469s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/GraphEdge.msg
+[36.469s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/GraphNode.msg
+[36.469s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Level.msg
+[36.469s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Lift.msg
+[36.470s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Param.msg
+[36.470s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/msg/Place.msg
+[36.470s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/srv/GetBuildingMap.srv
+[36.470s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/srv/GetBuildingMap_Request.msg
+[36.470s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/srv/GetBuildingMap_Response.msg
+[36.470s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_building_map_msgs
+[36.470s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_building_map_msgs
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/ament_prefix_path.sh
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/ament_prefix_path.dsv
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/path.sh
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/environment/path.dsv
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/local_setup.bash
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/local_setup.sh
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/local_setup.zsh
+[36.471s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/local_setup.dsv
+[36.472s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/package.dsv
+[36.472s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/ament_index/resource_index/packages/rmf_building_map_msgs
+[36.472s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_generator_cExport.cmake
+[36.472s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_generator_cExport-release.cmake
+[36.472s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[36.472s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[36.472s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_generator_cppExport.cmake
+[36.473s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.473s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[36.473s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_introspection_cExport.cmake
+[36.473s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[36.473s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_cExport.cmake
+[36.473s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_cExport-release.cmake
+[36.473s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_cppExport.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgs__rosidl_typesupport_cppExport-release.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_generator_pyExport.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/export_rmf_building_map_msgs__rosidl_generator_pyExport-release.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rosidl_cmake-extras.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.474s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.475s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[36.475s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.475s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.475s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgsConfig.cmake
+[36.475s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake/rmf_building_map_msgsConfig-version.cmake
+[36.475s] -- Installing: /home/wang/rmf_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/package.xml
+[36.486s] Invoked command in '/home/wang/rmf_ws/build/rmf_building_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_building_map_msgs

@@ -1,0 +1,167 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[0m Generating schema as py mods[0m
+[33mCMake Warning at CMakeLists.txt:107 (message):
+  Not able to generate py models since 'datamodel-codegen' is not available
+
+[0m
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wang/rmf_ws/build/rmf_api_msgs
+Built target ament_cmake_python_copy_rmf_api_msgs
+py template for json schema is loaded, now load json schemas... 
+
+ - Target Schemas:  ['fleet_log_update.json', 'skip_phase_request.json', 'activity_discovery_response.json', 'task_state_update.json', 'activity_discovery_request.json', 'fleet_state_update.json', 'transformation_2D.json', 'fleet_state.json', 'interrupt_task_response.json', 'task_state.json', 'dispatch_task_response.json', 'cancel_task_request.json', 'resume_task_request.json', 'log_entry.json', 'cancel_task_response.json', 'task_discovery_request.json', 'task_log_response.json', 'rewind_task_response.json', 'robot_task_response.json', 'task_log_update.json', 'simple_response.json', 'rtls_tag_state.json', 'fleet_log.json', 'error.json', 'kill_task_request.json', 'task_log_request.json', 'rewind_task_request.json', 'robot_state.json', 'task_request.json', 'robot_task_request.json', 'kill_task_response.json', 'undo_skip_phase_response.json', 'skip_phase_response.json', 'fleet_log_response.json', 'dispatch_task_request.json', 'resume_task_response.json', 'task_log.json', 'interrupt_task_request.json', 'location_2D.json', 'fleet_log_request.json', 'task_discovery_response.json', 'undo_skip_phase_request.json', 'token_response.json']
+ py schemas module is created: [/home/wang/rmf_ws/src/rmf/rmf_api_msgs/rmf_api_msgs/rmf_api_msgs/schemas.py]
+
+ Done with py schema modules generation!
+Built target py_schemas_gen
+running egg_info
+creating rmf_api_msgs.egg-info
+writing rmf_api_msgs.egg-info/PKG-INFO
+writing dependency_links to rmf_api_msgs.egg-info/dependency_links.txt
+writing top-level names to rmf_api_msgs.egg-info/top_level.txt
+writing manifest file 'rmf_api_msgs.egg-info/SOURCES.txt'
+reading manifest file 'rmf_api_msgs.egg-info/SOURCES.txt'
+writing manifest file 'rmf_api_msgs.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_rmf_api_msgs_egg
+-- Install configuration: "Release"
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/skip_phase_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/activity_discovery_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_state_update.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/dispatch_task_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/skip_phase_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/dispatch_task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/fleet_state.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/log_entry.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/transformation_2D.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/error.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/fleet_log_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/rewind_task_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_log.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/rtls_tag_state.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/resume_task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/fleet_log_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_log_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/cancel_task_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/simple_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/undo_skip_phase_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_discovery_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/interrupt_task_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/undo_skip_phase_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/resume_task_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_log_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_log_update.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/kill_task_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/robot_task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/fleet_log.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/activity_discovery_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/fleet_state_update.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_discovery_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/token_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/task_state.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/cancel_task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/kill_task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/interrupt_task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/robot_state.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/location_2D.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/rewind_task_request.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/fleet_log_update.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/include/rmf_api_msgs/schemas/robot_task_response.hpp
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/cmake/rmf_api_msgs-config.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/cmake/rmf_api_msgs-config-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/cmake/rmf_api_generate_schema_headers.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/cmake/schemas_template.hpp.in
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/cmake/rmf_api_msgs-targets.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/fleet_log_update.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/skip_phase_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/activity_discovery_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_state_update.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/activity_discovery_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/fleet_state_update.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/transformation_2D.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/fleet_state.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/interrupt_task_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_state.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/dispatch_task_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/cancel_task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/resume_task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/log_entry.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/cancel_task_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_discovery_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_log_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/rewind_task_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/robot_task_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_log_update.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/simple_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/rtls_tag_state.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/fleet_log.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/error.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/kill_task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_log_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/rewind_task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/robot_state.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/robot_task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/kill_task_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/undo_skip_phase_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/skip_phase_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/fleet_log_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/dispatch_task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/resume_task_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_log.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/interrupt_task_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/location_2D.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/fleet_log_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/task_discovery_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/undo_skip_phase_request.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/schemas/token_response.json
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/environment/pythonpath.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/environment/pythonpath.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs-0.0.3-py3.10.egg-info
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs-0.0.3-py3.10.egg-info/PKG-INFO
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs-0.0.3-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs-0.0.3-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs-0.0.3-py3.10.egg-info/top_level.txt
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs/__init__.py
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs/schemas.py
+Listing '/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs'...
+Compiling '/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs/__init__.py'...
+Compiling '/home/wang/rmf_ws/install/rmf_api_msgs/local/lib/python3.10/dist-packages/rmf_api_msgs/schemas.py'...
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/check_sample.py
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/schemas_template.jinja2
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/lib/rmf_api_msgs/generate_py_schemas.py
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/ament_index/resource_index/package_run_dependencies/rmf_api_msgs
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/ament_index/resource_index/parent_prefix_path/rmf_api_msgs
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/environment/path.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/environment/path.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/local_setup.bash
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/local_setup.sh
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/local_setup.zsh
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/local_setup.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/package.dsv
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/ament_index/resource_index/packages/rmf_api_msgs
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/cmake/rmf_api_msgsConfig.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/cmake/rmf_api_msgsConfig-version.cmake
+-- Installing: /home/wang/rmf_ws/install/rmf_api_msgs/share/rmf_api_msgs/package.xml

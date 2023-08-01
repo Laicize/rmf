@@ -1,0 +1,180 @@
+[0.017s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins
+[0.094s] -- The C compiler identification is Clang 14.0.0
+[0.206s] -- The CXX compiler identification is Clang 14.0.0
+[0.223s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.318s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.413s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.414s] -- Detecting CXX compile features - done
+[0.416s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.695s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.789s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.836s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.841s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.850s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.953s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.032s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.058s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.100s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.196s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.196s] -- Found Threads: TRUE  
+[1.337s] -- Found rmf_door_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_door_msgs/share/rmf_door_msgs/cmake)
+[1.367s] -- Found rmf_lift_msgs: 3.0.3 (/home/wang/rmf_ws/install/rmf_lift_msgs/share/rmf_lift_msgs/cmake)
+[1.397s] -- Found rmf_visualization_msgs: 1.2.1 (/home/wang/rmf_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake)
+[1.430s] -- Found rviz_common: 11.2.5 (/opt/ros/humble/share/rviz_common/cmake)
+[1.454s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.456s] -- Found OGRE
+[1.456s] --   static     : OFF
+[1.456s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.456s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.456s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.457s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.457s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.457s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.457s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.457s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.457s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.457s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.457s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.487s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[1.493s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.585s] -- Found X11: /usr/include   
+[1.586s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.663s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.663s] -- Looking for gethostbyname
+[1.739s] -- Looking for gethostbyname - found
+[1.739s] -- Looking for connect
+[1.817s] -- Looking for connect - found
+[1.817s] -- Looking for remove
+[1.896s] -- Looking for remove - found
+[1.897s] -- Looking for shmat
+[1.977s] -- Looking for shmat - found
+[1.978s] -- Looking for IceConnectionNumber in ICE
+[2.062s] -- Looking for IceConnectionNumber in ICE - found
+[2.064s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.064s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.128s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.470s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.470s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.263s] -- Found rviz_default_plugins: 11.2.5 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[3.865s] -- Found rmf_traffic_ros2: 2.1.6 (/home/wang/rmf_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake)
+[3.868s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.869s] -- Checking for module 'proj'
+[3.879s] --   Found proj, version 8.2.1
+[4.127s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.377s] -- Configuring done (4.3s)
+[4.620s] -- Generating done (0.1s)
+[4.623s] -- Build files have been written to: /home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins
+[4.649s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake /home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins
+[4.653s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins -- -j16 -l16
+[4.696s] [ 14%] [34m[1mAutomatic MOC for target rmf_visualization_rviz2_plugins[0m
+[5.228s] [ 14%] Built target rmf_visualization_rviz2_plugins_autogen
+[5.265s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_visualization_rviz2_plugins.dir/rmf_visualization_rviz2_plugins_autogen/mocs_compilation.cpp.o[0m
+[5.265s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_visualization_rviz2_plugins.dir/src/SchedulePanel.cpp.o[0m
+[5.265s] [ 57%] [32mBuilding CXX object CMakeFiles/rmf_visualization_rviz2_plugins.dir/src/LiftPanel.cpp.o[0m
+[5.265s] [ 71%] [32mBuilding CXX object CMakeFiles/rmf_visualization_rviz2_plugins.dir/src/DoorPanel.cpp.o[0m
+[5.266s] [ 85%] [32mBuilding CXX object CMakeFiles/rmf_visualization_rviz2_plugins.dir/src/NegotiationModel.cpp.o[0m
+[7.176s] [1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/NegotiationModel.cpp:66:1: [0m[0;1;35mwarning: [0m[1mnon-void function does not return a value in all control paths [-Wreturn-type][0m
+[7.177s] }
+[7.177s] [0;1;32m^
+[7.747s] [0m1 warning generated.
+[8.747s] [1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:361:38: [0m[0;1;35mwarning: [0m[1mformat string is not a string literal (potentially insecure) [-Wformat-security][0m
+[8.747s]     RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[8.748s] [0;1;32m                                     ^~~~~~~~~~~~~~~~~
+[8.748s] [0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+[8.748s]       __VA_ARGS__); \
+[8.748s] [0;1;32m      ^~~~~~~~~~~
+[8.748s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+[8.748s]     __VA_ARGS__)
+[8.748s] [0;1;32m    ^~~~~~~~~~~
+[8.748s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+[8.748s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[8.748s] [0;1;32m                                                               ^~~~~~~~~~~
+[8.748s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:361:38: [0m[0;1;30mnote: [0mtreat the string as an argument to avoid this[0m
+[8.749s]     RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[8.749s] [0;1;32m                                     ^
+[8.749s] [0m[0;32m                                     "%s", 
+[8.749s] [0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+[8.749s]       __VA_ARGS__); \
+[8.749s] [0;1;32m      ^
+[8.749s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+[8.749s]     __VA_ARGS__)
+[8.749s] [0;1;32m    ^
+[8.750s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+[8.750s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[8.750s] [0;1;32m                                                               ^
+[8.750s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:376:19: [0m[0;1;35mwarning: [0m[1mloop variable 'f' creates a copy from type 'std::basic_string<char> const' [-Wrange-loop-construct][0m
+[8.750s]   for (const auto f : msg.available_floors)
+[8.750s] [0;1;32m                  ^
+[8.750s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/LiftPanel.cpp:376:8: [0m[0;1;30mnote: [0muse reference type 'std::basic_string<char> const &' to prevent copying[0m
+[8.750s]   for (const auto f : msg.available_floors)
+[8.750s] [0;1;32m       ^~~~~~~~~~~~~~
+[8.750s] [0m[0;32m                  &
+[8.765s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/DoorPanel.cpp:321:38: [0m[0;1;35mwarning: [0m[1mformat string is not a string literal (potentially insecure) [-Wformat-security][0m
+[8.765s]     RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[8.765s] [0;1;32m                                     ^~~~~~~~~~~~~~~~~
+[8.765s] [0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+[8.765s]       __VA_ARGS__); \
+[8.765s] [0;1;32m      ^~~~~~~~~~~
+[8.766s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+[8.766s]     __VA_ARGS__)
+[8.766s] [0;1;32m    ^~~~~~~~~~~
+[8.766s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+[8.766s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[8.766s] [0;1;32m                                                               ^~~~~~~~~~~
+[8.766s] [0m[1m/home/wang/rmf_ws/src/rmf/rmf_visualization/rmf_visualization_rviz2_plugins/src/DoorPanel.cpp:321:38: [0m[0;1;30mnote: [0mtreat the string as an argument to avoid this[0m
+[8.766s]     RCLCPP_INFO(_node->get_logger(), debug_str.c_str());
+[8.766s] [0;1;32m                                     ^
+[8.766s] [0m[0;32m                                     "%s", 
+[8.767s] [0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:537:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_INFO'[0m
+[8.767s]       __VA_ARGS__); \
+[8.767s] [0;1;32m      ^
+[8.767s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:503:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_INFO_NAMED'[0m
+[8.767s]     __VA_ARGS__)
+[8.767s] [0;1;32m    ^
+[8.767s] [0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+[8.767s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[8.767s] [0;1;32m                                                               ^
+[17.349s] [0m1 warning generated.
+[17.565s] 2 warnings generated.
+[23.724s] [100%] [32m[1mLinking CXX shared library librmf_visualization_rviz2_plugins.so[0m
+[23.873s] [100%] Built target rmf_visualization_rviz2_plugins
+[23.879s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --build /home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins -- -j16 -l16
+[23.922s] Invoking command in '/home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins
+[23.945s] -- Install configuration: "Release"
+[23.945s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/plugin_description.xml
+[23.945s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/environment/library_path.sh
+[23.945s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/environment/library_path.dsv
+[23.946s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/lib/librmf_visualization_rviz2_plugins.so
+[23.948s] -- Set runtime path of "/home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/lib/librmf_visualization_rviz2_plugins.so" to ""
+[23.948s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_rviz2_plugins
+[23.948s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_rviz2_plugins
+[23.948s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/environment/ament_prefix_path.sh
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/environment/ament_prefix_path.dsv
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/environment/path.sh
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/environment/path.dsv
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/local_setup.bash
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/local_setup.sh
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/local_setup.zsh
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/local_setup.dsv
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/package.dsv
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/ament_index/resource_index/packages/rmf_visualization_rviz2_plugins
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rmf_visualization_rviz2_plugins
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/rmf_visualization_rviz2_pluginsExport.cmake
+[23.949s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/rmf_visualization_rviz2_pluginsExport-release.cmake
+[23.950s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.950s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[23.950s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.950s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/rmf_visualization_rviz2_pluginsConfig.cmake
+[23.950s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/rmf_visualization_rviz2_pluginsConfig-version.cmake
+[23.950s] -- Installing: /home/wang/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/package.xml
+[23.956s] Invoked command in '/home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins' returned '0': AMENT_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2:/home/wang/rmf_ws/install/rmf_traffic:/home/wang/rmf_ws/install/rmf_utils:/home/wang/rmf_ws/install/rmf_visualization_msgs:/home/wang/rmf_ws/install/rmf_traffic_msgs:/home/wang/rmf_ws/install/rmf_site_map_msgs:/home/wang/rmf_ws/install/rmf_lift_msgs:/home/wang/rmf_ws/install/rmf_fleet_msgs:/home/wang/rmf_ws/install/rmf_door_msgs:/home/wang/rmf_ws/install/rmf_building_map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/rmf_ws/install/rmf_traffic_ros2/lib:/home/wang/rmf_ws/install/rmf_traffic/lib:/home/wang/rmf_ws/install/rmf_utils/lib:/home/wang/rmf_ws/install/rmf_visualization_msgs/lib:/home/wang/rmf_ws/install/rmf_traffic_msgs/lib:/home/wang/rmf_ws/install/rmf_site_map_msgs/lib:/home/wang/rmf_ws/install/rmf_lift_msgs/lib:/home/wang/rmf_ws/install/rmf_fleet_msgs/lib:/home/wang/rmf_ws/install/rmf_door_msgs/lib:/home/wang/rmf_ws/install/rmf_building_map_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wang/rmf_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_traffic/lib/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/home/wang/rmf_ws/install/rmf_utils/lib/pkgconfig PYTHONPATH=/home/wang/rmf_ws/install/rmf_visualization_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_traffic_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_site_map_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_lift_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_fleet_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_door_msgs/local/lib/python3.10/dist-packages:/home/wang/rmf_ws/install/rmf_building_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/wang/.local/bin/cmake --install /home/wang/rmf_ws/build/rmf_visualization_rviz2_plugins
